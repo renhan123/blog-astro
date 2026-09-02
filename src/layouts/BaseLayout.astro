@@ -1,0 +1,165 @@
+---
+import '../styles/global.css';
+
+interface Props {
+  title?: string;
+  description?: string;
+  currentPath?: string;
+}
+
+const {
+  title = 'DevBlog - 个人技术博客',
+  description = '个人技术博客 - 分享编程心得、技术笔记与工程实践',
+  currentPath = '/',
+} = Astro.props;
+---
+
+<!doctype html>
+<html lang="zh-CN" data-theme="light">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content={description} />
+    <title>{title}</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/prism/1.29.0/themes/prism-tomorrow.min.css" />
+    <script is:inline>
+      (() => {
+        const saved = localStorage.getItem('blog-theme');
+        const theme = saved || (window.matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'light');
+        document.documentElement.setAttribute('data-theme', theme);
+      })();
+    </script>
+  </head>
+  <body>
+    <div class="reading-progress" id="readingProgress"></div>
+
+    <nav class="navbar" id="navbar">
+      <div class="nav-container">
+        <a href="/" class="nav-logo">
+          <span class="logo-icon">⌘</span>
+          <span class="logo-text">DevBlog</span>
+        </a>
+        <div class="nav-links">
+          <a href="/" class:list={["nav-link", currentPath === '/' && 'active']}>首页</a>
+          <a href="/about/" class:list={["nav-link", currentPath.startsWith('/about') && 'active']}>关于</a>
+          <button class="theme-toggle" id="themeToggle" aria-label="切换主题">
+            <svg class="icon-sun" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+              <circle cx="12" cy="12" r="5"></circle>
+              <line x1="12" y1="1" x2="12" y2="3"></line>
+              <line x1="12" y1="21" x2="12" y2="23"></line>
+              <line x1="4.22" y1="4.22" x2="5.64" y2="5.64"></line>
+              <line x1="18.36" y1="18.36" x2="19.78" y2="19.78"></line>
+              <line x1="1" y1="12" x2="3" y2="12"></line>
+              <line x1="21" y1="12" x2="23" y2="12"></line>
+              <line x1="4.22" y1="19.78" x2="5.64" y2="18.36"></line>
+              <line x1="18.36" y1="5.64" x2="19.78" y2="4.22"></line>
+            </svg>
+            <svg class="icon-moon" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+              <path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"></path>
+            </svg>
+          </button>
+        </div>
+      </div>
+    </nav>
+
+    <main>
+      <slot />
+    </main>
+
+    <footer class="footer">
+      <div class="container">
+        <p>© 2026 DevBlog · 用代码记录思考 · Built with ❤️</p>
+      </div>
+    </footer>
+
+    <button class="back-to-top" id="backToTop" aria-label="回到顶部">
+      <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5">
+        <polyline points="18 15 12 9 6 15"></polyline>
+      </svg>
+    </button>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/prism/1.29.0/prism.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/prism/1.29.0/components/prism-go.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/prism/1.29.0/components/prism-java.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/prism/1.29.0/components/prism-sql.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/prism/1.29.0/components/prism-bash.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/prism/1.29.0/components/prism-yaml.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/prism/1.29.0/components/prism-json.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/prism/1.29.0/components/prism-protobuf.min.js"></script>
+
+    <script is:inline>
+      const themeToggle = document.getElementById('themeToggle');
+      const backToTop = document.getElementById('backToTop');
+      const readingProgress = document.getElementById('readingProgress');
+      const navbar = document.getElementById('navbar');
+      const tocLinks = [...document.querySelectorAll('.toc-nav a')];
+      const articleBody = document.querySelector('.article-body');
+
+      if (themeToggle) {
+        themeToggle.addEventListener('click', () => {
+          const current = document.documentElement.getAttribute('data-theme');
+          const next = current === 'dark' ? 'light' : 'dark';
+          document.documentElement.setAttribute('data-theme', next);
+          localStorage.setItem('blog-theme', next);
+        });
+      }
+
+      if (tocLinks.length > 0) {
+        tocLinks.forEach((link) => {
+          link.addEventListener('click', (e) => {
+            e.preventDefault();
+            const id = link.getAttribute('href')?.slice(1);
+            const target = id ? document.getElementById(id) : null;
+            if (target) {
+              const offset = 90;
+              const top = target.getBoundingClientRect().top + window.scrollY - offset;
+              window.scrollTo({ top, behavior: 'smooth' });
+            }
+          });
+        });
+
+        const headings = [...document.querySelectorAll('.article-body h2, .article-body h3')];
+        if (headings.length > 0) {
+          const observer = new IntersectionObserver((entries) => {
+            const visible = entries.filter((entry) => entry.isIntersecting).sort((a, b) => a.boundingClientRect.top - b.boundingClientRect.top);
+            if (visible[0]) {
+              const activeId = visible[0].target.id;
+              tocLinks.forEach((link) => link.classList.toggle('active', link.getAttribute('href') === '#' + activeId));
+            }
+          }, { rootMargin: '-80px 0px -60% 0px', threshold: 0 });
+
+          headings.forEach((heading) => observer.observe(heading));
+        }
+      }
+
+      window.addEventListener('scroll', () => {
+        const scrollY = window.scrollY;
+        const docHeight = document.documentElement.scrollHeight - window.innerHeight;
+
+        if (articleBody && readingProgress && docHeight > 0) {
+          const percent = Math.min(100, Math.round((scrollY / docHeight) * 100));
+          readingProgress.style.width = percent + '%';
+        } else if (readingProgress) {
+          readingProgress.style.width = '0%';
+        }
+
+        if (backToTop) {
+          backToTop.classList.toggle('visible', scrollY > 500);
+        }
+
+        if (navbar) {
+          navbar.style.boxShadow = scrollY > 20 ? 'var(--shadow-sm)' : 'none';
+        }
+      });
+
+      if (backToTop) {
+        backToTop.addEventListener('click', () => {
+          window.scrollTo({ top: 0, behavior: 'smooth' });
+        });
+      }
+    </script>
+  </body>
+</html>

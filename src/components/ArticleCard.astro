@@ -1,0 +1,24 @@
+---
+import { formatDate, categoryLabels, getPostSlug } from '../utils';
+
+const { post, delay = 0 } = Astro.props;
+const searchText = [post.data.title, post.data.description, ...(post.data.tags || [])].join(' ').toLowerCase();
+---
+
+<a
+  class="article-card"
+  href={'/blog/' + getPostSlug(post.id) + '/'}
+  data-category={post.data.category}
+  data-search={searchText}
+  style={'animation-delay:' + delay + 's'}
+>
+  <div class="card-header">
+    <span class="card-category">{categoryLabels[post.data.category] ?? post.data.category}</span>
+    <h3 class="card-title">{post.data.title}</h3>
+    <p class="card-excerpt">{post.data.description}</p>
+  </div>
+  <div class="card-footer">
+    <span class="card-date">{formatDate(post.data.pubDate)}</span>
+    <span class="card-read-time">{post.data.readTime}阅读</span>
+  </div>
+</a>

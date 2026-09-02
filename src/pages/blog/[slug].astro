@@ -1,0 +1,52 @@
+---
+import { getCollection, render } from 'astro:content';
+import BaseLayout from '../../layouts/BaseLayout.astro';
+import { categoryLabels, formatDate, getPostSlug } from '../../utils';
+
+export async function getStaticPaths() {
+  const posts = await getCollection('blog', ({ data }) => !data.draft);
+  return posts.map((post) => ({
+    params: { slug: getPostSlug(post.id) },
+    props: { post },
+  }));
+}
+
+const { post } = Astro.props;
+const { Content, headings } = await render(post);
+---
+
+<BaseLayout title={post.data.title + ' - DevBlog'} description={post.data.description} currentPath="/blog/">
+  <section class="view-article">
+    <div class="article-layout">
+      <div class="article-main">
+        <a class="back-btn" href="/">← 返回列表</a>
+        <article class="article-content">
+          <h1>{post.data.title}</h1>
+          <div class="article-meta">
+            <span class="meta-category">{categoryLabels[post.data.category] ?? post.data.category}</span>
+            <span>{formatDate(post.data.pubDate)}</span>
+            <span>· {post.data.readTime}阅读</span>
+          </div>
+          <div class="article-body">
+            <Content />
+          </div>
+        </article>
+      </div>
+
+      {headings.length > 0 && (
+        <aside class="article-toc" id="articleToc">
+          <div class="toc-sticky">
+            <h3 class="toc-title">目录</h3>
+            <nav class="toc-nav" id="tocNav">
+              {headings
+                .filter((heading) => heading.depth === 2 || heading.depth === 3)
+                .map((heading) => (
+                  <a href={'#' + heading.slug} class={heading.depth === 3 ? 'toc-h3' : ''}>{heading.text}</a>
+                ))}
+            </nav>
+          </div>
+        </aside>
+      )}
+    </div>
+  </section>
+</BaseLayout>

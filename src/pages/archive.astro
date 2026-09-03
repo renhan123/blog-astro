@@ -1,0 +1,59 @@
+---
+import { getCollection } from 'astro:content';
+import BaseLayout from '../layouts/BaseLayout.astro';
+import { formatDate, getPostSlug } from '../utils';
+
+const posts = (await getCollection('blog', ({ data }) => !data.draft)).sort(
+  (a, b) => b.data.pubDate.getTime() - a.data.pubDate.getTime()
+);
+
+// 按年月分组
+const archiveGroups: Record<string, typeof posts> = {};
+posts.forEach((post) => {
+  const date = post.data.pubDate;
+  const key = `${date.getFullYear()}年${String(date.getMonth() + 1).padStart(2, '0')}月`;
+  if (!archiveGroups[key]) archiveGroups[key] = [];
+  archiveGroups[key].push(post);
+});
+
+const groupKeys = Object.keys(archiveGroups);
+const totalCount = posts.length;
+---
+
+<BaseLayout title="归档 - CodeEcho" currentPath="/archive/">
+  <section class="view-archive">
+    <div class="container">
+      <div class="archive-header">
+        <h1 class="archive-title">📚 文章归档</h1>
+        <p class="archive-subtitle">共 {totalCount} 篇文章</p>
+      </div>
+
+      <div class="archive-timeline">
+        {groupKeys.map((groupKey, groupIndex) => (
+          <div class="archive-group">
+            <div class="archive-group-header">
+              <span class="archive-group-dot"></span>
+              <h2 class="archive-group-title">{groupKey}</h2>
+              <span class="archive-group-count">{archiveGroups[groupKey].length} 篇</span>
+            </div>
+            <div class="archive-group-items">
+              {archiveGroups[groupKey].map((post) => (
+                <a href={'/blog/' + getPostSlug(post.id) + '/'} class="archive-item">
+                  <span class="archive-item-date">{formatDate(post.data.pubDate)}</span>
+                  <span class="archive-item-title">{post.data.title}</span>
+                  {post.data.tags.length > 0 && (
+                    <span class="archive-item-tags">
+                      {post.data.tags.slice(0, 2).map((tag) => (
+                        <span class="archive-item-tag">{tag}</span>
+                      ))}
+                    </span>
+                  )}
+                </a>
+              ))}
+            </div>
+          </div>
+        ))}
+      </div>
+    </div>
+  </section>
+</BaseLayout>

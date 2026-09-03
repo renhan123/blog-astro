@@ -1,0 +1,56 @@
+---
+import { getCollection } from 'astro:content';
+import BaseLayout from '../../layouts/BaseLayout.astro';
+
+const posts = await getCollection('blog', ({ data }) => !data.draft);
+
+// 统计每个标签的文章数量
+const tagStats: Record<string, number> = {};
+posts.forEach((post) => {
+  post.data.tags.forEach((tag) => {
+    tagStats[tag] = (tagStats[tag] || 0) + 1;
+  });
+});
+
+const tags = Object.entries(tagStats).sort((a, b) => b[1] - a[1]);
+
+// 计算标签大小
+const maxCount = Math.max(...tags.map(([, count]) => count), 1);
+const minCount = Math.min(...tags.map(([, count]) => count), 1);
+
+function getTagSize(count: number): string {
+  if (maxCount === minCount) return '1rem';
+  const ratio = (count - minCount) / (maxCount - minCount);
+  return `${0.85 + ratio * 0.6}rem`;
+}
+
+function getTagOpacity(count: number): string {
+  if (maxCount === minCount) return '1';
+  const ratio = (count - minCount) / (maxCount - minCount);
+  return `${0.6 + ratio * 0.4}`;
+}
+---
+
+<BaseLayout title="标签 - CodeEcho" currentPath="/tags/">
+  <section class="view-tags">
+    <div class="container">
+      <div class="tags-header">
+        <h1 class="tags-title">🏷️ 标签云</h1>
+        <p class="tags-subtitle">共 {tags.length} 个标签，{posts.length} 篇文章</p>
+      </div>
+
+      <div class="tag-cloud">
+        {tags.map(([tag, count]) => (
+          <a
+            href={'/tags/' + encodeURIComponent(tag) + '/'}
+            class="tag-cloud-item"
+            style={`font-size: ${getTagSize(count)}; opacity: ${getTagOpacity(count)}`}
+          >
+            {tag}
+            <span class="tag-cloud-count">{count}</span>
+          </a>
+        ))}
+      </div>
+    </div>
+  </section>
+</BaseLayout>

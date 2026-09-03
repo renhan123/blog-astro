@@ -7,7 +7,7 @@ const blog = defineCollection({
     description: z.string(),
     pubDate: z.coerce.date(),
     category: z.enum(['backend', 'frontend', 'devops', 'database']),
-    readTime: z.string(),
+    readTime: z.string().optional(),
     tags: z.array(z.string()).default([]),
     draft: z.boolean().default(false),
   }),

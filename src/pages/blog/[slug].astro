@@ -1,21 +1,29 @@
 ---
 import { getCollection, render } from 'astro:content';
 import BaseLayout from '../../layouts/BaseLayout.astro';
-import { categoryLabels, formatDate, getPostSlug } from '../../utils';
+import { categoryLabels, formatDate, getPostSlug, calculateReadTime } from '../../utils';
 
 export async function getStaticPaths() {
-  const posts = await getCollection('blog', ({ data }) => !data.draft);
-  return posts.map((post) => ({
-    params: { slug: getPostSlug(post.id) },
-    props: { post },
-  }));
+  const posts = (await getCollection('blog', ({ data }) => !data.draft)).sort(
+    (a, b) => b.data.pubDate.getTime() - a.data.pubDate.getTime()
+  );
+
+  return posts.map((post, index) => {
+    const prev = posts[index + 1] || null;
+    const next = posts[index - 1] || null;
+    return {
+      params: { slug: getPostSlug(post.id) },
+      props: { post, prev, next },
+    };
+  });
 }
 
-const { post } = Astro.props;
+const { post, prev, next } = Astro.props;
 const { Content, headings } = await render(post);
+const readTime = post.data.readTime || calculateReadTime(post.body);
 ---
 
-<BaseLayout title={post.data.title + ' - DevBlog'} description={post.data.description} currentPath="/blog/">
+<BaseLayout title={post.data.title + ' - CodeEcho'} description={post.data.description} currentPath="/blog/">
   <section class="view-article">
     <div class="article-layout">
       <div class="article-main">
@@ -25,12 +33,60 @@ const { Content, headings } = await render(post);
           <div class="article-meta">
             <span class="meta-category">{categoryLabels[post.data.category] ?? post.data.category}</span>
             <span>{formatDate(post.data.pubDate)}</span>
-            <span>· {post.data.readTime}阅读</span>
+            <span>· {readTime}阅读</span>
           </div>
+          {post.data.tags && post.data.tags.length > 0 && (
+            <div class="article-tags-bar">
+              {post.data.tags.map((tag) => (
+                <a href={'/tags/' + encodeURIComponent(tag) + '/'} class="article-tag">{tag}</a>
+              ))}
+            </div>
+          )}
           <div class="article-body">
             <Content />
           </div>
         </article>
+
+        {/* 分享按钮 */}
+        <div class="share-section">
+          <span class="share-label">分享文章</span>
+          <div class="share-buttons">
+            <button class="share-btn" id="copyLinkBtn" title="复制链接">
+              <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                <path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71"></path>
+                <path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71"></path>
+              </svg>
+              <span>复制链接</span>
+            </button>
+            <button class="share-btn" id="shareTwitterBtn" title="分享到 Twitter/X">
+              <svg width="18" height="18" viewBox="0 0 24 24" fill="currentColor">
+                <path d="M18.244 2.25h3.308l-7.227 8.26 8.502 11.24H16.17l-5.214-6.817L4.99 21.75H1.68l7.73-8.835L1.254 2.25H8.08l4.713 6.231zm-1.161 17.52h1.833L7.084 4.126H5.117z"/>
+              </svg>
+              <span>Twitter</span>
+            </button>
+          </div>
+          <span class="copy-toast" id="copyToast">链接已复制！</span>
+        </div>
+
+        {/* 上一篇/下一篇 */}
+        <nav class="article-nav">
+          {prev ? (
+            <a href={'/blog/' + getPostSlug(prev.id) + '/'} class="article-nav-item article-nav-prev">
+              <span class="article-nav-label">← 上一篇</span>
+              <span class="article-nav-title">{prev.data.title}</span>
+            </a>
+          ) : (
+            <div class="article-nav-item article-nav-placeholder"></div>
+          )}
+          {next ? (
+            <a href={'/blog/' + getPostSlug(next.id) + '/'} class="article-nav-item article-nav-next">
+              <span class="article-nav-label">下一篇 →</span>
+              <span class="article-nav-title">{next.data.title}</span>
+            </a>
+          ) : (
+            <div class="article-nav-item article-nav-placeholder"></div>
+          )}
+        </nav>
       </div>
 
       {headings.length > 0 && (
@@ -49,4 +105,33 @@ const { Content, headings } = await render(post);
       )}
     </div>
   </section>
+
+  <script is:inline>
+    (function() {
+      const copyBtn = document.getElementById('copyLinkBtn');
+      const twitterBtn = document.getElementById('shareTwitterBtn');
+      const toast = document.getElementById('copyToast');
+      const url = window.location.href;
+      const title = document.title;
+
+      if (copyBtn) {
+        copyBtn.addEventListener('click', function() {
+          navigator.clipboard.writeText(url).then(function() {
+            if (toast) {
+              toast.classList.add('show');
+              setTimeout(function() { toast.classList.remove('show'); }, 2000);
+            }
+          });
+        });
+      }
+
+      if (twitterBtn) {
+        twitterBtn.addEventListener('click', function() {
+          const text = encodeURIComponent(title);
+          const shareUrl = encodeURIComponent(url);
+          window.open('https://twitter.com/intent/tweet?text=' + text + '&url=' + shareUrl, '_blank', 'width=600,height=400');
+        });
+      }
+    })();
+  </script>
 </BaseLayout>

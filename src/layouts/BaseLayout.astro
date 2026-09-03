@@ -8,7 +8,7 @@ interface Props {
 }
 
 const {
-  title = 'DevBlog - 个人技术博客',
+  title = 'CodeEcho - 个人技术博客',
   description = '个人技术博客 - 分享编程心得、技术笔记与工程实践',
   currentPath = '/',
 } = Astro.props;
@@ -25,6 +25,7 @@ const {
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet" />
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/prism/1.29.0/themes/prism-tomorrow.min.css" />
+    <link rel="alternate" type="application/rss+xml" title="CodeEcho RSS" href="/rss.xml" />
     <script is:inline>
       (() => {
         const saved = localStorage.getItem('blog-theme');
@@ -40,11 +41,20 @@ const {
       <div class="nav-container">
         <a href="/" class="nav-logo">
           <span class="logo-icon">⌘</span>
-          <span class="logo-text">DevBlog</span>
+          <span class="logo-text">CodeEcho</span>
         </a>
         <div class="nav-links">
           <a href="/" class:list={["nav-link", currentPath === '/' && 'active']}>首页</a>
+          <a href="/tags/" class:list={["nav-link", currentPath.startsWith('/tags') && 'active']}>标签</a>
+          <a href="/archive/" class:list={["nav-link", currentPath.startsWith('/archive') && 'active']}>归档</a>
           <a href="/about/" class:list={["nav-link", currentPath.startsWith('/about') && 'active']}>关于</a>
+          <button class="nav-link nav-rss" id="rssToggle" title="RSS 订阅" aria-label="RSS 订阅">
+            <svg width="17" height="17" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round">
+              <path d="M4 11a9 9 0 0 1 9 9"></path>
+              <path d="M4 4a16 16 0 0 1 16 16"></path>
+              <circle cx="5" cy="19" r="1" fill="currentColor" stroke="none"></circle>
+            </svg>
+          </button>
           <button class="theme-toggle" id="themeToggle" aria-label="切换主题">
             <svg class="icon-sun" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
               <circle cx="12" cy="12" r="5"></circle>
@@ -71,7 +81,7 @@ const {
 
     <footer class="footer">
       <div class="container">
-        <p>© 2026 DevBlog · 用代码记录思考 · Built with ❤️</p>
+        <p>© 2026 CodeEcho · 用代码记录思考 · Built with ❤️</p>
       </div>
     </footer>
 
@@ -80,6 +90,39 @@ const {
         <polyline points="18 15 12 9 6 15"></polyline>
       </svg>
     </button>
+
+    <!-- RSS 订阅弹窗 -->
+    <div class="rss-modal-overlay" id="rssModalOverlay"></div>
+    <div class="rss-modal" id="rssModal">
+      <button class="rss-modal-close" id="rssModalClose" aria-label="关闭">
+        <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+          <line x1="18" y1="6" x2="6" y2="18"></line>
+          <line x1="6" y1="6" x2="18" y2="18"></line>
+        </svg>
+      </button>
+      <div class="rss-modal-header">
+        <div class="rss-modal-icon">
+          <svg width="28" height="28" viewBox="0 0 24 24" fill="currentColor">
+            <path d="M6.503 20.752c0 1.794-1.456 3.248-3.251 3.248-1.796 0-3.252-1.454-3.252-3.248 0-1.794 1.456-3.248 3.252-3.248 1.795.001 3.251 1.454 3.251 3.248zm-6.503-12.572v4.811c6.05.062 10.96 4.966 11.022 11.009h4.817c-.062-8.71-7.118-15.758-15.839-15.82zm0-3.368c10.58.046 19.152 8.594 19.183 19.188h4.817c-.03-13.231-10.739-23.954-24-24v4.812z"/>
+          </svg>
+        </div>
+        <h3 class="rss-modal-title">RSS 订阅</h3>
+        <p class="rss-modal-desc">将以下链接复制到你的 RSS 阅读器（如 Feedly、Inoreader、Reeder）中即可订阅博客更新。</p>
+      </div>
+      <div class="rss-modal-body">
+        <div class="rss-modal-input-group">
+          <input type="text" class="rss-modal-input" id="rssModalInput" value="" readonly />
+          <button class="rss-modal-copy-btn" id="rssModalCopyBtn">
+            <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+              <rect x="9" y="9" width="13" height="13" rx="2" ry="2"></rect>
+              <path d="M5 15H4a2 2 0 0 1-2-2V4a2 2 0 0 1 2-2h9a2 2 0 0 1 2 2v1"></path>
+            </svg>
+            <span>复制</span>
+          </button>
+        </div>
+        <span class="rss-modal-toast" id="rssModalToast">链接已复制！</span>
+      </div>
+    </div>
 
     <script src="https://cdnjs.cloudflare.com/ajax/libs/prism/1.29.0/prism.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/prism/1.29.0/components/prism-go.min.js"></script>
@@ -106,6 +149,47 @@ const {
           localStorage.setItem('blog-theme', next);
         });
       }
+
+      // RSS 弹窗
+      const rssToggle = document.getElementById('rssToggle');
+      const rssModal = document.getElementById('rssModal');
+      const rssModalOverlay = document.getElementById('rssModalOverlay');
+      const rssModalClose = document.getElementById('rssModalClose');
+      const rssModalInput = document.getElementById('rssModalInput');
+      const rssModalCopyBtn = document.getElementById('rssModalCopyBtn');
+      const rssModalToast = document.getElementById('rssModalToast');
+
+      function openRssModal() {
+        if (rssModalInput) rssModalInput.value = window.location.origin + '/rss.xml';
+        if (rssModal) rssModal.classList.add('active');
+        if (rssModalOverlay) rssModalOverlay.classList.add('active');
+        document.body.style.overflow = 'hidden';
+      }
+
+      function closeRssModal() {
+        if (rssModal) rssModal.classList.remove('active');
+        if (rssModalOverlay) rssModalOverlay.classList.remove('active');
+        document.body.style.overflow = '';
+      }
+
+      if (rssToggle) rssToggle.addEventListener('click', openRssModal);
+      if (rssModalClose) rssModalClose.addEventListener('click', closeRssModal);
+      if (rssModalOverlay) rssModalOverlay.addEventListener('click', closeRssModal);
+
+      if (rssModalCopyBtn && rssModalInput) {
+        rssModalCopyBtn.addEventListener('click', () => {
+          navigator.clipboard.writeText(rssModalInput.value).then(() => {
+            if (rssModalToast) {
+              rssModalToast.classList.add('show');
+              setTimeout(() => rssModalToast.classList.remove('show'), 2000);
+            }
+          });
+        });
+      }
+
+      document.addEventListener('keydown', (e) => {
+        if (e.key === 'Escape') closeRssModal();
+      });
 
       if (tocLinks.length > 0) {
         tocLinks.forEach((link) => {

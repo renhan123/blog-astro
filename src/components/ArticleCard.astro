@@ -1,8 +1,12 @@
 ---
-import { formatDate, categoryLabels, getPostSlug } from '../utils';
+import { formatDate, categoryLabels, getPostSlug, calculateReadTime } from '../utils';
 
 const { post, delay = 0 } = Astro.props;
 const searchText = [post.data.title, post.data.description, ...(post.data.tags || [])].join(' ').toLowerCase();
+const readTime = post.data.readTime || calculateReadTime(post.body);
+
+// 判断是否为最近7天内发布
+const isNew = (Date.now() - post.data.pubDate.getTime()) < 7 * 24 * 60 * 60 * 1000;
 ---
 
 <a
@@ -12,13 +16,19 @@ const searchText = [post.data.title, post.data.description, ...(post.data.tags |
   data-search={searchText}
   style={'animation-delay:' + delay + 's'}
 >
+  {isNew && <span class="card-new-badge">NEW</span>}
   <div class="card-header">
-    <span class="card-category">{categoryLabels[post.data.category] ?? post.data.category}</span>
+    <div class="card-meta-top">
+      <span class="card-category">{categoryLabels[post.data.category] ?? post.data.category}</span>
+      {post.data.tags && post.data.tags.length > 0 && (
+        <span class="card-tags">{post.data.tags.slice(0, 2).join(' · ')}</span>
+      )}
+    </div>
     <h3 class="card-title">{post.data.title}</h3>
     <p class="card-excerpt">{post.data.description}</p>
   </div>
   <div class="card-footer">
     <span class="card-date">{formatDate(post.data.pubDate)}</span>
-    <span class="card-read-time">{post.data.readTime}阅读</span>
+    <span class="card-read-time">{readTime}阅读</span>
   </div>
 </a>

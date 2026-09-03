@@ -1,0 +1,43 @@
+---
+import { getCollection } from 'astro:content';
+import BaseLayout from '../../layouts/BaseLayout.astro';
+import ArticleCard from '../../components/ArticleCard.astro';
+
+export async function getStaticPaths() {
+  const posts = await getCollection('blog', ({ data }) => !data.draft);
+  const allTags = new Set<string>();
+  posts.forEach((post) => post.data.tags.forEach((tag) => allTags.add(tag)));
+
+  return [...allTags].map((tag) => ({
+    params: { tag },
+    props: {
+      tag,
+      posts: posts
+        .filter((post) => post.data.tags.includes(tag))
+        .sort((a, b) => b.data.pubDate.getTime() - a.data.pubDate.getTime()),
+    },
+  }));
+}
+
+const { tag, posts } = Astro.props;
+---
+
+<BaseLayout title={`标签：${tag} - CodeEcho`} currentPath="/tags/">
+  <section class="view-tag-detail">
+    <div class="container">
+      <div class="tag-detail-header">
+        <a href="/tags/" class="tag-detail-back">← 全部标签</a>
+        <h1 class="tag-detail-title">
+          <span class="tag-detail-label">🏷️ {tag}</span>
+        </h1>
+        <p class="tag-detail-count">共 {posts.length} 篇文章</p>
+      </div>
+
+      <div class="article-grid">
+        {posts.map((post, index) => (
+          <ArticleCard post={post} delay={Math.min((index + 1) * 0.05, 0.3)} />
+        ))}
+      </div>
+    </div>
+  </section>
+</BaseLayout>

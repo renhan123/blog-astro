@@ -1805,7 +1805,7 @@ a:hover {
     .tag-sphere-stage {
         height: 380px;
         border-radius: 24px;
-        touch-action: pan-y;
+        touch-action: none;
     }
 
     .tag-orbit {
@@ -1813,10 +1813,10 @@ a:hover {
     }
 
     .tag-sphere-item {
-        padding: 9px 13px;
-        gap: 6px;
+        padding: 7px 11px;
+        gap: 5px;
         max-width: 82vw;
-        min-height: 32px;
+        min-height: 29px;
     }
 
     .tag-sphere-core {
@@ -1833,14 +1833,14 @@ a:hover {
         max-width: 30vw;
         overflow: hidden;
         text-overflow: ellipsis;
-        font-size: 0.88rem;
+        font-size: 0.8rem;
     }
 
     .tag-sphere-count {
-        min-width: 20px;
-        height: 20px;
-        padding: 0 6px;
-        font-size: 0.7rem;
+        min-width: 18px;
+        height: 18px;
+        padding: 0 5px;
+        font-size: 0.66rem;
     }
 
     .tags-tip {

@@ -139,11 +139,13 @@ function getTagOpacity(count: number): string {
       let suppressTap = false;
       let touchStartX = 0;
       let touchStartY = 0;
-      let touchLastX = 0;
-      let touchLastY = 0;
+      let touchStartTargetX = 0;
+      let touchStartTargetY = 0;
       let animationId = 0;
       let lastTimestamp = 0;
       let tapReleaseTimer = 0;
+
+      const clamp = (value, min, max) => Math.max(min, Math.min(max, value));
 
       const updateSphereRadius = () => {
         const size = Math.min(stage.clientWidth, stage.clientHeight);
@@ -276,8 +278,8 @@ function getTagOpacity(count: number): string {
         }
         touchStartX = touch.clientX;
         touchStartY = touch.clientY;
-        touchLastX = touch.clientX;
-        touchLastY = touch.clientY;
+        touchStartTargetX = pointerTargetX;
+        touchStartTargetY = pointerTargetY;
         isStageActive = true;
         stage.classList.add('is-active');
       }, { passive: true });
@@ -285,8 +287,6 @@ function getTagOpacity(count: number): string {
       stage.addEventListener('touchmove', (event) => {
         if (!isCompactScreen || !touchDragging || event.touches.length !== 1) return;
         const touch = event.touches[0];
-        const dx = touch.clientX - touchLastX;
-        const dy = touch.clientY - touchLastY;
         const totalDx = touch.clientX - touchStartX;
         const totalDy = touch.clientY - touchStartY;
         if (Math.abs(totalDx) > 8 || Math.abs(totalDy) > 8) {
@@ -296,22 +296,22 @@ function getTagOpacity(count: number): string {
 
         if (!touchMoved) return;
 
-        pointerTargetY += dx * 0.008;
-        pointerTargetX += -dy * 0.006;
-        driftTargetY = dx * 0.0015;
-        driftTargetX = -dy * 0.0012;
+        event.preventDefault();
 
-        pointerTargetY = Math.max(-1.2, Math.min(1.2, pointerTargetY));
-        pointerTargetX = Math.max(-0.75, Math.min(0.75, pointerTargetX));
+        const rect = stage.getBoundingClientRect();
+        const normalizedX = clamp(totalDx / Math.max(rect.width, 1), -0.5, 0.5);
+        const normalizedY = clamp(totalDy / Math.max(rect.height, 1), -0.5, 0.5);
 
-        stage.style.setProperty('--glow-x', Math.max(-18, Math.min(18, totalDx * 0.18)).toFixed(1) + "px");
-        stage.style.setProperty('--glow-y', Math.max(-14, Math.min(14, totalDy * 0.12)).toFixed(1) + "px");
-        stage.style.setProperty('--orbit-shift-x', Math.max(-8, Math.min(8, totalDx * 0.08)).toFixed(1) + "px");
-        stage.style.setProperty('--orbit-shift-y', Math.max(-6, Math.min(6, totalDy * 0.06)).toFixed(1) + "px");
+        pointerTargetY = clamp(touchStartTargetY + normalizedX * 1.8, -1.08, 1.08);
+        pointerTargetX = clamp(touchStartTargetX - normalizedY * 1.1, -0.64, 0.64);
+        driftTargetY = clamp(normalizedX * 0.06, -0.06, 0.06);
+        driftTargetX = clamp(-normalizedY * 0.04, -0.04, 0.04);
 
-        touchLastX = touch.clientX;
-        touchLastY = touch.clientY;
-      }, { passive: true });
+        stage.style.setProperty('--glow-x', clamp(totalDx * 0.14, -16, 16).toFixed(1) + "px");
+        stage.style.setProperty('--glow-y', clamp(totalDy * 0.09, -12, 12).toFixed(1) + "px");
+        stage.style.setProperty('--orbit-shift-x', clamp(totalDx * 0.06, -7, 7).toFixed(1) + "px");
+        stage.style.setProperty('--orbit-shift-y', clamp(totalDy * 0.045, -5, 5).toFixed(1) + "px");
+      }, { passive: false });
 
       stage.addEventListener('touchend', () => {
         if (!isCompactScreen) return;
@@ -338,6 +338,11 @@ function getTagOpacity(count: number): string {
         isStageActive = false;
         driftTargetX = 0;
         driftTargetY = 0;
+        stage.classList.remove('is-active');
+        stage.style.setProperty('--glow-x', "0px");
+        stage.style.setProperty('--glow-y', "0px");
+        stage.style.setProperty('--orbit-shift-x', "0px");
+        stage.style.setProperty('--orbit-shift-y', "0px");
       }, { passive: true });
 
       items.forEach((item) => {

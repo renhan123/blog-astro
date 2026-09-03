@@ -1813,10 +1813,10 @@ a:hover {
     }
 
     .tag-sphere-item {
-        padding: 7px 11px;
+        padding: 9px 13px;
         gap: 6px;
         max-width: 82vw;
-        min-height: 28px;
+        min-height: 32px;
     }
 
     .tag-sphere-core {
@@ -1833,14 +1833,14 @@ a:hover {
         max-width: 30vw;
         overflow: hidden;
         text-overflow: ellipsis;
-        font-size: 0.82rem;
+        font-size: 0.88rem;
     }
 
     .tag-sphere-count {
-        min-width: 18px;
-        height: 18px;
-        padding: 0 5px;
-        font-size: 0.68rem;
+        min-width: 20px;
+        height: 20px;
+        padding: 0 6px;
+        font-size: 0.7rem;
     }
 
     .tags-tip {

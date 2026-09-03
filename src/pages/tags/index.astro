@@ -134,12 +134,20 @@ function getTagOpacity(count: number): string {
       let isStageActive = false;
       let isTagHovered = false;
       let hoveredCount = 0;
+      let touchDragging = false;
+      let touchMoved = false;
+      let suppressTap = false;
+      let touchStartX = 0;
+      let touchStartY = 0;
+      let touchLastX = 0;
+      let touchLastY = 0;
       let animationId = 0;
       let lastTimestamp = 0;
+      let tapReleaseTimer = 0;
 
       const updateSphereRadius = () => {
         const size = Math.min(stage.clientWidth, stage.clientHeight);
-        sphereRadius = isCompactScreen ? Math.max(92, size * 0.3) : Math.max(138, size * 0.39);
+        sphereRadius = isCompactScreen ? Math.max(112, size * 0.34) : Math.max(138, size * 0.39);
       };
 
       const rotatePoint = (point, rotateX, rotateY) => {
@@ -182,8 +190,8 @@ function getTagOpacity(count: number): string {
           const point = rotatePoint(points[index], rotationX, rotationY);
           const depth = (point.z + 1) / 2;
           const isHovered = item.classList.contains('is-hovered');
-          const scale = (isCompactScreen ? 0.68 : 0.72) + depth * (isCompactScreen ? 0.36 : 0.58);
-          const finalScale = scale * (isHovered ? (isCompactScreen ? 1.05 : 1.12) : 1);
+          const scale = (isCompactScreen ? 0.76 : 0.72) + depth * (isCompactScreen ? 0.42 : 0.58);
+          const finalScale = scale * (isHovered ? (isCompactScreen ? 1.06 : 1.12) : 1);
           const finalX = point.x * sphereRadius;
           const finalY = point.y * sphereRadius * 0.82;
           const baseOpacity = parseFloat(item.dataset.baseOpacity || '1');
@@ -256,7 +264,90 @@ function getTagOpacity(count: number): string {
         stage.style.setProperty('--orbit-shift-y', (normalizedY * 8).toFixed(1) + "px");
       });
 
+      stage.addEventListener('touchstart', (event) => {
+        if (!isCompactScreen || event.touches.length !== 1) return;
+        const touch = event.touches[0];
+        touchDragging = true;
+        touchMoved = false;
+        suppressTap = false;
+        if (tapReleaseTimer) {
+          window.clearTimeout(tapReleaseTimer);
+          tapReleaseTimer = 0;
+        }
+        touchStartX = touch.clientX;
+        touchStartY = touch.clientY;
+        touchLastX = touch.clientX;
+        touchLastY = touch.clientY;
+        isStageActive = true;
+        stage.classList.add('is-active');
+      }, { passive: true });
+
+      stage.addEventListener('touchmove', (event) => {
+        if (!isCompactScreen || !touchDragging || event.touches.length !== 1) return;
+        const touch = event.touches[0];
+        const dx = touch.clientX - touchLastX;
+        const dy = touch.clientY - touchLastY;
+        const totalDx = touch.clientX - touchStartX;
+        const totalDy = touch.clientY - touchStartY;
+        if (Math.abs(totalDx) > 8 || Math.abs(totalDy) > 8) {
+          touchMoved = true;
+          suppressTap = true;
+        }
+
+        if (!touchMoved) return;
+
+        pointerTargetY += dx * 0.008;
+        pointerTargetX += -dy * 0.006;
+        driftTargetY = dx * 0.0015;
+        driftTargetX = -dy * 0.0012;
+
+        pointerTargetY = Math.max(-1.2, Math.min(1.2, pointerTargetY));
+        pointerTargetX = Math.max(-0.75, Math.min(0.75, pointerTargetX));
+
+        stage.style.setProperty('--glow-x', Math.max(-18, Math.min(18, totalDx * 0.18)).toFixed(1) + "px");
+        stage.style.setProperty('--glow-y', Math.max(-14, Math.min(14, totalDy * 0.12)).toFixed(1) + "px");
+        stage.style.setProperty('--orbit-shift-x', Math.max(-8, Math.min(8, totalDx * 0.08)).toFixed(1) + "px");
+        stage.style.setProperty('--orbit-shift-y', Math.max(-6, Math.min(6, totalDy * 0.06)).toFixed(1) + "px");
+
+        touchLastX = touch.clientX;
+        touchLastY = touch.clientY;
+      }, { passive: true });
+
+      stage.addEventListener('touchend', () => {
+        if (!isCompactScreen) return;
+        touchDragging = false;
+        isStageActive = false;
+        driftTargetX = 0;
+        driftTargetY = 0;
+        stage.classList.remove('is-active');
+        stage.style.setProperty('--glow-x', "0px");
+        stage.style.setProperty('--glow-y', "0px");
+        stage.style.setProperty('--orbit-shift-x', "0px");
+        stage.style.setProperty('--orbit-shift-y', "0px");
+        if (suppressTap) {
+          tapReleaseTimer = window.setTimeout(() => {
+            suppressTap = false;
+            tapReleaseTimer = 0;
+          }, 220);
+        }
+      }, { passive: true });
+
+      stage.addEventListener('touchcancel', () => {
+        touchDragging = false;
+        touchMoved = false;
+        isStageActive = false;
+        driftTargetX = 0;
+        driftTargetY = 0;
+      }, { passive: true });
+
       items.forEach((item) => {
+        item.addEventListener('click', (event) => {
+          if (isCompactScreen && suppressTap) {
+            event.preventDefault();
+            event.stopPropagation();
+          }
+        });
+
         item.addEventListener('mouseenter', () => {
           isTagHovered = true;
           hoveredCount += 1;

@@ -1,7 +1,7 @@
 ---
 import { getCollection, render } from 'astro:content';
 import BaseLayout from '../../layouts/BaseLayout.astro';
-import { categoryLabels, formatDate, getPostSlug, calculateReadTime, getTagSlug } from '../../utils';
+import { categoryLabels, formatDate, getPostSlug, calculateReadTime, getTagSlug, getPostOgImage } from '../../utils';
 
 export async function getStaticPaths() {
   const posts = (await getCollection('blog', ({ data }) => !data.draft)).sort(
@@ -21,9 +21,18 @@ export async function getStaticPaths() {
 const { post, prev, next } = Astro.props;
 const { Content, headings } = await render(post);
 const readTime = post.data.readTime || calculateReadTime(post.body);
+const siteUrl = Astro.site ?? new URL('https://echocode.com.cn');
+const postSlug = getPostSlug(post.id);
+const ogImage = getPostOgImage(postSlug, siteUrl);
 ---
 
-<BaseLayout title={post.data.title + ' - CodeEcho'} description={post.data.description} currentPath="/blog/">
+<BaseLayout
+  title={post.data.title + ' - CodeEcho'}
+  description={post.data.description}
+  currentPath="/blog/"
+  ogImage={ogImage}
+  ogImageAlt={post.data.title}
+>
   <section class="view-article">
     <div class="article-layout">
       <div class="article-main">

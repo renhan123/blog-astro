@@ -1,21 +1,28 @@
 ---
 import '../styles/global.css';
+import { getDefaultOgImage } from '../utils';
 
 interface Props {
   title?: string;
   description?: string;
   currentPath?: string;
+  ogImage?: string;
+  ogImageAlt?: string;
 }
 
 const {
   title = 'CodeEcho - 沉淀技术实践，构建个人知识库',
   description = '记录后端开发、工程实践与 AI 探索，把真实经验持续沉淀下来。',
   currentPath = '/',
+  ogImage,
+  ogImageAlt,
 } = Astro.props;
 
 const siteUrl = Astro.site ?? new URL('https://echocode.com.cn');
 const canonicalUrl = new URL(Astro.url.pathname, siteUrl);
 const ogType = currentPath.startsWith('/blog') ? 'article' : 'website';
+const shareImage = ogImage ? new URL(ogImage, siteUrl).toString() : getDefaultOgImage(siteUrl);
+const shareImageAlt = ogImageAlt ?? title;
 ---
 
 <!doctype html>
@@ -31,9 +38,15 @@ const ogType = currentPath.startsWith('/blog') ? 'article' : 'website';
     <meta property="og:title" content={title} />
     <meta property="og:description" content={description} />
     <meta property="og:url" content={canonicalUrl.toString()} />
-    <meta name="twitter:card" content="summary" />
+    <meta property="og:image" content={shareImage} />
+    <meta property="og:image:alt" content={shareImageAlt} />
+    <meta property="og:image:width" content="1200" />
+    <meta property="og:image:height" content="630" />
+    <meta name="twitter:card" content="summary_large_image" />
     <meta name="twitter:title" content={title} />
     <meta name="twitter:description" content={description} />
+    <meta name="twitter:image" content={shareImage} />
+    <meta name="twitter:image:alt" content={shareImageAlt} />
     <title>{title}</title>
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />

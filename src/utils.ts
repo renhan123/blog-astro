@@ -20,6 +20,22 @@ export function getPostSlug(id: string) {
   return id.replace(/.[^.]+$/, '');
 }
 
+export function ensureAbsoluteUrl(pathOrUrl: string, site: URL): string {
+  if (/^https?:\/\//i.test(pathOrUrl)) {
+    return pathOrUrl;
+  }
+
+  return new URL(pathOrUrl.startsWith('/') ? pathOrUrl : '/' + pathOrUrl, site).toString();
+}
+
+export function getDefaultOgImage(site: URL): string {
+  return ensureAbsoluteUrl('/og/site-cover.png', site);
+}
+
+export function getPostOgImage(slug: string, site: URL): string {
+  return ensureAbsoluteUrl('/og/posts/' + slug + '.png', site);
+}
+
 export function getTagSlug(tag: string) {
   return tag
     .trim()

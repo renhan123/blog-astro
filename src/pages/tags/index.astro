@@ -1,6 +1,7 @@
 ---
 import { getCollection } from 'astro:content';
 import BaseLayout from '../../layouts/BaseLayout.astro';
+import { getTagSlug } from '../../utils';
 
 const posts = await getCollection('blog', ({ data }) => !data.draft);
 
@@ -42,7 +43,7 @@ function getTagOpacity(count: number): string {
       <div class="tag-cloud">
         {tags.map(([tag, count]) => (
           <a
-            href={'/tags/' + encodeURIComponent(tag) + '/'}
+            href={'/tags/' + getTagSlug(tag) + '/'}
             class="tag-cloud-item"
             style={`font-size: ${getTagSize(count)}; opacity: ${getTagOpacity(count)}`}
           >

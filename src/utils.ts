@@ -20,6 +20,16 @@ export function getPostSlug(id: string) {
   return id.replace(/.[^.]+$/, '');
 }
 
+export function getTagSlug(tag: string) {
+  return tag
+    .trim()
+    .toLowerCase()
+    .replace(/[\s\/]+/g, '-')
+    .replace(/[^\p{L}\p{N}-]+/gu, '-')
+    .replace(/-+/g, '-')
+    .replace(/^-|-$/g, '');
+}
+
 /**
  * 根据文章正文自动计算阅读时间
  * 中文字符 + 英文单词，按每分钟 300 字/词计算

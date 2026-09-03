@@ -2,6 +2,7 @@
 import { getCollection } from 'astro:content';
 import BaseLayout from '../../layouts/BaseLayout.astro';
 import ArticleCard from '../../components/ArticleCard.astro';
+import { getTagSlug } from '../../utils';
 
 export async function getStaticPaths() {
   const posts = await getCollection('blog', ({ data }) => !data.draft);
@@ -9,7 +10,7 @@ export async function getStaticPaths() {
   posts.forEach((post) => post.data.tags.forEach((tag) => allTags.add(tag)));
 
   return [...allTags].map((tag) => ({
-    params: { tag },
+    params: { tag: getTagSlug(tag) },
     props: {
       tag,
       posts: posts

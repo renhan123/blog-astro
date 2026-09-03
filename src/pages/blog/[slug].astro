@@ -1,7 +1,7 @@
 ---
 import { getCollection, render } from 'astro:content';
 import BaseLayout from '../../layouts/BaseLayout.astro';
-import { categoryLabels, formatDate, getPostSlug, calculateReadTime } from '../../utils';
+import { categoryLabels, formatDate, getPostSlug, calculateReadTime, getTagSlug } from '../../utils';
 
 export async function getStaticPaths() {
   const posts = (await getCollection('blog', ({ data }) => !data.draft)).sort(
@@ -38,7 +38,7 @@ const readTime = post.data.readTime || calculateReadTime(post.body);
           {post.data.tags && post.data.tags.length > 0 && (
             <div class="article-tags-bar">
               {post.data.tags.map((tag) => (
-                <a href={'/tags/' + encodeURIComponent(tag) + '/'} class="article-tag">{tag}</a>
+                <a href={'/tags/' + getTagSlug(tag) + '/'} class="article-tag">{tag}</a>
               ))}
             </div>
           )}

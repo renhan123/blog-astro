@@ -299,7 +299,7 @@ a:hover {
 
 .article-card {
     background: var(--bg-card);
-    border: none;
+    border: 1px solid rgba(15, 23, 42, 0.08);
     border-radius: var(--radius-xl);
     overflow: hidden;
     cursor: pointer;
@@ -312,6 +312,7 @@ a:hover {
 
 .article-card:hover {
     transform: translateY(-6px);
+    border-color: rgba(99, 102, 241, 0.16);
     box-shadow: 0 20px 40px -12px rgba(99, 102, 241, 0.15), 0 8px 16px -8px rgba(0,0,0,0.08);
 }
 
@@ -363,6 +364,14 @@ a:hover {
 
 [data-theme="dark"] .card-footer {
     border-top-color: rgba(255,255,255,0.04);
+}
+
+[data-theme="dark"] .article-card {
+    border-color: rgba(255,255,255,0.08);
+}
+
+[data-theme="dark"] .article-card:hover {
+    border-color: rgba(129, 140, 248, 0.22);
 }
 
 /* ===== NEW 角标 ===== */

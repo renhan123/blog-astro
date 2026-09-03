@@ -29,6 +29,6 @@ const isNew = (Date.now() - post.data.pubDate.getTime()) < 7 * 24 * 60 * 60 * 10
   </div>
   <div class="card-footer">
     <span class="card-date">{formatDate(post.data.pubDate)}</span>
-    <span class="card-read-time">{readTime}阅读</span>
+    <span class="card-read-time">阅读约 {readTime}</span>
   </div>
 </a>

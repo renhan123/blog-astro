@@ -22,13 +22,13 @@ const minCount = Math.min(...tags.map(([, count]) => count), 1);
 function getTagSize(count: number): string {
   if (maxCount === minCount) return '1rem';
   const ratio = (count - minCount) / (maxCount - minCount);
-  return `${0.85 + ratio * 0.6}rem`;
+  return `${0.92 + ratio * 0.62}rem`;
 }
 
 function getTagOpacity(count: number): string {
   if (maxCount === minCount) return '1';
   const ratio = (count - minCount) / (maxCount - minCount);
-  return `${0.6 + ratio * 0.4}`;
+  return `${0.62 + ratio * 0.38}`;
 }
 ---
 
@@ -40,18 +40,236 @@ function getTagOpacity(count: number): string {
         <p class="tags-subtitle">共 {tags.length} 个标签，{posts.length} 篇文章</p>
       </div>
 
-      <div class="tag-cloud">
-        {tags.map(([tag, count]) => (
-          <a
-            href={'/tags/' + getTagSlug(tag) + '/'}
-            class="tag-cloud-item"
-            style={`font-size: ${getTagSize(count)}; opacity: ${getTagOpacity(count)}`}
-          >
-            {tag}
-            <span class="tag-cloud-count">{count}</span>
-          </a>
-        ))}
+      <div class="tag-sphere-stage" id="tagSphereStage" aria-label="可旋转标签球">
+        <div class="tag-sphere-orbits" aria-hidden="true">
+          <span class="tag-orbit orbit-one"></span>
+          <span class="tag-orbit orbit-two"></span>
+          <span class="tag-orbit orbit-three"></span>
+          <span class="tag-sphere-core"></span>
+          <span class="tag-sphere-core-ring"></span>
+        </div>
+        <div class="tag-sphere-glow" aria-hidden="true"></div>
+        <div class="tag-sphere" id="tagSphere">
+          {tags.map(([tag, count]) => (
+            <a
+              href={'/tags/' + getTagSlug(tag) + '/'}
+              class="tag-sphere-item"
+              style={`font-size: ${getTagSize(count)};`}
+              data-base-opacity={getTagOpacity(count)}
+              aria-label={`${tag}，${count} 篇文章`}
+            >
+              <span class="tag-sphere-text">{tag}</span>
+              <span class="tag-sphere-count">{count}</span>
+            </a>
+          ))}
+        </div>
       </div>
+
+      <p class="tags-tip">标签球会自动旋转，鼠标移入后会跟随你的移动方向旋转，点击任意标签可查看对应文章。</p>
     </div>
   </section>
+
+  <script is:inline>
+    (() => {
+      const stage = document.getElementById('tagSphereStage');
+      const sphere = document.getElementById('tagSphere');
+      if (!stage || !sphere) return;
+
+      const items = Array.from(sphere.querySelectorAll('.tag-sphere-item'));
+      if (!items.length) return;
+
+      const mediaQuery = window.matchMedia('(prefers-reduced-motion: reduce)');
+      let reducedMotion = mediaQuery.matches;
+
+      const handleMotionChange = (event) => {
+        reducedMotion = event.matches;
+      };
+
+      if (typeof mediaQuery.addEventListener === 'function') {
+        mediaQuery.addEventListener('change', handleMotionChange);
+      } else if (typeof mediaQuery.addListener === 'function') {
+        mediaQuery.addListener(handleMotionChange);
+      }
+
+      const createSpherePoints = (count) => {
+        const points = [];
+        const goldenAngle = Math.PI * (3 - Math.sqrt(5));
+
+        for (let index = 0; index < count; index += 1) {
+          const y = 1 - (index / Math.max(count - 1, 1)) * 2;
+          const radius = Math.sqrt(1 - y * y);
+          const theta = goldenAngle * index;
+
+          points.push({
+            x: Math.cos(theta) * radius,
+            y,
+            z: Math.sin(theta) * radius,
+          });
+        }
+
+        return points;
+      };
+
+      let points = createSpherePoints(items.length);
+      let sphereRadius = 180;
+      let pointerTargetX = 0;
+      let pointerTargetY = 0;
+      let pointerCurrentX = 0;
+      let pointerCurrentY = 0;
+      let driftTargetX = 0;
+      let driftTargetY = 0;
+      let driftCurrentX = 0;
+      let driftCurrentY = 0;
+      let autoRotationY = 0;
+      const baseTiltX = -0.22;
+      let autoWaveX = 0;
+      let isStageActive = false;
+      let isTagHovered = false;
+      let hoveredCount = 0;
+      let animationId = 0;
+      let lastTimestamp = 0;
+
+      const updateSphereRadius = () => {
+        const size = Math.min(stage.clientWidth, stage.clientHeight);
+        sphereRadius = Math.max(138, size * 0.39);
+      };
+
+      const rotatePoint = (point, rotateX, rotateY) => {
+        const cosY = Math.cos(rotateY);
+        const sinY = Math.sin(rotateY);
+        const cosX = Math.cos(rotateX);
+        const sinX = Math.sin(rotateX);
+
+        const x1 = point.x * cosY + point.z * sinY;
+        const z1 = point.z * cosY - point.x * sinY;
+        const y1 = point.y;
+
+        return {
+          x: x1,
+          y: y1 * cosX - z1 * sinX,
+          z: y1 * sinX + z1 * cosX,
+        };
+      };
+
+      const render = (timestamp = 0) => {
+        const delta = lastTimestamp ? Math.min((timestamp - lastTimestamp) / 1000, 0.05) : 0.016;
+        lastTimestamp = timestamp;
+
+        const easing = isTagHovered ? 0.16 : isStageActive ? 0.1 : 0.05;
+        pointerCurrentX += (pointerTargetX - pointerCurrentX) * easing;
+        pointerCurrentY += (pointerTargetY - pointerCurrentY) * easing;
+        driftCurrentX += (driftTargetX - driftCurrentX) * 0.08;
+        driftCurrentY += (driftTargetY - driftCurrentY) * 0.08;
+
+        if (!reducedMotion) {
+          const autoSpeed = isTagHovered ? 0.006 : isStageActive ? 0.31 : 0.2;
+          autoRotationY += delta * autoSpeed;
+          autoWaveX += delta * (isTagHovered ? 0.35 : 0.72);
+        }
+
+        const rotationX = baseTiltX + pointerCurrentX + driftCurrentX + Math.sin(autoWaveX) * 0.03;
+        const rotationY = autoRotationY + pointerCurrentY + driftCurrentY;
+
+        items.forEach((item, index) => {
+          const point = rotatePoint(points[index], rotationX, rotationY);
+          const depth = (point.z + 1) / 2;
+          const isHovered = item.classList.contains('is-hovered');
+          const scale = 0.72 + depth * 0.58;
+          const finalScale = scale * (isHovered ? 1.12 : 1);
+          const finalX = point.x * sphereRadius;
+          const finalY = point.y * sphereRadius * 0.82;
+          const baseOpacity = parseFloat(item.dataset.baseOpacity || '1');
+          const opacity = Math.min(1, Math.max(0.16, baseOpacity * (0.28 + depth * 0.9) + (isHovered ? 0.1 : 0)));
+          const blur = isHovered ? 0 : (1 - depth) * 0.62;
+          const interactive = isHovered || depth > 0.28;
+          const shadowStrength = 0.14 + depth * 0.28;
+          const yLift = isHovered ? -3.5 : 0;
+
+          item.style.left = 'calc(50% + ' + finalX.toFixed(1) + 'px)';
+          item.style.top = 'calc(50% + ' + finalY.toFixed(1) + 'px)';
+          item.style.opacity = opacity.toFixed(3);
+          item.style.zIndex = String(isHovered ? 999 : 20 + Math.round(depth * 100));
+          item.style.transform = 'translate(-50%, -50%) scale(' + finalScale.toFixed(3) + ')';
+          item.style.setProperty('--hover-lift', yLift.toFixed(1) + "px");
+          item.style.filter = 'blur(' + blur.toFixed(2) + 'px)';
+          item.style.setProperty('--depth-factor', depth.toFixed(3));
+          item.style.setProperty('--tag-shadow-alpha', shadowStrength.toFixed(3));
+          item.style.pointerEvents = interactive ? "auto" : "none";
+          item.classList.toggle('is-back', !interactive);
+        });
+
+        animationId = window.requestAnimationFrame(render);
+      };
+
+      updateSphereRadius();
+      render();
+
+      const handleResize = () => {
+        points = createSpherePoints(items.length);
+        updateSphereRadius();
+      };
+
+      window.addEventListener('resize', handleResize, { passive: true });
+
+      stage.addEventListener('mouseenter', () => {
+        isStageActive = true;
+        stage.classList.add('is-active');
+      });
+
+      stage.addEventListener('mouseleave', () => {
+        isStageActive = false;
+        pointerTargetX = 0;
+        pointerTargetY = 0;
+        driftTargetX = 0;
+        driftTargetY = 0;
+        stage.classList.remove('is-active');
+        stage.classList.remove('is-hovering-tag');
+        stage.style.setProperty('--glow-x', "0px");
+        stage.style.setProperty('--glow-y', "0px");
+        stage.style.setProperty('--orbit-shift-x', "0px");
+        stage.style.setProperty('--orbit-shift-y', "0px");
+      });
+
+      stage.addEventListener('mousemove', (event) => {
+        const rect = stage.getBoundingClientRect();
+        const centerX = rect.width / 2;
+        const centerY = rect.height / 2;
+        const normalizedX = (event.clientX - rect.left - centerX) / centerX;
+        const normalizedY = (event.clientY - rect.top - centerY) / centerY;
+
+        pointerTargetY = normalizedX * 0.98;
+        pointerTargetX = -normalizedY * 0.58;
+        driftTargetY = normalizedX * 0.08;
+        driftTargetX = -normalizedY * 0.05;
+        stage.style.setProperty('--glow-x', (normalizedX * 36).toFixed(1) + "px");
+        stage.style.setProperty('--glow-y', (normalizedY * 24).toFixed(1) + "px");
+        stage.style.setProperty('--orbit-shift-x', (normalizedX * 10).toFixed(1) + "px");
+        stage.style.setProperty('--orbit-shift-y', (normalizedY * 8).toFixed(1) + "px");
+      });
+
+      items.forEach((item) => {
+        item.addEventListener('mouseenter', () => {
+          isTagHovered = true;
+          hoveredCount += 1;
+          item.classList.add('is-hovered');
+          stage.classList.add('is-hovering-tag');
+        });
+
+        item.addEventListener('mouseleave', () => {
+          hoveredCount = Math.max(0, hoveredCount - 1);
+          isTagHovered = hoveredCount > 0;
+          item.classList.remove('is-hovered');
+          if (!isTagHovered) {
+            stage.classList.remove('is-hovering-tag');
+          }
+        });
+      });
+
+      window.addEventListener('pagehide', () => {
+        if (animationId) {
+          window.cancelAnimationFrame(animationId);
+        }
+      });
+    })();
+  </script>
 </BaseLayout>

@@ -36,7 +36,7 @@ function getTagOpacity(count: number): string {
   <section class="view-tags">
     <div class="container">
       <div class="tags-header">
-        <h1 class="tags-title">🏷️ 标签云</h1>
+        <h1 class="tags-title">☁️ 标签云</h1>
         <p class="tags-subtitle">共 {tags.length} 个标签，{posts.length} 篇文章</p>
       </div>
 
@@ -173,14 +173,14 @@ function getTagOpacity(count: number): string {
         const delta = lastTimestamp ? Math.min((timestamp - lastTimestamp) / 1000, 0.05) : 0.016;
         lastTimestamp = timestamp;
 
-        const easing = isCompactScreen ? 0.08 : isTagHovered ? 0.16 : isStageActive ? 0.1 : 0.05;
+        const easing = isCompactScreen ? 0.11 : isTagHovered ? 0.16 : isStageActive ? 0.1 : 0.05;
         pointerCurrentX += (pointerTargetX - pointerCurrentX) * easing;
         pointerCurrentY += (pointerTargetY - pointerCurrentY) * easing;
         driftCurrentX += (driftTargetX - driftCurrentX) * (isCompactScreen ? 0.04 : 0.08);
         driftCurrentY += (driftTargetY - driftCurrentY) * (isCompactScreen ? 0.04 : 0.08);
 
         if (!reducedMotion) {
-          const autoSpeed = isCompactScreen ? 0.085 : isTagHovered ? 0.006 : isStageActive ? 0.31 : 0.2;
+          const autoSpeed = isCompactScreen ? 0.1 : isTagHovered ? 0.006 : isStageActive ? 0.31 : 0.2;
           autoRotationY += delta * autoSpeed;
           autoWaveX += delta * (isCompactScreen ? 0.28 : isTagHovered ? 0.35 : 0.72);
         }
@@ -302,10 +302,10 @@ function getTagOpacity(count: number): string {
         const normalizedX = clamp(totalDx / Math.max(rect.width, 1), -0.5, 0.5);
         const normalizedY = clamp(totalDy / Math.max(rect.height, 1), -0.5, 0.5);
 
-        pointerTargetY = clamp(touchStartTargetY + normalizedX * 1.8, -1.08, 1.08);
-        pointerTargetX = clamp(touchStartTargetX - normalizedY * 1.1, -0.64, 0.64);
-        driftTargetY = clamp(normalizedX * 0.06, -0.06, 0.06);
-        driftTargetX = clamp(-normalizedY * 0.04, -0.04, 0.04);
+        pointerTargetY = clamp(touchStartTargetY + normalizedX * 2.2, -1.12, 1.12);
+        pointerTargetX = clamp(touchStartTargetX - normalizedY * 1.35, -0.7, 0.7);
+        driftTargetY = clamp(normalizedX * 0.075, -0.075, 0.075);
+        driftTargetX = clamp(-normalizedY * 0.05, -0.05, 0.05);
 
         stage.style.setProperty('--glow-x', clamp(totalDx * 0.14, -16, 16).toFixed(1) + "px");
         stage.style.setProperty('--glow-y', clamp(totalDy * 0.09, -12, 12).toFixed(1) + "px");

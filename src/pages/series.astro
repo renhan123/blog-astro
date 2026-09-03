@@ -1,0 +1,112 @@
+---
+import { getCollection } from 'astro:content';
+import BaseLayout from '../layouts/BaseLayout.astro';
+import { formatDate, getPostSlug, categoryLabels } from '../utils';
+
+const posts = (await getCollection('blog', ({ data }) => !data.draft)).sort(
+  (a, b) => b.data.pubDate.getTime() - a.data.pubDate.getTime()
+);
+
+const plannedSeries = {
+  'ai-engineering': {
+    title: 'AI + 工程实践',
+    description: '记录 AI 在日常开发、Agent 工程化和效率提升中的真实使用与实践沉淀。',
+  },
+  'backend-practice': {
+    title: '后端技术沉淀',
+    description: '围绕数据库、缓存、部署、并发、架构等后端核心问题持续沉淀。',
+  },
+  'growth-methodology': {
+    title: '个人成长 / 工程方法论',
+    description: '记录知识沉淀、学习方法、工程思维以及从做事到抽象方法的过程。',
+  },
+};
+
+const seriesMap = new Map();
+
+for (const post of posts) {
+  if (!post.data.series) continue;
+  const key = post.data.series;
+  if (!seriesMap.has(key)) {
+    seriesMap.set(key, {
+      key,
+      title: post.data.seriesTitle ?? plannedSeries[key]?.title ?? key,
+      description: plannedSeries[key]?.description ?? '围绕同一主题持续沉淀的一组文章。',
+      posts: [],
+    });
+  }
+  seriesMap.get(key).posts.push(post);
+}
+
+const existingSeries = Array.from(seriesMap.values()).map((series) => ({
+  ...series,
+  posts: series.posts.sort((a, b) => (a.data.seriesOrder ?? 999) - (b.data.seriesOrder ?? 999)),
+}));
+
+const emptySeries = Object.entries(plannedSeries)
+  .filter(([key]) => !seriesMap.has(key))
+  .map(([key, value]) => ({
+    key,
+    title: value.title,
+    description: value.description,
+  }));
+---
+
+<BaseLayout title="系列 - CodeEcho" description="按主题查看博客文章系列，建立更清晰的阅读路径。" currentPath="/series/">
+  <section class="view-series">
+    <div class="container">
+      <div class="series-header">
+        <h1 class="series-title">🧭 内容系列</h1>
+        <p class="series-subtitle">把零散文章组织成阅读路径，让内容逐步沉淀成体系。</p>
+      </div>
+
+      {existingSeries.length > 0 && (
+        <div class="series-grid">
+          {existingSeries.map((series) => (
+            <section class="series-card" id={series.key}>
+              <div class="series-card-header">
+                <span class="series-card-kicker">已建立系列</span>
+                <h2 class="series-card-title">{series.title}</h2>
+                <p class="series-card-desc">{series.description}</p>
+                <div class="series-card-meta">
+                  <span>{series.posts.length} 篇文章</span>
+                  <span>最近更新：{formatDate(series.posts[0].data.pubDate)}</span>
+                </div>
+              </div>
+
+              <div class="series-card-list">
+                {series.posts.map((post, index) => (
+                  <a href={'/blog/' + getPostSlug(post.id) + '/'} class="series-post-item">
+                    <span class="series-post-order">{String(post.data.seriesOrder ?? index + 1).padStart(2, '0')}</span>
+                    <span class="series-post-main">
+                      <strong class="series-post-title">{post.data.title}</strong>
+                      <span class="series-post-meta">{formatDate(post.data.pubDate)} · {categoryLabels[post.data.category] ?? post.data.category}</span>
+                    </span>
+                  </a>
+                ))}
+              </div>
+            </section>
+          ))}
+        </div>
+      )}
+
+      {emptySeries.length > 0 && (
+        <section class="series-planned">
+          <div class="series-planned-header">
+            <span class="series-planned-kicker">规划中的系列</span>
+            <h2 class="series-planned-title">接下来会持续补齐的内容方向</h2>
+          </div>
+          <div class="series-planned-grid">
+            {emptySeries.map((series) => (
+              <div class="series-plan-card" id={series.key}>
+                <h3 class="series-plan-title">{series.title}</h3>
+                <p class="series-plan-desc">{series.description}</p>
+                <span class="series-plan-status">准备持续更新</span>
+              </div>
+            ))}
+          </div>
+        </section>
+      )}
+    </div>
+  </section>
+</BaseLayout>

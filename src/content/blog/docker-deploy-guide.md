@@ -9,6 +9,12 @@ tags:
   - DevOps
   - CI/CD
 draft: false
+series: backend-practice
+seriesTitle: 后端技术沉淀
+seriesOrder: 4
+related:
+  - redis-practice
+  - microservice-evolution
 ---
 
 ## Dockerfile 最佳实践

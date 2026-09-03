@@ -9,6 +9,12 @@ tags:
   - 后端
   - 分布式
 draft: false
+series: backend-practice
+seriesTitle: 后端技术沉淀
+seriesOrder: 5
+related:
+  - docker-deploy-guide
+  - go-concurrency
 ---
 
 ## 为什么需要微服务

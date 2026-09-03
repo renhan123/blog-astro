@@ -7,13 +7,30 @@ const posts = (await getCollection('blog', ({ data }) => !data.draft)).sort(
   (a, b) => b.data.pubDate.getTime() - a.data.pubDate.getTime()
 );
 
-// 统计标签数
-const allTags = new Set<string>();
-posts.forEach((post) => post.data.tags.forEach((tag) => allTags.add(tag)));
 
-// 计算博客运行天数（从最早一篇文章算起）
-const earliestDate = posts.length > 0 ? posts[posts.length - 1].data.pubDate : new Date();
-const daysRunning = Math.max(1, Math.floor((Date.now() - earliestDate.getTime()) / (1000 * 60 * 60 * 24)));
+const seriesEntries = [
+  {
+    key: 'ai-engineering',
+    title: 'AI + 工程实践',
+    description: '记录 AI 在日常开发、Agent 工程化和效率提升中的真实使用与实践沉淀。',
+    href: '/series/#ai-engineering',
+    count: posts.reduce((total, post) => total + (post.data.series === 'ai-engineering' ? 1 : 0), 0),
+  },
+  {
+    key: 'backend-practice',
+    title: '后端技术沉淀',
+    description: '围绕数据库、缓存、部署、并发、架构等后端核心问题持续沉淀。',
+    href: '/series/#backend-practice',
+    count: posts.reduce((total, post) => total + (post.data.series === 'backend-practice' ? 1 : 0), 0),
+  },
+  {
+    key: 'growth-methodology',
+    title: '个人成长 / 工程方法论',
+    description: '记录知识沉淀、学习方法、工程思维以及从做事到抽象方法的过程。',
+    href: '/series/#growth-methodology',
+    count: posts.reduce((total, post) => total + (post.data.series === 'growth-methodology' ? 1 : 0), 0),
+  },
+];
 ---
 
 <BaseLayout
@@ -28,7 +45,26 @@ const daysRunning = Math.max(1, Math.floor((Date.now() - earliestDate.getTime())
     </div>
   </section>
 
-  <div class="container">
+  <div class="container home-main">
+    <section class="home-topic-nav" aria-label="内容方向导航">
+      <div class="home-topic-nav-header">
+        <span class="home-topic-nav-kicker">内容方向导航</span>
+        <p class="home-topic-nav-desc">先按方向快速浏览，完整文章仍在下方列表中。</p>
+      </div>
+      <div class="topic-nav-list">
+        {seriesEntries.map((series) => (
+          <a href={series.href} class="topic-nav-item">
+            <div class="topic-nav-top">
+              <h3 class="topic-nav-title">{series.title}</h3>
+              <span class="topic-nav-count">{series.count > 0 ? String(series.count) + ' 篇' : '规划中'}</span>
+            </div>
+            <p class="topic-nav-desc">{series.description}</p>
+            <span class="topic-nav-link">进入系列 →</span>
+          </a>
+        ))}
+      </div>
+    </section>
+
     <div class="search-box" id="searchBox">
       <svg class="search-icon" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
         <circle cx="11" cy="11" r="8"></circle>

@@ -9,6 +9,12 @@ tags:
   - 并发
   - Context
 draft: false
+series: backend-practice
+seriesTitle: 后端技术沉淀
+seriesOrder: 3
+related:
+  - mysql-indexing
+  - microservice-evolution
 ---
 
 ## Goroutine 基础

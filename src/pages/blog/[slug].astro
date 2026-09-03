@@ -24,6 +24,23 @@ const readTime = post.data.readTime || calculateReadTime(post.body);
 const siteUrl = Astro.site ?? new URL('https://echocode.com.cn');
 const postSlug = getPostSlug(post.id);
 const ogImage = getPostOgImage(postSlug, siteUrl);
+
+const allPosts = (await getCollection('blog', ({ data }) => !data.draft)).sort(
+  (a, b) => b.data.pubDate.getTime() - a.data.pubDate.getTime()
+);
+
+const currentSeriesPosts = post.data.series
+  ? allPosts
+      .filter((item) => item.data.series === post.data.series)
+      .sort((a, b) => (a.data.seriesOrder ?? 999) - (b.data.seriesOrder ?? 999))
+  : [];
+
+const currentSeriesIndex = currentSeriesPosts.findIndex((item) => item.id === post.id);
+const nextInSeries = currentSeriesIndex >= 0 ? currentSeriesPosts[currentSeriesIndex + 1] ?? null : null;
+
+const relatedPosts = (post.data.related ?? [])
+  .map((slug) => allPosts.find((item) => getPostSlug(item.id) === slug))
+  .filter(Boolean);
 ---
 
 <BaseLayout
@@ -55,6 +72,57 @@ const ogImage = getPostOgImage(postSlug, siteUrl);
             <Content />
           </div>
         </article>
+
+
+        {post.data.series && currentSeriesPosts.length > 0 && (
+          <section class="article-series">
+            <div class="article-series-header">
+              <span class="article-series-kicker">系列阅读</span>
+              <h2 class="article-series-title">{post.data.seriesTitle ?? post.data.series}</h2>
+              <p class="article-series-desc">当前为第 {post.data.seriesOrder ?? currentSeriesIndex + 1} 篇，共 {currentSeriesPosts.length} 篇。按顺序阅读会更清晰。</p>
+            </div>
+            <div class="article-series-list">
+              {currentSeriesPosts.map((item, index) => {
+                const active = item.id === post.id;
+                return (
+                  <a href={'/blog/' + getPostSlug(item.id) + '/'} class:list={["article-series-item", active && 'active']}>
+                    <span class="article-series-order">{String(item.data.seriesOrder ?? index + 1).padStart(2, '0')}</span>
+                    <span class="article-series-item-title">{item.data.title}</span>
+                    {active && <span class="article-series-current">当前</span>}
+                  </a>
+                );
+              })}
+            </div>
+          </section>
+        )}
+
+        {relatedPosts.length > 0 && (
+          <section class="related-reading">
+            <div class="related-reading-header">
+              <span class="related-reading-kicker">推荐阅读</span>
+              <h2 class="related-reading-title">继续延伸阅读</h2>
+            </div>
+            <div class="related-reading-list">
+              {relatedPosts.map((item) => (
+                <a href={'/blog/' + getPostSlug(item.id) + '/'} class="related-reading-item">
+                  <span class="related-reading-item-title">{item.data.title}</span>
+                  <span class="related-reading-item-meta">{item.data.seriesTitle ?? categoryLabels[item.data.category] ?? item.data.category}</span>
+                </a>
+              ))}
+            </div>
+          </section>
+        )}
+
+        {nextInSeries && (
+          <section class="next-suggestion">
+            <span class="next-suggestion-kicker">下一篇建议</span>
+            <a href={'/blog/' + getPostSlug(nextInSeries.id) + '/'} class="next-suggestion-card">
+              <span class="next-suggestion-label">继续阅读</span>
+              <strong class="next-suggestion-title">{nextInSeries.data.title}</strong>
+              <span class="next-suggestion-meta">{nextInSeries.data.seriesTitle ?? '同系列文章'} · 第 {nextInSeries.data.seriesOrder ?? currentSeriesIndex + 2} 篇</span>
+            </a>
+          </section>
+        )}
 
         {/* 分享按钮 */}
         <div class="share-section">

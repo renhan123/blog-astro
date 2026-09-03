@@ -9,6 +9,12 @@ tags:
   - 缓存
   - 性能调优
 draft: false
+series: backend-practice
+seriesTitle: 后端技术沉淀
+seriesOrder: 2
+related:
+  - mysql-indexing
+  - docker-deploy-guide
 ---
 
 ## 缓存策略

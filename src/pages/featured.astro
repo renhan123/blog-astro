@@ -1,0 +1,32 @@
+---
+import { getCollection } from 'astro:content';
+import BaseLayout from '../layouts/BaseLayout.astro';
+import ArticleCard from '../components/ArticleCard.astro';
+
+const posts = (await getCollection('blog', ({ data }) => !data.draft)).sort(
+  (a, b) => b.data.pubDate.getTime() - a.data.pubDate.getTime()
+);
+
+const featuredPosts = posts.filter((post) => post.data.featured);
+---
+
+<BaseLayout title="推荐 - CodeEcho" description="适合第一次阅读的推荐文章，从这里开始了解博客的核心内容方向。" currentPath="/featured/">
+  <section class="view-featured">
+    <div class="container">
+      <div class="featured-page-header">
+        <h1 class="featured-page-title">⭐ 推荐文章</h1>
+        <p class="featured-page-subtitle">如果你第一次来到这个博客，建议先从这些最能代表当前内容方向的文章开始阅读。</p>
+      </div>
+
+      {featuredPosts.length > 0 ? (
+        <div class="featured-page-grid">
+          {featuredPosts.map((post, index) => <ArticleCard post={post} delay={Math.min((index + 1) * 0.05, 0.2)} />)}
+        </div>
+      ) : (
+        <div class="featured-page-empty">
+          <p>暂时还没有设置推荐文章，后续会持续补充。</p>
+        </div>
+      )}
+    </div>
+  </section>
+</BaseLayout>

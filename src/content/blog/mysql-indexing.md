@@ -9,6 +9,12 @@ tags:
   - 索引
   - SQL优化
 draft: false
+series: backend-practice
+seriesTitle: 后端技术沉淀
+seriesOrder: 1
+related:
+  - redis-practice
+  - go-concurrency
 ---
 
 ## B+ 树索引结构

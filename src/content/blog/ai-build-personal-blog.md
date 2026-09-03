@@ -12,6 +12,12 @@ tags:
   - GitHub
   - 腾讯云
 draft: false
+series: ai-engineering
+seriesTitle: AI + 工程实践
+seriesOrder: 1
+featured: true
+related:
+  - loop-to-graph-engineering
 ---
 
 ## 前言

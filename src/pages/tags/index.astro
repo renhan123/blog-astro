@@ -139,7 +139,7 @@ function getTagOpacity(count: number): string {
 
       const updateSphereRadius = () => {
         const size = Math.min(stage.clientWidth, stage.clientHeight);
-        sphereRadius = isCompactScreen ? Math.max(108, size * 0.34) : Math.max(138, size * 0.39);
+        sphereRadius = isCompactScreen ? Math.max(92, size * 0.3) : Math.max(138, size * 0.39);
       };
 
       const rotatePoint = (point, rotateX, rotateY) => {
@@ -182,8 +182,8 @@ function getTagOpacity(count: number): string {
           const point = rotatePoint(points[index], rotationX, rotationY);
           const depth = (point.z + 1) / 2;
           const isHovered = item.classList.contains('is-hovered');
-          const scale = (isCompactScreen ? 0.8 : 0.72) + depth * (isCompactScreen ? 0.46 : 0.58);
-          const finalScale = scale * (isHovered ? (isCompactScreen ? 1.08 : 1.12) : 1);
+          const scale = (isCompactScreen ? 0.68 : 0.72) + depth * (isCompactScreen ? 0.36 : 0.58);
+          const finalScale = scale * (isHovered ? (isCompactScreen ? 1.05 : 1.12) : 1);
           const finalX = point.x * sphereRadius;
           const finalY = point.y * sphereRadius * 0.82;
           const baseOpacity = parseFloat(item.dataset.baseOpacity || '1');

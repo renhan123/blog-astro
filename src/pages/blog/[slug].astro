@@ -33,7 +33,7 @@ const readTime = post.data.readTime || calculateReadTime(post.body);
           <div class="article-meta">
             <span class="meta-category">{categoryLabels[post.data.category] ?? post.data.category}</span>
             <span>{formatDate(post.data.pubDate)}</span>
-            <span>· {readTime}阅读</span>
+            <span>· 阅读约 {readTime}</span>
           </div>
           {post.data.tags && post.data.tags.length > 0 && (
             <div class="article-tags-bar">

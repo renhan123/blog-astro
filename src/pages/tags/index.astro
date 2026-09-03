@@ -78,18 +78,26 @@ function getTagOpacity(count: number): string {
       const items = Array.from(sphere.querySelectorAll('.tag-sphere-item'));
       if (!items.length) return;
 
-      const mediaQuery = window.matchMedia('(prefers-reduced-motion: reduce)');
+     const mediaQuery = window.matchMedia('(prefers-reduced-motion: reduce)');
+      const compactQuery = window.matchMedia('(max-width: 640px)');
       let reducedMotion = mediaQuery.matches;
+      let isCompactScreen = compactQuery.matches;
 
       const handleMotionChange = (event) => {
         reducedMotion = event.matches;
       };
 
-      if (typeof mediaQuery.addEventListener === 'function') {
-        mediaQuery.addEventListener('change', handleMotionChange);
-      } else if (typeof mediaQuery.addListener === 'function') {
-        mediaQuery.addListener(handleMotionChange);
-      }
+      const handleCompactChange = (event) => {
+        isCompactScreen = event.matches;
+      };
+
+     if (typeof mediaQuery.addEventListener === 'function') {
+       mediaQuery.addEventListener('change', handleMotionChange);
+        compactQuery.addEventListener('change', handleCompactChange);
+     } else if (typeof mediaQuery.addListener === 'function') {
+       mediaQuery.addListener(handleMotionChange);
+        compactQuery.addListener(handleCompactChange);
+     }
 
       const createSpherePoints = (count) => {
         const points = [];
@@ -131,7 +139,7 @@ function getTagOpacity(count: number): string {
 
       const updateSphereRadius = () => {
         const size = Math.min(stage.clientWidth, stage.clientHeight);
-        sphereRadius = Math.max(138, size * 0.39);
+        sphereRadius = isCompactScreen ? Math.max(108, size * 0.34) : Math.max(138, size * 0.39);
       };
 
       const rotatePoint = (point, rotateX, rotateY) => {
@@ -155,35 +163,35 @@ function getTagOpacity(count: number): string {
         const delta = lastTimestamp ? Math.min((timestamp - lastTimestamp) / 1000, 0.05) : 0.016;
         lastTimestamp = timestamp;
 
-        const easing = isTagHovered ? 0.16 : isStageActive ? 0.1 : 0.05;
+        const easing = isCompactScreen ? 0.08 : isTagHovered ? 0.16 : isStageActive ? 0.1 : 0.05;
         pointerCurrentX += (pointerTargetX - pointerCurrentX) * easing;
         pointerCurrentY += (pointerTargetY - pointerCurrentY) * easing;
-        driftCurrentX += (driftTargetX - driftCurrentX) * 0.08;
-        driftCurrentY += (driftTargetY - driftCurrentY) * 0.08;
+        driftCurrentX += (driftTargetX - driftCurrentX) * (isCompactScreen ? 0.04 : 0.08);
+        driftCurrentY += (driftTargetY - driftCurrentY) * (isCompactScreen ? 0.04 : 0.08);
 
         if (!reducedMotion) {
-          const autoSpeed = isTagHovered ? 0.006 : isStageActive ? 0.31 : 0.2;
+          const autoSpeed = isCompactScreen ? 0.085 : isTagHovered ? 0.006 : isStageActive ? 0.31 : 0.2;
           autoRotationY += delta * autoSpeed;
-          autoWaveX += delta * (isTagHovered ? 0.35 : 0.72);
+          autoWaveX += delta * (isCompactScreen ? 0.28 : isTagHovered ? 0.35 : 0.72);
         }
 
-        const rotationX = baseTiltX + pointerCurrentX + driftCurrentX + Math.sin(autoWaveX) * 0.03;
+        const rotationX = baseTiltX + (isCompactScreen ? 0.08 : 0) + pointerCurrentX + driftCurrentX + Math.sin(autoWaveX) * (isCompactScreen ? 0.016 : 0.03);
         const rotationY = autoRotationY + pointerCurrentY + driftCurrentY;
 
         items.forEach((item, index) => {
           const point = rotatePoint(points[index], rotationX, rotationY);
           const depth = (point.z + 1) / 2;
           const isHovered = item.classList.contains('is-hovered');
-          const scale = 0.72 + depth * 0.58;
-          const finalScale = scale * (isHovered ? 1.12 : 1);
+          const scale = (isCompactScreen ? 0.8 : 0.72) + depth * (isCompactScreen ? 0.46 : 0.58);
+          const finalScale = scale * (isHovered ? (isCompactScreen ? 1.08 : 1.12) : 1);
           const finalX = point.x * sphereRadius;
           const finalY = point.y * sphereRadius * 0.82;
           const baseOpacity = parseFloat(item.dataset.baseOpacity || '1');
-          const opacity = Math.min(1, Math.max(0.16, baseOpacity * (0.28 + depth * 0.9) + (isHovered ? 0.1 : 0)));
-          const blur = isHovered ? 0 : (1 - depth) * 0.62;
-          const interactive = isHovered || depth > 0.28;
-          const shadowStrength = 0.14 + depth * 0.28;
-          const yLift = isHovered ? -3.5 : 0;
+          const opacity = Math.min(1, Math.max(isCompactScreen ? 0.28 : 0.16, baseOpacity * ((isCompactScreen ? 0.36 : 0.28) + depth * (isCompactScreen ? 0.82 : 0.9)) + (isHovered ? 0.1 : 0)));
+          const blur = isHovered ? 0 : (1 - depth) * (isCompactScreen ? 0.34 : 0.62);
+          const interactive = isCompactScreen ? depth > 0.16 || isHovered : isHovered || depth > 0.28;
+          const shadowStrength = (isCompactScreen ? 0.18 : 0.14) + depth * (isCompactScreen ? 0.22 : 0.28);
+          const yLift = isHovered ? (isCompactScreen ? -2 : -3.5) : 0;
 
           item.style.left = 'calc(50% + ' + finalX.toFixed(1) + 'px)';
           item.style.top = 'calc(50% + ' + finalY.toFixed(1) + 'px)';
@@ -231,6 +239,7 @@ function getTagOpacity(count: number): string {
       });
 
       stage.addEventListener('mousemove', (event) => {
+        if (isCompactScreen) return;
         const rect = stage.getBoundingClientRect();
         const centerX = rect.width / 2;
         const centerY = rect.height / 2;

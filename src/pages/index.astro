@@ -16,7 +16,11 @@ const earliestDate = posts.length > 0 ? posts[posts.length - 1].data.pubDate : n
 const daysRunning = Math.max(1, Math.floor((Date.now() - earliestDate.getTime()) / (1000 * 60 * 60 * 24)));
 ---
 
-<BaseLayout currentPath="/">
+<BaseLayout
+  title="CodeEcho - 沉淀技术实践，构建个人知识库"
+  description="记录后端开发、工程实践与 AI 探索，把真实经验持续沉淀下来。"
+  currentPath="/"
+>
   <section class="hero">
     <div class="hero-content">
       <h1 class="hero-title">沉淀技术实践，构建个人知识库</h1>

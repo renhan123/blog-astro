@@ -8,8 +8,8 @@ export async function GET(context: { site: string }) {
   );
 
   return rss({
-    title: 'CodeEcho - 个人技术博客',
-    description: '分享编程心得、技术笔记与工程实践',
+    title: 'CodeEcho - 沉淀技术实践，构建个人知识库',
+    description: '记录后端开发、工程实践与 AI 探索，把真实经验持续沉淀下来。',
     site: context.site,
     items: posts.map((post) => ({
       title: post.data.title,

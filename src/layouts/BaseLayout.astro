@@ -8,10 +8,14 @@ interface Props {
 }
 
 const {
-  title = 'CodeEcho - 个人技术博客',
-  description = '个人技术博客 - 分享编程心得、技术笔记与工程实践',
+  title = 'CodeEcho - 沉淀技术实践，构建个人知识库',
+  description = '记录后端开发、工程实践与 AI 探索，把真实经验持续沉淀下来。',
   currentPath = '/',
 } = Astro.props;
+
+const siteUrl = Astro.site ?? new URL('https://echocode.com.cn');
+const canonicalUrl = new URL(Astro.url.pathname, siteUrl);
+const ogType = currentPath.startsWith('/blog') ? 'article' : 'website';
 ---
 
 <!doctype html>
@@ -20,6 +24,16 @@ const {
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta name="description" content={description} />
+    <link rel="canonical" href={canonicalUrl.toString()} />
+    <meta property="og:type" content={ogType} />
+    <meta property="og:site_name" content="CodeEcho" />
+    <meta property="og:locale" content="zh_CN" />
+    <meta property="og:title" content={title} />
+    <meta property="og:description" content={description} />
+    <meta property="og:url" content={canonicalUrl.toString()} />
+    <meta name="twitter:card" content="summary" />
+    <meta name="twitter:title" content={title} />
+    <meta name="twitter:description" content={description} />
     <title>{title}</title>
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />

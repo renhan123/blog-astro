@@ -1,0 +1,377 @@
+---
+import { getCollection } from 'astro:content';
+import BaseLayout from '../layouts/BaseLayout.astro';
+import { getPostSlug } from '../utils';
+
+const posts = (await getCollection('blog', ({ data }) => !data.draft)).sort(
+  (a, b) => b.data.pubDate.getTime() - a.data.pubDate.getTime()
+);
+
+const knowledgePosts = posts.map((post) => ({
+  slug: getPostSlug(post.id),
+  title: post.data.title,
+  description: post.data.description,
+  category: post.data.category,
+  tags: post.data.tags,
+  seriesTitle: post.data.seriesTitle || '',
+  url: '/blog/' + getPostSlug(post.id) + '/',
+  snippet: post.body.slice(0, 800),
+}));
+
+const suggestedQuestions = [
+  '后端开发如何借助 AI 搭建个人博客？',
+  'Loop Engineering 和 Graph Engineering 的核心区别是什么？',
+  '这个博客里有哪些和后端技术沉淀相关的文章？',
+  '如果我是后端开发，应该先从哪几篇开始读？',
+  '这个博客目前主要写了哪些主题？',
+  '有哪些文章适合想了解 Agent 工程实践的人？',
+];
+---
+
+<BaseLayout
+  title="知识助手 - CodeEcho"
+  description="基于站内文章内容的第一版博客知识问答助手，帮助读者快速理解主题、发现相关文章与阅读路径。"
+  currentPath="/assistant/"
+>
+  <section class="view-assistant">
+    <div class="container assistant-shell">
+      <div class="assistant-header">
+        <span class="assistant-kicker">博客知识问答助手 · MVP</span>
+        <h1 class="assistant-title">问问这个博客</h1>
+        <p class="assistant-subtitle">第一版只基于站内文章回答，不联网、不使用外部资料。你可以问主题、文章推荐、概念区别、阅读路径。</p>
+        <div class="assistant-header-meta">
+          <span class="assistant-header-pill">只读站内内容</span>
+          <span class="assistant-header-pill">不联网</span>
+          <span class="assistant-header-pill">适合做阅读导航</span>
+        </div>
+      </div>
+
+      <div class="assistant-top-grid">
+        <section class="assistant-quickstart-card assistant-card">
+          <div class="assistant-panel-head assistant-panel-head-compact">
+            <div>
+              <span class="assistant-panel-kicker">快速开始</span>
+              <h2 class="assistant-panel-title">不知道怎么问？从这 3 种方式开始</h2>
+            </div>
+          </div>
+          <div class="assistant-quickstart-list">
+            <button class="assistant-quickstart-item" data-question="这个博客目前主要写了哪些主题？">
+              <strong>了解全站主题</strong>
+              <span>快速知道博客的内容结构和核心方向</span>
+            </button>
+            <button class="assistant-quickstart-item" data-question="如果我是后端开发，应该先从哪几篇开始读？">
+              <strong>拿到阅读路径</strong>
+              <span>从后端开发视角获取更适合的入门顺序</span>
+            </button>
+            <button class="assistant-quickstart-item" data-question="Loop Engineering 和 Graph Engineering 的核心区别是什么？">
+              <strong>直接问概念区别</strong>
+              <span>适合快速理解两篇重点文章之间的关系</span>
+            </button>
+          </div>
+        </section>
+
+        <section class="assistant-hot-card assistant-card">
+          <div class="assistant-panel-head assistant-panel-head-compact">
+            <div>
+              <span class="assistant-panel-kicker">热门问题</span>
+              <h2 class="assistant-panel-title">适合第一次体验的常见提问</h2>
+            </div>
+          </div>
+          <div class="assistant-hot-list">
+            <button class="assistant-hot-item" data-question="后端开发如何借助 AI 搭建个人博客？">后端开发如何借助 AI 搭建个人博客？</button>
+            <button class="assistant-hot-item" data-question="这个博客里有哪些和后端技术沉淀相关的文章？">这个博客里有哪些和后端技术沉淀相关的文章？</button>
+            <button class="assistant-hot-item" data-question="有哪些文章适合想了解 Agent 工程实践的人？">有哪些文章适合想了解 Agent 工程实践的人？</button>
+          </div>
+        </section>
+      </div>
+
+      <div class="assistant-layout">
+        <section class="assistant-main">
+          <div class="assistant-card">
+            <div class="assistant-panel-head">
+              <div>
+                <span class="assistant-panel-kicker">提问面板</span>
+                <h2 class="assistant-panel-title">输入问题，快速定位站内内容</h2>
+              </div>
+              <div class="assistant-panel-badge">MVP</div>
+            </div>
+            <label for="assistantQuestion" class="assistant-label">输入你的问题</label>
+            <textarea id="assistantQuestion" class="assistant-input" rows="4" placeholder="比如：Loop Engineering 和 Graph Engineering 的区别是什么？"></textarea>
+            <div class="assistant-actions">
+              <button id="assistantAskBtn" class="assistant-ask-btn">开始提问</button>
+              <span class="assistant-tip">支持点击示例问题，或使用 Ctrl/⌘ + Enter 提交</span>
+            </div>
+
+            <div class="assistant-suggestions">
+              <span class="assistant-suggestions-label">可以直接试试：</span>
+              <div class="assistant-suggestion-list">
+                {suggestedQuestions.map((question) => (
+                  <button class="assistant-chip" data-question={question}>{question}</button>
+                ))}
+              </div>
+            </div>
+          </div>
+
+          <div class="assistant-card">
+            <div class="assistant-panel-head assistant-panel-head-result">
+              <div>
+                <span class="assistant-panel-kicker">结果面板</span>
+                <h2 class="assistant-panel-title">先给结论，再给推荐阅读</h2>
+              </div>
+            </div>
+            <div id="assistantEmptyState" class="assistant-empty-state">
+              <div class="assistant-empty-icon">🤖</div>
+              <h2 class="assistant-empty-title">这是一个只读站内知识助手</h2>
+              <p class="assistant-empty-desc">它会根据当前博客文章内容做匹配、归纳和推荐，帮助读者快速定位该先看哪篇、哪些文章最相关。</p>
+              <div class="assistant-empty-hint">先点击上方示例问题，体验第一版能力。</div>
+            </div>
+
+            <div id="assistantAnswer" hidden>
+              <div class="assistant-answer-block">
+                <span class="assistant-block-kicker">回答摘要</span>
+                <div id="assistantAnswerText" class="assistant-answer-text"></div>
+              </div>
+
+              <div class="assistant-answer-block">
+                <span class="assistant-block-kicker">推荐阅读</span>
+                <div id="assistantResultList" class="assistant-result-list"></div>
+              </div>
+
+              <div class="assistant-answer-block">
+                <span class="assistant-block-kicker">推荐理由</span>
+                <div id="assistantReasonList" class="assistant-reason-list"></div>
+              </div>
+            </div>
+          </div>
+        </section>
+
+        <aside class="assistant-side">
+          <div class="assistant-card">
+            <h2 class="assistant-side-title">当前知识范围</h2>
+            <p class="assistant-side-desc">第一版仅回答博客站内内容，目前覆盖这些文章与方向。</p>
+            <div class="assistant-meta-grid">
+              <div class="assistant-meta-item"><strong>{knowledgePosts.length}</strong><span>篇文章</span></div>
+              <div class="assistant-meta-item"><strong>AI + 工程实践</strong><span>已形成系列</span></div>
+              <div class="assistant-meta-item"><strong>后端技术</strong><span>持续沉淀中</span></div>
+            </div>
+          </div>
+
+          <div class="assistant-card">
+            <h2 class="assistant-side-title">它更擅长回答</h2>
+            <ul class="assistant-side-list">
+              <li>这个博客目前主要写了哪些主题？</li>
+              <li>哪几篇文章适合某个方向的读者先读？</li>
+              <li>两篇文章之间的关系和区别是什么？</li>
+              <li>某个主题在站内有哪些相关文章？</li>
+            </ul>
+          </div>
+
+          <div class="assistant-card">
+            <h2 class="assistant-side-title">推荐使用方式</h2>
+            <ol class="assistant-side-list assistant-side-steps">
+              <li>先问一个清晰问题，比如“我应该先读哪几篇？”</li>
+              <li>先看回答摘要，再决定阅读路径</li>
+              <li>最后点进推荐文章继续深入</li>
+            </ol>
+          </div>
+
+          <div class="assistant-card">
+            <h2 class="assistant-side-title">第一版边界</h2>
+            <ul class="assistant-side-list assistant-side-muted">
+              <li>不联网，因此不会回答站外资料</li>
+              <li>本质上是“站内知识导航助手”</li>
+              <li>后续可以升级为真正的 RAG / Agent 版本</li>
+            </ul>
+          </div>
+        </aside>
+      </div>
+    </div>
+  </section>
+
+  <style is:global>
+    .view-assistant { margin-top: var(--nav-height); padding: 48px 0 80px; }
+    .assistant-shell { max-width: 1200px; }
+    .assistant-header { max-width: 760px; margin-bottom: 32px; }
+    .assistant-kicker { display: inline-block; font-size: 0.78rem; font-weight: 700; letter-spacing: 0.08em; text-transform: uppercase; color: var(--accent); margin-bottom: 12px; }
+    .assistant-title { font-size: 2.1rem; line-height: 1.25; margin-bottom: 12px; }
+    .assistant-subtitle { color: var(--text-secondary); max-width: 680px; line-height: 1.8; }
+    .assistant-header-meta { display: flex; flex-wrap: wrap; gap: 10px; margin-top: 18px; }
+    .assistant-header-pill { display: inline-flex; align-items: center; padding: 7px 12px; border-radius: 999px; background: var(--bg-secondary); border: 1px solid var(--border-color); color: var(--text-secondary); font-size: 0.82rem; }
+    .assistant-top-grid { display: grid; grid-template-columns: minmax(0, 1.25fr) minmax(0, 1fr); gap: 24px; margin-bottom: 24px; }
+    .assistant-layout { display: grid; grid-template-columns: minmax(0, 1.6fr) minmax(280px, 0.9fr); gap: 24px; align-items: start; }
+    .assistant-main, .assistant-side { display: grid; gap: 20px; }
+    .assistant-card { background: var(--bg-card); border: 1px solid var(--border-color); border-radius: 22px; padding: 24px; box-shadow: var(--shadow-sm); }
+    .assistant-panel-head { display: flex; align-items: flex-start; justify-content: space-between; gap: 12px; margin-bottom: 18px; }
+    .assistant-panel-head-compact { margin-bottom: 14px; }
+    .assistant-panel-kicker { display: inline-block; font-size: 0.74rem; font-weight: 700; letter-spacing: 0.08em; text-transform: uppercase; color: var(--accent); margin-bottom: 8px; }
+    .assistant-panel-title { font-size: 1.08rem; line-height: 1.5; }
+    .assistant-panel-badge { flex-shrink: 0; display: inline-flex; align-items: center; padding: 5px 10px; border-radius: 999px; background: rgba(99,102,241,0.08); color: var(--accent); font-size: 0.76rem; font-weight: 700; }
+    .assistant-quickstart-list,
+    .assistant-hot-list { display: grid; gap: 12px; }
+    .assistant-quickstart-item,
+    .assistant-hot-item { width: 100%; text-align: left; border: 1px solid var(--border-color); background: linear-gradient(180deg, rgba(99,102,241,0.03) 0%, rgba(255,255,255,0.01) 100%); color: var(--text-primary); border-radius: 18px; padding: 16px; cursor: pointer; transition: all var(--transition); }
+    .assistant-quickstart-item:hover,
+    .assistant-hot-item:hover { border-color: rgba(99,102,241,0.28); box-shadow: 0 12px 30px -24px rgba(99,102,241,0.22); transform: translateY(-1px); }
+    .assistant-quickstart-item strong { display: block; font-size: 0.96rem; margin-bottom: 6px; }
+    .assistant-quickstart-item span,
+    .assistant-hot-item { color: var(--text-secondary); line-height: 1.7; font-size: 0.9rem; }
+    .assistant-label { display: block; font-size: 0.92rem; font-weight: 600; margin-bottom: 12px; }
+    .assistant-input { width: 100%; resize: vertical; min-height: 110px; border: 1px solid var(--border-color); background: var(--bg-secondary); color: var(--text-primary); border-radius: 18px; padding: 16px 18px; font: inherit; line-height: 1.7; outline: none; }
+    .assistant-input:focus { border-color: var(--accent); box-shadow: 0 0 0 3px var(--accent-light); }
+    .assistant-actions { display: flex; align-items: center; justify-content: space-between; gap: 16px; margin-top: 14px; flex-wrap: wrap; }
+    .assistant-ask-btn { border: none; background: linear-gradient(135deg, var(--accent) 0%, #8b5cf6 100%); color: #fff; border-radius: 999px; padding: 10px 18px; font-size: 0.92rem; font-weight: 600; cursor: pointer; }
+    .assistant-tip { color: var(--text-muted); font-size: 0.84rem; }
+    .assistant-suggestions { margin-top: 18px; padding-top: 18px; border-top: 1px solid var(--border-color); }
+    .assistant-suggestions-label { display: block; font-size: 0.86rem; color: var(--text-secondary); margin-bottom: 12px; }
+    .assistant-suggestion-list { display: flex; flex-wrap: wrap; gap: 10px; }
+    .assistant-chip { border: 1px solid var(--border-color); background: var(--bg-secondary); color: var(--text-secondary); border-radius: 999px; padding: 8px 14px; font-size: 0.84rem; cursor: pointer; }
+    .assistant-chip:hover { border-color: var(--accent); color: var(--accent); background: var(--accent-light); }
+    .assistant-empty-state { text-align: center; padding: 20px 8px; }
+    .assistant-empty-icon { font-size: 2.4rem; margin-bottom: 12px; }
+    .assistant-empty-title { font-size: 1.2rem; margin-bottom: 10px; }
+    .assistant-empty-desc { color: var(--text-secondary); line-height: 1.8; max-width: 560px; margin: 0 auto; }
+    .assistant-empty-hint { margin-top: 16px; display: inline-flex; align-items: center; padding: 8px 14px; border-radius: 999px; background: rgba(99,102,241,0.08); color: var(--accent); font-size: 0.84rem; font-weight: 600; }
+    .assistant-answer-block + .assistant-answer-block { margin-top: 28px; padding-top: 24px; border-top: 1px solid var(--border-color); }
+    .assistant-block-kicker { display: inline-block; font-size: 0.76rem; font-weight: 700; letter-spacing: 0.08em; text-transform: uppercase; color: var(--accent); margin-bottom: 12px; }
+    .assistant-answer-text p { color: var(--text-primary); line-height: 1.9; }
+    .assistant-result-list, .assistant-reason-list { display: grid; gap: 14px; }
+    .assistant-result-item, .assistant-reason-item { display: flex; gap: 14px; align-items: flex-start; border: 1px solid var(--border-color); border-radius: 18px; padding: 16px; background: linear-gradient(180deg, rgba(99,102,241,0.03) 0%, rgba(255,255,255,0.01) 100%); }
+    .assistant-result-item:hover { border-color: rgba(99,102,241,0.28); box-shadow: 0 12px 30px -24px rgba(99,102,241,0.22); transform: translateY(-1px); color: inherit; }
+    .assistant-result-index { width: 32px; height: 32px; display: inline-flex; align-items: center; justify-content: center; border-radius: 999px; background: var(--accent-light); color: var(--accent); font-size: 0.78rem; font-weight: 700; flex-shrink: 0; }
+    .assistant-result-main { flex: 1; min-width: 0; }
+    .assistant-result-title { font-size: 1rem; line-height: 1.6; margin-bottom: 6px; color: var(--text-primary); }
+    .assistant-result-desc { color: var(--text-secondary); font-size: 0.9rem; line-height: 1.7; margin-bottom: 10px; }
+    .assistant-result-meta, .assistant-result-tags { display: flex; flex-wrap: wrap; gap: 8px; }
+    .assistant-result-meta { margin-bottom: 8px; color: var(--text-muted); font-size: 0.82rem; }
+    .assistant-result-tag { display: inline-flex; align-items: center; padding: 4px 10px; border-radius: 999px; background: var(--bg-secondary); color: var(--text-secondary); font-size: 0.78rem; }
+    .assistant-result-arrow { color: var(--text-muted); flex-shrink: 0; padding-top: 4px; }
+    .assistant-reason-item { display: block; }
+    .assistant-reason-item strong { display: block; margin-bottom: 6px; color: var(--text-primary); }
+    .assistant-reason-item p, .assistant-side-desc, .assistant-side-list li { color: var(--text-secondary); line-height: 1.8; }
+    .assistant-side-title { font-size: 1rem; margin-bottom: 10px; }
+    .assistant-meta-grid { display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); gap: 12px; margin-top: 14px; }
+    .assistant-meta-item { padding: 14px 12px; border-radius: 16px; background: var(--bg-secondary); text-align: center; }
+    .assistant-meta-item strong { display: block; font-size: 0.96rem; line-height: 1.4; margin-bottom: 4px; }
+    .assistant-meta-item span { color: var(--text-muted); font-size: 0.8rem; }
+    .assistant-side-list { padding-left: 18px; display: grid; gap: 8px; }
+    .assistant-side-steps { padding-left: 20px; }
+    .assistant-side-muted li { color: var(--text-muted); }
+    @media (max-width: 960px) { .assistant-top-grid, .assistant-layout { grid-template-columns: 1fr; } }
+    @media (max-width: 768px) { .view-assistant { padding: 34px 0 52px; } .assistant-title { font-size: 1.72rem; } .assistant-card { padding: 18px; border-radius: 18px; } .assistant-meta-grid { grid-template-columns: 1fr; } .assistant-panel-head { flex-direction: column; } }
+  </style>
+
+  <script is:inline define:vars={{ knowledgePosts }}>
+    const posts = knowledgePosts;
+    const questionInput = document.getElementById('assistantQuestion');
+    const askBtn = document.getElementById('assistantAskBtn');
+    const answer = document.getElementById('assistantAnswer');
+    const answerText = document.getElementById('assistantAnswerText');
+    const resultList = document.getElementById('assistantResultList');
+    const reasonList = document.getElementById('assistantReasonList');
+    const emptyState = document.getElementById('assistantEmptyState');
+    const suggestionButtons = Array.from(document.querySelectorAll('.assistant-chip'));
+    const quickStartButtons = Array.from(document.querySelectorAll('.assistant-quickstart-item'));
+    const hotButtons = Array.from(document.querySelectorAll('.assistant-hot-item'));
+    const stopWords = new Set(['什么','如何','怎么','哪些','这个','那个','关于','以及','一个','我们','你们','我的','你的','文章','博客','一下','请问']);
+
+    function tokenize(text) {
+      const normalized = String(text || '').toLowerCase();
+      const cn = normalized.match(/[\u4e00-\u9fa5]{2,}/g) || [];
+      const en = normalized.match(/[a-z0-9+-]{2,}/g) || [];
+      return cn.concat(en).filter((token) => token && !stopWords.has(token));
+    }
+
+    function normalizeText(value) { return String(value || '').toLowerCase(); }
+    function getCategoryLabel(category) { const map = { backend: '后端', frontend: '前端', devops: 'DevOps', database: '数据库' }; return map[category] || category; }
+
+    function scorePost(post, tokens, rawQuestion) {
+      const title = normalizeText(post.title);
+      const desc = normalizeText(post.description);
+      const body = normalizeText(post.snippet);
+      const tags = normalizeText((post.tags || []).join(' '));
+      const series = normalizeText(post.seriesTitle || '');
+      const q = normalizeText(rawQuestion);
+      let score = 0;
+      const reasons = [];
+
+      tokens.forEach((token) => {
+        let tokenScore = 0;
+        if (title.includes(token)) tokenScore += 8;
+        if (tags.includes(token)) tokenScore += 6;
+        if (series.includes(token)) tokenScore += 5;
+        if (desc.includes(token)) tokenScore += 4;
+        if (body.includes(token)) tokenScore += 2;
+        if (tokenScore > 0) { score += tokenScore; reasons.push('命中关键词“' + token + '”'); }
+      });
+
+      if ((q.includes('区别') || q.includes('对比')) && (q.includes('loop') || q.includes('graph')) && (title.includes('loop') || title.includes('graph'))) { score += 10; reasons.push('问题明显在比较概念，且该文章直接讨论相关主题'); }
+      if ((q.includes('先读') || q.includes('开始') || q.includes('入门')) && post.seriesTitle) { score += 5; reasons.push('适合放入阅读路径中'); }
+      if ((q.includes('后端') || q.includes('backend')) && post.category === 'backend') { score += 5; reasons.push('属于后端方向内容'); }
+      if ((q.includes('ai') || q.includes('agent') || q.includes('工程实践')) && ((post.tags || []).some((tag) => /ai|agent|工程实践/i.test(tag)) || /ai/i.test(post.title))) { score += 5; reasons.push('与 AI / Agent / 工程实践主题高度相关'); }
+      return { score, reasons: Array.from(new Set(reasons)).slice(0, 3) };
+    }
+
+    function buildSummary(question, topPosts) {
+      const q = normalizeText(question);
+      if (!topPosts.length) return '我暂时没有在当前博客内容里找到与你问题高度匹配的文章。你可以换一种问法，或者更明确地指出主题、技术词或文章方向。';
+      if (q.includes('主要写') || q.includes('写了哪些') || q.includes('主题')) return '这个博客当前主要围绕后端开发、工程实践，以及 AI / Agent 方向的实践与思考展开。就现有内容来看，AI + 工程实践与后端技术沉淀是最核心的两条主线。';
+      if ((q.includes('区别') || q.includes('对比')) && topPosts.length > 0) return '结合当前站内内容，这个问题更适合先读概念演进类文章，再回看具体实践。简单说，Loop 更偏单个目标闭环优化，Graph 更偏多个 Loop 之间的监督、制衡与治理。';
+      if (q.includes('先读') || q.includes('开始') || q.includes('入门')) return '如果你想从站内现有内容开始建立理解，建议优先读更偏总览和路径型的文章，再继续阅读同系列中更深入的主题文章。下面我按这个思路给你推荐。';
+      if (q.includes('后端')) return '站内与后端方向相关的内容主要集中在数据库、缓存、并发、部署和架构演进等主题。如果你是后端开发，下面这些文章会更适合作为阅读入口。';
+      return '基于当前博客文章内容，我优先筛选出了与你问题最相关的几篇文章。你可以先看推荐结果，再按推荐理由选择最适合的阅读入口。';
+    }
+
+    function renderResults(question) {
+      const raw = String(question || '').trim();
+      if (!raw) return;
+      const tokens = tokenize(raw);
+      const ranked = posts.map((post) => {
+        const result = scorePost(post, tokens, raw);
+        return { post, score: result.score, reasons: result.reasons };
+      }).sort((a, b) => b.score - a.score).filter((item) => item.score > 0).slice(0, 4);
+
+      const display = ranked.length > 0 ? ranked : posts.slice(0, 4).map((post) => ({ post, score: 0, reasons: ['当前问题未命中明确关键词，先给你推荐站内代表性内容'] }));
+      if (emptyState) emptyState.hidden = true;
+      if (answer) answer.hidden = false;
+      if (answerText) answerText.innerHTML = '<p>' + buildSummary(raw, display.map((item) => item.post)) + '</p>';
+      if (resultList) resultList.innerHTML = display.map((item, index) => {
+        const post = item.post;
+        const tags = (post.tags || []).slice(0, 3).map((tag) => '<span class="assistant-result-tag">' + tag + '</span>').join('');
+        const series = post.seriesTitle ? '<span>' + post.seriesTitle + '</span>' : '';
+        return '<a class="assistant-result-item" href="' + post.url + '"><div class="assistant-result-index">0' + (index + 1) + '</div><div class="assistant-result-main"><h3 class="assistant-result-title">' + post.title + '</h3><p class="assistant-result-desc">' + post.description + '</p><div class="assistant-result-meta"><span>' + getCategoryLabel(post.category) + '</span>' + series + '</div><div class="assistant-result-tags">' + tags + '</div></div><span class="assistant-result-arrow">→</span></a>';
+      }).join('');
+      if (reasonList) reasonList.innerHTML = display.map((item) => '<div class="assistant-reason-item"><strong>' + item.post.title + '</strong><p>' + item.reasons.join('；') + '。</p></div>').join('');
+    }
+
+    if (askBtn && questionInput) {
+      askBtn.addEventListener('click', () => renderResults(questionInput.value));
+      questionInput.addEventListener('keydown', (event) => {
+        if ((event.metaKey || event.ctrlKey) && event.key === 'Enter') { event.preventDefault(); renderResults(questionInput.value); }
+      });
+    }
+
+    suggestionButtons.forEach((button) => {
+      button.addEventListener('click', () => {
+        const question = button.getAttribute('data-question') || '';
+        if (questionInput) questionInput.value = question;
+        renderResults(question);
+      });
+    });
+
+    quickStartButtons.forEach((button) => {
+      button.addEventListener('click', () => {
+        const question = button.getAttribute('data-question') || '';
+        if (questionInput) questionInput.value = question;
+        renderResults(question);
+      });
+    });
+
+    hotButtons.forEach((button) => {
+      button.addEventListener('click', () => {
+        const question = button.getAttribute('data-question') || '';
+        if (questionInput) questionInput.value = question;
+        renderResults(question);
+      });
+    });
+  </script>
+</BaseLayout>

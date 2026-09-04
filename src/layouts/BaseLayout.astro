@@ -73,6 +73,7 @@ const shareImageAlt = ogImageAlt ?? title;
         </a>
         <div class="nav-links">
           <a href="/" class:list={["nav-link", currentPath === '/' && 'active']}>首页</a>
+          <a href="/assistant/" class:list={["nav-link", currentPath.startsWith('/assistant') && 'active']}>助手</a>
           <a href="/featured/" class:list={["nav-link", currentPath.startsWith('/featured') && 'active']}>推荐</a>
           <a href="/tags/" class:list={["nav-link", currentPath.startsWith('/tags') && 'active']}>标签</a>
           <a href="/series/" class:list={["nav-link", currentPath.startsWith('/series') && 'active']}>系列</a>

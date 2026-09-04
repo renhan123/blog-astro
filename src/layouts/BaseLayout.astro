@@ -1,5 +1,6 @@
 ---
 import '../styles/global.css';
+import Analytics from '@vercel/analytics/astro';
 import { getDefaultOgImage } from '../utils';
 
 interface Props {
@@ -161,6 +162,7 @@ const shareImageAlt = ogImageAlt ?? title;
     <script src="https://cdnjs.cloudflare.com/ajax/libs/prism/1.29.0/components/prism-yaml.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/prism/1.29.0/components/prism-json.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/prism/1.29.0/components/prism-protobuf.min.js"></script>
+    <Analytics />
 
     <script is:inline>
       const themeToggle = document.getElementById('themeToggle');

@@ -260,118 +260,167 @@ const suggestedQuestions = [
     @media (max-width: 768px) { .view-assistant { padding: 34px 0 52px; } .assistant-title { font-size: 1.72rem; } .assistant-card { padding: 18px; border-radius: 18px; } .assistant-meta-grid { grid-template-columns: 1fr; } .assistant-panel-head { flex-direction: column; } }
   </style>
 
-  <script is:inline define:vars={{ knowledgePosts }}>
-    const posts = knowledgePosts;
-    const questionInput = document.getElementById('assistantQuestion');
-    const askBtn = document.getElementById('assistantAskBtn');
-    const answer = document.getElementById('assistantAnswer');
-    const answerText = document.getElementById('assistantAnswerText');
-    const resultList = document.getElementById('assistantResultList');
-    const reasonList = document.getElementById('assistantReasonList');
-    const emptyState = document.getElementById('assistantEmptyState');
-    const suggestionButtons = Array.from(document.querySelectorAll('.assistant-chip'));
-    const quickStartButtons = Array.from(document.querySelectorAll('.assistant-quickstart-item'));
-    const hotButtons = Array.from(document.querySelectorAll('.assistant-hot-item'));
-    const stopWords = new Set(['什么','如何','怎么','哪些','这个','那个','关于','以及','一个','我们','你们','我的','你的','文章','博客','一下','请问']);
+  <script type="application/json" id="assistantKnowledgeData" set:html={JSON.stringify(knowledgePosts)}></script>
+  <script is:inline>
+    (() => {
+      const dataNode = document.getElementById('assistantKnowledgeData');
+      if (!dataNode) return;
 
-    function tokenize(text) {
-      const normalized = String(text || '').toLowerCase();
-      const cn = normalized.match(/[\u4e00-\u9fa5]{2,}/g) || [];
-      const en = normalized.match(/[a-z0-9+-]{2,}/g) || [];
-      return cn.concat(en).filter((token) => token && !stopWords.has(token));
-    }
+      let posts = [];
+      try {
+        posts = JSON.parse(dataNode.textContent || '[]');
+      } catch (error) {
+        return;
+      }
 
-    function normalizeText(value) { return String(value || '').toLowerCase(); }
-    function getCategoryLabel(category) { const map = { backend: '后端', frontend: '前端', devops: 'DevOps', database: '数据库' }; return map[category] || category; }
+      const questionInput = document.getElementById('assistantQuestion');
+      const askBtn = document.getElementById('assistantAskBtn');
+      const answer = document.getElementById('assistantAnswer');
+      const answerText = document.getElementById('assistantAnswerText');
+      const resultList = document.getElementById('assistantResultList');
+      const reasonList = document.getElementById('assistantReasonList');
+      const emptyState = document.getElementById('assistantEmptyState');
+      const triggers = Array.from(document.querySelectorAll('.js-question-trigger, .assistant-chip, .assistant-quickstart-item, .assistant-hot-item'));
+      const stopWords = new Set(['什么','如何','怎么','哪些','这个','那个','关于','以及','一个','我们','你们','我的','你的','文章','博客','一下','请问']);
 
-    function scorePost(post, tokens, rawQuestion) {
-      const title = normalizeText(post.title);
-      const desc = normalizeText(post.description);
-      const body = normalizeText(post.snippet);
-      const tags = normalizeText((post.tags || []).join(' '));
-      const series = normalizeText(post.seriesTitle || '');
-      const q = normalizeText(rawQuestion);
-      let score = 0;
-      const reasons = [];
+      function tokenize(text) {
+        const normalized = String(text || '').toLowerCase();
+        const cn = normalized.match(/[\u4e00-\u9fa5]{2,}/g) || [];
+        const en = normalized.match(/[a-z0-9+-]{2,}/g) || [];
+        return cn.concat(en).filter((token) => token && !stopWords.has(token));
+      }
 
-      tokens.forEach((token) => {
-        let tokenScore = 0;
-        if (title.includes(token)) tokenScore += 8;
-        if (tags.includes(token)) tokenScore += 6;
-        if (series.includes(token)) tokenScore += 5;
-        if (desc.includes(token)) tokenScore += 4;
-        if (body.includes(token)) tokenScore += 2;
-        if (tokenScore > 0) { score += tokenScore; reasons.push('命中关键词“' + token + '”'); }
+      function normalizeText(value) {
+        return String(value || '').toLowerCase();
+      }
+
+      function getCategoryLabel(category) {
+        const map = { backend: '后端', frontend: '前端', devops: 'DevOps', database: '数据库' };
+        return map[category] || category;
+      }
+
+      function scorePost(post, tokens, rawQuestion) {
+        const title = normalizeText(post.title);
+        const desc = normalizeText(post.description);
+        const body = normalizeText(post.snippet || '');
+        const tags = normalizeText((post.tags || []).join(' '));
+        const series = normalizeText(post.seriesTitle || '');
+        const q = normalizeText(rawQuestion);
+        let score = 0;
+        const reasons = [];
+
+        tokens.forEach((token) => {
+          let tokenScore = 0;
+          if (title.includes(token)) tokenScore += 8;
+          if (tags.includes(token)) tokenScore += 6;
+          if (series.includes(token)) tokenScore += 5;
+          if (desc.includes(token)) tokenScore += 4;
+          if (body.includes(token)) tokenScore += 2;
+          if (tokenScore > 0) {
+            score += tokenScore;
+            reasons.push('命中关键词“' + token + '”');
+          }
+        });
+
+        if ((q.includes('区别') || q.includes('对比')) && (q.includes('loop') || q.includes('graph')) && (title.includes('loop') || title.includes('graph'))) {
+          score += 10;
+          reasons.push('问题明显在比较概念，且该文章直接讨论相关主题');
+        }
+        if ((q.includes('先读') || q.includes('开始') || q.includes('入门')) && post.seriesTitle) {
+          score += 5;
+          reasons.push('适合放入阅读路径中');
+        }
+        if ((q.includes('后端') || q.includes('backend')) && post.category === 'backend') {
+          score += 5;
+          reasons.push('属于后端方向内容');
+        }
+        if ((q.includes('ai') || q.includes('agent') || q.includes('工程实践')) && ((post.tags || []).some((tag) => /ai|agent|工程实践/i.test(tag)) || /ai/i.test(post.title))) {
+          score += 5;
+          reasons.push('与 AI / Agent / 工程实践主题高度相关');
+        }
+
+        return { score, reasons: Array.from(new Set(reasons)).slice(0, 3) };
+      }
+
+      function buildSummary(question, topPosts) {
+        const q = normalizeText(question);
+        if (!topPosts.length) return '我暂时没有在当前博客内容里找到与你问题高度匹配的文章。你可以换一种问法，或者更明确地指出主题、技术词或文章方向。';
+        if (q.includes('主要写') || q.includes('写了哪些') || q.includes('主题')) return '这个博客当前主要围绕后端开发、工程实践，以及 AI / Agent 方向的实践与思考展开。就现有内容来看，AI + 工程实践与后端技术沉淀是最核心的两条主线。';
+        if ((q.includes('区别') || q.includes('对比')) && topPosts.length > 0) return '结合当前站内内容，这个问题更适合先读概念演进类文章，再回看具体实践。简单说，Loop 更偏单个目标闭环优化，Graph 更偏多个 Loop 之间的监督、制衡与治理。';
+        if (q.includes('先读') || q.includes('开始') || q.includes('入门')) return '如果你想从站内现有内容开始建立理解，建议优先读更偏总览和路径型的文章，再继续阅读同系列中更深入的主题文章。下面我按这个思路给你推荐。';
+        if (q.includes('后端')) return '站内与后端方向相关的内容主要集中在数据库、缓存、并发、部署和架构演进等主题。如果你是后端开发，下面这些文章会更适合作为阅读入口。';
+        return '基于当前博客文章内容，我优先筛选出了与你问题最相关的几篇文章。你可以先看推荐结果，再按推荐理由选择最适合的阅读入口。';
+      }
+
+      function renderResults(question) {
+        const raw = String(question || '').trim();
+        if (!raw) {
+          if (emptyState) emptyState.hidden = true;
+          if (answer) answer.hidden = false;
+          if (answerText) answerText.innerHTML = '<p>你还没有输入具体问题。第一版助手目前主要用于做站内文章导航，你可以直接输入一个问题，或者点击上方“快速开始 / 热门问题”里的示例，我会马上给你推荐文章和阅读路径。</p>';
+          if (resultList) {
+            resultList.innerHTML = posts.slice(0, 4).map((post, index) => {
+              const tags = (post.tags || []).slice(0, 3).map((tag) => '<span class="assistant-result-tag">' + tag + '</span>').join('');
+              const series = post.seriesTitle ? '<span>' + post.seriesTitle + '</span>' : '';
+              return '<a class="assistant-result-item" href="' + post.url + '"><div class="assistant-result-index">0' + (index + 1) + '</div><div class="assistant-result-main"><h3 class="assistant-result-title">' + post.title + '</h3><p class="assistant-result-desc">' + post.description + '</p><div class="assistant-result-meta"><span>' + getCategoryLabel(post.category) + '</span>' + series + '</div><div class="assistant-result-tags">' + tags + '</div></div><span class="assistant-result-arrow">→</span></a>';
+            }).join('');
+          }
+          if (reasonList) {
+            reasonList.innerHTML = '<div class="assistant-reason-item"><strong>当前是空问题状态</strong><p>为了避免你感觉“点了没反应”，现在即使你不输入内容直接点击“开始提问”，我也会先展示站内代表性文章，并提示你下一步可以怎么问。</p></div><div class="assistant-reason-item"><strong>推荐你这样体验</strong><p>你可以先点“这个博客目前主要写了哪些主题？”或“如果我是后端开发，应该先从哪几篇开始读？”，这样会更容易感受到这个助手当前的能力边界。</p></div>';
+          }
+          return;
+        }
+        const tokens = tokenize(raw);
+        const ranked = posts
+          .map((post) => {
+            const result = scorePost(post, tokens, raw);
+            return { post, score: result.score, reasons: result.reasons };
+          })
+          .sort((a, b) => b.score - a.score)
+          .filter((item) => item.score > 0)
+          .slice(0, 4);
+
+        const display = ranked.length > 0
+          ? ranked
+          : posts.slice(0, 4).map((post) => ({
+              post,
+              score: 0,
+              reasons: ['当前问题未命中明确关键词，先给你推荐站内代表性内容'],
+            }));
+
+        if (emptyState) emptyState.hidden = true;
+        if (answer) answer.hidden = false;
+        if (answerText) answerText.innerHTML = '<p>' + buildSummary(raw, display.map((item) => item.post)) + '</p>';
+        if (resultList) {
+          resultList.innerHTML = display.map((item, index) => {
+            const post = item.post;
+            const tags = (post.tags || []).slice(0, 3).map((tag) => '<span class="assistant-result-tag">' + tag + '</span>').join('');
+            const series = post.seriesTitle ? '<span>' + post.seriesTitle + '</span>' : '';
+            return '<a class="assistant-result-item" href="' + post.url + '"><div class="assistant-result-index">0' + (index + 1) + '</div><div class="assistant-result-main"><h3 class="assistant-result-title">' + post.title + '</h3><p class="assistant-result-desc">' + post.description + '</p><div class="assistant-result-meta"><span>' + getCategoryLabel(post.category) + '</span>' + series + '</div><div class="assistant-result-tags">' + tags + '</div></div><span class="assistant-result-arrow">→</span></a>';
+          }).join('');
+        }
+        if (reasonList) {
+          reasonList.innerHTML = display.map((item) => '<div class="assistant-reason-item"><strong>' + item.post.title + '</strong><p>' + item.reasons.join('；') + '。</p></div>').join('');
+        }
+      }
+
+      if (askBtn && questionInput) {
+        askBtn.addEventListener('click', () => renderResults(questionInput.value));
+        questionInput.addEventListener('keydown', (event) => {
+          if ((event.metaKey || event.ctrlKey) && event.key === 'Enter') {
+            event.preventDefault();
+            renderResults(questionInput.value);
+          }
+        });
+      }
+
+      triggers.forEach((button) => {
+        button.addEventListener('click', () => {
+          const question = button.getAttribute('data-question') || '';
+          if (questionInput) questionInput.value = question;
+          renderResults(question);
+        });
       });
-
-      if ((q.includes('区别') || q.includes('对比')) && (q.includes('loop') || q.includes('graph')) && (title.includes('loop') || title.includes('graph'))) { score += 10; reasons.push('问题明显在比较概念，且该文章直接讨论相关主题'); }
-      if ((q.includes('先读') || q.includes('开始') || q.includes('入门')) && post.seriesTitle) { score += 5; reasons.push('适合放入阅读路径中'); }
-      if ((q.includes('后端') || q.includes('backend')) && post.category === 'backend') { score += 5; reasons.push('属于后端方向内容'); }
-      if ((q.includes('ai') || q.includes('agent') || q.includes('工程实践')) && ((post.tags || []).some((tag) => /ai|agent|工程实践/i.test(tag)) || /ai/i.test(post.title))) { score += 5; reasons.push('与 AI / Agent / 工程实践主题高度相关'); }
-      return { score, reasons: Array.from(new Set(reasons)).slice(0, 3) };
-    }
-
-    function buildSummary(question, topPosts) {
-      const q = normalizeText(question);
-      if (!topPosts.length) return '我暂时没有在当前博客内容里找到与你问题高度匹配的文章。你可以换一种问法，或者更明确地指出主题、技术词或文章方向。';
-      if (q.includes('主要写') || q.includes('写了哪些') || q.includes('主题')) return '这个博客当前主要围绕后端开发、工程实践，以及 AI / Agent 方向的实践与思考展开。就现有内容来看，AI + 工程实践与后端技术沉淀是最核心的两条主线。';
-      if ((q.includes('区别') || q.includes('对比')) && topPosts.length > 0) return '结合当前站内内容，这个问题更适合先读概念演进类文章，再回看具体实践。简单说，Loop 更偏单个目标闭环优化，Graph 更偏多个 Loop 之间的监督、制衡与治理。';
-      if (q.includes('先读') || q.includes('开始') || q.includes('入门')) return '如果你想从站内现有内容开始建立理解，建议优先读更偏总览和路径型的文章，再继续阅读同系列中更深入的主题文章。下面我按这个思路给你推荐。';
-      if (q.includes('后端')) return '站内与后端方向相关的内容主要集中在数据库、缓存、并发、部署和架构演进等主题。如果你是后端开发，下面这些文章会更适合作为阅读入口。';
-      return '基于当前博客文章内容，我优先筛选出了与你问题最相关的几篇文章。你可以先看推荐结果，再按推荐理由选择最适合的阅读入口。';
-    }
-
-    function renderResults(question) {
-      const raw = String(question || '').trim();
-      if (!raw) return;
-      const tokens = tokenize(raw);
-      const ranked = posts.map((post) => {
-        const result = scorePost(post, tokens, raw);
-        return { post, score: result.score, reasons: result.reasons };
-      }).sort((a, b) => b.score - a.score).filter((item) => item.score > 0).slice(0, 4);
-
-      const display = ranked.length > 0 ? ranked : posts.slice(0, 4).map((post) => ({ post, score: 0, reasons: ['当前问题未命中明确关键词，先给你推荐站内代表性内容'] }));
-      if (emptyState) emptyState.hidden = true;
-      if (answer) answer.hidden = false;
-      if (answerText) answerText.innerHTML = '<p>' + buildSummary(raw, display.map((item) => item.post)) + '</p>';
-      if (resultList) resultList.innerHTML = display.map((item, index) => {
-        const post = item.post;
-        const tags = (post.tags || []).slice(0, 3).map((tag) => '<span class="assistant-result-tag">' + tag + '</span>').join('');
-        const series = post.seriesTitle ? '<span>' + post.seriesTitle + '</span>' : '';
-        return '<a class="assistant-result-item" href="' + post.url + '"><div class="assistant-result-index">0' + (index + 1) + '</div><div class="assistant-result-main"><h3 class="assistant-result-title">' + post.title + '</h3><p class="assistant-result-desc">' + post.description + '</p><div class="assistant-result-meta"><span>' + getCategoryLabel(post.category) + '</span>' + series + '</div><div class="assistant-result-tags">' + tags + '</div></div><span class="assistant-result-arrow">→</span></a>';
-      }).join('');
-      if (reasonList) reasonList.innerHTML = display.map((item) => '<div class="assistant-reason-item"><strong>' + item.post.title + '</strong><p>' + item.reasons.join('；') + '。</p></div>').join('');
-    }
-
-    if (askBtn && questionInput) {
-      askBtn.addEventListener('click', () => renderResults(questionInput.value));
-      questionInput.addEventListener('keydown', (event) => {
-        if ((event.metaKey || event.ctrlKey) && event.key === 'Enter') { event.preventDefault(); renderResults(questionInput.value); }
-      });
-    }
-
-    suggestionButtons.forEach((button) => {
-      button.addEventListener('click', () => {
-        const question = button.getAttribute('data-question') || '';
-        if (questionInput) questionInput.value = question;
-        renderResults(question);
-      });
-    });
-
-    quickStartButtons.forEach((button) => {
-      button.addEventListener('click', () => {
-        const question = button.getAttribute('data-question') || '';
-        if (questionInput) questionInput.value = question;
-        renderResults(question);
-      });
-    });
-
-    hotButtons.forEach((button) => {
-      button.addEventListener('click', () => {
-        const question = button.getAttribute('data-question') || '';
-        if (questionInput) questionInput.value = question;
-        renderResults(question);
-      });
-    });
+    })();
   </script>
 </BaseLayout>

@@ -14,6 +14,64 @@ export async function getStaticPaths() {
 const { article } = Astro.props;
 const slug = getEntrySlug(article.id);
 const sentenceCount = article.data.sentences.length;
+
+type VocabularyItem = {
+  term: string;
+  meaning: string;
+  kind?: string;
+  note?: string;
+};
+
+function escapeHtml(value: string) {
+  return value.replaceAll('&', '&amp;').replaceAll('<', '&lt;').replaceAll('>', '&gt;').replaceAll('\"', '&quot;').replaceAll("'", '&#39;');
+}
+
+function escapeRegExp(value: string) {
+  return value.replace(/[.*+?^${}()|[\]\\]/g, '\\$&');
+}
+
+function renderSentenceWithVocabulary(text: string, vocabulary: VocabularyItem[] = []) {
+  if (!vocabulary.length) return escapeHtml(text);
+
+  const matches: Array<{ start: number; end: number; matched: string; item: VocabularyItem }> = [];
+
+  for (const item of vocabulary) {
+    const term = item.term?.trim();
+    if (!term) continue;
+    const regex = new RegExp(escapeRegExp(term), 'gi');
+    let match: RegExpExecArray | null = null;
+    while ((match = regex.exec(text))) {
+      matches.push({
+        start: match.index,
+        end: match.index + match[0].length,
+        matched: match[0],
+        item,
+      });
+    }
+  }
+
+  if (!matches.length) return escapeHtml(text);
+
+  matches.sort((a, b) => (a.start === b.start ? b.end - b.start - (a.end - a.start) : a.start - b.start));
+
+  const chosen: typeof matches = [];
+  let cursor = 0;
+  for (const match of matches) {
+    if (match.start < cursor) continue;
+    chosen.push(match);
+    cursor = match.end;
+  }
+
+  let html = '';
+  let lastIndex = 0;
+  for (const match of chosen) {
+    html += escapeHtml(text.slice(lastIndex, match.start));
+    html += `<button type="button" class="translation-inline-term" data-inline-term data-term="${escapeHtml(match.item.term)}" data-kind="${escapeHtml(match.item.kind || "词汇提示")}" data-meaning="${escapeHtml(match.item.meaning)}" data-note="${escapeHtml(match.item.note || "")}">${escapeHtml(match.matched)}</button>`;
+    lastIndex = match.end;
+  }
+  html += escapeHtml(text.slice(lastIndex));
+  return html;
+}
 ---
 
 <BaseLayout
@@ -116,7 +174,20 @@ const sentenceCount = article.data.sentences.length;
 
                 <div class="translation-sentence-original">
                   <span class="translation-sentence-label">原文</span>
-                  <p>{sentence.en}</p>
+                  <p class="translation-sentence-original-text" set:html={renderSentenceWithVocabulary(sentence.en, sentence.vocabulary ?? [])}></p>
+                  {sentence.vocabulary && sentence.vocabulary.length > 0 && (
+                    <div class="translation-inline-popover" data-inline-glossary hidden>
+                      <div class="translation-inline-glossary-top">
+                        <div class="translation-inline-glossary-meta">
+                          <span class="translation-inline-glossary-term" data-inline-glossary-term>点击高亮词查看释义</span>
+                          <span class="translation-inline-glossary-kind" data-inline-glossary-kind>词汇提示</span>
+                        </div>
+                        <button type="button" class="translation-inline-close" data-inline-glossary-close aria-label="关闭词汇释义">×</button>
+                      </div>
+                      <p class="translation-inline-glossary-meaning" data-inline-glossary-meaning></p>
+                      <p class="translation-inline-glossary-note" data-inline-glossary-note hidden></p>
+                    </div>
+                  )}
                 </div>
 
                 <div class="translation-sentence-editor">
@@ -132,7 +203,7 @@ const sentenceCount = article.data.sentences.length;
 
                 <div class="translation-sentence-toolbar">
                   <span class="translation-sentence-helper" data-helper-text>先输入译文后再查看参考答案</span>
-                  <button type="button" class="translation-sentence-reveal" data-reveal-btn disabled>查看参考译文</button>
+                  <button type="button" class="translation-sentence-reveal" data-reveal-btn disabled>点击查看参考译文</button>
                 </div>
 
                 <div class="translation-sentence-reference" data-reference-block hidden>
@@ -144,11 +215,11 @@ const sentenceCount = article.data.sentences.length;
 
                   {sentence.vocabulary && sentence.vocabulary.length > 0 && (
                     <div class="translation-sentence-vocabulary">
-                      <div class="translation-sentence-vocabulary-head">
-                        <strong>词汇提示</strong>
-                        <span>可辅助理解生词、短语和熟词僻义</span>
-                      </div>
-                      <div class="translation-sentence-vocabulary-list">
+                      <button type="button" class="translation-sentence-vocabulary-toggle" data-vocab-toggle aria-expanded="false">
+                        <span>查看本句词汇提示</span>
+                        <span class="translation-sentence-vocabulary-toggle-tip">默认折叠，避免和原文点词提示重复</span>
+                      </button>
+                      <div class="translation-sentence-vocabulary-list" data-vocab-list hidden>
                         {sentence.vocabulary.map((item) => (
                           <article class="translation-sentence-vocab-card">
                             <div class="translation-sentence-vocab-top">
@@ -257,6 +328,22 @@ const sentenceCount = article.data.sentences.length;
     .translation-sentence-title { font-size: 1.1rem; margin-top: 8px; }
     .translation-sentence-status { font-size: 0.82rem; color: var(--text-muted); }
     .translation-sentence-original p { margin-top: 10px; font-size: 1rem; line-height: 1.9; color: var(--text-primary); }
+    .translation-sentence-original-text { margin-top: 10px; }
+    .translation-inline-term { border: none; background: rgba(99,102,241,0.1); color: var(--accent); border-radius: 10px; padding: 1px 6px; margin: 0 2px; font: inherit; font-weight: 700; cursor: pointer; transition: background var(--transition), color var(--transition), transform var(--transition); }
+    .translation-inline-term:hover,
+    .translation-inline-term.is-active { background: linear-gradient(135deg, var(--accent), #8b5cf6); color: #fff; transform: translateY(-1px); }
+    .translation-sentence-original { position: relative; }
+    .translation-inline-popover { position: absolute; left: 0; top: calc(100% + 10px); z-index: 8; width: min(420px, calc(100vw - 64px)); border-radius: 18px; padding: 14px 16px; background: rgba(18, 24, 38, 0.96); color: #fff; border: 1px solid rgba(99,102,241,0.25); box-shadow: 0 24px 48px -26px rgba(15, 23, 42, 0.55); display: grid; gap: 8px; backdrop-filter: blur(10px); }
+    .translation-inline-popover::before { content: ""; position: absolute; top: -8px; left: 28px; width: 14px; height: 14px; background: rgba(18, 24, 38, 0.96); border-left: 1px solid rgba(99,102,241,0.25); border-top: 1px solid rgba(99,102,241,0.25); transform: rotate(45deg); }
+    .translation-inline-popover[data-placement="top"]::before { top: auto; bottom: -8px; transform: rotate(225deg); border-left: none; border-top: none; border-right: 1px solid rgba(99,102,241,0.25); border-bottom: 1px solid rgba(99,102,241,0.25); }
+    .translation-inline-glossary-top { display: flex; justify-content: space-between; gap: 12px; align-items: flex-start; }
+    .translation-inline-glossary-meta { display: grid; gap: 6px; min-width: 0; }
+    .translation-inline-glossary-term { font-weight: 700; color: #fff; }
+    .translation-inline-glossary-kind { display: inline-flex; align-items: center; padding: 4px 8px; border-radius: 999px; background: rgba(99,102,241,0.18); color: #dbe4ff; font-size: 0.75rem; font-weight: 700; }
+    .translation-inline-glossary-meaning { color: rgba(255,255,255,0.95); line-height: 1.85; }
+    .translation-inline-glossary-note { color: rgba(255,255,255,0.72); line-height: 1.8; font-size: 0.88rem; }
+    .translation-inline-close { border: none; background: rgba(255,255,255,0.08); color: #fff; width: 28px; height: 28px; border-radius: 999px; font-size: 1rem; line-height: 1; cursor: pointer; flex: none; }
+    .translation-inline-close:hover { background: rgba(255,255,255,0.16); }
     .translation-sentence-input { width: 100%; min-height: 124px; resize: vertical; border-radius: 20px; border: 1px solid var(--border-color); background: var(--bg-secondary); color: var(--text-primary); padding: 16px 18px; font: inherit; line-height: 1.9; outline: none; margin-top: 10px; }
     .translation-sentence-input:focus { border-color: var(--accent); box-shadow: 0 0 0 3px var(--accent-light); }
     .translation-sentence-helper { color: var(--text-muted); font-size: 0.84rem; }
@@ -266,9 +353,9 @@ const sentenceCount = article.data.sentences.length;
     .translation-sentence-reference-tip { color: var(--text-muted); font-size: 0.76rem; }
     .translation-sentence-reference-text { padding: 16px 18px; border-radius: 20px; background: linear-gradient(180deg, rgba(99,102,241,0.07), rgba(99,102,241,0.02)); color: var(--text-primary); line-height: 1.9; }
     .translation-sentence-vocabulary { display: grid; gap: 12px; }
-    .translation-sentence-vocabulary-head { display: flex; justify-content: space-between; gap: 12px; align-items: baseline; flex-wrap: wrap; }
-    .translation-sentence-vocabulary-head strong { font-size: 0.95rem; }
-    .translation-sentence-vocabulary-head span { color: var(--text-muted); font-size: 0.8rem; }
+    .translation-sentence-vocabulary-toggle { display: flex; justify-content: space-between; gap: 12px; align-items: center; width: 100%; border: 1px dashed rgba(99,102,241,0.24); background: rgba(99,102,241,0.04); color: var(--text-primary); border-radius: 16px; padding: 12px 14px; font: inherit; font-weight: 700; cursor: pointer; text-align: left; }
+    .translation-sentence-vocabulary-toggle-tip { color: var(--text-muted); font-size: 0.8rem; font-weight: 500; }
+    .translation-sentence-vocabulary-toggle[aria-expanded="true"] { background: rgba(99,102,241,0.08); border-color: rgba(99,102,241,0.32); }
     .translation-sentence-vocabulary-list { display: grid; gap: 10px; }
     .translation-sentence-vocab-card { border-radius: 18px; padding: 14px 16px; background: var(--bg-secondary); border: 1px solid rgba(99,102,241,0.08); }
     .translation-sentence-vocab-top { display: flex; justify-content: space-between; gap: 12px; align-items: center; flex-wrap: wrap; margin-bottom: 8px; }
@@ -355,6 +442,27 @@ const sentenceCount = article.data.sentences.length;
 
       let saveTimer = 0;
 
+      function closeInlineGlossary(card) {
+        const termButtons = Array.from(card.querySelectorAll('[data-inline-term]'));
+        const glossary = card.querySelector('[data-inline-glossary]');
+        const glossaryTerm = card.querySelector('[data-inline-glossary-term]');
+        const glossaryKind = card.querySelector('[data-inline-glossary-kind]');
+        const glossaryMeaning = card.querySelector('[data-inline-glossary-meaning]');
+        const glossaryNote = card.querySelector('[data-inline-glossary-note]');
+        termButtons.forEach((item) => item.classList.remove('is-active'));
+        if (!glossary || !glossaryTerm || !glossaryKind || !glossaryMeaning || !glossaryNote) return;
+        glossary.hidden = true;
+        glossaryTerm.textContent = '点击高亮词查看释义';
+        glossaryKind.textContent = '词汇提示';
+        glossaryMeaning.textContent = "";
+        glossaryNote.hidden = true;
+        glossaryNote.textContent = "";
+        glossary.style.left = "0px";
+        glossary.style.top = "calc(100% + 10px)";
+        glossary.style.bottom = "auto";
+        glossary.dataset.placement = "bottom";
+      }
+
       function persistState() {
         state.updatedAt = new Date().toISOString();
         const entriesToStore = {};
@@ -386,7 +494,7 @@ const sentenceCount = article.data.sentences.length;
 
         if (revealBtn) {
           revealBtn.disabled = !hasDraft;
-          revealBtn.textContent = revealed ? '收起参考译文' : '查看参考译文';
+          revealBtn.textContent = revealed ? '隐藏参考译文' : '点击查看参考译文';
         }
 
         if (helper) {
@@ -425,6 +533,15 @@ const sentenceCount = article.data.sentences.length;
         const id = card.getAttribute('data-sentence-id') || '';
         const input = card.querySelector('[data-translation-input]');
         const revealBtn = card.querySelector('[data-reveal-btn]');
+        const termButtons = Array.from(card.querySelectorAll('[data-inline-term]'));
+        const glossary = card.querySelector('[data-inline-glossary]');
+        const glossaryCloseBtn = card.querySelector('[data-inline-glossary-close]');
+        const glossaryTerm = card.querySelector('[data-inline-glossary-term]');
+        const glossaryKind = card.querySelector('[data-inline-glossary-kind]');
+        const glossaryMeaning = card.querySelector('[data-inline-glossary-meaning]');
+        const glossaryNote = card.querySelector('[data-inline-glossary-note]');
+        const vocabToggle = card.querySelector('[data-vocab-toggle]');
+        const vocabList = card.querySelector('[data-vocab-list]');
 
         if (!state.entries[id]) {
           state.entries[id] = { draft: '', revealed: false };
@@ -453,6 +570,67 @@ const sentenceCount = article.data.sentences.length;
             scheduleSave();
           });
         }
+
+        termButtons.forEach((button) => {
+          button.addEventListener('click', () => {
+            if (!glossary || !glossaryTerm || !glossaryKind || !glossaryMeaning || !glossaryNote) return;
+            const originalWrap = button.closest('.translation-sentence-original');
+            const isActive = button.classList.contains('is-active');
+            termButtons.forEach((item) => item.classList.remove('is-active'));
+
+            if (isActive) {
+              closeInlineGlossary(card);
+              return;
+            }
+
+            button.classList.add('is-active');
+            glossary.hidden = false;
+            if (originalWrap) {
+              const wrapRect = originalWrap.getBoundingClientRect();
+              const buttonRect = button.getBoundingClientRect();
+              const popoverWidth = Math.min(420, Math.max(260, wrapRect.width - 12));
+              const estimatedHeight = glossary.offsetHeight || 180;
+              const preferLeft = buttonRect.left - wrapRect.left;
+              const maxLeft = Math.max(0, wrapRect.width - popoverWidth);
+              const left = Math.max(0, Math.min(preferLeft, maxLeft));
+              const viewportBottomSpace = window.innerHeight - buttonRect.bottom;
+              const shouldOpenUp = viewportBottomSpace < estimatedHeight + 24;
+              glossary.style.width = popoverWidth + "px";
+              glossary.style.left = left + "px";
+              glossary.style.top = shouldOpenUp ? "auto" : "calc(100% + 10px)";
+              glossary.style.bottom = shouldOpenUp ? "calc(100% + 10px)" : "auto";
+              glossary.dataset.placement = shouldOpenUp ? "top" : "bottom";
+            }
+            glossaryTerm.textContent = button.getAttribute('data-term') || '词汇提示';
+            glossaryKind.textContent = button.getAttribute('data-kind') || '词汇提示';
+            glossaryMeaning.textContent = button.getAttribute('data-meaning') || "";
+            const note = button.getAttribute('data-note') || "";
+            glossaryNote.hidden = !note;
+            glossaryNote.textContent = note;
+          });
+        });
+
+        if (glossaryCloseBtn) {
+          glossaryCloseBtn.addEventListener('click', (event) => {
+            event.stopPropagation();
+            closeInlineGlossary(card);
+          });
+        }
+
+        if (vocabToggle && vocabList) {
+          vocabToggle.addEventListener('click', () => {
+            const expanded = vocabToggle.getAttribute('aria-expanded') === 'true';
+            vocabToggle.setAttribute('aria-expanded', expanded ? 'false' : 'true');
+            vocabList.hidden = expanded;
+          });
+        }
+      });
+
+      document.addEventListener('click', (event) => {
+        cards.forEach((card) => {
+          if (card.contains(event.target)) return;
+          closeInlineGlossary(card);
+        });
       });
 
       updateSummary();

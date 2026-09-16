@@ -4,28 +4,297 @@
   "source": "2012年真题.pdf · Reading Comprehension",
   "author": "2012 English Exam",
   "level": "advanced",
-  "tags": ["2012真题", "Reading Comprehension", "Economy", "Society"],
+  "tags": [
+    "2012真题",
+    "Reading Comprehension",
+    "Economy",
+    "Society"
+  ],
   "estimatedMinutes": 24,
   "heroNote": "这篇文章抽象概念较多，翻译时要稳住逻辑链：经济衰退 → 社会心态 → 阶层与机会 → 社会结构变化。",
   "publishedAt": "2012-01-01",
   "sentences": [
-    {"id":"s1","en":"The great recession may be over, but this era of high joblessness is probably beginning.","zhReference":"大衰退也许已经结束，但高失业率时代很可能才刚刚开始。"},
-    {"id":"s2","en":"Before it ends, it will likely change the life course and character of a generation of young adults.","zhReference":"在这一时期结束之前，它很可能会改变整整一代年轻成年人的人生轨迹与性格特征。"},
-    {"id":"s3","en":"And ultimately, it is likely to reshape our politics, our culture, and the character of our society for years.","zhReference":"归根结底，它还很可能在未来多年里重塑我们的政治、文化以及整个社会的面貌。"},
-    {"id":"s4","en":"No one tries harder than the jobless to find silver linings in this national economic disaster.","zhReference":"在这场全国性的经济灾难中，没有谁比失业者更努力地试图从中寻找一线光亮。","note":"find silver linings 可译为“寻找积极的一面”或“寻找一线希望”。"},
-    {"id":"s5","en":"Many said that unemployment, while extremely painful, had improved them in some ways: they had become less materialistic and more financially prudent; they were more aware of the struggles of others.","zhReference":"许多人说，失业虽然极其痛苦，却也在某些方面让他们变得更好：他们不再那么物质主义，在财务上也更为谨慎；他们也更能体会他人的艰难处境。"},
-    {"id":"s6","en":"In limited respects, perhaps the recession will leave society better off.","zhReference":"从某些有限的层面来看，也许这场衰退最终会让社会变得更好。"},
-    {"id":"s7","en":"At the very least, it has awoken us from our national fever dream of easy riches and bigger houses, and put a necessary end to an era of reckless personal spending.","zhReference":"至少，它让我们从“轻易致富、房子越大越好”的全民狂热迷梦中清醒过来，并为个人无节制消费的时代画上了一个必要的句号。"},
-    {"id":"s8","en":"But for the most part, these benefits seem thin, uncertain, and far off.","zhReference":"但总体而言，这些所谓的好处显得微弱、不确定，而且遥不可及。"},
-    {"id":"s9","en":"In The Moral Consequences of Economic Growth, the economic historian Benjamin Friedman argues that both inside and outside the U.S., lengthy periods of economic stagnation or decline have almost always left society more mean-spirited and less inclusive, and have usually stopped or reversed the advance of rights and freedoms.","zhReference":"经济史学家本杰明·弗里德曼在《经济增长的道德后果》一书中指出，无论在美国国内还是国外，长期的经济停滞或衰退几乎总会让社会变得更刻薄、更缺乏包容性，并且常常会阻滞甚至逆转权利与自由的推进。"},
-    {"id":"s10","en":"Anti-immigrant sentiment typically increases, as does conflict between races and classes.","zhReference":"反移民情绪通常会上升，种族之间和阶级之间的冲突也会随之加剧。"},
-    {"id":"s11","en":"Income inequality usually falls during a recession, but it has not shrunk in this one.","zhReference":"通常情况下，收入不平等会在经济衰退期间有所下降，但这一次却并未缩小。"},
-    {"id":"s12","en":"Indeed, this period of economic weakness may reinforce class divides, and decrease opportunities to cross them—especially for young people.","zhReference":"事实上，这段经济疲弱时期反而可能会强化阶层分化，并减少人们跨越阶层的机会——尤其是对年轻人而言。"},
-    {"id":"s13","en":"The research of Till Von Wachter, the economist at Columbia University, suggests that not all people graduating into a recession see their life chances dimmed: those with degrees from elite universities catch up fairly quickly to where they otherwise would have been if they had graduated in better times; it is the masses beneath them that are left behind.","zhReference":"哥伦比亚大学经济学家蒂尔·冯·瓦赫特的研究表明，并非所有在衰退期毕业的人都会遭遇人生机会的黯淡化：那些毕业于精英大学的人，往往能相当快地追赶回如果在景气时期毕业本应达到的位置；真正被落下的是更广大的普通人群。"},
-    {"id":"s14","en":"In the Internet age, it is particularly easy to see the resentment that has always been hidden within American society.","zhReference":"在互联网时代，人们尤其容易看到一直潜藏在美国社会内部的那种怨愤情绪。"},
-    {"id":"s15","en":"More difficult, in the moment, is discerning precisely how these lean times are affecting society's character.","zhReference":"而更难的是，在当下这个时刻，准确辨认出这段艰难岁月究竟正在如何改变社会的性格。"},
-    {"id":"s16","en":"In many respects, the U.S. was more socially tolerant entering this recession than at any time in its history, and a variety of national polls on social conflict since then have shown mixed results.","zhReference":"从许多方面看，美国在进入这场衰退时，社会容忍度比其历史上任何时期都更高；而此后关于社会冲突的各类全国性民调也呈现出复杂不一的结果。"},
-    {"id":"s17","en":"We will have to wait and see exactly how these hard times will reshape our social fabric.","zhReference":"我们只能等待，看看这些艰难岁月究竟会如何重塑我们的社会肌理。"},
-    {"id":"s18","en":"But they certainly will reshape it, and all the more so the longer they extend.","zhReference":"但它们无疑会重塑它，而且拖得越久，这种重塑就会越深刻。"}
+    {
+      "id": "s1",
+      "en": "The great recession may be over, but this era of high joblessness is probably beginning.",
+      "zhReference": "大衰退也许已经结束，但高失业率时代很可能才刚刚开始。",
+      "vocabulary": [
+        {
+          "term": "recession",
+          "meaning": "经济衰退。",
+          "kind": "生词"
+        },
+        {
+          "term": "joblessness",
+          "meaning": "失业状态，高失业率。",
+          "kind": "生词"
+        }
+      ]
+    },
+    {
+      "id": "s2",
+      "en": "Before it ends, it will likely change the life course and character of a generation of young adults.",
+      "zhReference": "在这一时期结束之前，它很可能会改变整整一代年轻成年人的人生轨迹与性格特征。",
+      "vocabulary": [
+        {
+          "term": "life course",
+          "meaning": "人生轨迹。",
+          "kind": "短语"
+        }
+      ]
+    },
+    {
+      "id": "s3",
+      "en": "And ultimately, it is likely to reshape our politics, our culture, and the character of our society for years.",
+      "zhReference": "归根结底，它还很可能在未来多年里重塑我们的政治、文化以及整个社会的面貌。",
+      "vocabulary": [
+        {
+          "term": "reshape",
+          "meaning": "重塑。",
+          "kind": "生词"
+        }
+      ]
+    },
+    {
+      "id": "s4",
+      "en": "No one tries harder than the jobless to find silver linings in this national economic disaster.",
+      "zhReference": "在这场全国性的经济灾难中，没有谁比失业者更努力地试图从中寻找一线光亮。",
+      "note": "find silver linings 可译为“寻找积极的一面”或“寻找一线希望”。",
+      "vocabulary": [
+        {
+          "term": "silver lining",
+          "meaning": "困境中的一线希望。",
+          "kind": "熟词僻义"
+        }
+      ]
+    },
+    {
+      "id": "s5",
+      "en": "Many said that unemployment, while extremely painful, had improved them in some ways: they had become less materialistic and more financially prudent; they were more aware of the struggles of others.",
+      "zhReference": "许多人说，失业虽然极其痛苦，却也在某些方面让他们变得更好：他们不再那么物质主义，在财务上也更为谨慎；他们也更能体会他人的艰难处境。",
+      "vocabulary": [
+        {
+          "term": "materialistic",
+          "meaning": "物质主义的。",
+          "kind": "生词"
+        },
+        {
+          "term": "prudent",
+          "meaning": "谨慎的，审慎的。",
+          "kind": "生词"
+        }
+      ]
+    },
+    {
+      "id": "s6",
+      "en": "In limited respects, perhaps the recession will leave society better off.",
+      "zhReference": "从某些有限的层面来看，也许这场衰退最终会让社会变得更好。",
+      "vocabulary": [
+        {
+          "term": "in limited respects",
+          "meaning": "在有限的几个方面。",
+          "kind": "短语"
+        },
+        {
+          "term": "better off",
+          "meaning": "境况更好。",
+          "kind": "短语"
+        }
+      ]
+    },
+    {
+      "id": "s7",
+      "en": "At the very least, it has awoken us from our national fever dream of easy riches and bigger houses, and put a necessary end to an era of reckless personal spending.",
+      "zhReference": "至少，它让我们从“轻易致富、房子越大越好”的全民狂热迷梦中清醒过来，并为个人无节制消费的时代画上了一个必要的句号。",
+      "vocabulary": [
+        {
+          "term": "fever dream",
+          "meaning": "狂热而不切实际的幻想。",
+          "kind": "熟词僻义"
+        },
+        {
+          "term": "reckless",
+          "meaning": "鲁莽的、不计后果的。",
+          "kind": "生词"
+        }
+      ]
+    },
+    {
+      "id": "s8",
+      "en": "But for the most part, these benefits seem thin, uncertain, and far off.",
+      "zhReference": "但总体而言，这些所谓的好处显得微弱、不确定，而且遥不可及。",
+      "vocabulary": [
+        {
+          "term": "far off",
+          "meaning": "遥远的、短期内看不到的。",
+          "kind": "短语"
+        }
+      ]
+    },
+    {
+      "id": "s9",
+      "en": "In The Moral Consequences of Economic Growth, the economic historian Benjamin Friedman argues that both inside and outside the U.S., lengthy periods of economic stagnation or decline have almost always left society more mean-spirited and less inclusive, and have usually stopped or reversed the advance of rights and freedoms.",
+      "zhReference": "经济史学家本杰明·弗里德曼在《经济增长的道德后果》一书中指出，无论在美国国内还是国外，长期的经济停滞或衰退几乎总会让社会变得更刻薄、更缺乏包容性，并且常常会阻滞甚至逆转权利与自由的推进。",
+      "vocabulary": [
+        {
+          "term": "stagnation",
+          "meaning": "停滞。",
+          "kind": "生词"
+        },
+        {
+          "term": "mean-spirited",
+          "meaning": "刻薄的、小气的。",
+          "kind": "生词"
+        },
+        {
+          "term": "inclusive",
+          "meaning": "包容的。",
+          "kind": "生词"
+        }
+      ]
+    },
+    {
+      "id": "s10",
+      "en": "Anti-immigrant sentiment typically increases, as does conflict between races and classes.",
+      "zhReference": "反移民情绪通常会上升，种族之间和阶级之间的冲突也会随之加剧。",
+      "vocabulary": [
+        {
+          "term": "anti-immigrant sentiment",
+          "meaning": "反移民情绪。",
+          "kind": "短语"
+        }
+      ]
+    },
+    {
+      "id": "s11",
+      "en": "Income inequality usually falls during a recession, but it has not shrunk in this one.",
+      "zhReference": "通常情况下，收入不平等会在经济衰退期间有所下降，但这一次却并未缩小。",
+      "vocabulary": [
+        {
+          "term": "income inequality",
+          "meaning": "收入不平等。",
+          "kind": "短语"
+        },
+        {
+          "term": "shrink",
+          "meaning": "缩小、减少。",
+          "kind": "熟词僻义"
+        }
+      ]
+    },
+    {
+      "id": "s12",
+      "en": "Indeed, this period of economic weakness may reinforce class divides, and decrease opportunities to cross them—especially for young people.",
+      "zhReference": "事实上，这段经济疲弱时期反而可能会强化阶层分化，并减少人们跨越阶层的机会——尤其是对年轻人而言。",
+      "vocabulary": [
+        {
+          "term": "reinforce",
+          "meaning": "强化、加剧。",
+          "kind": "熟词僻义"
+        },
+        {
+          "term": "class divides",
+          "meaning": "阶层分化。",
+          "kind": "短语"
+        }
+      ]
+    },
+    {
+      "id": "s13",
+      "en": "The research of Till Von Wachter, the economist at Columbia University, suggests that not all people graduating into a recession see their life chances dimmed: those with degrees from elite universities catch up fairly quickly to where they otherwise would have been if they had graduated in better times; it is the masses beneath them that are left behind.",
+      "zhReference": "哥伦比亚大学经济学家蒂尔·冯·瓦赫特的研究表明，并非所有在衰退期毕业的人都会遭遇人生机会的黯淡化：那些毕业于精英大学的人，往往能相当快地追赶回如果在景气时期毕业本应达到的位置；真正被落下的是更广大的普通人群。",
+      "vocabulary": [
+        {
+          "term": "life chances",
+          "meaning": "人生机会、发展机会。",
+          "kind": "短语"
+        },
+        {
+          "term": "dim",
+          "meaning": "使暗淡；这里指“使前景变差”。",
+          "kind": "熟词僻义"
+        },
+        {
+          "term": "catch up",
+          "meaning": "赶上、追平。",
+          "kind": "短语"
+        }
+      ]
+    },
+    {
+      "id": "s14",
+      "en": "In the Internet age, it is particularly easy to see the resentment that has always been hidden within American society.",
+      "zhReference": "在互联网时代，人们尤其容易看到一直潜藏在美国社会内部的那种怨愤情绪。",
+      "vocabulary": [
+        {
+          "term": "resentment",
+          "meaning": "怨愤、不满。",
+          "kind": "生词"
+        }
+      ]
+    },
+    {
+      "id": "s15",
+      "en": "More difficult, in the moment, is discerning precisely how these lean times are affecting society's character.",
+      "zhReference": "而更难的是，在当下这个时刻，准确辨认出这段艰难岁月究竟正在如何改变社会的性格。",
+      "vocabulary": [
+        {
+          "term": "discern",
+          "meaning": "辨认、识别。",
+          "kind": "生词"
+        },
+        {
+          "term": "lean times",
+          "meaning": "艰难时期、萧条时期。",
+          "kind": "短语"
+        }
+      ]
+    },
+    {
+      "id": "s16",
+      "en": "In many respects, the U.S. was more socially tolerant entering this recession than at any time in its history, and a variety of national polls on social conflict since then have shown mixed results.",
+      "zhReference": "从许多方面看，美国在进入这场衰退时，社会容忍度比其历史上任何时期都更高；而此后关于社会冲突的各类全国性民调也呈现出复杂不一的结果。",
+      "vocabulary": [
+        {
+          "term": "socially tolerant",
+          "meaning": "社会上更包容的。",
+          "kind": "短语"
+        },
+        {
+          "term": "poll",
+          "meaning": "民意调查。",
+          "kind": "熟词僻义"
+        },
+        {
+          "term": "mixed results",
+          "meaning": "好坏参半、结果不一致。",
+          "kind": "短语"
+        }
+      ]
+    },
+    {
+      "id": "s17",
+      "en": "We will have to wait and see exactly how these hard times will reshape our social fabric.",
+      "zhReference": "我们只能等待，看看这些艰难岁月究竟会如何重塑我们的社会肌理。",
+      "vocabulary": [
+        {
+          "term": "social fabric",
+          "meaning": "社会结构、社会肌理。",
+          "kind": "短语"
+        }
+      ]
+    },
+    {
+      "id": "s18",
+      "en": "But they certainly will reshape it, and all the more so the longer they extend.",
+      "zhReference": "但它们无疑会重塑它，而且拖得越久，这种重塑就会越深刻。",
+      "vocabulary": [
+        {
+          "term": "all the more so",
+          "meaning": "更加如此。",
+          "kind": "短语"
+        }
+      ]
+    }
   ]
 }

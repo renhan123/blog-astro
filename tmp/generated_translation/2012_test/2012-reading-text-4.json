@@ -1,0 +1,107 @@
+{
+  "title": "2012 真题 Text 4",
+  "description": "来自 2012 年英语真题 Reading Comprehension 的 Text 4，由导入脚本自动提取并切句。",
+  "source": "2012年真题.pdf · Reading Comprehension",
+  "author": "2012 English Exam",
+  "level": "intermediate",
+  "tags": [
+    "2012真题",
+    "Reading Comprehension",
+    "Auto Import"
+  ],
+  "estimatedMinutes": 24,
+  "heroNote": "该篇为 PDF OCR 自动提取结果，建议导入后快速校对专有名词和个别 OCR 误差。",
+  "publishedAt": "2012-01-01",
+  "sentences": [
+    {
+      "id": "s1",
+      "en": "The great recession may be over, but this era of high joblessness is probably beginning.",
+      "zhReference": "待补充参考译文"
+    },
+    {
+      "id": "s2",
+      "en": "Before it ends, it will likely change the life course and character of a generation of young adults.",
+      "zhReference": "待补充参考译文"
+    },
+    {
+      "id": "s3",
+      "en": "And ultimately, it is likely to reshape our politics, our culture, and the character of our society for years.",
+      "zhReference": "待补充参考译文"
+    },
+    {
+      "id": "s4",
+      "en": "No one tries harder than the jobless to find silver linings in this national economic disaster.",
+      "zhReference": "待补充参考译文"
+    },
+    {
+      "id": "s5",
+      "en": "Many said that unemployment, while extremely painful, had improved them in some ways: they had become less materialistic and more financially prudent; they were more aware of the struggles of others.",
+      "zhReference": "待补充参考译文"
+    },
+    {
+      "id": "s6",
+      "en": "In limited respects, perhaps the recession will leave society better off.",
+      "zhReference": "待补充参考译文"
+    },
+    {
+      "id": "s7",
+      "en": "At the very least, it has awoken us from our national fever dream of easy riches and bigger houses, and put a necessary end to an era of reckless personal spending.",
+      "zhReference": "待补充参考译文"
+    },
+    {
+      "id": "s8",
+      "en": "But for the most part, these benefits seem thin, uncertain, and far off.",
+      "zhReference": "待补充参考译文"
+    },
+    {
+      "id": "s9",
+      "en": "In The Moral Consequences of Economic Growth, the economic historian Benjamin Friedman argues that both inside and outside the U.S., lengthy periods of economic stagnation or decline have almost always left society more mean-spirited and less inclusive, and have usually stopped or reversed the advance of rights and freedoms.",
+      "zhReference": "待补充参考译文"
+    },
+    {
+      "id": "s10",
+      "en": "Anti-immigrant sentiment typically increases, as does conflict between races and classes.",
+      "zhReference": "待补充参考译文"
+    },
+    {
+      "id": "s11",
+      "en": "Income inequality usually falls during a recession, but it has not shrunk in this one.",
+      "zhReference": "待补充参考译文"
+    },
+    {
+      "id": "s12",
+      "en": "Indeed, this period of economic weakness may reinforce class divides, and decrease opportunities to cross them—especially for young people.",
+      "zhReference": "待补充参考译文"
+    },
+    {
+      "id": "s13",
+      "en": "The research of Till Von Wachter, the economist at Columbia University, suggests that not all people graduating into a recession see their life chances dimmed: those with degrees from elite universities catch up fairly quickly to where they otherwise would have been if they had graduated in better times; it is the masses beneath them that are left behind.",
+      "zhReference": "待补充参考译文"
+    },
+    {
+      "id": "s14",
+      "en": "In the Internet age, it is particularly easy to see the resentment that has always been hidden within American society.",
+      "zhReference": "待补充参考译文"
+    },
+    {
+      "id": "s15",
+      "en": "More difficult, in the moment, is discerning precisely how these lean times are affecting society's character.",
+      "zhReference": "待补充参考译文"
+    },
+    {
+      "id": "s16",
+      "en": "In many respects, the U.S. was more socially tolerant entering this recession than at any time in its history, and a variety of national polls on social conflict since then have shown mixed results.",
+      "zhReference": "待补充参考译文"
+    },
+    {
+      "id": "s17",
+      "en": "We will have to wait and see exactly how these hard times will reshape our social fabric.",
+      "zhReference": "待补充参考译文"
+    },
+    {
+      "id": "s18",
+      "en": "But they certainly will reshape it, and all the more so the longer they extend.",
+      "zhReference": "待补充参考译文"
+    }
+  ]
+}

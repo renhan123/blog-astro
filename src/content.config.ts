@@ -36,6 +36,14 @@ const translation = defineCollection({
         en: z.string(),
         zhReference: z.string(),
         note: z.string().optional(),
+        vocabulary: z.array(
+          z.object({
+            term: z.string(),
+            meaning: z.string(),
+            kind: z.enum(['生词', '熟词僻义', '短语']).default('生词'),
+            note: z.string().optional(),
+          })
+        ).default([]),
       })
     ).min(1),
   }),

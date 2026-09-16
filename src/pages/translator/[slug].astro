@@ -141,6 +141,28 @@ const sentenceCount = article.data.sentences.length;
                     <span class="translation-sentence-reference-tip">建议对照措辞与信息完整度，而不是逐字模仿。</span>
                   </div>
                   <p class="translation-sentence-reference-text">{sentence.zhReference}</p>
+
+                  {sentence.vocabulary && sentence.vocabulary.length > 0 && (
+                    <div class="translation-sentence-vocabulary">
+                      <div class="translation-sentence-vocabulary-head">
+                        <strong>词汇提示</strong>
+                        <span>可辅助理解生词、短语和熟词僻义</span>
+                      </div>
+                      <div class="translation-sentence-vocabulary-list">
+                        {sentence.vocabulary.map((item) => (
+                          <article class="translation-sentence-vocab-card">
+                            <div class="translation-sentence-vocab-top">
+                              <span class="translation-sentence-vocab-term">{item.term}</span>
+                              <span class="translation-sentence-vocab-kind">{item.kind}</span>
+                            </div>
+                            <p class="translation-sentence-vocab-meaning">{item.meaning}</p>
+                            {item.note && <p class="translation-sentence-vocab-note">{item.note}</p>}
+                          </article>
+                        ))}
+                      </div>
+                    </div>
+                  )}
+
                   {sentence.note && (
                     <div class="translation-sentence-note">
                       <strong>译法提示</strong>
@@ -243,6 +265,17 @@ const sentenceCount = article.data.sentences.length;
     .translation-sentence-reference { border-top: 1px solid var(--border-color); padding-top: 18px; display: grid; gap: 14px; animation: translationReferenceFade 0.22s ease; }
     .translation-sentence-reference-tip { color: var(--text-muted); font-size: 0.76rem; }
     .translation-sentence-reference-text { padding: 16px 18px; border-radius: 20px; background: linear-gradient(180deg, rgba(99,102,241,0.07), rgba(99,102,241,0.02)); color: var(--text-primary); line-height: 1.9; }
+    .translation-sentence-vocabulary { display: grid; gap: 12px; }
+    .translation-sentence-vocabulary-head { display: flex; justify-content: space-between; gap: 12px; align-items: baseline; flex-wrap: wrap; }
+    .translation-sentence-vocabulary-head strong { font-size: 0.95rem; }
+    .translation-sentence-vocabulary-head span { color: var(--text-muted); font-size: 0.8rem; }
+    .translation-sentence-vocabulary-list { display: grid; gap: 10px; }
+    .translation-sentence-vocab-card { border-radius: 18px; padding: 14px 16px; background: var(--bg-secondary); border: 1px solid rgba(99,102,241,0.08); }
+    .translation-sentence-vocab-top { display: flex; justify-content: space-between; gap: 12px; align-items: center; flex-wrap: wrap; margin-bottom: 8px; }
+    .translation-sentence-vocab-term { font-weight: 700; color: var(--text-primary); }
+    .translation-sentence-vocab-kind { display: inline-flex; align-items: center; padding: 4px 8px; border-radius: 999px; background: rgba(99,102,241,0.1); color: var(--accent); font-size: 0.76rem; font-weight: 700; }
+    .translation-sentence-vocab-meaning { color: var(--text-primary); line-height: 1.8; }
+    .translation-sentence-vocab-note { margin-top: 6px; color: var(--text-secondary); line-height: 1.75; font-size: 0.88rem; }
     .translation-sentence-note { border-radius: 18px; border: 1px dashed rgba(99,102,241,0.24); padding: 14px 16px; }
     .translation-sentence-note strong { display: block; margin-bottom: 8px; }
     .translation-sentence-note p,

@@ -1,0 +1,132 @@
+{
+  "title": "2012 真题 Text 3",
+  "description": "来自 2012 年英语真题 Reading Comprehension 的 Text 3，由导入脚本自动提取并切句。",
+  "source": "2012年真题.pdf · Reading Comprehension",
+  "author": "2012 English Exam",
+  "level": "intermediate",
+  "tags": [
+    "2012真题",
+    "Reading Comprehension",
+    "Auto Import"
+  ],
+  "estimatedMinutes": 29,
+  "heroNote": "该篇为 PDF OCR 自动提取结果，建议导入后快速校对专有名词和个别 OCR 误差。",
+  "publishedAt": "2012-01-01",
+  "sentences": [
+    {
+      "id": "s1",
+      "en": "In 2010, a federal judge shook America's biotech industry to its core.",
+      "zhReference": "待补充参考译文"
+    },
+    {
+      "id": "s2",
+      "en": "Companies nad won patents for isolated DNA for decades—by 2005 some 20% of human genes were patented.",
+      "zhReference": "待补充参考译文"
+    },
+    {
+      "id": "s3",
+      "en": "But in March 2010 a judge ruled that genes were unpatentable.",
+      "zhReference": "待补充参考译文"
+    },
+    {
+      "id": "s4",
+      "en": "Executives were violently agitated.",
+      "zhReference": "待补充参考译文"
+    },
+    {
+      "id": "s5",
+      "en": "The Biotechnology Industry Organisation (BIO), a rade group, assured members that this was just a \"preliminary step\" in a longer battle.",
+      "zhReference": "待补充参考译文"
+    },
+    {
+      "id": "s6",
+      "en": "On July 29th they were relieved, at least temporarily.",
+      "zhReference": "待补充参考译文"
+    },
+    {
+      "id": "s7",
+      "en": "A federal appeals court »vertumed the prior decision, ruling that Myriad Genetics could indeed hold patents to wo genes that help forecast a woman's risk of breast cancer.",
+      "zhReference": "待补充参考译文"
+    },
+    {
+      "id": "s8",
+      "en": "The chief executive of Myriad, a company in Utah, said the ruling was a blessing to firms and patients alike.",
+      "zhReference": "待补充参考译文"
+    },
+    {
+      "id": "s9",
+      "en": "But as companies continue their attempts at personalised medicine, the courts will emain rather busy.",
+      "zhReference": "待补充参考译文"
+    },
+    {
+      "id": "s10",
+      "en": "The Myriad case itself is probably not over.",
+      "zhReference": "待补充参考译文"
+    },
+    {
+      "id": "s11",
+      "en": "Critics make three main irguments against gene patents: a gene is a product of nature, so it may not be patented; yene patents suppress innovation rather than reward it; and patents' monopolies restrict iccess to genetic tests such as Myriad's.",
+      "zhReference": "待补充参考译文"
+    },
+    {
+      "id": "s12",
+      "en": "A growing number seem to agree.",
+      "zhReference": "待补充参考译文"
+    },
+    {
+      "id": "s13",
+      "en": "Last year a ederal task-force urged reform for patents related to genetic tests.",
+      "zhReference": "待补充参考译文"
+    },
+    {
+      "id": "s14",
+      "en": "In October the Department of Justice filed a brief in the Myriad case, arguing that an isolated DNA nolecule \"is no less a product of nature...than are cotton fibres that have been separated rom cotton seeds.\" Despite the appeals court's decision, big questions remain unanswered.",
+      "zhReference": "待补充参考译文"
+    },
+    {
+      "id": "s15",
+      "en": "For xample, it is unclear whether the sequencing of a whole genome violates the patents of ndividual genes within it.",
+      "zhReference": "待补充参考译文"
+    },
+    {
+      "id": "s16",
+      "en": "The case may yet reach the Supreme Court.",
+      "zhReference": "待补充参考译文"
+    },
+    {
+      "id": "s17",
+      "en": "As the industry advances, however, other suits may have an even greater impact.",
+      "zhReference": "待补充参考译文"
+    },
+    {
+      "id": "s18",
+      "en": "Sompanies are unlikely to file many more patents for human DNA molecules—most are ilready patented or in the public domain.",
+      "zhReference": "待补充参考译文"
+    },
+    {
+      "id": "s19",
+      "en": "Firms are now studying how genes interact, ooking for correlations that might be used to determine the causes of disease or predict 1 drug's efficacy.",
+      "zhReference": "待补充参考译文"
+    },
+    {
+      "id": "s20",
+      "en": "Companies are eager to win patents for \"connecting the dots,\" xplains Hans Sauer, a lawyer for the BIO.",
+      "zhReference": "待补充参考译文"
+    },
+    {
+      "id": "s21",
+      "en": "Their success may be determined by a suit related to this issue, brought by the Mayo Clinic, which the Supreme Court will hear in its next term.",
+      "zhReference": "待补充参考译文"
+    },
+    {
+      "id": "s22",
+      "en": "The BIO recently held ‘convention which included sessions to coach lawyers on the shifting landscape for atents.",
+      "zhReference": "待补充参考译文"
+    },
+    {
+      "id": "s23",
+      "en": "Each meeting was packed. _ It can be learned from Paragraph | that the biotech companies would like __—_-",
+      "zhReference": "待补充参考译文"
+    }
+  ]
+}

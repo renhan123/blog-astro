@@ -1,0 +1,31 @@
+{
+  "title": "2012 真题 Text 2 · Pretty in Pink",
+  "description": "来自 2012 年英语真题 Reading Comprehension 的第二篇阅读，讨论粉色偏好如何被儿童营销塑造。",
+  "source": "2012年真题.pdf · Reading Comprehension",
+  "author": "2012 English Exam",
+  "level": "intermediate",
+  "tags": ["2012真题", "Reading Comprehension", "Marketing", "Gender"],
+  "estimatedMinutes": 24,
+  "heroNote": "这篇文章里有很多“表面在描述、实则在批评”的句子，翻译时注意作者态度不要丢。",
+  "publishedAt": "2012-01-01",
+  "sentences": [
+    {"id":"s1","en":"Pretty in pink: adult women do not remember being so obsessed with the colour, yet it is pervasive in our young girls' lives.","zhReference":"“粉色最美”：成年女性并不记得自己小时候曾如此迷恋这种颜色，但它如今却无处不在地渗透进小女孩的生活。"},
+    {"id":"s2","en":"It is not that pink is intrinsically bad, but it is such a tiny slice of the rainbow and, though it may celebrate girlhood in one way, it also repeatedly and firmly fuses girls' identity to appearance.","zhReference":"问题并不在于粉色天生就不好，而在于它不过是彩虹中极其狭窄的一小块；尽管它在某种程度上似乎是在赞美女孩气质，但它也在反复而强烈地把女孩的身份与外表绑定在一起。","note":"fuse girls' identity to appearance 可译为“把女孩身份与外貌牢牢捆绑起来”。"},
+    {"id":"s3","en":"Then it presents that connection, even among two-year-olds, between girls as not only innocent but as evidence of innocence.","zhReference":"随后，这种联系甚至在两岁女孩身上也被呈现出来：女孩不仅被看作天真无邪，而且仿佛本身就是“纯真”的证明。"},
+    {"id":"s4","en":"Looking around, I despaired at the singular lack of imagination about girls' lives and interests.","zhReference":"放眼四周，我对人们在女孩生活和兴趣方面那种单一、贫乏的想象感到失望。"},
+    {"id":"s5","en":"Girls' attraction to pink may seem unavoidable, somehow encoded in their DNA, but according to Jo Paoletti, an associate professor of American Studies, it is not.","zhReference":"女孩对粉色的偏爱似乎显得不可避免，仿佛是被写进了她们的 DNA；但美国研究副教授乔·保莱蒂指出，事实并非如此。"},
+    {"id":"s6","en":"Children were not colour-coded at all until the early 20th century: in the era before domestic washing machines all babies wore white as a practical matter, since the only way of getting clothes clean was to boil them.","zhReference":"直到 20 世纪初，儿童才开始被赋予颜色标签：在家用洗衣机出现之前，所有婴儿都出于实用考虑穿白色衣服，因为想把衣物洗干净，唯一的办法就是煮洗。"},
+    {"id":"s7","en":"What's more, both boys and girls wore what were thought of as gender-neutral dresses.","zhReference":"更何况，当时无论男孩还是女孩，穿的都是被视为不分性别的婴儿长袍。"},
+    {"id":"s8","en":"When nursery colours were introduced, pink was actually considered the more masculine colour, a pastel version of red, which was associated with strength.","zhReference":"当婴幼儿服饰开始引入颜色区分时，粉色实际上被视为更具男性气质的颜色，因为它是红色的浅色版本，而红色通常与力量相关。"},
+    {"id":"s9","en":"Blue, with its intimations of the Virgin Mary, constancy and faithfulness, symbolised femininity.","zhReference":"而蓝色则因让人联想到圣母玛利亚、坚定与忠贞，反而象征着女性气质。"},
+    {"id":"s10","en":"It was not until the mid-1980s, when amplifying age and sex differences became a dominant children's marketing strategy, that pink fully came into its own, when it began to seem inherently attractive to girls, part of what defined them as female, at least for the first few critical years.","zhReference":"直到 20 世纪 80 年代中期，当放大年龄差异与性别差异成为儿童营销的主导策略时，粉色才真正确立了今天的地位——它开始显得天然地吸引女孩，并在她们成长最关键的最初几年里，成为“定义女性身份”的一部分。"},
+    {"id":"s11","en":"I had not realised how profoundly marketing trends dictated our perception of what is natural to kids, including our core beliefs about their psychological development.","zhReference":"我此前并未意识到，营销趋势竟如此深刻地左右了我们对于“什么才是孩子的天性”的理解，甚至左右了我们关于儿童心理发展的核心信念。"},
+    {"id":"s12","en":"Take the toddler.","zhReference":"就拿“学步儿”这个概念来说吧。"},
+    {"id":"s13","en":"I assumed that phase was something experts developed after years of research into children's behaviour: wrong.","zhReference":"我原以为，这一成长阶段是专家多年研究儿童行为后提出的概念——其实并不是。"},
+    {"id":"s14","en":"Turns out, according to Daniel Cook, a historian of childhood consumerism, it was popularised as a marketing trick by clothing manufacturers in the 1930s.","zhReference":"事实证明，儿童消费史学者丹尼尔·库克指出，这一概念是在 20 世纪 30 年代被服装制造商作为一种营销手段推广开来的。"},
+    {"id":"s15","en":"Trade publications counselled department stores that, in order to increase sales, they should create a \"third stepping stone\" between infant wear and older kids' clothes.","zhReference":"行业刊物曾建议百货商店，为了提高销售额，应在婴儿装和大龄儿童服装之间打造“第三块踏脚石”。"},
+    {"id":"s16","en":"It was only after \"toddler\" became a common shoppers' term that it evolved into a broadly accepted developmental stage.","zhReference":"正是在 “toddler（学步儿）” 成为购物者常用词之后，它才逐渐演变成一个被广泛接受的发展阶段概念。"},
+    {"id":"s17","en":"Splitting kids, or adults, into ever-tinier categories has proved a sure-fire way to boost profits.","zhReference":"无论是把孩子还是成人划分成越来越细的小类别，事实都证明这是一条提高利润的万无一失之路。"},
+    {"id":"s18","en":"And one of the easiest ways to segment a market is to magnify gender differences—or invent them where they did not previously exist.","zhReference":"而细分市场最容易的办法之一，就是夸大性别差异——甚至在原本并不存在差异的地方凭空制造出差异。"}
+  ]
+}

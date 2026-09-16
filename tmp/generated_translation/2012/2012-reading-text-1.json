@@ -1,0 +1,117 @@
+{
+  "title": "2012 真题 Text 1",
+  "description": "来自 2012 年英语真题 Reading Comprehension 的 Text 1，由导入脚本自动提取并切句。",
+  "source": "2012年真题.pdf · Reading Comprehension",
+  "author": "2012 English Exam",
+  "level": "intermediate",
+  "tags": [
+    "2012真题",
+    "Reading Comprehension",
+    "Auto Import"
+  ],
+  "estimatedMinutes": 26,
+  "heroNote": "该篇为 PDF OCR 自动提取结果，建议导入后快速校对专有名词和个别 OCR 误差。",
+  "publishedAt": "2012-01-01",
+  "sentences": [
+    {
+      "id": "s1",
+      "en": "Homework has never been terribly popular with students and even many parents, put in recent years it has been particularly scorned.",
+      "zhReference": "待补充参考译文"
+    },
+    {
+      "id": "s2",
+      "en": "School districts across the country, nost recently Los Angeles Unified, are revising their thinking on this educational ritual.",
+      "zhReference": "待补充参考译文"
+    },
+    {
+      "id": "s3",
+      "en": "Unfortunately, L. A.",
+      "zhReference": "待补充参考译文"
+    },
+    {
+      "id": "s4",
+      "en": "Unified has produced an inflexible policy which mandates that with he exception of some advanced courses, homework may no longer count for more than 10% of a student's academic grade.",
+      "zhReference": "待补充参考译文"
+    },
+    {
+      "id": "s5",
+      "en": "This rule is meant to address the difficulty that students from impoverished or chaotic homes might have in completing their homework.",
+      "zhReference": "待补充参考译文"
+    },
+    {
+      "id": "s6",
+      "en": "But the policy is unclear and -ontradictory.",
+      "zhReference": "待补充参考译文"
+    },
+    {
+      "id": "s7",
+      "en": "Certainly, no homework should be assigned that students cannot complete on their own or that they cannot do without expensive equipment.",
+      "zhReference": "待补充参考译文"
+    },
+    {
+      "id": "s8",
+      "en": "But if the district is sssentially giving a pass to students who do not do their homework because of -omplicated family lives, it is going riskily close to the implication that standards need 0 be lowered for poor children.",
+      "zhReference": "待补充参考译文"
+    },
+    {
+      "id": "s9",
+      "en": "District administrators say that homework will still be a part of schooling; teachers are allowed to assign as much of it as they want.",
+      "zhReference": "待补充参考译文"
+    },
+    {
+      "id": "s10",
+      "en": "But with homework counting for no nore than 10% of their grades, students can easily skip half their homework and see very little difference on their report cards.",
+      "zhReference": "待补充参考译文"
+    },
+    {
+      "id": "s11",
+      "en": "Some students might do well on state tests without completing their homework, but what about the students who performed well on he tests and did their homework?",
+      "zhReference": "待补充参考译文"
+    },
+    {
+      "id": "s12",
+      "en": "It is quite possible that the homework helped.",
+      "zhReference": "待补充参考译文"
+    },
+    {
+      "id": "s13",
+      "en": "Yet ather than empowering teachers to find what works best for their students, the policy mposes a flat, across-the-board rule.",
+      "zhReference": "待补充参考译文"
+    },
+    {
+      "id": "s14",
+      "en": "At the same time, the policy addresses none of the truly thorny questions about 1omework.",
+      "zhReference": "待补充参考译文"
+    },
+    {
+      "id": "s15",
+      "en": "If the district finds homework to be unimportant to its students' academic ichievement, it should move to reduce or eliminate the assignments, not make them count for almost nothing.",
+      "zhReference": "待补充参考译文"
+    },
+    {
+      "id": "s16",
+      "en": "Conversely, if homework matters, it should account for a significant portion of the grade.",
+      "zhReference": "待补充参考译文"
+    },
+    {
+      "id": "s17",
+      "en": "Meanwhile, this policy does nothing to ensure that the 1omework students receive is meaningful or appropriate to their age and the subject, or hat teachers are not assigning more than they are willing to review and correct.",
+      "zhReference": "待补充参考译文"
+    },
+    {
+      "id": "s18",
+      "en": "The homework rules should be put on hold while the school board, which is esponsible for setting educational policy, looks into the matter and conducts public 1earings.",
+      "zhReference": "待补充参考译文"
+    },
+    {
+      "id": "s19",
+      "en": "It is not too late for L. A.",
+      "zhReference": "待补充参考译文"
+    },
+    {
+      "id": "s20",
+      "en": "Unified to do homework right.",
+      "zhReference": "待补充参考译文"
+    }
+  ]
+}

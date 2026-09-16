@@ -1,0 +1,31 @@
+{
+  "title": "2012 真题 Text 1 · Homework and Grading",
+  "description": "来自 2012 年英语真题 Reading Comprehension 的第一篇阅读，主题围绕家庭作业政策与成绩权重。",
+  "source": "2012年真题.pdf · Reading Comprehension",
+  "author": "2012 English Exam",
+  "level": "intermediate",
+  "tags": ["2012真题", "Reading Comprehension", "Education", "Homework"],
+  "estimatedMinutes": 22,
+  "heroNote": "这篇文章的论证结构很清楚，翻译时重点抓转折与立场：例如 But、Yet、At the same time、Conversely。",
+  "publishedAt": "2012-01-01",
+  "sentences": [
+    {"id":"s1","en":"Homework has never been terribly popular with students and even many parents, but in recent years it has been particularly scorned.","zhReference":"家庭作业从来都谈不上受到学生、甚至许多家长的欢迎，但近些年来，它尤其受到了责难。"},
+    {"id":"s2","en":"School districts across the country, most recently Los Angeles Unified, are revising their thinking on this educational ritual.","zhReference":"全美各地的学区都在重新思考这一教育惯例，最近这样做的就包括洛杉矶联合学区。"},
+    {"id":"s3","en":"Unfortunately, L.A. Unified has produced an inflexible policy which mandates that, with the exception of some advanced courses, homework may no longer count for more than 10% of a student's academic grade.","zhReference":"遗憾的是，洛杉矶联合学区推出了一项僵化的政策，规定除少数高级课程外，家庭作业在学生学业成绩中的占比不得超过 10%。","note":"count for more than 10% 可译为“占比超过 10%”或“计入成绩的比例超过 10%”。"},
+    {"id":"s4","en":"This rule is meant to address the difficulty that students from impoverished or chaotic homes might have in completing their homework.","zhReference":"这一规定旨在回应那些来自贫困或家庭环境混乱的学生在完成作业时可能遇到的困难。"},
+    {"id":"s5","en":"But the policy is unclear and contradictory.","zhReference":"但这项政策本身却含糊不清，而且前后矛盾。"},
+    {"id":"s6","en":"Certainly, no homework should be assigned that students cannot complete on their own or that they cannot do without expensive equipment.","zhReference":"当然，不应布置学生无法独立完成、或必须依赖昂贵设备才能完成的作业。"},
+    {"id":"s7","en":"But if the district is essentially giving a pass to students who do not do their homework because of complicated family lives, it is going riskily close to the implication that standards need to be lowered for poor children.","zhReference":"但如果学区实际上是在为那些因复杂家庭处境而不做作业的学生开脱，那就危险地接近于暗示：对贫困儿童可以降低标准。","note":"give a pass 在这里不是“通过考试”，而是“放一马、予以宽免”。"},
+    {"id":"s8","en":"District administrators say that homework will still be a part of schooling; teachers are allowed to assign as much of it as they want.","zhReference":"学区管理者表示，作业仍将是学校教育的一部分；教师依然可以按自己的意愿布置作业。"},
+    {"id":"s9","en":"But with homework counting for no more than 10% of their grades, students can easily skip half their homework and see very little difference on their report cards.","zhReference":"但是，当作业在成绩中的占比不超过 10% 时，学生完全可以轻易少做一半作业，而成绩单上的差别却微乎其微。"},
+    {"id":"s10","en":"Some students might do well on state tests without completing their homework, but what about the students who performed well on the tests and did their homework?","zhReference":"有些学生即便不完成作业，也可能在州统考中表现不错；但那些既认真完成了作业、又在考试中表现良好的学生，又该如何看待呢？"},
+    {"id":"s11","en":"It is quite possible that the homework helped.","zhReference":"作业很可能确实起到了帮助作用。"},
+    {"id":"s12","en":"Yet rather than empowering teachers to find what works best for their students, the policy imposes a flat, across-the-board rule.","zhReference":"然而，这项政策并没有赋予教师寻找最适合学生做法的空间，反而强行施加了一刀切的统一规定。"},
+    {"id":"s13","en":"At the same time, the policy addresses none of the truly thorny questions about homework.","zhReference":"与此同时，这项政策对有关作业的那些真正棘手的问题一个也没有回应。"},
+    {"id":"s14","en":"If the district finds homework to be unimportant to its students' academic achievement, it should move to reduce or eliminate the assignments, not make them count for almost nothing.","zhReference":"如果学区认为作业对学生的学业成就并不重要，那它就应该减少甚至取消作业，而不是让作业几乎不计入成绩。"},
+    {"id":"s15","en":"Conversely, if homework matters, it should account for a significant portion of the grade.","zhReference":"反过来说，如果作业确实重要，那它就应当在成绩中占据相当大的比重。"},
+    {"id":"s16","en":"Meanwhile, this policy does nothing to ensure that the homework students receive is meaningful or appropriate to their age and the subject, or that teachers are not assigning more than they are willing to review and correct.","zhReference":"与此同时，这项政策并不能保证学生收到的作业是有意义的、适合其年龄和学科特点的，也不能保证教师布置的作业量没有超出他们愿意批改和讲评的范围。"},
+    {"id":"s17","en":"The homework rules should be put on hold while the school board, which is responsible for setting educational policy, looks into the matter and conducts public hearings.","zhReference":"在负责制定教育政策的学区委员会就此事展开调查并举行公开听证之前，这些家庭作业规定应当暂缓执行。"},
+    {"id":"s18","en":"It is not too late for L.A. Unified to do homework right.","zhReference":"对洛杉矶联合学区而言，现在把家庭作业这件事做对，还为时未晚。"}
+  ]
+}

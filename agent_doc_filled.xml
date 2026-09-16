@@ -1,0 +1,301 @@
+<km-doc>
+<km-title nodeId="8a2936c62d3e428e8b6c240ee2b3dfc8">Agent</km-title>
+<p nodeId="6e4d92fcded8489eadea1d241e866145">Agent 、 Workflow、 RAG、MCP、Multi-Agent、Planning、Memory<br /><br />其实落到工程上，Agent 应用开发本质是在学 4 件事：</p>
+<p nodeId="4169070dce8b470ebd091245c20ced47" />
+<p nodeId="bcf6584703404e2ea731575902678f0a">  <strong>让模型理解任务</strong></p>
+<p nodeId="8c85f677c8064622a9415a80ca9b8bd8">  <strong>让模型会调用工具</strong></p>
+<p nodeId="14e984538b66400982b44d638ba6429c">  <strong>让系统能按步骤执行</strong></p>
+<p nodeId="0b2bfaa2eae24d098fa29b9a3073fb46">  <strong>让整个应用稳定、可评估、可上线</strong><br /><br /><br />主线必读：</p>
+<table responsive="false" nodeId="5feab38e573546de840cbe54b4bf0f9e">
+<tr nodeId="285c24515ad343e6889893379e1eda6c">
+<th colwidth="[255]" nodeId="65ef47d0306a41dea3e50152342b6db7">
+<p nodeId="8c1c12b40a934a93a45202e2c03ade35">章节</p>
+</th>
+<th colwidth="[120]" nodeId="6a49397bfac24a9a84152bbd4b1cc99e">
+<p nodeId="4b597f55c307441f90f6182b5a0751fb">关键内容</p>
+</th>
+<th colwidth="[159]" nodeId="de375b872fbb4f51a98525f1a45f782b">
+<p nodeId="12cecec3ab7c41e98c6f30a98f01e023"><strong>需要掌握到什么程度</strong></p>
+</th>
+<th colwidth="[120]" nodeId="e7708b2fdf7a4c47bf9bb7d4207f9342">
+<p nodeId="73d494dfa77941ae8ed4b6540719e8a4"><strong>推荐学法</strong></p>
+</th>
+<th colwidth="[151]" nodeId="3daa11729c4f4de39831896a97bec1e3">
+<p nodeId="ee15887fa2fb406092229357219d00e9"><strong> 学完后的最低产出</strong></p>
+</th>
+<th colwidth="[120]" nodeId="24afeee19c6940139d1467ffc1a0fd16">
+<p nodeId="84022d3da98e4055a9cf90c82856e479">状态</p>
+</th>
+</tr>
+<tr nodeId="231fbe1b292741a5be7c64405b9562b5">
+<td colwidth="[255]" nodeId="7fea860e833943709f8fb83d6e42a478">
+<p nodeId="e6696907e8434e00b76a280cb154a1c7"><a href="https://github.com/datawhalechina/hello-agents/blob/main/docs/chapter1/%E7%AC%AC%E4%B8%80%E7%AB%A0%20%E5%88%9D%E8%AF%86%E6%99%BA%E8%83%BD%E4%BD%93.md" title="第一章 初识智能体" nodeId="f236c8325b95420ba4c421814552f306">第一章 初识智能体</a></p>
+</td>
+<td colwidth="[120]" nodeId="70ce13804f59467da2af814c895bcc8a">
+<p>Agent 定义、类型、Agent 与普通 LLM 应用区别、常见范式</p></td>
+<td colwidth="[159]" nodeId="f06ba722815d45cebab6869a3a8e0840">
+<p>掌握</p></td>
+<td colwidth="[120]" nodeId="6a9162fd9a9840ba9ff597fd7acde71c">
+<p>精读；边看边回答“什么算 Agent，什么不算”</p></td>
+<td colwidth="[151]" nodeId="145facf743614de8afe4a38fa47d2f22">
+<p>自己写一页总结：Agent、Workflow、LLM App 的区别</p></td>
+<td colwidth="[120]" nodeId="70791ad22e894fbd9d91e60f45ddd84c">
+<p>主线</p></td>
+</tr>
+<tr nodeId="b2941a757b7142cdbd74275433bf23a0">
+<td colwidth="[255]" nodeId="b91aac6a473741f5b77a4e0268ca9e4b">
+<p nodeId="627185665fa042c4acac39bbb1545b97"><a href="https://github.com/datawhalechina/hello-agents/blob/main/docs/chapter3/%E7%AC%AC%E4%B8%89%E7%AB%A0%20%E5%A4%A7%E8%AF%AD%E8%A8%80%E6%A8%A1%E5%9E%8B%E5%9F%BA%E7%A1%80.md" title="第三章 大语言模型基础" nodeId="81c55e468597409ea3844f4155890f90">第三章 大语言模型基础</a></p>
+</td>
+<td colwidth="[120]" nodeId="5721c4a30884481ca21a19be4e777c12">
+<p>Prompt、上下文、Token、模型能力边界、为什么 LLM 会不稳定</p></td>
+<td colwidth="[159]" nodeId="273f3d3382a24c04971c82c8f591af65">
+<p>掌握</p></td>
+<td colwidth="[120]" nodeId="cec29f8abc7646b390590697cb922957">
+<p>精读；重点看工程相关，不必深抠数学原理</p></td>
+<td colwidth="[151]" nodeId="7c54018f0e49421084612f1f96bcf2c9">
+<p>能解释：为什么 Agent 需要工具、状态、上下文控制</p></td>
+<td colwidth="[120]" nodeId="82b928677ca64ef3a70376319f47cd23">
+<p>主线</p></td>
+</tr>
+<tr nodeId="8ec6b25220b240c480f4aa4c7b2513cf">
+<td colwidth="[255]" nodeId="0368bfff5f284274bcd6aef1c37fce2b">
+<p nodeId="29fde87356ea444584edba796ab07988"><a href="https://github.com/datawhalechina/hello-agents/blob/main/docs/chapter4/%E7%AC%AC%E5%9B%9B%E7%AB%A0%20%E6%99%BA%E8%83%BD%E4%BD%93%E7%BB%8F%E5%85%B8%E8%8C%83%E5%BC%8F%E6%9E%84%E5%BB%BA.md" title="第四章 智能体经典范式构建" nodeId="7165e6dd41894d8f9ec2e3ec25f20e85">第四章 智能体经典范式构建</a></p>
+</td>
+<td colwidth="[120]" nodeId="ef87ddbe4921499fb3ae42b449ca222a">
+<p>ReAct、Plan-and-Solve、Reflection 的核心机制、适用场景、优缺点</p></td>
+<td colwidth="[159]" nodeId="4d7235bf018244549e8724e2ce8e3725">
+<p>熟练</p></td>
+<td colwidth="[120]" nodeId="1d72c34244a44299a87585205da4470a">
+<p>精读 + 跑代码；最好自己手写一个最简版流程</p></td>
+<td colwidth="[151]" nodeId="6ef9f05772cb40d384e62776aef176b7">
+<p>做出一个最小可运行 Agent：思考 → 调工具 → 观察 → 输出</p></td>
+<td colwidth="[120]" nodeId="845bc9f30c474d6daa2e78efa84dfbbd">
+<p>主线</p></td>
+</tr>
+<tr nodeId="5b4f503b978c4354afb500de0ee7e13d">
+<td colwidth="[255]" nodeId="ddc7f7a1927e4db3a2d01892b34f2790">
+<p nodeId="4eda876a47f54f0191e387f8096adfa5"><a href="https://github.com/datawhalechina/hello-agents/blob/main/docs/chapter6/%E7%AC%AC%E5%85%AD%E7%AB%A0%20%E6%A1%86%E6%9E%B6%E5%BC%80%E5%8F%91%E5%AE%9E%E8%B7%B5.md" title="第六章 框架开发实践" nodeId="1d0670cebe044373af438a8cfbb7102f">第六章 框架开发实践</a></p>
+</td>
+<td colwidth="[120]" nodeId="42a8cef86eaa4685b7b076aa4b4848e6">
+<p>主流框架的基本思路，如 LangGraph / AutoGen / AgentScope 的组织方式</p></td>
+<td colwidth="[159]" nodeId="8d64b1ccaed942c6b959aac682320603">
+<p>掌握到熟练</p></td>
+<td colwidth="[120]" nodeId="3f351106dfbe44a3b03c934755e7ba14">
+<p>不要全学，选一个主框架深挖；推荐优先 LangGraph</p></td>
+<td colwidth="[151]" nodeId="cbc7397a4b3b47b788abf2aa8649994e">
+<p>用一个框架做一个多步 Agent demo</p></td>
+<td colwidth="[120]" nodeId="14f0fe6656034a72840c3bf6ca9e86a2">
+<p>主线</p></td>
+</tr>
+<tr nodeId="641932bfde044121ab1fa0b31ac6b561">
+<td colwidth="[255]" nodeId="f05b249f052f4ccf922845ec12179755">
+<p nodeId="7969c05a3e7044b5a2ed5b6c35c61e7e"><a href="https://github.com/datawhalechina/hello-agents/blob/main/docs/chapter8/%E7%AC%AC%E5%85%AB%E7%AB%A0%20%E8%AE%B0%E5%BF%86%E4%B8%8E%E6%A3%80%E7%B4%A2.md" title="第八章 记忆与检索" nodeId="5b4037825525433a9dae91e1dc59afef">第八章 记忆与检索</a></p>
+</td>
+<td colwidth="[120]" nodeId="baf9be24830043b7916a216216ae4e55">
+<p>Memory、RAG、向量检索、知识增强、何时检索、如何检索</p></td>
+<td colwidth="[159]" nodeId="90cf10d2cb85481f810da1719d0b5a6e">
+<p>熟练</p></td>
+<td colwidth="[120]" nodeId="74b6cd23948840368c1b0f8b0dc4107d">
+<p>精读 + 自己做文档问答；不要只看概念</p></td>
+<td colwidth="[151]" nodeId="74fe7c4a90664ac194eab56265b72a94">
+<p>做一个最简单的 RAG Agent：输入问题 → 检索 → 回答</p></td>
+<td colwidth="[120]" nodeId="7e1ed7fd7e9f41318673430632458ec8">
+<p>主线</p></td>
+</tr>
+<tr nodeId="b78c407a1d6c4a0fbdcfad21549fa967">
+<td colwidth="[255]" nodeId="e44380c864884ecabc0fe37dfa344a1a">
+<p nodeId="1aa38a775e254a0c914f51e7f9bc9f8a"><a href="https://github.com/datawhalechina/hello-agents/blob/main/docs/chapter9/%E7%AC%AC%E4%B9%9D%E7%AB%A0%20%E4%B8%8A%E4%B8%8B%E6%96%87%E5%B7%A5%E7%A8%8B.md" title="第九章 上下文工程" nodeId="813af59f12b840989ae739df2c5831b7">第九章 上下文工程</a></p>
+</td>
+<td colwidth="[120]" nodeId="2a19ca809cca43b78d2078d1ca3670d2">
+<p>Context Engineering、历史消息裁剪、工具结果组织、状态传递、上下文污染</p></td>
+<td colwidth="[159]" nodeId="6cc340cce5664120af580c9bda424dd9">
+<p>熟练</p></td>
+<td colwidth="[120]" nodeId="90b1250e92ac4f288b2eccce3440ec77">
+<p>精读；一定结合自己 demo 调试体会</p></td>
+<td colwidth="[151]" nodeId="7324d4f80b2440e49013d28b539e0b4f">
+<p>能优化自己的 Agent，让它更稳定、不乱答、不丢状态</p></td>
+<td colwidth="[120]" nodeId="2a3d5bb03cd44da5b824759aeba7f8f1">
+<p>主线</p></td>
+</tr>
+<tr nodeId="0752af51e3e2417b85b4f743b5ded132">
+<td colwidth="[255]" nodeId="bc61ea2eae9d406dbc700ec8ba8b81bf">
+<p nodeId="49337a6af4be40aab2c7ba1cedffeb85"><a href="https://github.com/datawhalechina/hello-agents/blob/main/docs/chapter12/%E7%AC%AC%E5%8D%81%E4%BA%8C%E7%AB%A0%20%E6%99%BA%E8%83%BD%E4%BD%93%E6%80%A7%E8%83%BD%E8%AF%84%E4%BC%B0.md" title="第十二章 智能体性能评估" nodeId="865a59d18ef8445a84322bc651fe6837">第十二章 智能体性能评估</a></p>
+</td>
+<td colwidth="[120]" nodeId="043e7784dbe3422fb5a5efeb36d8a80c">
+<p>Eval 指标、测试集、离线评估、如何比较两个 Agent 版本</p></td>
+<td colwidth="[159]" nodeId="735a0e0afe4c48abb79a8b03c458ff59">
+<p>掌握</p></td>
+<td colwidth="[120]" nodeId="fbf6efd143c84d68a1a4616f4f13ba9e">
+<p>精读 + 给自己的 demo 建 10~20 条测试样本</p></td>
+<td colwidth="[151]" nodeId="8dc241954721410ea922011e5d54a9f3">
+<p>能对 Agent 做简单评估：成功率、稳定性、错误类型</p></td>
+<td colwidth="[120]" nodeId="030bd2e822f647de927f4f91d6f1a2f7">
+<p>主线</p></td>
+</tr>
+<tr nodeId="4486806985db4d1d819c5a22e6e5b6e5">
+<td colwidth="[255]" nodeId="fdef3d5c1e4d4bd4bb06d8e67177fd35">
+<p nodeId="f143d51b5a284a5ea944f61495e57518"><a href="https://github.com/datawhalechina/hello-agents/blob/main/docs/chapter13/%E7%AC%AC%E5%8D%81%E4%B8%89%E7%AB%A0%20%E6%99%BA%E8%83%BD%E6%97%85%E8%A1%8C%E5%8A%A9%E6%89%8B.md" title="第十三章 智能旅行助手" nodeId="7ffeb05b27bf42afb6e0308689b80e65">第十三章 智能旅行助手</a></p>
+</td>
+<td colwidth="[120]" nodeId="758b8ba562fb4c12a19d71b3c5f1fabe">
+<p>一个相对完整的 Agent 应用如何拆模块、调工具、控流程、组织输出</p></td>
+<td colwidth="[159]" nodeId="7cd6901d07974001bae82b9ce464feb9">
+<p>熟练</p></td>
+<td colwidth="[120]" nodeId="023cfdd5eaf143258ad6a42b1c021227">
+<p>完整跑通 + 画架构图 + 拆模块</p></td>
+<td colwidth="[151]" nodeId="64c8cbc57c7c4e128021df08220764d2">
+<p>能复述这个案例的整体架构，并修改其中一个功能</p></td>
+<td colwidth="[120]" nodeId="06d9f35d5e25485f92ecbd5fef758b7f">
+<p>主线</p></td>
+</tr>
+<tr nodeId="313d1452cbd741f9a0d8f48f231b34f0">
+<td colwidth="[255]" nodeId="8554f6497d9f4e59a7ccf8f3d14ff126">
+<p nodeId="d80a56e6af25429c88ad4f4222685328"><a href="https://github.com/datawhalechina/hello-agents/blob/main/docs/chapter14/%E7%AC%AC%E5%8D%81%E5%9B%9B%E7%AB%A0%20%E8%87%AA%E5%8A%A8%E5%8C%96%E6%B7%B1%E5%BA%A6%E7%A0%94%E7%A9%B6%E6%99%BA%E8%83%BD%E4%BD%93.md" title="第十四章 自动化深度研究智能体" nodeId="f7fa213bc4f9475196ca77f53481134c">第十四章 自动化深度研究智能体</a></p>
+</td>
+<td colwidth="[120]" nodeId="bd77698439b44fd09b66a6801f0621b5">
+<p>搜索、汇总、研究型任务拆解、多步骤分析、结果整合</p></td>
+<td colwidth="[159]" nodeId="96c682a27b114432bed0e81c5986fd85">
+<p>熟练</p></td>
+<td colwidth="[120]" nodeId="010cfd2e8dd046a6b87c2311fd295d19">
+<p>精读 + 拆结构；重点学“任务分解和信息整合”</p></td>
+<td colwidth="[151]" nodeId="59fe35f08a184d6098e565674daaf273">
+<p>能做一个研究/报告类 Agent 雏形</p></td>
+<td colwidth="[120]" nodeId="99649cf985d643a1bb5143f4af85a235">
+<p>主线</p></td>
+</tr>
+<tr nodeId="793ae172324049f0ace43d2bee74aa3e">
+<td colwidth="[255]" nodeId="c5a8ed1603ba4be089860f5e16bcdd9d">
+<p nodeId="2bb422b65bab4485a52af3eb8b5e1ec8"><a href="https://github.com/datawhalechina/hello-agents/blob/main/docs/chapter16/%E7%AC%AC%E5%8D%81%E5%85%AD%E7%AB%A0%20%E6%AF%95%E4%B8%9A%E8%AE%BE%E8%AE%A1.md" title="第十六章 毕业设计" nodeId="f57e0d7e73604789884628ce1b9d9334">第十六章 毕业设计</a></p>
+</td>
+<td colwidth="[120]" nodeId="9a37cb79f7634cd5b736bc43f4ba3169">
+<p>如何把前面所有能力串起来，独立做一个完整 Agent 应用</p></td>
+<td colwidth="[159]" nodeId="f9edea81ff664b8fbf99abeded785a65">
+<p>实战</p></td>
+<td colwidth="[120]" nodeId="1875fd8fd22844d8a9fd0af60b244d29">
+<p>不只是看，必须自己做一个项目</p></td>
+<td colwidth="[151]" nodeId="6377abf3be75465382e10bcad83c5e5e">
+<p>完成一个自己的 Agent MVP，并能演示、讲解、评估</p></td>
+<td colwidth="[120]" nodeId="20a502709a5d4265a2cdd07f8bed2c7a">
+<p>主线</p></td>
+</tr>
+</table>
+<p nodeId="94b7175e8c6c41e99185633e30ab3254"><br />支线补充：<br /></p>
+<table responsive="false" nodeId="8eefb069208341699e41144918e07b0b">
+<tr nodeId="971d58e788824b30b06ca6e9936b25d3">
+<th colwidth="[257]" nodeId="918bae911200416888b932f7b249b69c">
+<p nodeId="3b9a6f2c0ca1412cb91a53b676465778">章节</p>
+</th>
+<th colwidth="[120]" nodeId="e9e68e6a8d614d00a792e985d579f3e5">
+<p nodeId="230fe4ddf75041f08a00ef77349e4c5e">关键内容</p>
+</th>
+<th colwidth="[157]" nodeId="65a320af1d0848cca7b05bd1923ddf6d">
+<p nodeId="7eafcd5716b040e5b44fbbb48b67af48"><strong>需要掌握到什么程度</strong></p>
+</th>
+<th colwidth="[120]" nodeId="d1700a7b21ee46df8333954de61ed31c">
+<p nodeId="007ad3058ab74dc2a660d515d5d56e3d"><strong>推荐学法</strong></p>
+</th>
+<th colwidth="[154]" nodeId="25abd3aeb71f4e4cb97636ce3e2f8b81">
+<p nodeId="834468d7a7a3488e8d2e26d2e0d67f29"><strong>学完后的最低产出</strong></p>
+</th>
+<th colwidth="[124]" nodeId="a1b89c706f8a4cc4b74947b8d43227ea">
+<p nodeId="0a50228379804017a81f17e37c7e8ad1">状态</p>
+</th>
+</tr>
+<tr nodeId="38f6a3298c6c45b78ddcbfc210fe280e">
+<td colwidth="[257]" nodeId="fabe954574724304a940d17801ce8e98">
+<p nodeId="d9ecfd80a77542859959e58659c09150"><a href="https://github.com/datawhalechina/hello-agents/blob/main/docs/chapter2/%E7%AC%AC%E4%BA%8C%E7%AB%A0%20%E6%99%BA%E8%83%BD%E4%BD%93%E5%8F%91%E5%B1%95%E5%8F%B2.md" title="第二章 智能体发展史" nodeId="31ab9bf85783452885449f3d00f436fe">第二章 智能体发展史</a></p>
+</td>
+<td colwidth="[120]" nodeId="f49901ccd6714e0fa0c032501978b583">
+<p>智能体从符号主义到 LLM Agent 的演进脉络、历史背景</p></td>
+<td colwidth="[157]" nodeId="3413d81fa4df469b95b6955edfc4bd29">
+<p>了解</p></td>
+<td colwidth="[120]" nodeId="055a2c04e0b84fc2b8134eb74756706a">
+<p>略读即可，重点抓“为什么今天 Agent 会变热”</p></td>
+<td colwidth="[154]" nodeId="fbe87e090fbb41f8961a8ffdfaa4a5c3">
+<p>能口头讲清 Agent 从规则系统走到 LLM Agent 的大致演进过程</p></td>
+<td colwidth="[124]" nodeId="1184698b4e69492abf50a967856186dc">
+<p nodeId="399b8face40e48ab9e28056750843102">略读</p>
+</td>
+</tr>
+<tr nodeId="5cde4c8ec2114fd28802d113b96ef328">
+<td colwidth="[257]" nodeId="17bce78fc25144d2bac96dbcb850ecd1">
+<p nodeId="8f62b58b14df4aada5cddef6d3cfb8ee"><a href="https://github.com/datawhalechina/hello-agents/blob/main/docs/chapter5/%E7%AC%AC%E4%BA%94%E7%AB%A0%20%E5%9F%BA%E4%BA%8E%E4%BD%8E%E4%BB%A3%E7%A0%81%E5%B9%B3%E5%8F%B0%E7%9A%84%E6%99%BA%E8%83%BD%E4%BD%93%E6%90%AD%E5%BB%BA.md" title="第五章 基于低代码平台的智能体搭建" nodeId="8b0af1f153b24d96bb5e97fd4d77d94a">第五章 基于低代码平台的智能体搭建</a></p>
+</td>
+<td colwidth="[120]" nodeId="538e2cf25ca64427a1902f5debc74d81">
+<p>Coze、Dify、n8n 等平台怎么搭 Agent，平台型 Agent 的特点</p></td>
+<td colwidth="[157]" nodeId="09493d669f8943cbbf2adb8a196930e6">
+<p>了解到掌握</p></td>
+<td colwidth="[120]" nodeId="8b0fc7c99c6845609815ca56f7de9240">
+<p>快速浏览；如果你想做 PoC，可选一个试用</p></td>
+<td colwidth="[154]" nodeId="63cc69da2ff544db92ffae0ecb5629ed">
+<p>至少选一个平台跑通一个最小 Demo 或整理一页平台对比笔记</p></td>
+<td colwidth="[124]" nodeId="978926cdf85845898bcd0488e71e6207">
+<p nodeId="7e2f9153edaa4484bdd5b39ad73063fb">快速浏览</p>
+</td>
+</tr>
+<tr nodeId="ff5ae21faf5842a5935449d623a102a2">
+<td colwidth="[257]" nodeId="e907c1918e874fe59f20b53082e9e421">
+<p nodeId="2e09433b67d74d328adc718a381feec9"><a href="https://github.com/datawhalechina/hello-agents/blob/main/docs/chapter7/%E7%AC%AC%E4%B8%83%E7%AB%A0%20%E6%9E%84%E5%BB%BA%E4%BD%A0%E7%9A%84Agent%E6%A1%86%E6%9E%B6.md" title="第七章 构建你的Agent框架" nodeId="651f9c5a3912495f97dd7061d127641c">第七章 构建你的Agent框架</a></p>
+</td>
+<td colwidth="[120]" nodeId="7e65e26ad5b04c5b9b15da5955e7820d">
+<p>Agent 框架的内部设计、抽象层次、状态管理、执行器组织</p></td>
+<td colwidth="[157]" nodeId="445b2404272145929ff90d5bcb2c0c55">
+<p>掌握</p></td>
+<td colwidth="[120]" nodeId="846635e39899401d897b9a690185a74c">
+<p>在你做过框架应用后再读；否则容易空转</p></td>
+<td colwidth="[154]" nodeId="f2b5dbf98b484d44818414f56906f601">
+<p>能讲清一个 Agent 框架最核心的执行链路，并画出简化架构图</p></td>
+<td colwidth="[124]" nodeId="bfab9a81c293459089dfa096ec49ae5d">
+<p nodeId="c473b97226fc468996a4215ba7686ad1">主线后半程看</p>
+</td>
+</tr>
+<tr nodeId="b58dc266541c49c992c4bc9777a9a93e">
+<td colwidth="[257]" nodeId="0870d3ec67b840319312a6127f05a0c0">
+<p nodeId="971ec72ac5aa4024bd213799c9124e84"><a href="https://github.com/datawhalechina/hello-agents/blob/main/docs/chapter10/%E7%AC%AC%E5%8D%81%E7%AB%A0%20%E6%99%BA%E8%83%BD%E4%BD%93%E9%80%9A%E4%BF%A1%E5%8D%8F%E8%AE%AE.md" title="第十章 智能体通信协议" nodeId="49e9b19fb2b049c5a9810d922e3b7e73">第十章 智能体通信协议</a></p>
+</td>
+<td colwidth="[120]" nodeId="d23792749eb14ba0be7d90be3f6fd110">
+<p>MCP、A2A、ANP 等协议是什么、解决什么问题、适合什么场景</p></td>
+<td colwidth="[157]" nodeId="a3c5f5e497224c229e54106cc4d7d921">
+<p>了解到掌握</p></td>
+<td colwidth="[120]" nodeId="370f60af85eb4924a6ad62f9008dd391">
+<p>先看概念和应用场景，不急着深抠协议细节</p></td>
+<td colwidth="[154]" nodeId="91948e5321c64569ba4e7553c7935ba2">
+<p>能解释这些协议各自解决什么问题，并能判断自己项目是否需要它们</p></td>
+<td colwidth="[124]" nodeId="a998d575301343579a08796349110a11">
+<p nodeId="5054151347dd42df8f42cd6610aa12c3">按需看</p>
+</td>
+</tr>
+<tr nodeId="9c0a5d84463f45b08810a67610c6df5a">
+<td colwidth="[257]" nodeId="572be01ad5d04e75b1f06df272b8875e">
+<p nodeId="7327ea215d8c44839a9d9b5e035756f9"><a href="https://github.com/datawhalechina/hello-agents/blob/main/docs/chapter11/%E7%AC%AC%E5%8D%81%E4%B8%80%E7%AB%A0%20Agentic-RL.md" title="第十一章 Agentic-RL" nodeId="3509014822db414ea5bc34ac70199851">第十一章 Agentic-RL</a></p>
+</td>
+<td colwidth="[120]" nodeId="9dc5497ea4d74d6c9711574990dc2e40">
+<p>SFT、GRPO、训练与后训练、如何让模型更适合 Agent 任务</p></td>
+<td colwidth="[157]" nodeId="a6acd0a4594b4cc6a79bf9aadd3d5778">
+<p>了解</p></td>
+<td colwidth="[120]" nodeId="b77e2147f7874d999c8a7d1f26b7df14">
+<p>先知道它在做什么即可，不必一开始投入太多</p></td>
+<td colwidth="[154]" nodeId="4788a8008d7141edab72aab613061b19">
+<p>能说清 Agent 优化不只有 Prompt，还有训练与后训练路径</p></td>
+<td colwidth="[124]" nodeId="6709982a9d7f4ff28252b3fe7532182c">
+<p nodeId="2b8443699d38443291378d0fb24879c8">最后看</p>
+</td>
+</tr>
+<tr nodeId="de7d56f20d684266b0fb7272c4dbd1c6">
+<td colwidth="[257]" nodeId="326f6937d3df4857bdf5e72159c90f3f">
+<p nodeId="6cb14efdf25448b2a70937391a8f230d"><a href="https://github.com/datawhalechina/hello-agents/blob/main/docs/chapter15/%E7%AC%AC%E5%8D%81%E4%BA%94%E7%AB%A0%20%E6%9E%84%E5%BB%BA%E8%B5%9B%E5%8D%9A%E5%B0%8F%E9%95%87.md" title="第十五章 构建赛博小镇" nodeId="43a2938150a44094aa5c32c5d953e601">第十五章 构建赛博小镇</a></p>
+</td>
+<td colwidth="[120]" nodeId="e81f2b12ed1f42abb89ba841970091ae">
+<p>多智能体仿真、社会模拟、Agent in Game / Sandbox 场景</p></td>
+<td colwidth="[157]" nodeId="4c9b15c33da24db3906679d948f13f61">
+<p>了解到掌握</p></td>
+<td colwidth="[120]" nodeId="2a68988d197544efb0e61f45e895346e">
+<p>感兴趣再深入；更偏前沿案例和复杂系统</p></td>
+<td colwidth="[154]" nodeId="53f96dc3cd7e4fc4980fa642a11859bc">
+<p>能讲清这类案例和业务型 Agent 的区别，并理解其研究价值</p></td>
+<td colwidth="[124]" nodeId="5f5d9171a03a439ba2ca1db6ec4e90c4">
+<p nodeId="ff5186e1b82b4d3c97da0116fece7423">感兴趣再看</p>
+</td>
+</tr>
+</table>
+<p nodeId="b69ba12e2d8449f1843e7cfdc134bb08"><br /><br /></p>
+</km-doc>

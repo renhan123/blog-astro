@@ -1,0 +1,444 @@
+---
+import { getCollection } from 'astro:content';
+import BaseLayout from '../../layouts/BaseLayout.astro';
+import { getEntrySlug, translationLevelLabels } from '../../utils';
+
+export async function getStaticPaths() {
+  const articles = await getCollection('translation');
+  return articles.map((article) => ({
+    params: { slug: getEntrySlug(article.id) },
+    props: { article },
+  }));
+}
+
+const { article } = Astro.props;
+const slug = getEntrySlug(article.id);
+const sentenceCount = article.data.sentences.length;
+---
+
+<BaseLayout
+  title={article.data.title + ' - 翻译导航 - CodeEcho'}
+  description={article.data.description}
+  currentPath="/translator/"
+>
+  <section class="translation-detail-view">
+    <div class="container translation-detail-shell">
+      <div class="translation-detail-topbar">
+        <a href="/translator/" class="translation-detail-back">← 返回翻译导航</a>
+        <span class="translation-detail-storage-tip">进度保存在当前浏览器</span>
+      </div>
+
+      <section class="translation-detail-hero">
+        <div class="translation-detail-hero-main">
+          <div class="translation-detail-badges">
+            <span class="translation-detail-badge">{translationLevelLabels[article.data.level] ?? article.data.level}</span>
+            {article.data.source && <span class="translation-detail-badge translation-detail-badge-muted">{article.data.source}</span>}
+            {article.data.author && <span class="translation-detail-badge translation-detail-badge-muted">作者：{article.data.author}</span>}
+          </div>
+          <h1 class="translation-detail-title">{article.data.title}</h1>
+          <p class="translation-detail-desc">{article.data.description}</p>
+
+          {article.data.heroNote && (
+            <div class="translation-detail-hero-note">
+              <span>练习提醒</span>
+              <p>{article.data.heroNote}</p>
+            </div>
+          )}
+
+          <div class="translation-detail-tags">
+            {article.data.tags.map((tag) => (
+              <span class="translation-detail-tag">{tag}</span>
+            ))}
+          </div>
+        </div>
+
+        <aside class="translation-detail-hero-side">
+          <div class="translation-detail-stats-card">
+            <div class="translation-detail-stat-row">
+              <span>总句数</span>
+              <strong>{sentenceCount} 句</strong>
+            </div>
+            {article.data.estimatedMinutes && (
+              <div class="translation-detail-stat-row">
+                <span>建议练习时长</span>
+                <strong>{article.data.estimatedMinutes} 分钟</strong>
+              </div>
+            )}
+            <div class="translation-detail-stat-row">
+              <span>已填写</span>
+              <strong id="translationFilledCount">0 / {sentenceCount}</strong>
+            </div>
+            <div class="translation-detail-stat-row">
+              <span>已查看参考</span>
+              <strong id="translationRevealedCount">0 句</strong>
+            </div>
+            <div class="translation-detail-progress-panel">
+              <div class="translation-detail-progress-top">
+                <span>当前进度</span>
+                <strong id="translationProgressPercent">0%</strong>
+              </div>
+              <div class="translation-detail-progress-track">
+                <span id="translationProgressBar" style="width: 0%;"></span>
+              </div>
+            </div>
+            <div class="translation-detail-actions">
+              <button type="button" class="translation-detail-action-btn" id="jumpNextPendingBtn">跳到下一句未完成</button>
+              <button type="button" class="translation-detail-action-btn translation-detail-action-btn-muted" id="collapseAllReferencesBtn">收起全部参考</button>
+            </div>
+          </div>
+        </aside>
+      </section>
+
+      <div class="translation-detail-layout">
+        <main class="translation-detail-main">
+          <div class="translation-detail-intro-card">
+            <div>
+              <span class="translation-detail-section-kicker">使用方式</span>
+              <h2>先自己翻，再揭晓参考译文</h2>
+            </div>
+            <ol>
+              <li>先读英文原句，并在下方写出你自己的中文理解。</li>
+              <li>输入任意非空内容后，才可以点击“查看参考译文”。</li>
+              <li>看完参考译文后，再回头调整你的表达，形成自己的版本。</li>
+            </ol>
+          </div>
+
+          <div class="translation-sentence-list">
+            {article.data.sentences.map((sentence, index) => (
+              <article class="translation-sentence-card" data-sentence-card data-sentence-id={sentence.id}>
+                <div class="translation-sentence-card-header">
+                  <div>
+                    <span class="translation-sentence-index">Sentence {String(index + 1).padStart(2, '0')}</span>
+                    <h2 class="translation-sentence-title">第 {index + 1} 句</h2>
+                  </div>
+                  <span class="translation-sentence-status" data-status-text>未开始</span>
+                </div>
+
+                <div class="translation-sentence-original">
+                  <span class="translation-sentence-label">原文</span>
+                  <p>{sentence.en}</p>
+                </div>
+
+                <div class="translation-sentence-editor">
+                  <label class="translation-sentence-label" for={'translation-input-' + sentence.id}>你的译文</label>
+                  <textarea
+                    id={'translation-input-' + sentence.id}
+                    class="translation-sentence-input"
+                    placeholder="先写下你自己的中文理解，再查看参考译文。"
+                    rows="4"
+                    data-translation-input
+                  ></textarea>
+                </div>
+
+                <div class="translation-sentence-toolbar">
+                  <span class="translation-sentence-helper" data-helper-text>先输入译文后再查看参考答案</span>
+                  <button type="button" class="translation-sentence-reveal" data-reveal-btn disabled>查看参考译文</button>
+                </div>
+
+                <div class="translation-sentence-reference" data-reference-block hidden>
+                  <div class="translation-sentence-reference-head">
+                    <span class="translation-sentence-label">参考译文</span>
+                    <span class="translation-sentence-reference-tip">建议对照措辞与信息完整度，而不是逐字模仿。</span>
+                  </div>
+                  <p class="translation-sentence-reference-text">{sentence.zhReference}</p>
+                  {sentence.note && (
+                    <div class="translation-sentence-note">
+                      <strong>译法提示</strong>
+                      <p>{sentence.note}</p>
+                    </div>
+                  )}
+                </div>
+              </article>
+            ))}
+          </div>
+        </main>
+
+        <aside class="translation-detail-side">
+          <div class="translation-detail-side-card">
+            <h2>这一页会帮你做什么</h2>
+            <ul>
+              <li>逐句承接英文原句，降低长文翻译压力</li>
+              <li>自动保存你的输入，不用担心刷新丢失</li>
+              <li>只有在你先作答后，才可展开参考译文</li>
+            </ul>
+          </div>
+          <div class="translation-detail-side-card">
+            <h2>建议翻译关注点</h2>
+            <ul>
+              <li>句子中的主干逻辑是否完整保留</li>
+              <li>术语是否稳定统一</li>
+              <li>是否翻出了因果、转折、限制条件</li>
+            </ul>
+          </div>
+        </aside>
+      </div>
+    </div>
+  </section>
+
+  <style is:global>
+    .translation-detail-view { margin-top: var(--nav-height); padding: 38px 0 88px; }
+    .translation-detail-shell { max-width: 1240px; }
+    .translation-detail-topbar { display: flex; justify-content: space-between; gap: 16px; align-items: center; margin-bottom: 18px; flex-wrap: wrap; }
+    .translation-detail-back { color: var(--accent); font-weight: 600; }
+    .translation-detail-storage-tip { color: var(--text-muted); font-size: 0.84rem; }
+    .translation-detail-hero { display: grid; grid-template-columns: minmax(0, 1.45fr) minmax(300px, 0.86fr); gap: 22px; margin-bottom: 24px; }
+    .translation-detail-hero-main,
+    .translation-detail-stats-card,
+    .translation-detail-intro-card,
+    .translation-sentence-card,
+    .translation-detail-side-card { background: var(--bg-card); border: 1px solid var(--border-color); border-radius: 26px; box-shadow: var(--shadow-sm); }
+    .translation-detail-hero-main { padding: 32px; background: linear-gradient(135deg, rgba(99,102,241,0.13), rgba(168,85,247,0.06) 58%, rgba(255,255,255,0.01)); }
+    .translation-detail-badges,
+    .translation-detail-tags,
+    .translation-detail-actions { display: flex; flex-wrap: wrap; gap: 10px; }
+    .translation-detail-badge,
+    .translation-detail-tag { display: inline-flex; align-items: center; padding: 7px 11px; border-radius: 999px; font-size: 0.8rem; }
+    .translation-detail-badge { background: rgba(99,102,241,0.1); color: var(--accent); font-weight: 700; }
+    .translation-detail-badge-muted { background: var(--bg-secondary); color: var(--text-secondary); }
+    .translation-detail-title { font-size: 2rem; line-height: 1.22; margin: 18px 0 14px; }
+    .translation-detail-desc { color: var(--text-secondary); line-height: 1.9; font-size: 0.98rem; }
+    .translation-detail-hero-note { margin-top: 22px; border: 1px solid rgba(99,102,241,0.14); background: rgba(99,102,241,0.06); border-radius: 20px; padding: 16px 18px; }
+    .translation-detail-hero-note span,
+    .translation-detail-section-kicker,
+    .translation-sentence-index,
+    .translation-sentence-label { display: inline-block; font-size: 0.76rem; font-weight: 700; letter-spacing: 0.08em; text-transform: uppercase; color: var(--accent); }
+    .translation-detail-hero-note p { margin-top: 9px; color: var(--text-secondary); line-height: 1.8; }
+    .translation-detail-tags { margin-top: 22px; }
+    .translation-detail-tag { background: var(--bg-secondary); color: var(--text-secondary); }
+    .translation-detail-stats-card { padding: 24px; height: 100%; display: grid; align-content: start; gap: 14px; }
+    .translation-detail-stat-row,
+    .translation-detail-progress-top,
+    .translation-sentence-card-header,
+    .translation-sentence-toolbar,
+    .translation-sentence-reference-head { display: flex; align-items: center; justify-content: space-between; gap: 12px; }
+    .translation-detail-stat-row span { color: var(--text-secondary); }
+    .translation-detail-stat-row strong { font-size: 0.96rem; }
+    .translation-detail-progress-panel { margin-top: 4px; padding-top: 6px; }
+    .translation-detail-progress-top span { color: var(--text-muted); font-size: 0.82rem; }
+    .translation-detail-progress-top strong { font-size: 0.92rem; }
+    .translation-detail-progress-track { margin-top: 10px; height: 10px; border-radius: 999px; overflow: hidden; background: var(--bg-secondary); }
+    .translation-detail-progress-track span { display: block; height: 100%; border-radius: inherit; background: linear-gradient(90deg, var(--accent), #8b5cf6); }
+    .translation-detail-actions { margin-top: 8px; }
+    .translation-detail-action-btn { border: none; background: linear-gradient(135deg, var(--accent), #8b5cf6); color: #fff; padding: 10px 14px; border-radius: 999px; font-size: 0.86rem; font-weight: 700; cursor: pointer; }
+    .translation-detail-action-btn-muted { background: var(--bg-secondary); color: var(--text-secondary); border: 1px solid var(--border-color); }
+    .translation-detail-layout { display: grid; grid-template-columns: minmax(0, 1.45fr) minmax(260px, 0.64fr); gap: 22px; align-items: start; }
+    .translation-detail-main,
+    .translation-detail-side { display: grid; gap: 18px; }
+    .translation-detail-intro-card { padding: 22px 24px; display: grid; gap: 16px; }
+    .translation-detail-intro-card h2 { margin-top: 8px; font-size: 1.12rem; }
+    .translation-detail-intro-card ol { padding-left: 20px; color: var(--text-secondary); line-height: 1.9; display: grid; gap: 10px; }
+    .translation-sentence-list { display: grid; gap: 18px; }
+    .translation-sentence-card { padding: 24px; display: grid; gap: 18px; transition: border-color var(--transition), box-shadow var(--transition), transform var(--transition); }
+    .translation-sentence-card:hover { border-color: rgba(99,102,241,0.18); box-shadow: var(--shadow-md); }
+    .translation-sentence-card.is-complete { border-color: rgba(34,197,94,0.26); box-shadow: 0 12px 32px -28px rgba(34,197,94,0.35); }
+    .translation-sentence-card.is-revealed { border-color: rgba(99,102,241,0.24); }
+    .translation-sentence-title { font-size: 1.1rem; margin-top: 8px; }
+    .translation-sentence-status { font-size: 0.82rem; color: var(--text-muted); }
+    .translation-sentence-original p { margin-top: 10px; font-size: 1rem; line-height: 1.9; color: var(--text-primary); }
+    .translation-sentence-input { width: 100%; min-height: 124px; resize: vertical; border-radius: 20px; border: 1px solid var(--border-color); background: var(--bg-secondary); color: var(--text-primary); padding: 16px 18px; font: inherit; line-height: 1.9; outline: none; margin-top: 10px; }
+    .translation-sentence-input:focus { border-color: var(--accent); box-shadow: 0 0 0 3px var(--accent-light); }
+    .translation-sentence-helper { color: var(--text-muted); font-size: 0.84rem; }
+    .translation-sentence-reveal { border: none; border-radius: 999px; padding: 10px 16px; background: linear-gradient(135deg, var(--accent), #8b5cf6); color: #fff; font-size: 0.88rem; font-weight: 700; cursor: pointer; }
+    .translation-sentence-reveal[disabled] { cursor: not-allowed; opacity: 0.45; filter: grayscale(0.12); }
+    .translation-sentence-reference { border-top: 1px solid var(--border-color); padding-top: 18px; display: grid; gap: 14px; animation: translationReferenceFade 0.22s ease; }
+    .translation-sentence-reference-tip { color: var(--text-muted); font-size: 0.76rem; }
+    .translation-sentence-reference-text { padding: 16px 18px; border-radius: 20px; background: linear-gradient(180deg, rgba(99,102,241,0.07), rgba(99,102,241,0.02)); color: var(--text-primary); line-height: 1.9; }
+    .translation-sentence-note { border-radius: 18px; border: 1px dashed rgba(99,102,241,0.24); padding: 14px 16px; }
+    .translation-sentence-note strong { display: block; margin-bottom: 8px; }
+    .translation-sentence-note p,
+    .translation-detail-side-card li { color: var(--text-secondary); line-height: 1.85; }
+    .translation-detail-side-card { padding: 22px; position: sticky; top: 88px; }
+    .translation-detail-side-card + .translation-detail-side-card { margin-top: 18px; }
+    .translation-detail-side-card h2 { font-size: 1rem; margin-bottom: 12px; }
+    .translation-detail-side-card ul { padding-left: 18px; display: grid; gap: 8px; }
+    @keyframes translationReferenceFade { from { opacity: 0; transform: translateY(6px); } to { opacity: 1; transform: translateY(0); } }
+    @media (max-width: 1040px) {
+      .translation-detail-hero,
+      .translation-detail-layout { grid-template-columns: 1fr; }
+      .translation-detail-side-card { position: static; }
+    }
+    @media (max-width: 640px) {
+      .translation-detail-view { padding: 28px 0 60px; }
+      .translation-detail-hero-main,
+      .translation-detail-stats-card,
+      .translation-detail-intro-card,
+      .translation-sentence-card,
+      .translation-detail-side-card { border-radius: 22px; padding: 18px; }
+      .translation-detail-title { font-size: 1.62rem; }
+      .translation-sentence-card-header,
+      .translation-sentence-toolbar,
+      .translation-sentence-reference-head { flex-direction: column; align-items: flex-start; }
+      .translation-detail-actions { flex-direction: column; }
+      .translation-detail-action-btn,
+      .translation-sentence-reveal { width: 100%; justify-content: center; }
+    }
+  </style>
+
+  <script type="application/json" id="translationDetailData" set:html={JSON.stringify({ slug, sentences: article.data.sentences.map((item: { id: string }) => item.id) })}></script>
+  <script is:inline>
+    (() => {
+      const dataNode = document.getElementById('translationDetailData');
+      if (!dataNode) return;
+
+      let payload = null;
+      try {
+        payload = JSON.parse(dataNode.textContent || '{}');
+      } catch (error) {
+        return;
+      }
+
+      const slug = payload?.slug;
+      if (!slug) return;
+
+      const storageKey = 'translation-lab:' + slug;
+      const cards = Array.from(document.querySelectorAll('[data-sentence-card]'));
+      const progressBar = document.getElementById('translationProgressBar');
+      const progressPercent = document.getElementById('translationProgressPercent');
+      const filledCountNode = document.getElementById('translationFilledCount');
+      const revealedCountNode = document.getElementById('translationRevealedCount');
+      const jumpNextPendingBtn = document.getElementById('jumpNextPendingBtn');
+      const collapseAllReferencesBtn = document.getElementById('collapseAllReferencesBtn');
+      const total = cards.length;
+
+      let state = { entries: {}, updatedAt: new Date().toISOString() };
+      const saved = localStorage.getItem(storageKey);
+      if (saved) {
+        try {
+          const parsed = JSON.parse(saved);
+          if (parsed && typeof parsed === 'object' && parsed.entries) {
+            state = { entries: parsed.entries || {}, updatedAt: parsed.updatedAt || new Date().toISOString() };
+          }
+        } catch (error) {
+          state = { entries: {}, updatedAt: new Date().toISOString() };
+        }
+      }
+
+      let saveTimer = 0;
+
+      function persistState() {
+        state.updatedAt = new Date().toISOString();
+        localStorage.setItem(storageKey, JSON.stringify(state));
+      }
+
+      function scheduleSave() {
+        window.clearTimeout(saveTimer);
+        saveTimer = window.setTimeout(persistState, 180);
+      }
+
+      function updateCardVisual(card, entry) {
+        const input = card.querySelector('[data-translation-input]');
+        const revealBtn = card.querySelector('[data-reveal-btn]');
+        const helper = card.querySelector('[data-helper-text]');
+        const reference = card.querySelector('[data-reference-block]');
+        const statusText = card.querySelector('[data-status-text]');
+        const hasDraft = Boolean(String(entry?.draft || '').trim());
+        const revealed = Boolean(entry?.revealed);
+
+        if (input && input.value !== (entry?.draft || '')) {
+          input.value = entry?.draft || '';
+        }
+
+        if (revealBtn) {
+          revealBtn.disabled = !hasDraft;
+          revealBtn.textContent = revealed ? '收起参考译文' : '查看参考译文';
+        }
+
+        if (helper) {
+          helper.textContent = hasDraft ? (revealed ? '你可以继续修改自己的译文' : '你已经作答，现在可以展开参考译文') : '先输入译文后再查看参考答案';
+        }
+
+        if (reference) {
+          reference.hidden = !revealed;
+        }
+
+        if (statusText) {
+          statusText.textContent = !hasDraft ? '未开始' : revealed ? '已查看参考' : '已填写';
+        }
+
+        card.classList.toggle('is-complete', hasDraft);
+        card.classList.toggle('is-revealed', revealed);
+      }
+
+      function updateSummary() {
+        let filled = 0;
+        let revealed = 0;
+        cards.forEach((card) => {
+          const id = card.getAttribute('data-sentence-id') || '';
+          const entry = state.entries[id] || {};
+          if (String(entry.draft || '').trim()) filled += 1;
+          if (entry.revealed) revealed += 1;
+        });
+        const percent = total > 0 ? Math.round((filled / total) * 100) : 0;
+        if (progressBar) progressBar.style.width = percent + '%';
+        if (progressPercent) progressPercent.textContent = percent + '%';
+        if (filledCountNode) filledCountNode.textContent = filled + ' / ' + total;
+        if (revealedCountNode) revealedCountNode.textContent = revealed + ' 句';
+      }
+
+      cards.forEach((card) => {
+        const id = card.getAttribute('data-sentence-id') || '';
+        const input = card.querySelector('[data-translation-input]');
+        const revealBtn = card.querySelector('[data-reveal-btn]');
+
+        if (!state.entries[id]) {
+          state.entries[id] = { draft: '', revealed: false };
+        }
+
+        updateCardVisual(card, state.entries[id]);
+
+        if (input) {
+          input.addEventListener('input', () => {
+            state.entries[id].draft = input.value;
+            if (!String(input.value || '').trim()) {
+              state.entries[id].revealed = false;
+            }
+            updateCardVisual(card, state.entries[id]);
+            updateSummary();
+            scheduleSave();
+          });
+        }
+
+        if (revealBtn) {
+          revealBtn.addEventListener('click', () => {
+            if (!String(state.entries[id].draft || '').trim()) return;
+            state.entries[id].revealed = !state.entries[id].revealed;
+            updateCardVisual(card, state.entries[id]);
+            updateSummary();
+            scheduleSave();
+          });
+        }
+      });
+
+      updateSummary();
+
+      if (jumpNextPendingBtn) {
+        jumpNextPendingBtn.addEventListener('click', () => {
+          const nextCard = cards.find((card) => {
+            const id = card.getAttribute('data-sentence-id') || '';
+            const entry = state.entries[id] || {};
+            return !String(entry.draft || '').trim();
+          }) || cards[0];
+
+          if (!nextCard) return;
+          nextCard.scrollIntoView({ behavior: 'smooth', block: 'center' });
+          const input = nextCard.querySelector('[data-translation-input]');
+          if (input) input.focus();
+        });
+      }
+
+      if (collapseAllReferencesBtn) {
+        collapseAllReferencesBtn.addEventListener('click', () => {
+          cards.forEach((card) => {
+            const id = card.getAttribute('data-sentence-id') || '';
+            if (!state.entries[id]) return;
+            state.entries[id].revealed = false;
+            updateCardVisual(card, state.entries[id]);
+          });
+          updateSummary();
+          scheduleSave();
+        });
+      }
+    })();
+  </script>
+</BaseLayout>
+

@@ -1,0 +1,50 @@
+{
+  "title": "Observability Makes Feedback Loops Smarter",
+  "description": "围绕监控、反馈与系统改进的英文短文，适合训练技术语义和抽象表达的翻译。",
+  "source": "Engineering English Lab",
+  "author": "CodeEcho",
+  "level": "advanced",
+  "tags": ["Observability", "Feedback", "Architecture", "Reliability"],
+  "estimatedMinutes": 14,
+  "heroNote": "这篇文章里会出现一些偏抽象的名词组合，翻译时可以先找主谓宾，再处理修饰成分。",
+  "publishedAt": "2026-09-12",
+  "sentences": [
+    {
+      "id": "s1",
+      "en": "Observability is valuable because it turns invisible runtime behavior into evidence that engineers can reason about.",
+      "zhReference": "可观测性的价值在于，它能够把原本不可见的运行时行为转化为工程师可以据此推理的证据。"
+    },
+    {
+      "id": "s2",
+      "en": "Without that evidence, teams tend to debate symptoms instead of understanding the mechanism behind them.",
+      "zhReference": "如果缺少这些证据，团队往往只会围绕现象争论，而无法真正理解其背后的机制。"
+    },
+    {
+      "id": "s3",
+      "en": "A healthy feedback loop starts with measurement, but it only becomes useful when the measurements guide a concrete decision.",
+      "zhReference": "一个健康的反馈循环始于度量，但只有当这些度量能够指导具体决策时，它才真正有意义。",
+      "note": "guide a concrete decision 可译为“指导具体决策”，强调不是停留在看数据。"
+    },
+    {
+      "id": "s4",
+      "en": "Metrics show that something changed, logs help explain the sequence, and traces reveal where latency accumulates.",
+      "zhReference": "指标告诉我们有什么发生了变化，日志帮助解释事件顺序，而链路追踪则揭示了延迟究竟积累在哪个位置。"
+    },
+    {
+      "id": "s5",
+      "en": "When these signals are connected, engineers can move from passive monitoring to active diagnosis.",
+      "zhReference": "当这些信号被串联起来时，工程师就能够从被动监控走向主动诊断。"
+    },
+    {
+      "id": "s6",
+      "en": "That shift is important because better diagnosis shortens the path between failure detection and system improvement.",
+      "zhReference": "这种转变之所以重要，是因为更好的诊断能力能够缩短“发现故障”到“改进系统”之间的路径。"
+    },
+    {
+      "id": "s7",
+      "en": "In other words, observability is not just about seeing more data, but about enabling faster and more reliable learning from production reality.",
+      "zhReference": "换句话说，可观测性并不只是让我们看到更多数据，而是让系统能够更快、更可靠地从真实生产环境中学习。"
+    }
+  ]
+}
+

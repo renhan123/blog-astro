@@ -2939,6 +2939,84 @@ mark.search-highlight {
     font-weight: 600;
 }
 
+.home-lab-entry {
+    margin-bottom: 24px;
+}
+
+.home-lab-entry-card {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 24px;
+    padding: 22px 24px;
+    border-radius: 22px;
+    border: 1px solid rgba(99, 102, 241, 0.14);
+    background: linear-gradient(135deg, rgba(99,102,241,0.09) 0%, rgba(168,85,247,0.05) 48%, rgba(255,255,255,0.01) 100%);
+}
+
+.home-lab-entry-main {
+    flex: 1;
+    min-width: 0;
+}
+
+.home-lab-entry-kicker {
+    display: inline-block;
+    font-size: 0.78rem;
+    font-weight: 700;
+    letter-spacing: 0.08em;
+    text-transform: uppercase;
+    color: var(--accent);
+    margin-bottom: 10px;
+}
+
+.home-lab-entry-title {
+    font-size: 1.36rem;
+    line-height: 1.4;
+    margin-bottom: 10px;
+}
+
+.home-lab-entry-desc {
+    color: var(--text-secondary);
+    line-height: 1.8;
+    max-width: 760px;
+}
+
+.home-lab-entry-pills {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    margin-top: 16px;
+}
+
+.home-lab-entry-pill {
+    display: inline-flex;
+    align-items: center;
+    padding: 6px 12px;
+    border-radius: 999px;
+    background: rgba(99,102,241,0.1);
+    color: var(--accent);
+    font-size: 0.82rem;
+    font-weight: 600;
+}
+
+.home-lab-entry-btn {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    padding: 12px 18px;
+    border-radius: 999px;
+    background: linear-gradient(135deg, var(--accent) 0%, #8b5cf6 100%);
+    color: #fff;
+    font-weight: 700;
+    white-space: nowrap;
+    flex-shrink: 0;
+}
+
+.home-lab-entry-btn:hover {
+    color: #fff;
+    filter: brightness(1.04);
+}
+
 @media (max-width: 768px) {
     .home-section {
         margin-bottom: 26px;
@@ -2956,6 +3034,21 @@ mark.search-highlight {
     .home-topic-nav {
         padding: 14px;
         border-radius: 16px;
+    }
+
+    .home-lab-entry-card {
+        flex-direction: column;
+        align-items: flex-start;
+        padding: 18px;
+        border-radius: 18px;
+    }
+
+    .home-lab-entry-title {
+        font-size: 1.2rem;
+    }
+
+    .home-lab-entry-btn {
+        width: 100%;
     }
 
     .topic-nav-item {

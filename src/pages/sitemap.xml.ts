@@ -1,6 +1,6 @@
 import type { APIRoute } from 'astro';
 import { getCollection } from 'astro:content';
-import { getPostSlug, getTagSlug } from '../utils';
+import { getEntrySlug, getPostSlug, getTagSlug } from '../utils';
 
 function escapeXml(value: string) {
   return value
@@ -16,14 +16,17 @@ export const GET: APIRoute = async ({ site }) => {
   const posts = (await getCollection('blog', ({ data }) => !data.draft)).sort(
     (a, b) => b.data.pubDate.getTime() - a.data.pubDate.getTime()
   );
+  const translationArticles = await getCollection('translation');
 
   const staticPages = [
     '/',
     '/about/',
+    '/assistant/',
     '/archive/',
     '/featured/',
     '/series/',
     '/tags/',
+    '/translator/',
     '/rss.xml',
   ];
 
@@ -38,6 +41,10 @@ export const GET: APIRoute = async ({ site }) => {
     ...posts.map((post) => ({
       loc: new URL('/blog/' + getPostSlug(post.id) + '/', siteUrl).toString(),
       lastmod: post.data.pubDate.toISOString(),
+    })),
+    ...translationArticles.map((article) => ({
+      loc: new URL('/translator/' + getEntrySlug(article.id) + '/', siteUrl).toString(),
+      lastmod: (article.data.publishedAt ?? new Date()).toISOString(),
     })),
     ...Array.from(tags).map((tag) => ({
       loc: new URL('/tags/' + getTagSlug(tag) + '/', siteUrl).toString(),
@@ -65,4 +72,3 @@ export const GET: APIRoute = async ({ site }) => {
     },
   });
 };
-

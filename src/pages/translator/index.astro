@@ -1,0 +1,244 @@
+---
+import { getCollection } from 'astro:content';
+import BaseLayout from '../../layouts/BaseLayout.astro';
+import { getEntrySlug, translationLevelLabels } from '../../utils';
+
+const translationArticles = (await getCollection('translation')).sort((a, b) => {
+  const aDate = a.data.publishedAt?.getTime() ?? 0;
+  const bDate = b.data.publishedAt?.getTime() ?? 0;
+  return bDate - aDate;
+});
+
+const progressIndexPayload = translationArticles.map((article) => ({
+  slug: getEntrySlug(article.id),
+  sentenceCount: article.data.sentences.length,
+}));
+---
+
+<BaseLayout
+  title="翻译导航 - CodeEcho"
+  description="面向英文技术文章的逐句翻译导航模块：先自己翻，再查看系统参考译文。"
+  currentPath="/translator/"
+>
+  <section class="translation-index-view">
+    <div class="container translation-index-shell">
+      <section class="translation-index-hero">
+        <div class="translation-index-hero-main">
+          <span class="translation-index-kicker">Translation Lab</span>
+          <h1 class="translation-index-title">逐句翻译导航</h1>
+          <p class="translation-index-desc">
+            这里不是“直接看机器翻译”，而是一个更适合练习英文技术文章精读的翻译空间：
+            <strong>先自己写，再看系统参考译文</strong>。
+          </p>
+          <div class="translation-index-pills">
+            <span class="translation-index-pill">逐句拆解文章</span>
+            <span class="translation-index-pill">本地自动保存</span>
+            <span class="translation-index-pill">写完再看参考译文</span>
+          </div>
+        </div>
+        <div class="translation-index-hero-side">
+          <div class="translation-index-highlight-card">
+            <h2>适合这样使用</h2>
+            <ol>
+              <li>先选择一篇英文文章进入逐句翻译页</li>
+              <li>在每个翻译框中写出你自己的中文理解</li>
+              <li>输入后再展开参考译文，逐句比对和修正</li>
+            </ol>
+          </div>
+        </div>
+      </section>
+
+      <section class="translation-index-meta-grid">
+        <div class="translation-index-meta-card">
+          <strong>{translationArticles.length}</strong>
+          <span>篇可练习文章</span>
+        </div>
+        <div class="translation-index-meta-card">
+          <strong>{translationArticles.reduce((sum, article) => sum + article.data.sentences.length, 0)}</strong>
+          <span>句英文原文</span>
+        </div>
+        <div class="translation-index-meta-card">
+          <strong>自我作答</strong>
+          <span>先翻译，再揭晓</span>
+        </div>
+      </section>
+
+      <section class="translation-index-list-section">
+        <div class="translation-index-section-head">
+          <div>
+            <span class="translation-index-section-kicker">文章导航</span>
+            <h2 class="translation-index-section-title">选择一篇文章开始翻译</h2>
+          </div>
+          <p class="translation-index-section-desc">进度会保存在当前浏览器中，返回列表后可继续从上次位置练习。</p>
+        </div>
+
+        <div class="translation-index-grid">
+          {translationArticles.map((article) => {
+            const slug = getEntrySlug(article.id);
+            const sentenceCount = article.data.sentences.length;
+            return (
+              <article
+                class="translation-index-card"
+                data-translation-card
+                data-slug={slug}
+                data-sentence-count={sentenceCount}
+              >
+                <div class="translation-index-card-top">
+                  <div class="translation-index-card-badges">
+                    <span class="translation-index-badge">{translationLevelLabels[article.data.level] ?? article.data.level}</span>
+                    {article.data.source && <span class="translation-index-badge translation-index-badge-muted">{article.data.source}</span>}
+                  </div>
+                  <span class="translation-index-card-sentences">{sentenceCount} 句</span>
+                </div>
+
+                <h3 class="translation-index-card-title">{article.data.title}</h3>
+                <p class="translation-index-card-desc">{article.data.description}</p>
+
+                {article.data.heroNote && (
+                  <div class="translation-index-note">
+                    <span class="translation-index-note-label">练习提示</span>
+                    <p>{article.data.heroNote}</p>
+                  </div>
+                )}
+
+                <div class="translation-index-card-tags">
+                  {article.data.tags.map((tag) => (
+                    <span class="translation-index-tag">{tag}</span>
+                  ))}
+                </div>
+
+                <div class="translation-index-card-footer">
+                  <div class="translation-index-progress-block">
+                    <div class="translation-index-progress-top">
+                      <span>当前进度</span>
+                      <strong data-progress-text>未开始</strong>
+                    </div>
+                    <div class="translation-index-progress-track">
+                      <span data-progress-bar style="width: 0%;"></span>
+                    </div>
+                  </div>
+                  <a class="translation-index-enter" href={'/translator/' + slug + '/'}>
+                    <span>进入逐句翻译</span>
+                    <span aria-hidden="true">→</span>
+                  </a>
+                </div>
+              </article>
+            );
+          })}
+        </div>
+      </section>
+    </div>
+  </section>
+
+  <style is:global>
+    .translation-index-view { margin-top: var(--nav-height); padding: 42px 0 88px; }
+    .translation-index-shell { max-width: 1200px; }
+    .translation-index-hero { display: grid; grid-template-columns: minmax(0, 1.45fr) minmax(320px, 0.95fr); gap: 24px; align-items: stretch; margin-bottom: 26px; }
+    .translation-index-hero-main,
+    .translation-index-highlight-card,
+    .translation-index-meta-card,
+    .translation-index-card { background: var(--bg-card); border: 1px solid var(--border-color); box-shadow: var(--shadow-sm); }
+    .translation-index-hero-main { border-radius: 28px; padding: 34px 34px 32px; background: linear-gradient(135deg, rgba(99,102,241,0.12), rgba(168,85,247,0.08) 55%, rgba(255,255,255,0.02)); }
+    .translation-index-kicker,
+    .translation-index-section-kicker,
+    .translation-index-note-label { display: inline-block; font-size: 0.76rem; font-weight: 700; letter-spacing: 0.08em; text-transform: uppercase; color: var(--accent); }
+    .translation-index-title { font-size: 2.35rem; line-height: 1.15; margin: 16px 0 14px; }
+    .translation-index-desc { color: var(--text-secondary); font-size: 1rem; line-height: 1.9; max-width: 720px; }
+    .translation-index-pills { display: flex; flex-wrap: wrap; gap: 10px; margin-top: 24px; }
+    .translation-index-pill { display: inline-flex; align-items: center; padding: 8px 14px; border-radius: 999px; border: 1px solid rgba(99,102,241,0.16); background: rgba(99,102,241,0.08); color: var(--accent); font-size: 0.84rem; font-weight: 600; }
+    .translation-index-highlight-card { border-radius: 28px; padding: 28px; height: 100%; }
+    .translation-index-highlight-card h2 { font-size: 1.08rem; margin-bottom: 16px; }
+    .translation-index-highlight-card ol { padding-left: 20px; display: grid; gap: 12px; color: var(--text-secondary); line-height: 1.9; }
+    .translation-index-meta-grid { display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); gap: 16px; margin-bottom: 28px; }
+    .translation-index-meta-card { border-radius: 22px; padding: 22px 20px; text-align: center; }
+    .translation-index-meta-card strong { display: block; font-size: 1.4rem; line-height: 1.2; margin-bottom: 6px; }
+    .translation-index-meta-card span { color: var(--text-secondary); font-size: 0.88rem; }
+    .translation-index-list-section { display: grid; gap: 18px; }
+    .translation-index-section-head { display: flex; justify-content: space-between; gap: 24px; align-items: end; flex-wrap: wrap; }
+    .translation-index-section-title { font-size: 1.55rem; margin-top: 10px; }
+    .translation-index-section-desc { color: var(--text-secondary); max-width: 520px; line-height: 1.8; }
+    .translation-index-grid { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 20px; }
+    .translation-index-card { border-radius: 26px; padding: 24px; display: grid; gap: 18px; transition: transform var(--transition), border-color var(--transition), box-shadow var(--transition); }
+    .translation-index-card:hover { transform: translateY(-3px); border-color: rgba(99,102,241,0.22); box-shadow: var(--shadow-md); }
+    .translation-index-card-top,
+    .translation-index-card-badges,
+    .translation-index-card-footer,
+    .translation-index-progress-top { display: flex; align-items: center; justify-content: space-between; gap: 12px; }
+    .translation-index-card-badges { justify-content: flex-start; flex-wrap: wrap; }
+    .translation-index-badge { display: inline-flex; align-items: center; padding: 6px 10px; border-radius: 999px; background: rgba(99,102,241,0.1); color: var(--accent); font-size: 0.78rem; font-weight: 700; }
+    .translation-index-badge-muted { background: var(--bg-secondary); color: var(--text-secondary); }
+    .translation-index-card-sentences { color: var(--text-muted); font-size: 0.82rem; }
+    .translation-index-card-title { font-size: 1.2rem; line-height: 1.45; }
+    .translation-index-card-desc { color: var(--text-secondary); line-height: 1.85; }
+    .translation-index-note { border-radius: 18px; padding: 15px 16px; background: linear-gradient(180deg, rgba(99,102,241,0.06), rgba(99,102,241,0.01)); border: 1px solid rgba(99,102,241,0.12); }
+    .translation-index-note p { margin-top: 10px; color: var(--text-secondary); line-height: 1.8; font-size: 0.92rem; }
+    .translation-index-card-tags { display: flex; flex-wrap: wrap; gap: 10px; }
+    .translation-index-tag { display: inline-flex; align-items: center; padding: 6px 10px; border-radius: 999px; background: var(--bg-secondary); color: var(--text-secondary); font-size: 0.8rem; }
+    .translation-index-card-footer { align-items: end; }
+    .translation-index-progress-block { flex: 1; min-width: 0; }
+    .translation-index-progress-top span { color: var(--text-muted); font-size: 0.8rem; }
+    .translation-index-progress-top strong { color: var(--text-primary); font-size: 0.88rem; }
+    .translation-index-progress-track { margin-top: 10px; height: 8px; border-radius: 999px; background: var(--bg-secondary); overflow: hidden; }
+    .translation-index-progress-track span { display: block; height: 100%; border-radius: inherit; background: linear-gradient(90deg, var(--accent), #8b5cf6); }
+    .translation-index-enter { display: inline-flex; align-items: center; gap: 10px; white-space: nowrap; padding: 11px 16px; border-radius: 999px; background: linear-gradient(135deg, var(--accent), #8b5cf6); color: #fff; font-size: 0.9rem; font-weight: 700; }
+    .translation-index-enter:hover { color: #fff; filter: brightness(1.05); }
+    @media (max-width: 960px) {
+      .translation-index-hero,
+      .translation-index-grid { grid-template-columns: 1fr; }
+      .translation-index-meta-grid { grid-template-columns: 1fr; }
+    }
+    @media (max-width: 640px) {
+      .translation-index-view { padding: 30px 0 60px; }
+      .translation-index-hero-main,
+      .translation-index-highlight-card,
+      .translation-index-card { border-radius: 22px; padding: 22px 18px; }
+      .translation-index-title { font-size: 1.85rem; }
+      .translation-index-card-footer { flex-direction: column; align-items: stretch; }
+      .translation-index-enter { justify-content: center; }
+    }
+  </style>
+
+  <script type="application/json" id="translationIndexProgressData" set:html={JSON.stringify(progressIndexPayload)}></script>
+  <script is:inline>
+    (() => {
+      const dataNode = document.getElementById('translationIndexProgressData');
+      if (!dataNode) return;
+
+      let payload = [];
+      try {
+        payload = JSON.parse(dataNode.textContent || '[]');
+      } catch (error) {
+        return;
+      }
+
+      const progressMap = new Map(payload.map((item) => [item.slug, item.sentenceCount]));
+      const cards = Array.from(document.querySelectorAll('[data-translation-card]'));
+
+      cards.forEach((card) => {
+        const slug = card.getAttribute('data-slug') || '';
+        const sentenceCount = Number(card.getAttribute('data-sentence-count') || progressMap.get(slug) || 0);
+        const progressText = card.querySelector('[data-progress-text]');
+        const progressBar = card.querySelector('[data-progress-bar]');
+        if (!slug || !sentenceCount || !progressText || !progressBar) return;
+
+        const saved = localStorage.getItem('translation-lab:' + slug);
+        let filledCount = 0;
+
+        if (saved) {
+          try {
+            const parsed = JSON.parse(saved);
+            const entries = parsed?.entries || {};
+            filledCount = Object.values(entries).filter((item) => item && typeof item === 'object' && String(item.draft || '').trim()).length;
+          } catch (error) {
+            filledCount = 0;
+          }
+        }
+
+        const percent = sentenceCount > 0 ? Math.round((filledCount / sentenceCount) * 100) : 0;
+        progressText.textContent = filledCount > 0 ? filledCount + ' / ' + sentenceCount + ' 句已完成' : '未开始';
+        progressBar.style.width = percent + '%';
+      });
+    })();
+  </script>
+</BaseLayout>
+

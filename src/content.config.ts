@@ -18,4 +18,27 @@ const blog = defineCollection({
   }),
 });
 
-export const collections = { blog };
+const translation = defineCollection({
+  type: 'data',
+  schema: z.object({
+    title: z.string(),
+    description: z.string(),
+    source: z.string().optional(),
+    author: z.string().optional(),
+    level: z.enum(['beginner', 'intermediate', 'advanced']).default('intermediate'),
+    tags: z.array(z.string()).default([]),
+    estimatedMinutes: z.number().int().positive().optional(),
+    heroNote: z.string().optional(),
+    publishedAt: z.coerce.date().optional(),
+    sentences: z.array(
+      z.object({
+        id: z.string(),
+        en: z.string(),
+        zhReference: z.string(),
+        note: z.string().optional(),
+      })
+    ).min(1),
+  }),
+});
+
+export const collections = { blog, translation };

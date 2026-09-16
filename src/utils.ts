@@ -5,6 +5,12 @@ export const categoryLabels: Record<string, string> = {
   database: '数据库',
 };
 
+export const translationLevelLabels: Record<string, string> = {
+  beginner: '入门',
+  intermediate: '进阶',
+  advanced: '挑战',
+};
+
 export function formatDate(date: Date) {
   return date.toISOString().slice(0, 10);
 }
@@ -16,8 +22,12 @@ export function formatDateZh(date: Date) {
   return `${y}年${m}月${d}日`;
 }
 
-export function getPostSlug(id: string) {
+export function getEntrySlug(id: string) {
   return id.replace(/.[^.]+$/, '');
+}
+
+export function getPostSlug(id: string) {
+  return getEntrySlug(id);
 }
 
 export function ensureAbsoluteUrl(pathOrUrl: string, site: URL): string {

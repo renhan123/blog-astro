@@ -306,7 +306,14 @@ const sentenceCount = article.data.sentences.length;
         try {
           const parsed = JSON.parse(saved);
           if (parsed && typeof parsed === 'object' && parsed.entries) {
-            state = { entries: parsed.entries || {}, updatedAt: parsed.updatedAt || new Date().toISOString() };
+            const restoredEntries = {};
+            Object.entries(parsed.entries || {}).forEach(([id, value]) => {
+              restoredEntries[id] = {
+                draft: value && typeof value === 'object' ? String(value.draft || '') : '',
+                revealed: false,
+              };
+            });
+            state = { entries: restoredEntries, updatedAt: parsed.updatedAt || new Date().toISOString() };
           }
         } catch (error) {
           state = { entries: {}, updatedAt: new Date().toISOString() };
@@ -317,7 +324,13 @@ const sentenceCount = article.data.sentences.length;
 
       function persistState() {
         state.updatedAt = new Date().toISOString();
-        localStorage.setItem(storageKey, JSON.stringify(state));
+        const entriesToStore = {};
+        Object.entries(state.entries || {}).forEach(([id, value]) => {
+          entriesToStore[id] = {
+            draft: value && typeof value === 'object' ? String(value.draft || '') : '',
+          };
+        });
+        localStorage.setItem(storageKey, JSON.stringify({ entries: entriesToStore, updatedAt: state.updatedAt }));
       }
 
       function scheduleSave() {
@@ -441,4 +454,3 @@ const sentenceCount = article.data.sentences.length;
     })();
   </script>
 </BaseLayout>
-

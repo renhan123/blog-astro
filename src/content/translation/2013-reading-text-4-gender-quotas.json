@@ -1,0 +1,31 @@
+{
+  "title": "2013 真题 Text 4 · 女性董事席位配额",
+  "description": "围绕欧洲企业管理层的性别平等、董事会配额与择优原则展开讨论。",
+  "source": "2013年真题.pdf · Reading Comprehension",
+  "author": "2013 English Exam",
+  "level": "intermediate",
+  "tags": ["2013真题", "Reading Comprehension", "Gender Equality"],
+  "estimatedMinutes": 20,
+  "heroNote": "留意作者对 quotas 的态度：既有原则上的保留，也承认现实中的必要性。",
+  "publishedAt": "2013-01-01",
+  "sentences": [
+    {"id":"s1","en":"Europe is not a gender-equality heaven.","zhReference":"欧洲并不是性别平等的天堂。"},
+    {"id":"s2","en":"In particular, the corporate workplace will never be completely family-friendly until women are part of senior management decisions, and Europe's top corporate-governance positions remain overwhelmingly male.","zhReference":"特别是，在女性参与高层管理决策之前，企业职场永远不可能真正做到家庭友好；而欧洲企业治理的最高职位仍由男性占据绝大多数。"},
+    {"id":"s3","en":"Indeed, women hold only 14 per cent of positions on European corporate boards.","zhReference":"事实上，欧洲公司董事会中只有百分之十四的席位由女性担任。"},
+    {"id":"s4","en":"The European Union is now considering legislation to compel corporate boards to maintain a certain proportion of women—up to 60 per cent.","zhReference":"欧盟目前正考虑立法，强制公司董事会维持一定比例的女性成员——比例最高可达百分之六十。"},
+    {"id":"s5","en":"This proposed mandate was born of frustration.","zhReference":"这项拟议中的强制规定源于此前努力受挫。"},
+    {"id":"s6","en":"Last year, European Commission Vice President Viviane Reding issued a call to voluntary action.","zhReference":"去年，欧盟委员会副主席维维安·雷丁呼吁企业自愿采取行动。"},
+    {"id":"s7","en":"Reding invited corporations to sign up for gender balance goals of 40 per cent female board membership.","zhReference":"雷丁邀请企业承诺实现性别平衡目标，让女性占据董事会百分之四十的席位。"},
+    {"id":"s8","en":"But her appeal was considered a failure: only 24 companies took it up.","zhReference":"但她的呼吁被认为是失败的：只有二十四家公司作出响应。"},
+    {"id":"s9","en":"Do we need quotas to ensure that women can continue to climb the corporate ladder fairly as they balance work and family?","zhReference":"为了确保女性在兼顾工作与家庭的同时仍能公平地晋升，我们是否需要配额制度？"},
+    {"id":"s10","en":"Personally, I don't like quotas, Reding said recently.","zhReference":"雷丁最近说：‘就我个人而言，我不喜欢配额。’"},
+    {"id":"s11","en":"But I like what the quotas do.","zhReference":"‘但我喜欢配额所能起到的作用。’"},
+    {"id":"s12","en":"Quotas get action: they open the way to equality and they break through the glass ceiling, according to Reding, a result seen in France and other countries with legally binding provisions on placing women in top business positions.","zhReference":"雷丁表示，配额能够促成行动：它们为平等开辟道路，并打破玻璃天花板；法国及其他对女性担任企业高层职位作出法律强制规定的国家，就出现了这样的结果。"},
+    {"id":"s13","en":"I understand Reding's reluctance—and her frustration.","zhReference":"我理解雷丁的犹豫，也理解她的挫败感。"},
+    {"id":"s14","en":"I don't like quotas either; they run counter to my belief in meritocracy, governance by the capable.","zhReference":"我也不喜欢配额制度；它与我所信奉的贤能政治——由有能力者治理——背道而驰。"},
+    {"id":"s15","en":"But, when one considers the obstacles to achieving the meritocratic ideal, it does look as if a fairer world must be temporarily ordered.","zhReference":"但考虑到实现择优原则理想所面临的障碍，似乎确实必须暂时通过强制规定来建立一个更公平的世界。"},
+    {"id":"s16","en":"After all, four decades of evidence has now shown that corporations in Europe as well as the US are evading the meritocratic hiring and promotion of women to top positions—no matter how much soft pressure is put upon them.","zhReference":"毕竟，四十年的证据已经表明，无论施加多少非强制性压力，欧美企业都在回避按照能力聘用和提拔女性进入高层职位。"},
+    {"id":"s17","en":"When women do break through to the summit of corporate power—as, for example, Sheryl Sandberg recently did at Facebook—they attract massive attention precisely because they remain the exception to the rule.","zhReference":"当女性确实进入企业权力顶层时——例如谢丽尔·桑德伯格最近在 Facebook 的经历——她们之所以备受关注，正是因为她们仍是少数例外。"},
+    {"id":"s18","en":"If appropriate public policies were in place to help all women—whether CEOs or their children's caregivers—and all families, Sandberg would be no more newsworthy than any other highly capable person living in a more just society.","zhReference":"如果有适当的公共政策帮助所有女性——无论是首席执行官还是照顾孩子的人——以及所有家庭，那么在一个更公正的社会里，桑德伯格就不会比其他才华出众的人更值得成为新闻。"}
+  ]
+}

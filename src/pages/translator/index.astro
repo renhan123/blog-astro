@@ -9,6 +9,21 @@ const translationArticles = (await getCollection('translation')).sort((a, b) => 
   return bDate - aDate;
 });
 
+// Prefer the exam year in the filename; the publication date is a fallback for other articles.
+const articlesByYear = new Map<string, typeof translationArticles>();
+for (const article of translationArticles) {
+  const year = getEntrySlug(article.id).match(/^(20[0-9]{2})-reading-text-/)?.[1]
+    ?? (article.data.publishedAt ? String(article.data.publishedAt.getFullYear()) : '其他');
+  if (!articlesByYear.has(year)) articlesByYear.set(year, []);
+  articlesByYear.get(year)!.push(article);
+}
+const yearGroups = [...articlesByYear.entries()]
+  .sort(([a], [b]) => b.localeCompare(a, 'zh-CN', { numeric: true }))
+  .map(([year, articles]) => [
+    year,
+    articles.sort((a, b) => getEntrySlug(a.id).localeCompare(getEntrySlug(b.id), 'zh-CN', { numeric: true })),
+  ] as const);
+
 const progressIndexPayload = translationArticles.map((article) => ({
   slug: getEntrySlug(article.id),
   sentenceCount: article.data.sentences.length,
@@ -67,64 +82,43 @@ const progressIndexPayload = translationArticles.map((article) => ({
         <div class="translation-index-section-head">
           <div>
             <span class="translation-index-section-kicker">文章导航</span>
-            <h2 class="translation-index-section-title">选择一篇文章开始翻译</h2>
+            <h2 class="translation-index-section-title">按年份选择真题</h2>
           </div>
-          <p class="translation-index-section-desc">进度会保存在当前浏览器中，返回列表后可继续从上次位置练习。</p>
+          <p class="translation-index-section-desc">点击年份展开文章列表；练习进度会保存在当前浏览器中。</p>
         </div>
 
-        <div class="translation-index-grid">
-          {translationArticles.map((article) => {
-            const slug = getEntrySlug(article.id);
-            const sentenceCount = article.data.sentences.length;
-            return (
-              <article
-                class="translation-index-card"
-                data-translation-card
-                data-slug={slug}
-                data-sentence-count={sentenceCount}
-              >
-                <div class="translation-index-card-top">
-                  <div class="translation-index-card-badges">
-                    <span class="translation-index-badge">{translationLevelLabels[article.data.level] ?? article.data.level}</span>
-                    {article.data.source && <span class="translation-index-badge translation-index-badge-muted">{article.data.source}</span>}
-                  </div>
-                  <span class="translation-index-card-sentences">{sentenceCount} 句</span>
-                </div>
-
-                <h3 class="translation-index-card-title">{article.data.title}</h3>
-                <p class="translation-index-card-desc">{article.data.description}</p>
-
-                {article.data.heroNote && (
-                  <div class="translation-index-note">
-                    <span class="translation-index-note-label">练习提示</span>
-                    <p>{article.data.heroNote}</p>
-                  </div>
-                )}
-
-                <div class="translation-index-card-tags">
-                  {article.data.tags.map((tag) => (
-                    <span class="translation-index-tag">{tag}</span>
-                  ))}
-                </div>
-
-                <div class="translation-index-card-footer">
-                  <div class="translation-index-progress-block">
-                    <div class="translation-index-progress-top">
-                      <span>当前进度</span>
-                      <strong data-progress-text>未开始</strong>
-                    </div>
-                    <div class="translation-index-progress-track">
-                      <span data-progress-bar style="width: 0%;"></span>
-                    </div>
-                  </div>
-                  <a class="translation-index-enter" href={'/translator/' + slug + '/'}>
-                    <span>进入逐句翻译</span>
-                    <span aria-hidden="true">→</span>
-                  </a>
-                </div>
-              </article>
-            );
-          })}
+        <div class="translation-year-list">
+          {yearGroups.map(([year, articles]) => (
+            <details class="translation-year-group">
+              <summary class="translation-year-summary">
+                <span class="translation-year-name">{year === "其他" ? "其他文章" : year + " 年真题"}</span>
+                <span class="translation-year-count">{articles.length} 篇文章</span>
+                <span class="translation-year-chevron" aria-hidden="true">⌄</span>
+              </summary>
+              <div class="translation-year-articles">
+                {articles.map((article) => {
+                  const slug = getEntrySlug(article.id);
+                  const sentenceCount = article.data.sentences.length;
+                  return (
+                    <article class="translation-article-row" data-translation-card data-slug={slug} data-sentence-count={sentenceCount}>
+                      <div class="translation-article-main">
+                        <h3 class="translation-article-title">{article.data.title}</h3>
+                        <p class="translation-article-desc">{article.data.description}</p>
+                        <span class="translation-article-meta">{translationLevelLabels[article.data.level] ?? article.data.level} · {sentenceCount} 句</span>
+                      </div>
+                      <div class="translation-article-actions">
+                        <div class="translation-index-progress-block">
+                          <div class="translation-index-progress-top"><span>当前进度</span><strong data-progress-text>未开始</strong></div>
+                          <div class="translation-index-progress-track"><span data-progress-bar style="width: 0%;"></span></div>
+                        </div>
+                        <a class="translation-index-enter" href={"/translator/" + slug + "/"} aria-label={"进入 " + article.data.title + " 逐句翻译"}>开始翻译 →</a>
+                      </div>
+                    </article>
+                  );
+                })}
+              </div>
+            </details>
+          ))}
         </div>
       </section>
     </div>
@@ -137,7 +131,7 @@ const progressIndexPayload = translationArticles.map((article) => ({
     .translation-index-hero-main,
     .translation-index-highlight-card,
     .translation-index-meta-card,
-    .translation-index-card { background: var(--bg-card); border: 1px solid var(--border-color); box-shadow: var(--shadow-sm); }
+    .translation-year-group { background: var(--bg-card); border: 1px solid var(--border-color); box-shadow: var(--shadow-sm); }
     .translation-index-hero-main { border-radius: 28px; padding: 34px 34px 32px; background: linear-gradient(135deg, rgba(99,102,241,0.12), rgba(168,85,247,0.08) 55%, rgba(255,255,255,0.02)); }
     .translation-index-kicker,
     .translation-index-section-kicker,
@@ -157,24 +151,26 @@ const progressIndexPayload = translationArticles.map((article) => ({
     .translation-index-section-head { display: flex; justify-content: space-between; gap: 24px; align-items: end; flex-wrap: wrap; }
     .translation-index-section-title { font-size: 1.55rem; margin-top: 10px; }
     .translation-index-section-desc { color: var(--text-secondary); max-width: 520px; line-height: 1.8; }
-    .translation-index-grid { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 20px; }
-    .translation-index-card { border-radius: 26px; padding: 24px; display: grid; gap: 18px; transition: transform var(--transition), border-color var(--transition), box-shadow var(--transition); }
-    .translation-index-card:hover { transform: translateY(-3px); border-color: rgba(99,102,241,0.22); box-shadow: var(--shadow-md); }
-    .translation-index-card-top,
-    .translation-index-card-badges,
-    .translation-index-card-footer,
+    .translation-year-list { display: grid; gap: 16px; }
+    .translation-year-group { border-radius: 22px; overflow: hidden; }
+    .translation-year-group[open] { border-color: rgba(99,102,241,0.26); }
+    .translation-year-summary { display: flex; align-items: center; gap: 14px; padding: 22px 26px; cursor: pointer; list-style: none; }
+    .translation-year-summary::-webkit-details-marker { display: none; }
+    .translation-year-summary:hover { background: var(--bg-secondary); }
+    .translation-year-name { font-size: 1.2rem; font-weight: 700; }
+    .translation-year-count { margin-left: auto; color: var(--text-secondary); font-size: 0.88rem; }
+    .translation-year-chevron { color: var(--accent); font-size: 1.4rem; line-height: 1; transition: transform var(--transition); }
+    .translation-year-group[open] .translation-year-chevron { transform: rotate(180deg); }
+    .translation-year-articles { border-top: 1px solid var(--border-color); }
+    .translation-article-row { display: flex; align-items: center; justify-content: space-between; gap: 28px; padding: 20px 26px; }
+    .translation-article-row + .translation-article-row { border-top: 1px solid var(--border-color); }
+    .translation-article-row:hover { background: var(--bg-secondary); }
+    .translation-article-main { flex: 1; min-width: 0; }
+    .translation-article-title { font-size: 1.04rem; line-height: 1.5; }
+    .translation-article-desc { color: var(--text-secondary); font-size: 0.86rem; line-height: 1.6; margin-top: 5px; }
+    .translation-article-meta { display: block; color: var(--text-muted); font-size: 0.8rem; margin-top: 8px; }
+    .translation-article-actions { display: flex; align-items: center; gap: 18px; width: min(100%, 320px); flex-shrink: 0; }
     .translation-index-progress-top { display: flex; align-items: center; justify-content: space-between; gap: 12px; }
-    .translation-index-card-badges { justify-content: flex-start; flex-wrap: wrap; }
-    .translation-index-badge { display: inline-flex; align-items: center; padding: 6px 10px; border-radius: 999px; background: rgba(99,102,241,0.1); color: var(--accent); font-size: 0.78rem; font-weight: 700; }
-    .translation-index-badge-muted { background: var(--bg-secondary); color: var(--text-secondary); }
-    .translation-index-card-sentences { color: var(--text-muted); font-size: 0.82rem; }
-    .translation-index-card-title { font-size: 1.2rem; line-height: 1.45; }
-    .translation-index-card-desc { color: var(--text-secondary); line-height: 1.85; }
-    .translation-index-note { border-radius: 18px; padding: 15px 16px; background: linear-gradient(180deg, rgba(99,102,241,0.06), rgba(99,102,241,0.01)); border: 1px solid rgba(99,102,241,0.12); }
-    .translation-index-note p { margin-top: 10px; color: var(--text-secondary); line-height: 1.8; font-size: 0.92rem; }
-    .translation-index-card-tags { display: flex; flex-wrap: wrap; gap: 10px; }
-    .translation-index-tag { display: inline-flex; align-items: center; padding: 6px 10px; border-radius: 999px; background: var(--bg-secondary); color: var(--text-secondary); font-size: 0.8rem; }
-    .translation-index-card-footer { align-items: end; }
     .translation-index-progress-block { flex: 1; min-width: 0; }
     .translation-index-progress-top span { color: var(--text-muted); font-size: 0.8rem; }
     .translation-index-progress-top strong { color: var(--text-primary); font-size: 0.88rem; }
@@ -183,17 +179,17 @@ const progressIndexPayload = translationArticles.map((article) => ({
     .translation-index-enter { display: inline-flex; align-items: center; gap: 10px; white-space: nowrap; padding: 11px 16px; border-radius: 999px; background: linear-gradient(135deg, var(--accent), #8b5cf6); color: #fff; font-size: 0.9rem; font-weight: 700; }
     .translation-index-enter:hover { color: #fff; filter: brightness(1.05); }
     @media (max-width: 960px) {
-      .translation-index-hero,
-      .translation-index-grid { grid-template-columns: 1fr; }
+      .translation-index-hero { grid-template-columns: 1fr; }
       .translation-index-meta-grid { grid-template-columns: 1fr; }
     }
     @media (max-width: 640px) {
       .translation-index-view { padding: 30px 0 60px; }
       .translation-index-hero-main,
-      .translation-index-highlight-card,
-      .translation-index-card { border-radius: 22px; padding: 22px 18px; }
+      .translation-index-highlight-card { border-radius: 22px; padding: 22px 18px; }
       .translation-index-title { font-size: 1.85rem; }
-      .translation-index-card-footer { flex-direction: column; align-items: stretch; }
+      .translation-year-summary, .translation-article-row { padding: 18px; }
+      .translation-article-row, .translation-article-actions { flex-direction: column; align-items: stretch; }
+      .translation-article-actions { width: 100%; gap: 14px; }
       .translation-index-enter { justify-content: center; }
     }
   </style>
@@ -241,4 +237,3 @@ const progressIndexPayload = translationArticles.map((article) => ({
     })();
   </script>
 </BaseLayout>
-

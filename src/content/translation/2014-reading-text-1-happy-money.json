@@ -1,0 +1,359 @@
+{
+  "title": "2014 真题 Text 1 · 金钱与幸福",
+  "description": "从彩票中奖者的故事出发，探讨如何花钱才能获得更长久的幸福感。",
+  "source": "2014年真题.pdf · Reading Comprehension",
+  "author": "2014 English Exam",
+  "level": "intermediate",
+  "tags": [
+    "2014真题",
+    "Reading Comprehension",
+    "Happiness",
+    "Money"
+  ],
+  "estimatedMinutes": 24,
+  "heroNote": "关注物质消费、体验消费与为他人花钱之间的对比。",
+  "publishedAt": "2014-01-01",
+  "sentences": [
+    {
+      "id": "s1",
+      "en": "What would you do with $590m?",
+      "zhReference": "如果有五亿九千万美元，你会拿它做什么？",
+      "vocabulary": [
+        {
+          "term": "$590m",
+          "meaning": "五亿九千万美元",
+          "kind": "短语"
+        }
+      ]
+    },
+    {
+      "id": "s2",
+      "en": "This is now a question for Gloria MacKenzie, an 84-year-old widow who recently emerged from her small, tin-roofed house in Florida to collect the biggest undivided lottery jackpot in history.",
+      "zhReference": "这个问题现在摆在格洛丽亚·麦肯齐面前：这位八十四岁的寡妇最近从佛罗里达州一间狭小的铁皮屋顶房子里走出来，领取了有史以来金额最大的独享彩票头奖。",
+      "vocabulary": [
+        {
+          "term": "widow",
+          "meaning": "寡妇",
+          "kind": "生词"
+        },
+        {
+          "term": "undivided lottery jackpot",
+          "meaning": "独享的彩票头奖",
+          "kind": "短语"
+        }
+      ]
+    },
+    {
+      "id": "s3",
+      "en": "If she hopes her new-found fortune will yield lasting feelings of fulfilment, she could do worse than read Happy Money by Elizabeth Dunn and Michael Norton.",
+      "zhReference": "如果她希望这笔新得的财富带来持久的满足感，不妨读读伊丽莎白·邓恩和迈克尔·诺顿合著的《快乐金钱》。",
+      "vocabulary": [
+        {
+          "term": "yield",
+          "meaning": "带来；产生",
+          "kind": "熟词僻义"
+        },
+        {
+          "term": "could do worse than",
+          "meaning": "不妨……",
+          "kind": "短语"
+        },
+        {
+          "term": "fulfilment",
+          "meaning": "满足感",
+          "kind": "生词"
+        }
+      ]
+    },
+    {
+      "id": "s4",
+      "en": "These two academics use an array of behavioral research to show that the most rewarding ways to spend money can be counterintuitive.",
+      "zhReference": "这两位学者借助一系列行为研究表明，最能带来满足感的花钱方式可能与直觉相反。",
+      "vocabulary": [
+        {
+          "term": "an array of",
+          "meaning": "一系列",
+          "kind": "短语"
+        },
+        {
+          "term": "counterintuitive",
+          "meaning": "违反直觉的",
+          "kind": "生词"
+        }
+      ]
+    },
+    {
+      "id": "s5",
+      "en": "Fantasies of great wealth often involve visions of fancy cars and extravagant homes.",
+      "zhReference": "对巨额财富的幻想往往包括豪车和奢华住宅的画面。",
+      "vocabulary": [
+        {
+          "term": "extravagant",
+          "meaning": "奢华的",
+          "kind": "生词"
+        },
+        {
+          "term": "visions of",
+          "meaning": "关于……的想象",
+          "kind": "短语"
+        }
+      ]
+    },
+    {
+      "id": "s6",
+      "en": "Yet satisfaction with these material purchases wears off fairly quickly.",
+      "zhReference": "然而，这些物质消费带来的满足感很快就会消退。",
+      "vocabulary": [
+        {
+          "term": "wears off",
+          "meaning": "逐渐消退",
+          "kind": "短语"
+        },
+        {
+          "term": "material purchases",
+          "meaning": "物质消费",
+          "kind": "短语"
+        }
+      ]
+    },
+    {
+      "id": "s7",
+      "en": "What was once exciting and new becomes old-hat; regret creeps in.",
+      "zhReference": "曾经令人兴奋的新鲜事物变得陈旧过时；悔意也悄然袭来。",
+      "vocabulary": [
+        {
+          "term": "old-hat",
+          "meaning": "过时的",
+          "kind": "生词"
+        },
+        {
+          "term": "creeps in",
+          "meaning": "悄然出现",
+          "kind": "短语"
+        }
+      ]
+    },
+    {
+      "id": "s8",
+      "en": "It is far better to spend money on experiences, say Ms Dunn and Mr Norton, like interesting trips, unique meals or even going to the cinema.",
+      "zhReference": "邓恩女士和诺顿先生认为，把钱花在体验上要好得多，例如有趣的旅行、独特的餐食，甚至去电影院看电影。",
+      "vocabulary": [
+        {
+          "term": "spend money on experiences",
+          "meaning": "花钱购买体验",
+          "kind": "短语"
+        },
+        {
+          "term": "far better",
+          "meaning": "好得多",
+          "kind": "短语"
+        }
+      ]
+    },
+    {
+      "id": "s9",
+      "en": "These purchases often become more valuable with time—as stories or memories—particularly if they involve feeling more connected to others.",
+      "zhReference": "这些消费会随着时间推移，以故事或回忆的形式变得更加珍贵，尤其当它们使人感到与他人的联系更紧密时。",
+      "vocabulary": [
+        {
+          "term": "with time",
+          "meaning": "随着时间推移",
+          "kind": "短语"
+        },
+        {
+          "term": "connected to others",
+          "meaning": "与他人建立联系",
+          "kind": "短语"
+        }
+      ]
+    },
+    {
+      "id": "s10",
+      "en": "This slim volume is packed with tips to help wage slaves as well as lottery winners get the most “happiness bang for your buck.”",
+      "zhReference": "这本薄书满载建议，帮助打工族和彩票中奖者都尽可能让每一分钱换来更多幸福感。",
+      "vocabulary": [
+        {
+          "term": "wage slaves",
+          "meaning": "为工资奔忙的打工族",
+          "kind": "短语"
+        },
+        {
+          "term": "bang for your buck",
+          "meaning": "花钱得到的回报",
+          "kind": "短语"
+        },
+        {
+          "term": "volume",
+          "meaning": "书；册",
+          "kind": "熟词僻义"
+        }
+      ]
+    },
+    {
+      "id": "s11",
+      "en": "It seems most people would be better off if they could shorten their commutes to work, spend more time with friends and family and less of it watching television (something the average American spends a whopping two months a year doing, and is hardly jollier for it).",
+      "zhReference": "看来，如果大多数人能缩短通勤时间，多陪伴亲友、少看电视，生活会更幸福；美国人平均每年竟花两个月看电视，却几乎没有因此更快乐。",
+      "vocabulary": [
+        {
+          "term": "be better off",
+          "meaning": "境况更好",
+          "kind": "短语"
+        },
+        {
+          "term": "commutes to work",
+          "meaning": "上下班通勤",
+          "kind": "短语"
+        },
+        {
+          "term": "whopping",
+          "meaning": "惊人的",
+          "kind": "生词"
+        }
+      ]
+    },
+    {
+      "id": "s12",
+      "en": "Buying gifts or giving to charity is often more pleasurable than purchasing things for oneself, and luxuries are most enjoyable when they are consumed sparingly.",
+      "zhReference": "买礼物或做慈善往往比给自己买东西更令人愉快，而奢侈品在偶尔享用时才最让人享受。",
+      "vocabulary": [
+        {
+          "term": "giving to charity",
+          "meaning": "捐助慈善事业",
+          "kind": "短语"
+        },
+        {
+          "term": "luxuries",
+          "meaning": "奢侈品",
+          "kind": "生词"
+        },
+        {
+          "term": "sparingly",
+          "meaning": "节制地",
+          "kind": "生词"
+        }
+      ]
+    },
+    {
+      "id": "s13",
+      "en": "This is apparently the reason McDonald’s restricts the availability of its popular McRib—a marketing trick that has turned the pork sandwich into an object of obsession.",
+      "zhReference": "这显然也是麦当劳限制其热门产品麦乐猪排堡供应的原因：这一营销手段让这款猪肉三明治成了令人着迷的东西。",
+      "vocabulary": [
+        {
+          "term": "restricts the availability of",
+          "meaning": "限制……的供应",
+          "kind": "短语"
+        },
+        {
+          "term": "object of obsession",
+          "meaning": "令人痴迷的对象",
+          "kind": "短语"
+        },
+        {
+          "term": "trick",
+          "meaning": "手段",
+          "kind": "熟词僻义"
+        }
+      ]
+    },
+    {
+      "id": "s14",
+      "en": "Readers of Happy Money are clearly a privileged lot, anxious about fulfilment, not hunger.",
+      "zhReference": "《快乐金钱》的读者显然是生活优裕的一群人：他们担心的是满足感，而不是温饱。",
+      "vocabulary": [
+        {
+          "term": "privileged lot",
+          "meaning": "享有特权的一群人",
+          "kind": "短语"
+        },
+        {
+          "term": "anxious about",
+          "meaning": "为……忧虑",
+          "kind": "短语"
+        },
+        {
+          "term": "lot",
+          "meaning": "一群人",
+          "kind": "熟词僻义"
+        }
+      ]
+    },
+    {
+      "id": "s15",
+      "en": "Money may not quite buy happiness, but people in wealthier countries are generally happier than those in poor ones.",
+      "zhReference": "金钱或许不能完全买到幸福，但富裕国家的人通常比贫穷国家的人更快乐。",
+      "vocabulary": [
+        {
+          "term": "may not quite",
+          "meaning": "也许不能完全",
+          "kind": "短语"
+        },
+        {
+          "term": "wealthier",
+          "meaning": "更富裕的",
+          "kind": "生词"
+        }
+      ]
+    },
+    {
+      "id": "s16",
+      "en": "Yet the link between feeling good and spending money on others can be seen among rich and poor people around the world, and scarcity enhances the pleasure of most things for most people.",
+      "zhReference": "然而，在世界各地的富人和穷人身上，都能观察到为别人花钱与幸福感之间的联系；对多数人来说，稀缺也会增强大多数事物带来的愉悦。",
+      "vocabulary": [
+        {
+          "term": "scarcity",
+          "meaning": "稀缺",
+          "kind": "生词"
+        },
+        {
+          "term": "enhances",
+          "meaning": "增强",
+          "kind": "生词"
+        },
+        {
+          "term": "the link between",
+          "meaning": "……之间的联系",
+          "kind": "短语"
+        }
+      ]
+    },
+    {
+      "id": "s17",
+      "en": "Not everyone will agree with the authors’ policy ideas, which range from mandating more holiday time to reducing tax incentives for American homebuyers.",
+      "zhReference": "并不是每个人都赞同作者的政策主张，从强制增加休假时间到削减美国购房者的税收优惠都可能引起争议。",
+      "vocabulary": [
+        {
+          "term": "range from",
+          "meaning": "范围从……开始",
+          "kind": "短语"
+        },
+        {
+          "term": "mandating",
+          "meaning": "强制规定",
+          "kind": "生词"
+        },
+        {
+          "term": "tax incentives",
+          "meaning": "税收优惠",
+          "kind": "短语"
+        }
+      ]
+    },
+    {
+      "id": "s18",
+      "en": "But most people will come away from this book believing it was money well spent.",
+      "zhReference": "但大多数人读完这本书后都会觉得，这钱花得值。",
+      "vocabulary": [
+        {
+          "term": "come away from",
+          "meaning": "读完后得到某种感受",
+          "kind": "短语"
+        },
+        {
+          "term": "money well spent",
+          "meaning": "花得值得的钱",
+          "kind": "短语"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,422 @@
+{
+  "title": "2014 真题 Text 4 · 住房也是基础设施",
+  "description": "探讨英国可负担住房建设面临的政策障碍与资金来源问题。",
+  "source": "2014年真题.pdf · Reading Comprehension",
+  "author": "2014 English Exam",
+  "level": "intermediate",
+  "tags": [
+    "2014真题",
+    "Reading Comprehension",
+    "Housing",
+    "Public Policy"
+  ],
+  "estimatedMinutes": 26,
+  "heroNote": "留意作者如何从基础设施的定义过渡到可负担住房的资金问题。",
+  "publishedAt": "2014-01-01",
+  "sentences": [
+    {
+      "id": "s1",
+      "en": "When the government talks about infrastructure contributing to the economy the focus is usually on roads, railways, broadband and energy.",
+      "zhReference": "政府谈论基础设施对经济的贡献时，关注的通常是公路、铁路、宽带和能源。",
+      "vocabulary": [
+        {
+          "term": "infrastructure",
+          "meaning": "基础设施",
+          "kind": "生词"
+        },
+        {
+          "term": "contributing to",
+          "meaning": "为……作出贡献",
+          "kind": "短语"
+        },
+        {
+          "term": "broadband",
+          "meaning": "宽带",
+          "kind": "生词"
+        }
+      ]
+    },
+    {
+      "id": "s2",
+      "en": "Housing is seldom mentioned.",
+      "zhReference": "住房却很少被提及。",
+      "vocabulary": [
+        {
+          "term": "seldom",
+          "meaning": "很少",
+          "kind": "生词"
+        },
+        {
+          "term": "mentioned",
+          "meaning": "被提及",
+          "kind": "生词"
+        }
+      ]
+    },
+    {
+      "id": "s3",
+      "en": "Why is that?",
+      "zhReference": "这是为什么？",
+      "vocabulary": [
+        {
+          "term": "Why is that",
+          "meaning": "这是为什么",
+          "kind": "短语"
+        }
+      ]
+    },
+    {
+      "id": "s4",
+      "en": "To some extent the housing sector must shoulder the blame.",
+      "zhReference": "在一定程度上，住房行业本身必须承担责任。",
+      "vocabulary": [
+        {
+          "term": "To some extent",
+          "meaning": "在一定程度上",
+          "kind": "短语"
+        },
+        {
+          "term": "shoulder the blame",
+          "meaning": "承担责任",
+          "kind": "短语"
+        }
+      ]
+    },
+    {
+      "id": "s5",
+      "en": "We have not been good at communicating the real value that housing can contribute to economic growth.",
+      "zhReference": "我们一直没能有效说明住房对经济增长所能贡献的真实价值。",
+      "vocabulary": [
+        {
+          "term": "communicating the real value",
+          "meaning": "说明真实价值",
+          "kind": "短语"
+        },
+        {
+          "term": "economic growth",
+          "meaning": "经济增长",
+          "kind": "短语"
+        }
+      ]
+    },
+    {
+      "id": "s6",
+      "en": "Then there is the scale of the typical housing project.",
+      "zhReference": "还有一个原因是普通住房项目的规模。",
+      "vocabulary": [
+        {
+          "term": "scale",
+          "meaning": "规模",
+          "kind": "熟词僻义"
+        },
+        {
+          "term": "housing project",
+          "meaning": "住房建设项目",
+          "kind": "短语"
+        }
+      ]
+    },
+    {
+      "id": "s7",
+      "en": "It is hard to shove for attention among multibillion-pound infrastructure projects, so it is inevitable that the attention is focused elsewhere.",
+      "zhReference": "在动辄数十亿英镑的基础设施项目中，住房项目很难争取到关注，因此注意力不可避免地转向别处。",
+      "vocabulary": [
+        {
+          "term": "shove for attention",
+          "meaning": "争取关注",
+          "kind": "短语"
+        },
+        {
+          "term": "multibillion-pound",
+          "meaning": "数十亿英镑的",
+          "kind": "生词"
+        },
+        {
+          "term": "focused elsewhere",
+          "meaning": "转向别处",
+          "kind": "短语"
+        }
+      ]
+    },
+    {
+      "id": "s8",
+      "en": "But perhaps the most significant reason is that the issue has always been so politically charged.",
+      "zhReference": "但也许最重要的原因在于，住房议题一直具有强烈的政治争议性。",
+      "vocabulary": [
+        {
+          "term": "politically charged",
+          "meaning": "具有强烈政治争议性的",
+          "kind": "短语"
+        },
+        {
+          "term": "significant",
+          "meaning": "重要的",
+          "kind": "生词"
+        }
+      ]
+    },
+    {
+      "id": "s9",
+      "en": "Nevertheless, the affordable housing situation is desperate.",
+      "zhReference": "尽管如此，可负担住房的形势已经十分严峻。",
+      "vocabulary": [
+        {
+          "term": "affordable housing",
+          "meaning": "可负担住房",
+          "kind": "短语"
+        },
+        {
+          "term": "desperate",
+          "meaning": "严峻的；危急的",
+          "kind": "熟词僻义"
+        }
+      ]
+    },
+    {
+      "id": "s10",
+      "en": "Waiting lists increase all the time and we are simply not building enough new homes.",
+      "zhReference": "等候名单不断变长，而我们建造的新住房根本不够。",
+      "vocabulary": [
+        {
+          "term": "Waiting lists",
+          "meaning": "候房等候名单",
+          "kind": "短语"
+        },
+        {
+          "term": "all the time",
+          "meaning": "一直；不断",
+          "kind": "短语"
+        }
+      ]
+    },
+    {
+      "id": "s11",
+      "en": "The comprehensive spending review offers an opportunity for the government to help rectify this.",
+      "zhReference": "全面支出审查为政府提供了纠正这一问题的机会。",
+      "vocabulary": [
+        {
+          "term": "comprehensive spending review",
+          "meaning": "全面支出审查",
+          "kind": "短语"
+        },
+        {
+          "term": "rectify",
+          "meaning": "纠正；整顿",
+          "kind": "生词"
+        }
+      ]
+    },
+    {
+      "id": "s12",
+      "en": "It needs to put historical prejudices to one side and take some steps to address our urgent housing need.",
+      "zhReference": "政府需要暂时搁置历史成见，采取措施解决迫切的住房需求。",
+      "vocabulary": [
+        {
+          "term": "put historical prejudices to one side",
+          "meaning": "暂时搁置历史成见",
+          "kind": "短语"
+        },
+        {
+          "term": "urgent housing need",
+          "meaning": "迫切住房需求",
+          "kind": "短语"
+        }
+      ]
+    },
+    {
+      "id": "s13",
+      "en": "There are some indications that it is preparing to do just that.",
+      "zhReference": "有一些迹象表明，政府正准备这么做。",
+      "vocabulary": [
+        {
+          "term": "indications",
+          "meaning": "迹象",
+          "kind": "生词"
+        },
+        {
+          "term": "do just that",
+          "meaning": "正是那么做",
+          "kind": "短语"
+        }
+      ]
+    },
+    {
+      "id": "s14",
+      "en": "The communities minister, Don Foster, has hinted that George Osborne, Chancellor of the Exchequer, may introduce more flexibility to the current cap on the amount that local authorities can borrow against their housing stock debt.",
+      "zhReference": "社区事务大臣唐·福斯特暗示，财政大臣乔治·奥斯本可能放宽地方政府以住房资产债务为基础借款的现有额度上限。",
+      "vocabulary": [
+        {
+          "term": "Chancellor of the Exchequer",
+          "meaning": "英国财政大臣",
+          "kind": "短语"
+        },
+        {
+          "term": "current cap",
+          "meaning": "现有上限",
+          "kind": "短语"
+        },
+        {
+          "term": "borrow against",
+          "meaning": "以……作担保借款",
+          "kind": "短语"
+        }
+      ]
+    },
+    {
+      "id": "s15",
+      "en": "Evidence shows that 60,000 extra new homes could be built over the next five years if the cap were lifted, increasing GDP by 0.6%.",
+      "zhReference": "证据表明，如果取消这一上限，未来五年可额外建造六万套新住房，从而使国内生产总值增长百分之零点六。",
+      "vocabulary": [
+        {
+          "term": "cap were lifted",
+          "meaning": "上限被取消",
+          "kind": "短语"
+        },
+        {
+          "term": "GDP",
+          "meaning": "国内生产总值",
+          "kind": "生词"
+        }
+      ]
+    },
+    {
+      "id": "s16",
+      "en": "Ministers should also look at creating greater certainty in the rental environment, which would have a significant impact on the ability of registered providers to fund new developments from revenues.",
+      "zhReference": "大臣们还应考虑提高租赁市场环境的确定性，这将显著影响注册住房提供机构利用收入为新开发项目筹资的能力。",
+      "vocabulary": [
+        {
+          "term": "registered providers",
+          "meaning": "注册住房提供机构",
+          "kind": "短语"
+        },
+        {
+          "term": "fund new developments",
+          "meaning": "为新开发项目筹资",
+          "kind": "短语"
+        },
+        {
+          "term": "rental environment",
+          "meaning": "租赁市场环境",
+          "kind": "短语"
+        }
+      ]
+    },
+    {
+      "id": "s17",
+      "en": "But it is not just down to the government.",
+      "zhReference": "但这并非仅仅取决于政府。",
+      "vocabulary": [
+        {
+          "term": "down to the government",
+          "meaning": "取决于政府",
+          "kind": "短语"
+        },
+        {
+          "term": "just",
+          "meaning": "仅仅",
+          "kind": "熟词僻义"
+        }
+      ]
+    },
+    {
+      "id": "s18",
+      "en": "While these measures would be welcome in the short term, we must face up to the fact that the existing £4.5bn programme of grants to fund new affordable housing, set to expire in 2015, is unlikely to be extended beyond then.",
+      "zhReference": "尽管这些措施短期内会受到欢迎，我们仍必须正视一个事实：现有的四十五亿英镑保障性住房补助项目将于 2015 年到期，此后不太可能延长。",
+      "vocabulary": [
+        {
+          "term": "face up to the fact",
+          "meaning": "正视这一事实",
+          "kind": "短语"
+        },
+        {
+          "term": "programme of grants",
+          "meaning": "补助项目",
+          "kind": "短语"
+        },
+        {
+          "term": "set to expire",
+          "meaning": "即将到期",
+          "kind": "短语"
+        }
+      ]
+    },
+    {
+      "id": "s19",
+      "en": "The Labour party has recently announced that it will retain a large part of the coalition’s spending plans if it returns to power.",
+      "zhReference": "工党最近宣布，如果重新执政，将保留联合政府的大部分支出计划。",
+      "vocabulary": [
+        {
+          "term": "retain",
+          "meaning": "保留",
+          "kind": "生词"
+        },
+        {
+          "term": "coalition’s spending plans",
+          "meaning": "联合政府的支出计划",
+          "kind": "短语"
+        },
+        {
+          "term": "returns to power",
+          "meaning": "重新执政",
+          "kind": "短语"
+        }
+      ]
+    },
+    {
+      "id": "s20",
+      "en": "The housing sector needs to accept that we are very unlikely to ever return to the era of large-scale public grants.",
+      "zhReference": "住房行业必须接受这样一个现实：我们极不可能再回到大规模公共补助的时代。",
+      "vocabulary": [
+        {
+          "term": "large-scale public grants",
+          "meaning": "大规模公共补助",
+          "kind": "短语"
+        },
+        {
+          "term": "era",
+          "meaning": "时代",
+          "kind": "生词"
+        }
+      ]
+    },
+    {
+      "id": "s21",
+      "en": "We need to adjust to this changing climate.",
+      "zhReference": "我们需要适应这种变化的环境。",
+      "vocabulary": [
+        {
+          "term": "adjust to",
+          "meaning": "适应",
+          "kind": "短语"
+        },
+        {
+          "term": "changing climate",
+          "meaning": "变化中的环境",
+          "kind": "熟词僻义"
+        }
+      ]
+    },
+    {
+      "id": "s22",
+      "en": "While the government’s commitment to long-term funding may have changed, the very pressing need for more affordable housing is real and is not going away.",
+      "zhReference": "尽管政府长期提供资金的承诺可能已经改变，但对更多可负担住房的迫切需求是真实存在的，也不会自行消失。",
+      "vocabulary": [
+        {
+          "term": "commitment to long-term funding",
+          "meaning": "长期出资承诺",
+          "kind": "短语"
+        },
+        {
+          "term": "pressing need",
+          "meaning": "迫切需求",
+          "kind": "短语"
+        },
+        {
+          "term": "not going away",
+          "meaning": "不会消失",
+          "kind": "短语"
+        }
+      ]
+    }
+  ]
+}

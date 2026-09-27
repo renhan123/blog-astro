@@ -1,0 +1,371 @@
+{
+  "title": "2014 真题 Text 2 · 我们为何觉得自己更漂亮",
+  "description": "结合社会心理学实验，分析人们自我美化和高估自身外貌的心理机制。",
+  "source": "2014年真题.pdf · Reading Comprehension",
+  "author": "2014 English Exam",
+  "level": "intermediate",
+  "tags": [
+    "2014真题",
+    "Reading Comprehension",
+    "Psychology",
+    "Self-image"
+  ],
+  "estimatedMinutes": 24,
+  "heroNote": "注意 above average effect、illusory superiority 与修饰照片实验的对应关系。",
+  "publishedAt": "2014-01-01",
+  "sentences": [
+    {
+      "id": "s1",
+      "en": "An article in Scientific American has pointed out that empirical research says that, actually, you think you’re more beautiful than you are.",
+      "zhReference": "《科学美国人》的一篇文章指出，实证研究表明：事实上，你认为自己比实际更漂亮。",
+      "vocabulary": [
+        {
+          "term": "empirical research",
+          "meaning": "实证研究",
+          "kind": "短语"
+        },
+        {
+          "term": "pointed out",
+          "meaning": "指出",
+          "kind": "短语"
+        }
+      ]
+    },
+    {
+      "id": "s2",
+      "en": "We have a deep-seated need to feel good about ourselves and we naturally employ a number of self-enhancing strategies to achieve this.",
+      "zhReference": "我们内心深处需要自我感觉良好，也会自然而然地采用各种自我美化策略来满足这一需求。",
+      "vocabulary": [
+        {
+          "term": "deep-seated",
+          "meaning": "根深蒂固的",
+          "kind": "生词"
+        },
+        {
+          "term": "self-enhancing strategies",
+          "meaning": "自我美化策略",
+          "kind": "短语"
+        }
+      ]
+    },
+    {
+      "id": "s3",
+      "en": "Social psychologists have amassed oceans of research into what they call the “above average effect,” or “illusory superiority,” and shown that, for example, 70% of us rate ourselves as above average in leadership, 93% in driving and 85% at getting on well with others—all obviously statistical impossibilities.",
+      "zhReference": "社会心理学家对所谓的“高于平均水平效应”或“虚幻优越感”积累了海量研究，并发现：比如，百分之七十的人认为自己的领导能力高于平均水平，百分之九十三的人认为自己的驾驶技术如此，百分之八十五的人认为自己比一般人更善于与他人相处——从统计学上看，这些显然不可能同时成立。",
+      "vocabulary": [
+        {
+          "term": "amassed",
+          "meaning": "积累了",
+          "kind": "生词"
+        },
+        {
+          "term": "illusory superiority",
+          "meaning": "虚幻优越感",
+          "kind": "短语"
+        },
+        {
+          "term": "statistical impossibilities",
+          "meaning": "统计学上不可能的现象",
+          "kind": "短语"
+        }
+      ]
+    },
+    {
+      "id": "s4",
+      "en": "We rose-tint our memories and put ourselves into self-affirming situations.",
+      "zhReference": "我们会给记忆染上一层玫瑰色，也会让自己置身于有利于自我肯定的情境中。",
+      "vocabulary": [
+        {
+          "term": "rose-tint",
+          "meaning": "给……染上玫瑰色；美化",
+          "kind": "熟词僻义"
+        },
+        {
+          "term": "self-affirming",
+          "meaning": "自我肯定的",
+          "kind": "生词"
+        }
+      ]
+    },
+    {
+      "id": "s5",
+      "en": "We become defensive when criticised, and apply negative stereotypes to others to boost our own esteem.",
+      "zhReference": "受到批评时，我们会自我防卫，还会给别人贴上负面刻板印象，以提升自己的自尊。",
+      "vocabulary": [
+        {
+          "term": "defensive",
+          "meaning": "防御性的",
+          "kind": "生词"
+        },
+        {
+          "term": "negative stereotypes",
+          "meaning": "负面刻板印象",
+          "kind": "短语"
+        },
+        {
+          "term": "esteem",
+          "meaning": "自尊",
+          "kind": "生词"
+        }
+      ]
+    },
+    {
+      "id": "s6",
+      "en": "We stalk around thinking we’re hot stuff.",
+      "zhReference": "我们昂首阔步，觉得自己魅力非凡。",
+      "vocabulary": [
+        {
+          "term": "hot stuff",
+          "meaning": "很有魅力的人",
+          "kind": "短语"
+        },
+        {
+          "term": "stalk around",
+          "meaning": "趾高气扬地四处走动",
+          "kind": "短语"
+        }
+      ]
+    },
+    {
+      "id": "s7",
+      "en": "Psychologist and behavioural scientist Nicholas Epley oversaw a key study into self-enhancement and attractiveness.",
+      "zhReference": "心理学家兼行为科学家尼古拉斯·埃普利主持了一项关于自我美化与外貌吸引力的重要研究。",
+      "vocabulary": [
+        {
+          "term": "oversaw",
+          "meaning": "主持；监督",
+          "kind": "熟词僻义"
+        },
+        {
+          "term": "attractiveness",
+          "meaning": "吸引力",
+          "kind": "生词"
+        }
+      ]
+    },
+    {
+      "id": "s8",
+      "en": "Rather than have people simply rate their beauty compared with others, he asked them to identify an original photograph of themselves from a lineup including versions that had been altered to appear more and less attractive.",
+      "zhReference": "他没有仅仅让人们拿自己的美貌与他人比较并打分，而是让他们从一排照片中辨认自己的原始照片；这些照片包括经过修饰、使本人看起来更好看或更不好看的版本。",
+      "vocabulary": [
+        {
+          "term": "lineup",
+          "meaning": "一排候选照片",
+          "kind": "熟词僻义"
+        },
+        {
+          "term": "altered",
+          "meaning": "修改；修饰过的",
+          "kind": "生词"
+        }
+      ]
+    },
+    {
+      "id": "s9",
+      "en": "Visual recognition, reads the study, is “an automatic psychological process, occurring rapidly and intuitively with little or no apparent conscious deliberation.”",
+      "zhReference": "研究指出，视觉识别是一种自动的心理过程，会迅速而直觉地发生，几乎不需要有意识的思考。",
+      "vocabulary": [
+        {
+          "term": "intuitively",
+          "meaning": "凭直觉地",
+          "kind": "生词"
+        },
+        {
+          "term": "conscious deliberation",
+          "meaning": "有意识的深思",
+          "kind": "短语"
+        }
+      ]
+    },
+    {
+      "id": "s10",
+      "en": "If the subjects quickly chose a falsely flattering image—which most did—they genuinely believed it was really how they looked.",
+      "zhReference": "如果受试者迅速选中了一张经过美化、并不真实的照片——大多数人确实如此——他们是真的相信自己就长那样。",
+      "vocabulary": [
+        {
+          "term": "subjects",
+          "meaning": "受试者",
+          "kind": "熟词僻义"
+        },
+        {
+          "term": "flattering image",
+          "meaning": "让人显得更好看的照片",
+          "kind": "短语"
+        }
+      ]
+    },
+    {
+      "id": "s11",
+      "en": "Epley found no significant gender difference in responses.",
+      "zhReference": "埃普利发现，受试者的反应不存在显著的性别差异。",
+      "vocabulary": [
+        {
+          "term": "significant gender difference",
+          "meaning": "显著性别差异",
+          "kind": "短语"
+        },
+        {
+          "term": "responses",
+          "meaning": "反应",
+          "kind": "生词"
+        }
+      ]
+    },
+    {
+      "id": "s12",
+      "en": "Nor was there any evidence that those who self-enhanced the most (that is, the participants who thought the most positively doctored pictures were real) were doing so to make up for profound insecurities.",
+      "zhReference": "也没有证据表明，自我美化程度最高的人——即认为修得最漂亮的照片才是真实照片的人——这样做是为了弥补深层的不安全感。",
+      "vocabulary": [
+        {
+          "term": "doctored pictures",
+          "meaning": "经过修饰的照片",
+          "kind": "熟词僻义"
+        },
+        {
+          "term": "make up for",
+          "meaning": "弥补",
+          "kind": "短语"
+        },
+        {
+          "term": "profound insecurities",
+          "meaning": "深层的不安全感",
+          "kind": "短语"
+        }
+      ]
+    },
+    {
+      "id": "s13",
+      "en": "In fact, those who thought that the images higher up the attractiveness scale were real directly corresponded with those who showed other markers for having higher self-esteem.",
+      "zhReference": "事实上，那些认为吸引力等级更高的照片是真实照片的人，恰好也表现出了其他较高自尊的特征。",
+      "vocabulary": [
+        {
+          "term": "attractiveness scale",
+          "meaning": "吸引力等级",
+          "kind": "短语"
+        },
+        {
+          "term": "corresponded with",
+          "meaning": "与……相一致",
+          "kind": "短语"
+        },
+        {
+          "term": "markers",
+          "meaning": "特征指标",
+          "kind": "熟词僻义"
+        }
+      ]
+    },
+    {
+      "id": "s14",
+      "en": "“I don’t think the findings that we have are any evidence of personal delusion,” says Epley.",
+      "zhReference": "埃普利说：“我不认为我们的研究结果能证明人们存在个人层面的自我欺骗。”",
+      "vocabulary": [
+        {
+          "term": "findings",
+          "meaning": "研究结果",
+          "kind": "熟词僻义"
+        },
+        {
+          "term": "personal delusion",
+          "meaning": "个人层面的自我欺骗",
+          "kind": "短语"
+        }
+      ]
+    },
+    {
+      "id": "s15",
+      "en": "“It’s a reflection simply of people generally thinking well of themselves.”",
+      "zhReference": "“它不过反映了人们普遍对自己抱有好感。”",
+      "vocabulary": [
+        {
+          "term": "reflection",
+          "meaning": "……的一种反映",
+          "kind": "短语"
+        },
+        {
+          "term": "thinking well of themselves",
+          "meaning": "对自己抱有好感",
+          "kind": "短语"
+        }
+      ]
+    },
+    {
+      "id": "s16",
+      "en": "If you are depressed, you won’t be self-enhancing.",
+      "zhReference": "如果你情绪低落，就不会倾向于美化自己。",
+      "vocabulary": [
+        {
+          "term": "depressed",
+          "meaning": "情绪低落的",
+          "kind": "生词"
+        },
+        {
+          "term": "self-enhancing",
+          "meaning": "自我美化的",
+          "kind": "短语"
+        }
+      ]
+    },
+    {
+      "id": "s17",
+      "en": "Knowing the results of Epley’s study, it makes sense that many people hate photographs of themselves viscerally—on one level, they don’t even recognise the person in the picture as themselves.",
+      "zhReference": "了解埃普利的研究结果后，许多人发自本能地讨厌自己的照片就不难理解了——从某种意义上说，他们甚至认不出照片里的人是自己。",
+      "vocabulary": [
+        {
+          "term": "viscerally",
+          "meaning": "发自本能地",
+          "kind": "生词"
+        },
+        {
+          "term": "on one level",
+          "meaning": "从某个层面来说",
+          "kind": "短语"
+        }
+      ]
+    },
+    {
+      "id": "s18",
+      "en": "Facebook, therefore, is a self-enhancer’s paradise, where people can share only the most flattering photos, the cream of their wit, style, beauty, intellect and lifestyles.",
+      "zhReference": "因此，Facebook 就成了自我美化者的天堂：人们只分享最上镜的照片，只展示自己智慧、风格、美貌、才智和生活方式中最精彩的部分。",
+      "vocabulary": [
+        {
+          "term": "flattering photos",
+          "meaning": "上镜的照片",
+          "kind": "短语"
+        },
+        {
+          "term": "the cream of",
+          "meaning": "最精华的部分",
+          "kind": "短语"
+        },
+        {
+          "term": "intellect",
+          "meaning": "才智",
+          "kind": "生词"
+        }
+      ]
+    },
+    {
+      "id": "s19",
+      "en": "It’s not that people’s profiles are dishonest, says Catalina Toma of Wisconsin-Madison University, “but they portray an idealised version of themselves.”",
+      "zhReference": "威斯康星大学麦迪逊分校的卡塔琳娜·托马说：“这不是说人们的个人资料不诚实，而是他们展示了一个理想化的自己。”",
+      "vocabulary": [
+        {
+          "term": "profiles",
+          "meaning": "个人资料",
+          "kind": "熟词僻义"
+        },
+        {
+          "term": "portray",
+          "meaning": "描绘；呈现",
+          "kind": "生词"
+        },
+        {
+          "term": "idealised version",
+          "meaning": "理想化的版本",
+          "kind": "短语"
+        }
+      ]
+    }
+  ]
+}

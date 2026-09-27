@@ -1,0 +1,371 @@
+{
+  "title": "2014 真题 Text 3 · 与机器协作而非对抗",
+  "description": "讨论自动化对就业的影响，提出应重新设计工作方式，让机器增强人类能力。",
+  "source": "2014年真题.pdf · Reading Comprehension",
+  "author": "2014 English Exam",
+  "level": "intermediate",
+  "tags": [
+    "2014真题",
+    "Reading Comprehension",
+    "Technology",
+    "Employment"
+  ],
+  "estimatedMinutes": 24,
+  "heroNote": "关注观点由 race against the machine 向 race with the machine 的转变。",
+  "publishedAt": "2014-01-01",
+  "sentences": [
+    {
+      "id": "s1",
+      "en": "The concept of man versus machine is at least as old as the industrial revolution, but this phenomenon tends to be most acutely felt during economic downturns and fragile recoveries.",
+      "zhReference": "人类与机器对抗的观念至少和工业革命一样古老，但这种现象往往在经济衰退和脆弱的复苏时期感受最为强烈。",
+      "vocabulary": [
+        {
+          "term": "man versus machine",
+          "meaning": "人类与机器的对抗",
+          "kind": "短语"
+        },
+        {
+          "term": "acutely felt",
+          "meaning": "强烈感受到",
+          "kind": "短语"
+        },
+        {
+          "term": "fragile recoveries",
+          "meaning": "脆弱的经济复苏",
+          "kind": "短语"
+        }
+      ]
+    },
+    {
+      "id": "s2",
+      "en": "And yet, it would be a mistake to think we are right now simply experiencing the painful side of a boom and bust cycle.",
+      "zhReference": "然而，如果认为我们现在经历的仅仅是经济繁荣与萧条周期中痛苦的一面，那就错了。",
+      "vocabulary": [
+        {
+          "term": "boom and bust cycle",
+          "meaning": "繁荣与萧条的循环",
+          "kind": "短语"
+        },
+        {
+          "term": "painful side",
+          "meaning": "令人痛苦的一面",
+          "kind": "短语"
+        }
+      ]
+    },
+    {
+      "id": "s3",
+      "en": "Certain jobs have gone away for good, outmoded by machines.",
+      "zhReference": "有些工作岗位已经永久消失，被机器淘汰了。",
+      "vocabulary": [
+        {
+          "term": "for good",
+          "meaning": "永久地",
+          "kind": "熟词僻义"
+        },
+        {
+          "term": "outmoded",
+          "meaning": "被淘汰的",
+          "kind": "生词"
+        }
+      ]
+    },
+    {
+      "id": "s4",
+      "en": "Since technology has such an insatiable appetite for eating up human jobs, this phenomenon will continue to restructure our economy in ways we cannot immediately foresee.",
+      "zhReference": "由于技术仿佛永远不会满足于吞噬人类的工作岗位，这一现象将继续以我们眼下无法预见的方式重塑经济。",
+      "vocabulary": [
+        {
+          "term": "insatiable appetite",
+          "meaning": "永不满足的欲望",
+          "kind": "短语"
+        },
+        {
+          "term": "eating up",
+          "meaning": "大量吞噬",
+          "kind": "短语"
+        },
+        {
+          "term": "foresee",
+          "meaning": "预见",
+          "kind": "生词"
+        }
+      ]
+    },
+    {
+      "id": "s5",
+      "en": "When there is rapid improvement in the price and performance of technology, jobs that were once thought to be immune from automation suddenly become threatened.",
+      "zhReference": "当技术的成本效益和性能迅速改善时，曾被认为不会受自动化影响的工作岗位也会突然面临威胁。",
+      "vocabulary": [
+        {
+          "term": "immune from automation",
+          "meaning": "不受自动化影响",
+          "kind": "短语"
+        },
+        {
+          "term": "become threatened",
+          "meaning": "受到威胁",
+          "kind": "短语"
+        }
+      ]
+    },
+    {
+      "id": "s6",
+      "en": "This argument has attracted a lot of attention, via the success of the book Race Against the Machine, by Erik Brynjolfsson and Andrew McAfee, who both hail from MIT’s Center for Digital Business.",
+      "zhReference": "埃里克·布林约尔松和安德鲁·迈克菲合著的《与机器赛跑》一书大获成功，使这一观点备受关注；两位作者均来自麻省理工学院数字商务中心。",
+      "vocabulary": [
+        {
+          "term": "hail from",
+          "meaning": "来自",
+          "kind": "短语"
+        },
+        {
+          "term": "via",
+          "meaning": "通过；凭借",
+          "kind": "熟词僻义"
+        }
+      ]
+    },
+    {
+      "id": "s7",
+      "en": "This is a powerful argument, and a scary one.",
+      "zhReference": "这是一个很有说服力、同时也令人不安的观点。",
+      "vocabulary": [
+        {
+          "term": "powerful argument",
+          "meaning": "有说服力的观点",
+          "kind": "短语"
+        },
+        {
+          "term": "scary",
+          "meaning": "令人不安的",
+          "kind": "生词"
+        }
+      ]
+    },
+    {
+      "id": "s8",
+      "en": "And yet, John Hagel, author of The Power of Pull and other books, says Brynjolfsson and McAfee miss the reason why these jobs are so vulnerable to technology in the first place.",
+      "zhReference": "然而，《拉力的力量》等书的作者约翰·哈格尔认为，布林约尔松和迈克菲没有抓住这些工作为何从一开始就如此容易被技术取代的原因。",
+      "vocabulary": [
+        {
+          "term": "vulnerable to",
+          "meaning": "易受……影响",
+          "kind": "短语"
+        },
+        {
+          "term": "in the first place",
+          "meaning": "从一开始",
+          "kind": "短语"
+        }
+      ]
+    },
+    {
+      "id": "s9",
+      "en": "Hagel says we have designed jobs in the U.S. that tend to be “tightly scripted” and “highly standardized” ones that leave no room for “individual initiative or creativity.”",
+      "zhReference": "哈格尔说，我们在美国设计的工作往往程序规定得十分严密、高度标准化，不给个人主动性或创造力留下空间。",
+      "vocabulary": [
+        {
+          "term": "tightly scripted",
+          "meaning": "程序规定得十分严密",
+          "kind": "短语"
+        },
+        {
+          "term": "highly standardized",
+          "meaning": "高度标准化",
+          "kind": "短语"
+        },
+        {
+          "term": "leave no room for",
+          "meaning": "不给……留下空间",
+          "kind": "短语"
+        }
+      ]
+    },
+    {
+      "id": "s10",
+      "en": "In short, these are the types of jobs that machines can perform much better at than human beings.",
+      "zhReference": "简而言之，这些正是机器比人类做得好得多的工作。",
+      "vocabulary": [
+        {
+          "term": "In short",
+          "meaning": "简而言之",
+          "kind": "短语"
+        },
+        {
+          "term": "perform",
+          "meaning": "执行；完成工作",
+          "kind": "熟词僻义"
+        }
+      ]
+    },
+    {
+      "id": "s11",
+      "en": "That is how we have put a giant target sign on the backs of American workers, Hagel says.",
+      "zhReference": "哈格尔说，我们就是这样给美国劳动者的背上画了一个巨大的靶子。",
+      "vocabulary": [
+        {
+          "term": "target sign on the backs",
+          "meaning": "背上的靶子；易被替代的目标",
+          "kind": "短语"
+        },
+        {
+          "term": "giant",
+          "meaning": "巨大的",
+          "kind": "生词"
+        }
+      ]
+    },
+    {
+      "id": "s12",
+      "en": "It’s time to reinvent the formula for how work is conducted, since we are still relying on a very 20th century notion of work, Hagel says.",
+      "zhReference": "哈格尔说，我们仍然依赖非常二十世纪式的工作观念，现在该重新设计工作开展的方式了。",
+      "vocabulary": [
+        {
+          "term": "reinvent",
+          "meaning": "重新设计",
+          "kind": "生词"
+        },
+        {
+          "term": "notion of work",
+          "meaning": "工作观念",
+          "kind": "短语"
+        },
+        {
+          "term": "relying on",
+          "meaning": "依赖",
+          "kind": "短语"
+        }
+      ]
+    },
+    {
+      "id": "s13",
+      "en": "In our rapidly changing economy, we more than ever need people in the workplace who can take initiative and exercise their imagination “to respond to unexpected events.”",
+      "zhReference": "在瞬息万变的经济中，我们比以往任何时候都更需要能发挥主动性、运用想象力应对突发事件的职场人士。",
+      "vocabulary": [
+        {
+          "term": "take initiative",
+          "meaning": "发挥主动性",
+          "kind": "短语"
+        },
+        {
+          "term": "exercise their imagination",
+          "meaning": "运用想象力",
+          "kind": "短语"
+        },
+        {
+          "term": "unexpected events",
+          "meaning": "突发事件",
+          "kind": "短语"
+        }
+      ]
+    },
+    {
+      "id": "s14",
+      "en": "That is not something machines are good at.",
+      "zhReference": "而这不是机器擅长的事。",
+      "vocabulary": [
+        {
+          "term": "good at",
+          "meaning": "擅长",
+          "kind": "短语"
+        },
+        {
+          "term": "That",
+          "meaning": "指代前句的主动性与想象力",
+          "kind": "熟词僻义"
+        }
+      ]
+    },
+    {
+      "id": "s15",
+      "en": "They are designed to perform very predictable activities.",
+      "zhReference": "机器被设计用来完成高度可预测的活动。",
+      "vocabulary": [
+        {
+          "term": "predictable activities",
+          "meaning": "可预测的活动",
+          "kind": "短语"
+        },
+        {
+          "term": "designed to",
+          "meaning": "被设计用来",
+          "kind": "短语"
+        }
+      ]
+    },
+    {
+      "id": "s16",
+      "en": "As Hagel notes, Brynjolfsson and McAfee indeed touched on this point in their book.",
+      "zhReference": "正如哈格尔所指出的，布林约尔松和迈克菲在书中确实也谈到了这一点。",
+      "vocabulary": [
+        {
+          "term": "touched on",
+          "meaning": "简要谈到",
+          "kind": "短语"
+        },
+        {
+          "term": "indeed",
+          "meaning": "确实",
+          "kind": "生词"
+        }
+      ]
+    },
+    {
+      "id": "s17",
+      "en": "We need to reframe race against the machine as race with the machine.",
+      "zhReference": "我们需要把“与机器赛跑”重新理解为“和机器一起赛跑”。",
+      "vocabulary": [
+        {
+          "term": "reframe",
+          "meaning": "重新界定；重构",
+          "kind": "生词"
+        },
+        {
+          "term": "race with the machine",
+          "meaning": "与机器协作前行",
+          "kind": "短语"
+        }
+      ]
+    },
+    {
+      "id": "s18",
+      "en": "In other words, we need to look at the ways in which machines can augment human labor rather than replace it.",
+      "zhReference": "换句话说，我们需要思考机器如何增强人类劳动，而不是取代它。",
+      "vocabulary": [
+        {
+          "term": "augment human labor",
+          "meaning": "增强人类劳动能力",
+          "kind": "短语"
+        },
+        {
+          "term": "rather than",
+          "meaning": "而不是",
+          "kind": "短语"
+        }
+      ]
+    },
+    {
+      "id": "s19",
+      "en": "So then the problem is not really about technology, but rather, “how do we innovate our institutions and our work practices?”",
+      "zhReference": "因此，真正的问题并不在技术本身，而是“我们如何革新制度和工作实践？”",
+      "vocabulary": [
+        {
+          "term": "innovate",
+          "meaning": "革新；创新",
+          "kind": "生词"
+        },
+        {
+          "term": "work practices",
+          "meaning": "工作实践",
+          "kind": "短语"
+        },
+        {
+          "term": "institutions",
+          "meaning": "制度；机构",
+          "kind": "熟词僻义"
+        }
+      ]
+    }
+  ]
+}

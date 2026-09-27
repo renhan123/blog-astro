@@ -16,7 +16,7 @@ from pathlib import Path
 from PIL import Image, ImageOps
 
 ROOT = Path(__file__).resolve().parents[1]
-DEFAULT_OUTPUT_DIR = ROOT / 'src' / 'content' / 'translation'
+DEFAULT_OUTPUT_DIR = ROOT / 'tmp' / 'generated_translation'
 DEFAULT_TMP_DIR = ROOT / 'tmp' / 'translation_import'
 DEFAULT_BASE_URL = os.environ.get('OPENAI_BASE_URL', 'https://api.openai.com/v1')
 DEFAULT_MODEL = os.environ.get('OPENAI_MODEL', 'gpt-4.1-mini')
@@ -339,7 +339,7 @@ def build_record(year: str, article: Article, source_name: str) -> dict:
         'estimatedMinutes': max(8, min(40, len(sentences) + 6)),
         'heroNote': '该篇为 PDF OCR 自动提取结果，建议导入后快速校对专有名词和个别 OCR 误差。',
         'publishedAt': f'{year}-01-01',
-        'sentences': [{'id': f's{idx + 1}', 'en': sentence, 'zhReference': '待补充参考译文'} for idx, sentence in enumerate(sentences)],
+        'sentences': [{'id': f's{idx + 1}', 'en': sentence, 'zhReference': '待补充参考译文', 'vocabulary': []} for idx, sentence in enumerate(sentences)],
     }
 
 def extract_message_text(content) -> str:
@@ -361,14 +361,18 @@ def strip_json_fence(text: str) -> str:
             text = text[:-3].strip()
     return text
 
-def call_translation_api(batch: list[dict[str, str]], model: str, api_key: str, base_url: str, timeout: int) -> dict[str, str]:
+def call_translation_api(batch: list[dict[str, str]], model: str, api_key: str, base_url: str, timeout: int) -> dict[str, dict]:
+    task = ('Translate each sentence into natural Simplified Chinese and add 1-4 context-specific vocabulary hints per sentence. '
+            'Use exactly 生词, 短语, 熟词僻义 as kinds. Return JSON with translations as an array of '
+            '{"id":"s1","zh":"中文译文","vocabulary":[{"term":"source term","meaning":"文中含义","kind":"生词"}]}.')
     payload = {
+        # The user request must include the vocabulary shape as well as the translation.
         'model': model,
         'temperature': 0.2,
         'response_format': {'type': 'json_object'},
         'messages': [
-            {'role': 'system', 'content': 'You are a careful English-to-Simplified-Chinese translator for exam reading passages. Translate faithfully and output only JSON.'},
-            {'role': 'user', 'content': 'Translate each sentence into natural Simplified Chinese and return strict JSON in the format {"translations":[{"id":"s1","zh":"..."}]}.\n\n' + json.dumps(batch, ensure_ascii=False)},
+            {'role': 'system', 'content': 'You are a careful English-to-Simplified-Chinese translator and exam reading tutor. Translate faithfully and add 1-4 context-specific vocabulary hints per sentence. Each term must appear in that English sentence; use kind 生词, 短语 or 熟词僻义. Never invent terms or use placeholders. Output only JSON.'},
+            {'role': 'user', 'content': task + ' Sentences: ' + json.dumps(batch, ensure_ascii=False)},
         ],
     }
     url = base_url.rstrip('/') + '/chat/completions'
@@ -384,12 +388,11 @@ def call_translation_api(batch: list[dict[str, str]], model: str, api_key: str, 
     data = json.loads(raw)
     content = extract_message_text(data['choices'][0]['message']['content'])
     parsed = json.loads(strip_json_fence(content))
-    result: dict[str, str] = {}
+    result: dict[str, dict] = {}
     for item in parsed.get('translations', []):
         sid = str(item.get('id', '')).strip()
-        zh = str(item.get('zh', '')).strip()
         if sid:
-            result[sid] = zh
+            result[sid] = item
     return result
 
 def maybe_generate_translations(records: list[dict], enabled: bool, model: str, api_key: str | None, base_url: str, timeout: int, chunk_size: int, api_key_env_name: str) -> None:
@@ -399,13 +402,42 @@ def maybe_generate_translations(records: list[dict], enabled: bool, model: str, 
         raise SystemExit(f'Missing API key for translation generation. Set {api_key_env_name} before running with --generate-zh.')
     for record in records:
         sentences = record.get('sentences', [])
-        generated: dict[str, str] = {}
+        generated: dict[str, dict] = {}
         for start in range(0, len(sentences), chunk_size):
             batch = [{'id': item['id'], 'en': item['en']} for item in sentences[start:start + chunk_size]]
             generated.update(call_translation_api(batch, model, api_key, base_url, timeout))
         for item in sentences:
-            if item['id'] in generated and generated[item['id']]:
-                item['zhReference'] = generated[item['id']]
+            if item['id'] in generated:
+                result = generated[item['id']]
+                item['zhReference'] = str(result.get('zh', '')).strip()
+                item['vocabulary'] = result.get('vocabulary', [])
+
+def validate_records(records: list[dict]) -> None:
+    """Reject incomplete OCR drafts before publishing to the live collection."""
+    errors = []
+    for record in records:
+        for sentence in record['sentences']:
+            where = f"{record['title']} {sentence['id']}"
+            if not sentence['zhReference'].strip() or sentence['zhReference'] == '待补充参考译文':
+                errors.append(f'{where}: missing reference translation')
+            vocabulary = sentence.get('vocabulary')
+            if not isinstance(vocabulary, list) or not vocabulary:
+                errors.append(f'{where}: missing vocabulary hints')
+                continue
+            for hint in vocabulary:
+                if not isinstance(hint, dict):
+                    errors.append(f'{where}: invalid vocabulary hint')
+                    continue
+                term = hint.get('term')
+                meaning = hint.get('meaning')
+                if not isinstance(term, str) or not term.strip() or term.lower() not in sentence['en'].lower():
+                    errors.append(f'{where}: vocabulary term not in English sentence: {term!r}')
+                if not isinstance(meaning, str) or not meaning.strip():
+                    errors.append(f'{where}: missing vocabulary meaning')
+                if hint.get('kind') not in {'生词', '短语', '熟词僻义'}:
+                    errors.append(f'{where}: invalid vocabulary kind: {hint.get("kind")!r}')
+    if errors:
+        raise SystemExit('Cannot publish incomplete translations:\n' + '\n'.join(errors))
 
 def write_records(records: list[dict], output_dir: Path, year: str) -> list[Path]:
     output_dir.mkdir(parents=True, exist_ok=True)
@@ -430,12 +462,12 @@ def main() -> None:
     parser = argparse.ArgumentParser(description='Auto extract Reading Comprehension Text 1-4 from an exam PDF and generate translation JSON files.')
     parser.add_argument('--pdf', required=True, help='Path to the exam PDF.')
     parser.add_argument('--year', help='Exam year, for example 2012.')
-    parser.add_argument('--output-dir', default=str(DEFAULT_OUTPUT_DIR), help='Directory to write translation JSON files.')
+    parser.add_argument('--output-dir', default=str(DEFAULT_OUTPUT_DIR), help='Directory to write draft JSON files (default: tmp/generated_translation).')
     parser.add_argument('--tmp-dir', default=str(DEFAULT_TMP_DIR), help='Directory to store rendered/OCR temp files.')
     parser.add_argument('--dpi', type=int, default=180, help='Render DPI for OCR. Default: 180.')
     parser.add_argument('--psm', type=int, default=6, help='Tesseract page segmentation mode. Default: 6.')
     parser.add_argument('--keep-temp', action='store_true', help='Keep rendered/OCR temp files.')
-    parser.add_argument('--generate-zh', action='store_true', help='Generate zhReference automatically via an OpenAI-compatible API.')
+    parser.add_argument('--generate-zh', action='store_true', help='Generate zhReference and per-sentence vocabulary hints via an OpenAI-compatible API.')
     parser.add_argument('--translation-model', default=DEFAULT_MODEL, help='Model used for zhReference generation.')
     parser.add_argument('--translation-base-url', default=DEFAULT_BASE_URL, help='Base URL for the OpenAI-compatible API.')
     parser.add_argument('--translation-timeout', type=int, default=120, help='HTTP timeout in seconds for translation generation.')
@@ -471,7 +503,10 @@ def main() -> None:
     if args.generate_zh:
         print('[import] generating zhReference via API', flush=True)
         maybe_generate_translations(records, True, args.translation_model, os.environ.get(args.api_key_env), args.translation_base_url, args.translation_timeout, args.translation_chunk_size, args.api_key_env)
-    written = write_records(records, Path(args.output_dir).expanduser().resolve(), year)
+    output_dir = Path(args.output_dir).expanduser().resolve()
+    if output_dir == (ROOT / 'src' / 'content' / 'translation').resolve():
+        validate_records(records)
+    written = write_records(records, output_dir, year)
     print(json.dumps({'pdf': str(pdf_path), 'year': year, 'article_count': len(records), 'written': [str(p) for p in written], 'tmp_dir': str(tmp_root), 'generated_zh': bool(args.generate_zh)}, ensure_ascii=False, indent=2))
     if not args.keep_temp:
         shutil.rmtree(tmp_root, ignore_errors=True)

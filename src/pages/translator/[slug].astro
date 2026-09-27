@@ -120,6 +120,27 @@ const sentenceCount = article.data.sentences.length;
                   <p>{sentence.en}</p>
                 </div>
 
+                {sentence.vocabulary && sentence.vocabulary.length > 0 && (
+                  <div class="translation-sentence-vocabulary">
+                    <button type="button" class="translation-sentence-vocabulary-toggle" data-vocab-toggle aria-expanded="false">
+                      <span>查看本句词汇提示</span>
+                      <span class="translation-sentence-vocabulary-toggle-tip">翻译前可查看难词、短语和熟词僻义</span>
+                    </button>
+                    <div class="translation-sentence-vocabulary-list" data-vocab-list hidden>
+                      {sentence.vocabulary.map((item) => (
+                        <article class="translation-sentence-vocab-card">
+                          <div class="translation-sentence-vocab-top">
+                            <span class="translation-sentence-vocab-term">{item.term}</span>
+                            <span class="translation-sentence-vocab-kind">{item.kind}</span>
+                          </div>
+                          <p class="translation-sentence-vocab-meaning">{item.meaning}</p>
+                          {item.note && <p class="translation-sentence-vocab-note">{item.note}</p>}
+                        </article>
+                      ))}
+                    </div>
+                  </div>
+                )}
+
                 <div class="translation-sentence-editor">
                   <label class="translation-sentence-label" for={'translation-input-' + sentence.id}>你的译文</label>
                   <textarea
@@ -142,27 +163,6 @@ const sentenceCount = article.data.sentences.length;
                     <span class="translation-sentence-reference-tip">建议对照措辞与信息完整度，而不是逐字模仿。</span>
                   </div>
                   <p class="translation-sentence-reference-text">{sentence.zhReference}</p>
-
-                  {sentence.vocabulary && sentence.vocabulary.length > 0 && (
-                    <div class="translation-sentence-vocabulary">
-                      <button type="button" class="translation-sentence-vocabulary-toggle" data-vocab-toggle aria-expanded="false">
-                        <span>查看本句词汇提示</span>
-                        <span class="translation-sentence-vocabulary-toggle-tip">默认折叠，避免和原文点词提示重复</span>
-                      </button>
-                      <div class="translation-sentence-vocabulary-list" data-vocab-list hidden>
-                        {sentence.vocabulary.map((item) => (
-                          <article class="translation-sentence-vocab-card">
-                            <div class="translation-sentence-vocab-top">
-                              <span class="translation-sentence-vocab-term">{item.term}</span>
-                              <span class="translation-sentence-vocab-kind">{item.kind}</span>
-                            </div>
-                            <p class="translation-sentence-vocab-meaning">{item.meaning}</p>
-                            {item.note && <p class="translation-sentence-vocab-note">{item.note}</p>}
-                          </article>
-                        ))}
-                      </div>
-                    </div>
-                  )}
 
                   {sentence.note && (
                     <div class="translation-sentence-note">

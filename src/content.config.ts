@@ -34,16 +34,16 @@ const translation = defineCollection({
       z.object({
         id: z.string(),
         en: z.string(),
-        zhReference: z.string(),
+        zhReference: z.string().min(1).refine((value) => value !== '待补充参考译文', '参考译文不能是占位文本'),
         note: z.string().optional(),
         vocabulary: z.array(
           z.object({
-            term: z.string(),
-            meaning: z.string(),
-            kind: z.enum(['生词', '熟词僻义', '短语']).default('生词'),
+            term: z.string().min(1),
+            meaning: z.string().min(1),
+            kind: z.enum(['生词', '熟词僻义', '短语']),
             note: z.string().optional(),
           })
-        ).default([]),
+        ).min(1),
       })
     ).min(1),
   }),

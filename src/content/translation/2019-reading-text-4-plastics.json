@@ -1,0 +1,383 @@
+{
+  "title": "2019 真题 Text 4 · 塑料污染需要制度性解决",
+  "description": "反思仅靠个人不用吸管和塑料袋的局限，强调政策与公民行动。",
+  "source": "2019年真题.pdf · Reading Comprehension",
+  "author": "2019 English Exam",
+  "level": "intermediate",
+  "tags": [
+    "2019真题",
+    "Reading Comprehension",
+    "Plastics",
+    "Public Policy"
+  ],
+  "estimatedMinutes": 25,
+  "heroNote": "注意作者区别消费者的个人选择与公民推动制度改变的力量。",
+  "publishedAt": "2019-01-01",
+  "sentences": [
+    {
+      "id": "s1",
+      "en": "Arnold Schwarzenegger, Dia Mirza and Adrian Grenier have a message for you: It’s easy to beat plastic.",
+      "zhReference": "阿诺德·施瓦辛格、迪娅·米尔扎和阿德里安·格雷尼尔向你传递这样一条信息：战胜塑料污染很容易。",
+      "vocabulary": [
+        {
+          "term": "beat plastic",
+          "meaning": "战胜塑料污染",
+          "kind": "短语"
+        },
+        {
+          "term": "have a message for you",
+          "meaning": "有话要对你说",
+          "kind": "短语"
+        }
+      ]
+    },
+    {
+      "id": "s2",
+      "en": "They’re part of a bunch of celebrities starring in a new video for World Environment Day—encouraging you, the consumer, to swap out your single-use plastic staples to combat the plastics crisis.",
+      "zhReference": "他们是世界环境日新宣传片中的众多明星之一，鼓励身为消费者的你，用其他物品替代日常使用的一次性塑料制品，来应对塑料危机。",
+      "vocabulary": [
+        {
+          "term": "swap out",
+          "meaning": "换掉",
+          "kind": "短语"
+        },
+        {
+          "term": "single-use plastic staples",
+          "meaning": "常用的一次性塑料用品",
+          "kind": "短语"
+        },
+        {
+          "term": "starring in",
+          "meaning": "出演",
+          "kind": "短语"
+        }
+      ]
+    },
+    {
+      "id": "s3",
+      "en": "The key messages that have been put together for World Environment Day do include a call for governments to enact legislation to curb single-use plastics.",
+      "zhReference": "世界环境日传递的关键信息确实包括呼吁政府立法限制一次性塑料。",
+      "vocabulary": [
+        {
+          "term": "enact legislation",
+          "meaning": "颁布法律",
+          "kind": "短语"
+        },
+        {
+          "term": "curb",
+          "meaning": "遏制",
+          "kind": "生词"
+        },
+        {
+          "term": "put together",
+          "meaning": "组织编写",
+          "kind": "短语"
+        }
+      ]
+    },
+    {
+      "id": "s4",
+      "en": "But the overarching message is directed at individuals.",
+      "zhReference": "但总体信息仍是对个人说的。",
+      "vocabulary": [
+        {
+          "term": "overarching message",
+          "meaning": "总体信息",
+          "kind": "短语"
+        },
+        {
+          "term": "directed at",
+          "meaning": "面向",
+          "kind": "短语"
+        }
+      ]
+    },
+    {
+      "id": "s5",
+      "en": "My concern with leaving it up to the individual, however, is our limited sense of what needs to be achieved.",
+      "zhReference": "然而，我担心把问题交给个人解决，因为我们对真正需要实现的目标认识有限。",
+      "vocabulary": [
+        {
+          "term": "leaving it up to the individual",
+          "meaning": "把责任留给个人",
+          "kind": "短语"
+        },
+        {
+          "term": "limited sense of",
+          "meaning": "对……的认识有限",
+          "kind": "短语"
+        }
+      ]
+    },
+    {
+      "id": "s6",
+      "en": "On their own, taking our own bags to the grocery store or quitting plastic straws, for example, will accomplish little and require very little of us.",
+      "zhReference": "比如，自带购物袋去超市或不用塑料吸管，单靠这些做法成效很小，对我们的要求也极低。",
+      "vocabulary": [
+        {
+          "term": "On their own",
+          "meaning": "单凭它们本身",
+          "kind": "短语"
+        },
+        {
+          "term": "accomplish little",
+          "meaning": "成效甚微",
+          "kind": "短语"
+        }
+      ]
+    },
+    {
+      "id": "s7",
+      "en": "They could even be harmful, satisfying a need to have “done our bit” without ever progressing onto bigger, bolder, more effective actions—a kind of “moral licensing” that eases our concerns and stops us doing more and asking more of those in charge.",
+      "zhReference": "它们甚至可能适得其反：我们觉得自己已经“尽了一份力”，就不再推进更宏大、更大胆、更有效的行动。这是一种“道德许可”，能缓解我们的焦虑，却阻止我们做更多事，也不再要求掌权者采取更多行动。",
+      "vocabulary": [
+        {
+          "term": "done our bit",
+          "meaning": "尽了自己的一份力",
+          "kind": "短语"
+        },
+        {
+          "term": "moral licensing",
+          "meaning": "道德许可心理",
+          "kind": "短语"
+        },
+        {
+          "term": "those in charge",
+          "meaning": "掌权者",
+          "kind": "短语"
+        }
+      ]
+    },
+    {
+      "id": "s8",
+      "en": "While the conversation around our environment and our responsibility toward it remains centered on shopping bags and straws, we’re ignoring the balance of power that implies that as “consumers” we must shop sustainably, rather than as “citizens” hold our governments and industries to account to push for real systemic change.",
+      "zhReference": "只要有关环境和我们责任的讨论仍围绕购物袋与吸管，我们就忽略了一种权力关系：它暗示我们只能作为“消费者”进行可持续购物，而不是作为“公民”要求政府和企业承担责任、推动真正的制度性变革。",
+      "vocabulary": [
+        {
+          "term": "hold our governments and industries to account",
+          "meaning": "要求政府和企业承担责任",
+          "kind": "短语"
+        },
+        {
+          "term": "systemic change",
+          "meaning": "系统性变革",
+          "kind": "短语"
+        },
+        {
+          "term": "balance of power",
+          "meaning": "权力关系",
+          "kind": "短语"
+        }
+      ]
+    },
+    {
+      "id": "s9",
+      "en": "It’s important to acknowledge that the environment isn’t everyone’s priority—or even most people’s.",
+      "zhReference": "必须承认，环境并不是每个人的首要关切，甚至不是大多数人的。",
+      "vocabulary": [
+        {
+          "term": "priority",
+          "meaning": "首要事项",
+          "kind": "生词"
+        },
+        {
+          "term": "acknowledge",
+          "meaning": "承认",
+          "kind": "生词"
+        }
+      ]
+    },
+    {
+      "id": "s10",
+      "en": "We shouldn’t expect it to be.",
+      "zhReference": "我们不该期望人人都把它放在首位。",
+      "vocabulary": [
+        {
+          "term": "expect it to be",
+          "meaning": "期待情况如此",
+          "kind": "短语"
+        },
+        {
+          "term": "shouldn’t",
+          "meaning": "不应该",
+          "kind": "短语"
+        }
+      ]
+    },
+    {
+      "id": "s11",
+      "en": "In her latest book, Why Good People Do Bad Environmental Things, Elizabeth R. DeSombre argues that the best way to collectively change the behavior of large numbers of people is for the change to be structural.",
+      "zhReference": "伊丽莎白·德桑布尔在新书《好人为何做出不利环境的事》中认为，要集体改变大量人的行为，最好的方法是改变制度结构。",
+      "vocabulary": [
+        {
+          "term": "collectively change",
+          "meaning": "从集体层面改变",
+          "kind": "短语"
+        },
+        {
+          "term": "structural",
+          "meaning": "结构性的；制度性的",
+          "kind": "熟词僻义"
+        }
+      ]
+    },
+    {
+      "id": "s12",
+      "en": "This might mean implementing policy such as a plastic tax that adds a cost to environmentally problematic action, or banning single-use plastics altogether.",
+      "zhReference": "这可能意味着实施塑料税等政策，提高有害环境行为的成本，或干脆全面禁止一次性塑料。",
+      "vocabulary": [
+        {
+          "term": "plastic tax",
+          "meaning": "塑料税",
+          "kind": "短语"
+        },
+        {
+          "term": "altogether",
+          "meaning": "彻底地",
+          "kind": "生词"
+        }
+      ]
+    },
+    {
+      "id": "s13",
+      "en": "India has just announced it will “eliminate all single-use plastic in the country by 2022.”",
+      "zhReference": "印度刚宣布将在 2022 年前“消除国内所有一次性塑料”。",
+      "vocabulary": [
+        {
+          "term": "eliminate",
+          "meaning": "消除",
+          "kind": "生词"
+        },
+        {
+          "term": "single-use plastic",
+          "meaning": "一次性塑料",
+          "kind": "短语"
+        }
+      ]
+    },
+    {
+      "id": "s14",
+      "en": "There are also incentive-based ways of making better environmental choices easier, such as ensuring recycling is at least as easy as trash disposal.",
+      "zhReference": "还有一些基于激励的办法，能让更环保的选择变得更容易，例如确保回收利用至少和扔垃圾一样方便。",
+      "vocabulary": [
+        {
+          "term": "incentive-based",
+          "meaning": "基于激励的",
+          "kind": "生词"
+        },
+        {
+          "term": "trash disposal",
+          "meaning": "垃圾处理",
+          "kind": "短语"
+        }
+      ]
+    },
+    {
+      "id": "s15",
+      "en": "DeSombre isn’t saying people should stop caring about the environment.",
+      "zhReference": "德桑布尔并不是说人们应该停止关心环境。",
+      "vocabulary": [
+        {
+          "term": "stop caring about",
+          "meaning": "停止关心",
+          "kind": "短语"
+        },
+        {
+          "term": "environment",
+          "meaning": "环境",
+          "kind": "生词"
+        }
+      ]
+    },
+    {
+      "id": "s16",
+      "en": "It’s just that individual actions are too slow, she says, for that to be the only, or even primary, approach to changing widespread behavior.",
+      "zhReference": "她只是说，个人行动太慢，不足以成为改变普遍行为的唯一途径，甚至不足以成为主要途径。",
+      "vocabulary": [
+        {
+          "term": "primary",
+          "meaning": "主要方式",
+          "kind": "短语"
+        },
+        {
+          "term": "widespread behavior",
+          "meaning": "普遍行为",
+          "kind": "短语"
+        }
+      ]
+    },
+    {
+      "id": "s17",
+      "en": "None of this is about writing off the individual.",
+      "zhReference": "这并不是要否定个人的作用。",
+      "vocabulary": [
+        {
+          "term": "writing off the individual",
+          "meaning": "否定个人的作用",
+          "kind": "短语"
+        },
+        {
+          "term": "writing off",
+          "meaning": "不再考虑；否定",
+          "kind": "短语"
+        }
+      ]
+    },
+    {
+      "id": "s18",
+      "en": "It’s just about putting things into perspective.",
+      "zhReference": "而是要正确看待各方行动的相对重要性。",
+      "vocabulary": [
+        {
+          "term": "putting things into perspective",
+          "meaning": "客观看待各方重要性",
+          "kind": "短语"
+        },
+        {
+          "term": "It’s just about",
+          "meaning": "只是关乎……",
+          "kind": "短语"
+        }
+      ]
+    },
+    {
+      "id": "s19",
+      "en": "We don’t have time to wait.",
+      "zhReference": "我们没有时间等待。",
+      "vocabulary": [
+        {
+          "term": "don’t have time to wait",
+          "meaning": "没有时间等待",
+          "kind": "短语"
+        },
+        {
+          "term": "wait",
+          "meaning": "等待",
+          "kind": "生词"
+        }
+      ]
+    },
+    {
+      "id": "s20",
+      "en": "We need progressive policies that shape collective action, alongside engaged citizens pushing for change.",
+      "zhReference": "我们需要能塑造集体行动的进步政策，也需要积极参与、推动变革的公民。",
+      "vocabulary": [
+        {
+          "term": "progressive policies",
+          "meaning": "进步政策",
+          "kind": "短语"
+        },
+        {
+          "term": "collective action",
+          "meaning": "集体行动",
+          "kind": "短语"
+        },
+        {
+          "term": "engaged citizens",
+          "meaning": "积极参与的公民",
+          "kind": "短语"
+        }
+      ]
+    }
+  ]
+}

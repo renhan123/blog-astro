@@ -1,0 +1,378 @@
+{
+  "title": "2017 真题 Text 4 · 与野火共处的公共政策",
+  "description": "从联邦灭火开支出发，探讨美国应如何全面理解和管理野火风险。",
+  "source": "2017年真题.pdf · Reading Comprehension",
+  "author": "2017 English Exam",
+  "level": "intermediate",
+  "tags": [
+    "2017真题",
+    "Reading Comprehension",
+    "Wildfires",
+    "Public Policy"
+  ],
+  "estimatedMinutes": 26,
+  "heroNote": "注意作者不仅讨论气候，还强调住房选址与公共支出等人类因素。",
+  "publishedAt": "2017-01-01",
+  "sentences": [
+    {
+      "id": "s1",
+      "en": "Though often viewed as a problem for western states, the growing frequency of wildfires is a national concern because of its impact on federal tax dollars, says Professor Max Moritz, a specialist in fire ecology and management.",
+      "zhReference": "火灾生态与管理专家马克斯·莫里茨教授说，虽然人们常把野火看作美国西部各州的问题，但由于它影响联邦税款支出，野火发生得越来越频繁已成为全国性的关切。",
+      "vocabulary": [
+        {
+          "term": "growing frequency of wildfires",
+          "meaning": "野火日益频繁",
+          "kind": "短语"
+        },
+        {
+          "term": "federal tax dollars",
+          "meaning": "联邦税款",
+          "kind": "短语"
+        },
+        {
+          "term": "fire ecology",
+          "meaning": "火灾生态学",
+          "kind": "短语"
+        }
+      ]
+    },
+    {
+      "id": "s2",
+      "en": "In 2015, the US Forest Service for the first time spent more than half of its $5.5 billion annual budget fighting fires—nearly double the percentage it spent on such efforts 20 years ago.",
+      "zhReference": "2015 年，美国林务局首次将其五十五亿美元年度预算的一半以上用于灭火——这一比例几乎是二十年前的两倍。",
+      "vocabulary": [
+        {
+          "term": "annual budget",
+          "meaning": "年度预算",
+          "kind": "短语"
+        },
+        {
+          "term": "fighting fires",
+          "meaning": "灭火",
+          "kind": "短语"
+        },
+        {
+          "term": "nearly double",
+          "meaning": "接近两倍",
+          "kind": "短语"
+        }
+      ]
+    },
+    {
+      "id": "s3",
+      "en": "In effect, fewer federal funds today are going towards the agency’s other work—such as forest conservation, watershed and cultural resources management, and infrastructure upkeep—that affect the lives of all Americans.",
+      "zhReference": "实际上，如今用于该机构其他工作的联邦资金更少了，包括森林保护、流域与文化资源管理和基础设施维护；这些工作影响着全体美国人的生活。",
+      "vocabulary": [
+        {
+          "term": "In effect",
+          "meaning": "实际上",
+          "kind": "短语"
+        },
+        {
+          "term": "watershed",
+          "meaning": "流域",
+          "kind": "生词"
+        },
+        {
+          "term": "infrastructure upkeep",
+          "meaning": "基础设施维护",
+          "kind": "短语"
+        }
+      ]
+    },
+    {
+      "id": "s4",
+      "en": "Another nationwide concern is whether public funds from other agencies are going into construction in fire-prone districts.",
+      "zhReference": "另一个全国性的担忧是，其他机构的公共资金是否正被投入火灾高发地区的建设。",
+      "vocabulary": [
+        {
+          "term": "fire-prone districts",
+          "meaning": "火灾高发地区",
+          "kind": "短语"
+        },
+        {
+          "term": "public funds",
+          "meaning": "公共资金",
+          "kind": "短语"
+        }
+      ]
+    },
+    {
+      "id": "s5",
+      "en": "As Moritz puts it, how often are federal dollars building homes that are likely to be lost to a wildfire?",
+      "zhReference": "正如莫里茨所问，联邦资金有多少次被用来修建很可能被野火烧毁的房屋？",
+      "vocabulary": [
+        {
+          "term": "federal dollars",
+          "meaning": "联邦资金",
+          "kind": "熟词僻义"
+        },
+        {
+          "term": "lost to a wildfire",
+          "meaning": "被野火烧毁",
+          "kind": "短语"
+        }
+      ]
+    },
+    {
+      "id": "s6",
+      "en": "“It’s already a huge problem from a public expenditure perspective for the whole country,” he says.",
+      "zhReference": "他说：“从全国公共支出的角度看，这已经是一个很严重的问题。”",
+      "vocabulary": [
+        {
+          "term": "public expenditure",
+          "meaning": "公共支出",
+          "kind": "短语"
+        },
+        {
+          "term": "perspective",
+          "meaning": "视角",
+          "kind": "生词"
+        }
+      ]
+    },
+    {
+      "id": "s7",
+      "en": "“We need to take a magnifying glass to that.",
+      "zhReference": "“我们需要仔细审视这件事。",
+      "vocabulary": [
+        {
+          "term": "take a magnifying glass to",
+          "meaning": "仔细审视",
+          "kind": "短语"
+        },
+        {
+          "term": "magnifying glass",
+          "meaning": "放大镜",
+          "kind": "短语"
+        }
+      ]
+    },
+    {
+      "id": "s8",
+      "en": "Like, ‘Wait a minute, is this OK?’",
+      "zhReference": "比如说，‘等一等，这样做合理吗？’",
+      "vocabulary": [
+        {
+          "term": "Wait a minute",
+          "meaning": "等一下；表示质疑",
+          "kind": "短语"
+        },
+        {
+          "term": "OK",
+          "meaning": "合理可接受的",
+          "kind": "熟词僻义"
+        }
+      ]
+    },
+    {
+      "id": "s9",
+      "en": "Do we want instead to redirect those funds to concentrate on lower-hazard parts of the landscape?”",
+      "zhReference": "我们是不是应该把这些资金转而集中投向风险较低的地区？”",
+      "vocabulary": [
+        {
+          "term": "redirect those funds",
+          "meaning": "重新调配资金",
+          "kind": "短语"
+        },
+        {
+          "term": "lower-hazard",
+          "meaning": "危险程度较低的",
+          "kind": "生词"
+        }
+      ]
+    },
+    {
+      "id": "s10",
+      "en": "Such a view would require a corresponding shift in the way US society today views fire, researchers say.",
+      "zhReference": "研究人员说，这样的观点要求美国社会相应地改变目前看待火的方式。",
+      "vocabulary": [
+        {
+          "term": "corresponding shift",
+          "meaning": "相应转变",
+          "kind": "短语"
+        },
+        {
+          "term": "views fire",
+          "meaning": "看待火的方式",
+          "kind": "短语"
+        }
+      ]
+    },
+    {
+      "id": "s11",
+      "en": "For one thing, conversations about wildfires need to be more inclusive.",
+      "zhReference": "首先，关于野火的讨论需要更加全面。",
+      "vocabulary": [
+        {
+          "term": "more inclusive",
+          "meaning": "更加全面的",
+          "kind": "短语"
+        },
+        {
+          "term": "For one thing",
+          "meaning": "首先",
+          "kind": "短语"
+        }
+      ]
+    },
+    {
+      "id": "s12",
+      "en": "Over the past decade, the focus has been on climate change—how the warming of the Earth from greenhouse gases is leading to conditions that worsen fires.",
+      "zhReference": "过去十年，焦点一直是气候变化——温室气体导致地球变暖，进而形成使火灾恶化的条件。",
+      "vocabulary": [
+        {
+          "term": "greenhouse gases",
+          "meaning": "温室气体",
+          "kind": "短语"
+        },
+        {
+          "term": "worsen fires",
+          "meaning": "加剧火灾",
+          "kind": "短语"
+        }
+      ]
+    },
+    {
+      "id": "s13",
+      "en": "While climate is a key element, Moritz says, it shouldn’t come at the expense of the rest of the equation.",
+      "zhReference": "莫里茨说，气候虽然是重要因素，但不应因此忽略问题的其他方面。",
+      "vocabulary": [
+        {
+          "term": "at the expense of",
+          "meaning": "以牺牲……为代价",
+          "kind": "短语"
+        },
+        {
+          "term": "rest of the equation",
+          "meaning": "问题的其他方面",
+          "kind": "短语"
+        }
+      ]
+    },
+    {
+      "id": "s14",
+      "en": "“The human systems and the landscapes we live on are linked, and the interactions go both ways,” he says.",
+      "zhReference": "他说：“人类社会系统与我们生活的地貌相互联系，而且这种相互作用是双向的。”",
+      "vocabulary": [
+        {
+          "term": "go both ways",
+          "meaning": "双向作用",
+          "kind": "短语"
+        },
+        {
+          "term": "human systems",
+          "meaning": "人类社会系统",
+          "kind": "短语"
+        }
+      ]
+    },
+    {
+      "id": "s15",
+      "en": "Failing to recognize that, he notes, leads to “an overly simplified view of what the solutions might be.",
+      "zhReference": "他指出，如果认识不到这一点，就会“对可能的解决办法抱有过分简化的看法。",
+      "vocabulary": [
+        {
+          "term": "overly simplified view",
+          "meaning": "过于简化的观点",
+          "kind": "短语"
+        },
+        {
+          "term": "Failing to recognize",
+          "meaning": "未能认识到",
+          "kind": "短语"
+        }
+      ]
+    },
+    {
+      "id": "s16",
+      "en": "Our perception of the problem and of what the solution is becomes very limited.”",
+      "zhReference": "我们对问题及其解决方式的理解都会变得十分局限。”",
+      "vocabulary": [
+        {
+          "term": "perception",
+          "meaning": "认识；看法",
+          "kind": "生词"
+        },
+        {
+          "term": "limited",
+          "meaning": "受限的",
+          "kind": "生词"
+        }
+      ]
+    },
+    {
+      "id": "s17",
+      "en": "At the same time, people continue to treat fire as an event that needs to be wholly controlled and unleashed only out of necessity, says Professor Balch at the University of Colorado.",
+      "zhReference": "科罗拉多大学的鲍尔奇教授说，与此同时，人们仍把火视作需要彻底控制、只能在迫不得已时才放开的现象。",
+      "vocabulary": [
+        {
+          "term": "wholly controlled",
+          "meaning": "完全控制",
+          "kind": "短语"
+        },
+        {
+          "term": "out of necessity",
+          "meaning": "迫不得已时",
+          "kind": "短语"
+        },
+        {
+          "term": "unleashed",
+          "meaning": "放开；释放",
+          "kind": "熟词僻义"
+        }
+      ]
+    },
+    {
+      "id": "s18",
+      "en": "But acknowledging fire’s inevitable presence in human life is an attitude crucial to developing the laws, policies, and practices that make it as safe as possible, she says.",
+      "zhReference": "但她认为，承认火在人类生活中不可避免地存在，对制定尽可能安全的法律、政策和实践至关重要。",
+      "vocabulary": [
+        {
+          "term": "inevitable presence",
+          "meaning": "不可避免的存在",
+          "kind": "短语"
+        },
+        {
+          "term": "crucial to",
+          "meaning": "对……至关重要",
+          "kind": "短语"
+        }
+      ]
+    },
+    {
+      "id": "s19",
+      "en": "“We’ve disconnected ourselves from living with fire,” Balch says.",
+      "zhReference": "鲍尔奇说：“我们已经与‘和火共处’的生活方式脱节了。”",
+      "vocabulary": [
+        {
+          "term": "disconnected ourselves from",
+          "meaning": "使自己与……脱节",
+          "kind": "短语"
+        },
+        {
+          "term": "living with fire",
+          "meaning": "与火共处",
+          "kind": "短语"
+        }
+      ]
+    },
+    {
+      "id": "s20",
+      "en": "“It is really important to understand and try and tease out what is the human connection with fire today.”",
+      "zhReference": "“理解并梳理当今人类与火究竟有怎样的联系，真的非常重要。”",
+      "vocabulary": [
+        {
+          "term": "tease out",
+          "meaning": "仔细梳理并弄清",
+          "kind": "短语"
+        },
+        {
+          "term": "human connection with fire",
+          "meaning": "人与火的联系",
+          "kind": "短语"
+        }
+      ]
+    }
+  ]
+}

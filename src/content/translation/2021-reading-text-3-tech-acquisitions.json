@@ -1,0 +1,347 @@
+{
+  "title": "2021 真题 Text 3 · 科技巨头的收购式招聘",
+  "description": "以微软收购初创应用为例，讨论大科技企业的小额收购与竞争风险。",
+  "source": "2021年真题.pdf · Reading Comprehension",
+  "author": "2021 English Exam",
+  "level": "intermediate",
+  "tags": [
+    "2021真题",
+    "Reading Comprehension",
+    "Big Tech",
+    "Competition"
+  ],
+  "estimatedMinutes": 25,
+  "heroNote": "区分投资者的私人利益与收购对整体经济竞争的影响。",
+  "publishedAt": "2021-01-01",
+  "sentences": [
+    {
+      "id": "s1",
+      "en": "When Microsoft bought task management app Wunderlist and mobile calendar Sunrise in 2015, it picked two newcomers that were attracting considerable buzz in Silicon Valley.",
+      "zhReference": "2015 年微软收购任务管理应用 Wunderlist 和手机日历 Sunrise 时，买下的是两家在硅谷引起广泛关注的新公司。",
+      "vocabulary": [
+        {
+          "term": "attracting considerable buzz",
+          "meaning": "引发大量关注",
+          "kind": "短语"
+        },
+        {
+          "term": "newcomers",
+          "meaning": "新兴企业",
+          "kind": "熟词僻义"
+        }
+      ]
+    },
+    {
+      "id": "s2",
+      "en": "Microsoft’s own Office dominates the market for “productivity” software, but the start-ups represented a new wave of technology designed from the ground up for the smartphone world.",
+      "zhReference": "微软的 Office 本就主导“生产力”软件市场，但这些初创企业代表了为智能手机时代从头设计的新一波技术。",
+      "vocabulary": [
+        {
+          "term": "from the ground up",
+          "meaning": "从头开始",
+          "kind": "短语"
+        },
+        {
+          "term": "productivity",
+          "meaning": "生产力软件",
+          "kind": "短语"
+        },
+        {
+          "term": "start-ups",
+          "meaning": "初创企业",
+          "kind": "生词"
+        }
+      ]
+    },
+    {
+      "id": "s3",
+      "en": "Both apps, however, were later scrapped after Microsoft said it had used their best features in its own products.",
+      "zhReference": "然而，微软后来宣布已将两个应用最好的功能用于自家产品，随后将这两个应用下线。",
+      "vocabulary": [
+        {
+          "term": "scrapped",
+          "meaning": "被废弃",
+          "kind": "生词"
+        },
+        {
+          "term": "best features",
+          "meaning": "最好的功能",
+          "kind": "短语"
+        }
+      ]
+    },
+    {
+      "id": "s4",
+      "en": "Their teams of engineers stayed on, making them two of the many “acqui-hires” that the biggest companies have used to feed their great hunger for tech talent.",
+      "zhReference": "它们的工程师团队却留了下来，使这两起交易成为科技巨头为满足人才渴求而进行的众多“收购式招聘”中的例子。",
+      "vocabulary": [
+        {
+          "term": "acqui-hires",
+          "meaning": "收购式招聘",
+          "kind": "生词"
+        },
+        {
+          "term": "stayed on",
+          "meaning": "留任",
+          "kind": "短语"
+        },
+        {
+          "term": "feed their great hunger for tech talent",
+          "meaning": "满足对技术人才的渴求",
+          "kind": "短语"
+        }
+      ]
+    },
+    {
+      "id": "s5",
+      "en": "To Microsoft’s critics, the fates of Wunderlist and Sunrise are examples of a remorseless drive by Big Tech to chew up any innovative companies that lie in their path.",
+      "zhReference": "在微软批评者看来，Wunderlist 和 Sunrise 的命运体现了大型科技企业毫不手软地吞并挡在路上的创新公司的冲动。",
+      "vocabulary": [
+        {
+          "term": "remorseless drive",
+          "meaning": "毫不留情的推动力",
+          "kind": "短语"
+        },
+        {
+          "term": "chew up",
+          "meaning": "吞噬",
+          "kind": "短语"
+        },
+        {
+          "term": "lie in their path",
+          "meaning": "挡在其道路上",
+          "kind": "短语"
+        }
+      ]
+    },
+    {
+      "id": "s6",
+      "en": "“They bought the seedlings and closed them down,” complained Paul Arnold, a partner at San Francisco-based Switch Ventures, putting an end to businesses that might one day turn into competitors.",
+      "zhReference": "总部位于旧金山的 Switch Ventures 合伙人保罗·阿诺德抱怨：“他们买下幼苗，然后把它们关闭。”这些公司原本有朝一日可能成长为竞争对手。",
+      "vocabulary": [
+        {
+          "term": "seedlings",
+          "meaning": "幼苗；比喻初创公司",
+          "kind": "熟词僻义"
+        },
+        {
+          "term": "putting an end to",
+          "meaning": "终结",
+          "kind": "短语"
+        },
+        {
+          "term": "turn into competitors",
+          "meaning": "变成竞争对手",
+          "kind": "短语"
+        }
+      ]
+    },
+    {
+      "id": "s7",
+      "en": "Microsoft declined to comment.",
+      "zhReference": "微软拒绝置评。",
+      "vocabulary": [
+        {
+          "term": "declined to comment",
+          "meaning": "拒绝置评",
+          "kind": "短语"
+        },
+        {
+          "term": "comment",
+          "meaning": "评论",
+          "kind": "熟词僻义"
+        }
+      ]
+    },
+    {
+      "id": "s8",
+      "en": "Like other start-up investors, Mr Arnold’s own business often depends on selling start-ups to larger tech companies, though he admits to mixed feelings about the result:",
+      "zhReference": "和其他初创企业投资人一样，阿诺德自己的生意也常依赖把初创公司卖给大科技公司，尽管他承认对结果心情复杂：",
+      "vocabulary": [
+        {
+          "term": "mixed feelings",
+          "meaning": "复杂心情",
+          "kind": "短语"
+        },
+        {
+          "term": "depends on selling",
+          "meaning": "依赖出售",
+          "kind": "短语"
+        }
+      ]
+    },
+    {
+      "id": "s9",
+      "en": "“I think these things are good for me, if I put my selfish hat on.",
+      "zhReference": "“如果戴上自私的帽子，从我自己的利益出发，我觉得这些交易对我有利。",
+      "vocabulary": [
+        {
+          "term": "put my selfish hat on",
+          "meaning": "从私利出发",
+          "kind": "短语"
+        },
+        {
+          "term": "good for me",
+          "meaning": "对我有利",
+          "kind": "短语"
+        }
+      ]
+    },
+    {
+      "id": "s10",
+      "en": "But are they good for the American economy?",
+      "zhReference": "但它们对美国经济有好处吗？",
+      "vocabulary": [
+        {
+          "term": "American economy",
+          "meaning": "美国经济",
+          "kind": "短语"
+        },
+        {
+          "term": "good for",
+          "meaning": "对……有好处",
+          "kind": "短语"
+        }
+      ]
+    },
+    {
+      "id": "s11",
+      "en": "I don’t know.”",
+      "zhReference": "我不知道。”",
+      "vocabulary": [
+        {
+          "term": "I don’t know",
+          "meaning": "我不知道",
+          "kind": "短语"
+        },
+        {
+          "term": "know",
+          "meaning": "知道",
+          "kind": "生词"
+        }
+      ]
+    },
+    {
+      "id": "s12",
+      "en": "The U.S. Federal Trade Commission says it wants to find the answer to that question.",
+      "zhReference": "美国联邦贸易委员会说，想找到这个问题的答案。",
+      "vocabulary": [
+        {
+          "term": "Federal Trade Commission",
+          "meaning": "美国联邦贸易委员会",
+          "kind": "短语"
+        },
+        {
+          "term": "find the answer",
+          "meaning": "找到答案",
+          "kind": "短语"
+        }
+      ]
+    },
+    {
+      "id": "s13",
+      "en": "This week, it asked the five most valuable U.S. tech companies for information about their many small acquisitions over the past decade.",
+      "zhReference": "本周，该委员会要求美国市值最高的五家科技企业提供过去十年间多笔小额收购的信息。",
+      "vocabulary": [
+        {
+          "term": "small acquisitions",
+          "meaning": "小额收购",
+          "kind": "短语"
+        },
+        {
+          "term": "most valuable",
+          "meaning": "市值最高的",
+          "kind": "短语"
+        }
+      ]
+    },
+    {
+      "id": "s14",
+      "en": "Although only a research project at this stage, the request has raised the prospect of regulators wading into early-stage tech markets that until now have been beyond their reach.",
+      "zhReference": "虽然现阶段这只是一项研究计划，这一要求已经让人看到监管机构可能介入过去触及不到的早期科技市场。",
+      "vocabulary": [
+        {
+          "term": "wading into",
+          "meaning": "涉足并介入",
+          "kind": "短语"
+        },
+        {
+          "term": "early-stage tech markets",
+          "meaning": "早期科技市场",
+          "kind": "短语"
+        },
+        {
+          "term": "beyond their reach",
+          "meaning": "在其管辖或能力范围之外",
+          "kind": "短语"
+        }
+      ]
+    },
+    {
+      "id": "s15",
+      "en": "Given their combined market value of more than $5.5 trillion, rifling through such small deals—many of them much less prominent than Wunderlist and Sunrise—might seem beside the point.",
+      "zhReference": "考虑到这些企业合计市值超过五点五万亿美元，翻查这类小交易——其中很多远不如 Wunderlist 和 Sunrise 出名——似乎无关紧要。",
+      "vocabulary": [
+        {
+          "term": "rifling through",
+          "meaning": "翻查",
+          "kind": "短语"
+        },
+        {
+          "term": "beside the point",
+          "meaning": "不切题；无关紧要",
+          "kind": "短语"
+        },
+        {
+          "term": "combined market value",
+          "meaning": "合计市值",
+          "kind": "短语"
+        }
+      ]
+    },
+    {
+      "id": "s16",
+      "en": "Between them, the five biggest tech companies have spent an average of only $3.4 billion a year on sub-$1 billion acquisitions over the past five years—a drop in the ocean compared with their massive financial reserves, and the more than $130 billion of venture capital that was invested in the U.S. last year.",
+      "zhReference": "过去五年，这五家最大科技企业在单笔不足十亿美元的收购上，每年合计平均仅花三十四亿美元；与其庞大储备以及去年投入美国的逾一千三百亿美元风险资本相比，实在微不足道。",
+      "vocabulary": [
+        {
+          "term": "a drop in the ocean",
+          "meaning": "沧海一粟",
+          "kind": "短语"
+        },
+        {
+          "term": "venture capital",
+          "meaning": "风险资本",
+          "kind": "短语"
+        },
+        {
+          "term": "financial reserves",
+          "meaning": "资金储备",
+          "kind": "短语"
+        }
+      ]
+    },
+    {
+      "id": "s17",
+      "en": "However, critics say the big companies use such deals to buy their most threatening potential competitors before their businesses have a chance to gain momentum, in some cases as part of a “buy and kill” tactic to simply close them down.",
+      "zhReference": "然而，批评者说，大公司在潜在对手的业务形成势头前就借这类交易将其买下，有时甚至采取“买来杀掉”的策略，直接关闭它们。",
+      "vocabulary": [
+        {
+          "term": "gain momentum",
+          "meaning": "发展出势头",
+          "kind": "短语"
+        },
+        {
+          "term": "buy and kill",
+          "meaning": "买下后关闭",
+          "kind": "短语"
+        },
+        {
+          "term": "potential competitors",
+          "meaning": "潜在竞争对手",
+          "kind": "短语"
+        }
+      ]
+    }
+  ]
+}

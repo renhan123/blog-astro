@@ -1,0 +1,325 @@
+{
+  "title": "2024 真题 Text 4 · 健康应用的数据隐私",
+  "description": "健康应用收集的数据为何缺少传统医疗信息保护，以及监管与州立法的进展。",
+  "source": "2024年真题.pdf · Reading Comprehension",
+  "author": "2024 English Exam",
+  "level": "intermediate",
+  "tags": [
+    "2024真题",
+    "Reading Comprehension",
+    "Health Apps",
+    "Privacy"
+  ],
+  "estimatedMinutes": 26,
+  "heroNote": "注意 HIPAA 对传统医疗机构数据与健康应用数据的覆盖范围不同。",
+  "publishedAt": "2024-01-01",
+  "sentences": [
+    {
+      "id": "s1",
+      "en": "If you look at the apps on your phone, chances are you have at least one related to your health—and probably several.",
+      "zhReference": "看看你手机上的应用，很可能至少有一款与健康有关，甚至不止一款。",
+      "vocabulary": [
+        {
+          "term": "chances are",
+          "meaning": "很有可能",
+          "kind": "短语"
+        },
+        {
+          "term": "related to your health",
+          "meaning": "与健康有关",
+          "kind": "短语"
+        }
+      ]
+    },
+    {
+      "id": "s2",
+      "en": "Whether it is a mental health app, a fitness tracker, a connected health device or something else, many of us are taking advantage of this technology to keep better track of our health in some shape or form.",
+      "zhReference": "不论是心理健康应用、健身追踪器、联网健康设备还是别的东西，我们许多人都在利用这些技术，以某种形式更好地追踪健康状况。",
+      "vocabulary": [
+        {
+          "term": "fitness tracker",
+          "meaning": "健身追踪器",
+          "kind": "短语"
+        },
+        {
+          "term": "keep better track of",
+          "meaning": "更好地追踪",
+          "kind": "短语"
+        },
+        {
+          "term": "in some shape or form",
+          "meaning": "以某种形式",
+          "kind": "短语"
+        }
+      ]
+    },
+    {
+      "id": "s3",
+      "en": "Recent research from the Organization for the Review of Care and Health Applications found that 350,000 health apps were available on the market, 90,000 of which launched in 2020 alone.",
+      "zhReference": "医疗和健康应用评估组织的最新研究发现，市场上有三十五万款健康应用，仅 2020 年就上线九万款。",
+      "vocabulary": [
+        {
+          "term": "available on the market",
+          "meaning": "市场上可用的",
+          "kind": "短语"
+        },
+        {
+          "term": "launched",
+          "meaning": "上线",
+          "kind": "熟词僻义"
+        }
+      ]
+    },
+    {
+      "id": "s4",
+      "en": "While these apps have a great deal to offer, it is not always clear how the personal information we input is collected, safeguarded and shared online.",
+      "zhReference": "这些应用虽然大有用处，但我们输入的个人信息是如何收集、保护和在网上分享的，并不总是清楚。",
+      "vocabulary": [
+        {
+          "term": "a great deal to offer",
+          "meaning": "大有用处",
+          "kind": "短语"
+        },
+        {
+          "term": "safeguarded",
+          "meaning": "受到保护的",
+          "kind": "生词"
+        },
+        {
+          "term": "personal information",
+          "meaning": "个人信息",
+          "kind": "短语"
+        }
+      ]
+    },
+    {
+      "id": "s5",
+      "en": "Existing health privacy law, such as the Health Insurance Portability and Accountability Act, is primarily focused on the way hospitals, doctors’ offices, clinics and insurance companies store health records online.",
+      "zhReference": "现有的健康隐私法律，例如《健康保险流通与责任法案》，主要关注医院、医生诊所、门诊机构和保险公司如何在线存储健康记录。",
+      "vocabulary": [
+        {
+          "term": "Health Insurance Portability and Accountability Act",
+          "meaning": "美国健康保险流通与责任法案",
+          "kind": "短语"
+        },
+        {
+          "term": "health records",
+          "meaning": "健康记录",
+          "kind": "短语"
+        }
+      ]
+    },
+    {
+      "id": "s6",
+      "en": "The health information these apps and health data tracking wearables are collecting typically does not receive the same legal protections.",
+      "zhReference": "这些应用和追踪健康数据的可穿戴设备收集的信息，通常得不到同样的法律保护。",
+      "vocabulary": [
+        {
+          "term": "tracking wearables",
+          "meaning": "追踪数据的可穿戴设备",
+          "kind": "短语"
+        },
+        {
+          "term": "legal protections",
+          "meaning": "法律保护",
+          "kind": "短语"
+        }
+      ]
+    },
+    {
+      "id": "s7",
+      "en": "Without additional protections in place, companies may share (and potentially monetize) personal health information in a way consumers may not have authorized or anticipated.",
+      "zhReference": "如果缺乏额外保护，公司可能以消费者未授权或未预料到的方式分享个人健康信息，甚至借此牟利。",
+      "vocabulary": [
+        {
+          "term": "monetize",
+          "meaning": "变现；借数据获利",
+          "kind": "生词"
+        },
+        {
+          "term": "authorized or anticipated",
+          "meaning": "授权或预料",
+          "kind": "短语"
+        },
+        {
+          "term": "additional protections",
+          "meaning": "额外保护",
+          "kind": "短语"
+        }
+      ]
+    },
+    {
+      "id": "s8",
+      "en": "In 2021, Flo Health faced a Federal Trade Commission (FTC) investigation.",
+      "zhReference": "2021 年，Flo Health 遭到美国联邦贸易委员会调查。",
+      "vocabulary": [
+        {
+          "term": "Federal Trade Commission",
+          "meaning": "联邦贸易委员会",
+          "kind": "短语"
+        },
+        {
+          "term": "investigation",
+          "meaning": "调查",
+          "kind": "生词"
+        }
+      ]
+    },
+    {
+      "id": "s9",
+      "en": "The FTC alleged in a complaint that “despite express privacy claims, the company took control of users’ sensitive fertility data and shared it with third parties.”",
+      "zhReference": "该委员会在投诉中指控：“尽管明确声称保护隐私，该公司仍掌控用户敏感的生育数据，并与第三方分享。”",
+      "vocabulary": [
+        {
+          "term": "alleged in a complaint",
+          "meaning": "在投诉中指控",
+          "kind": "短语"
+        },
+        {
+          "term": "fertility data",
+          "meaning": "生育相关数据",
+          "kind": "短语"
+        },
+        {
+          "term": "third parties",
+          "meaning": "第三方",
+          "kind": "短语"
+        }
+      ]
+    },
+    {
+      "id": "s10",
+      "en": "Flo Health and the FTC settled the matter with a Consent Order requiring the company to get app users’ express affirmative consent before sharing their health information as well as to instruct the third parties to delete the data they had obtained.",
+      "zhReference": "Flo Health 与委员会达成和解，签署同意令：公司分享用户健康信息前须取得用户明确的肯定同意，还要通知第三方删除此前获得的数据。",
+      "vocabulary": [
+        {
+          "term": "Consent Order",
+          "meaning": "同意令",
+          "kind": "短语"
+        },
+        {
+          "term": "express affirmative consent",
+          "meaning": "明确的肯定同意",
+          "kind": "短语"
+        },
+        {
+          "term": "settled the matter",
+          "meaning": "达成和解",
+          "kind": "短语"
+        }
+      ]
+    },
+    {
+      "id": "s11",
+      "en": "Section 5 of the FTC Act empowers the FTC to initiate enforcement action against unfair or deceptive acts, meaning the FTC can only act after the fact if a company’s privacy practices are misleading or cause unjustified consumer harm.",
+      "zhReference": "《联邦贸易委员会法》第五条授权委员会对不公平或欺骗行为采取执法行动，这意味着仅当企业的隐私做法具有误导性或造成无正当理由的消费者损害时，委员会才能事后介入。",
+      "vocabulary": [
+        {
+          "term": "enforcement action",
+          "meaning": "执法行动",
+          "kind": "短语"
+        },
+        {
+          "term": "after the fact",
+          "meaning": "事后",
+          "kind": "短语"
+        },
+        {
+          "term": "deceptive acts",
+          "meaning": "欺骗性行为",
+          "kind": "短语"
+        }
+      ]
+    },
+    {
+      "id": "s12",
+      "en": "While the FTC is doing what it can to ensure apps are keeping their promises to consumers around the handling of their sensitive health information, the rate at which these health apps are hitting the market demonstrates just how immense of a challenge this is.",
+      "zhReference": "虽然委员会正尽力确保健康应用兑现对消费者保护敏感健康信息的承诺，但应用涌入市场的速度表明这一挑战极其巨大。",
+      "vocabulary": [
+        {
+          "term": "keeping their promises",
+          "meaning": "履行承诺",
+          "kind": "短语"
+        },
+        {
+          "term": "hitting the market",
+          "meaning": "涌入市场",
+          "kind": "短语"
+        },
+        {
+          "term": "immense of a challenge",
+          "meaning": "巨大的挑战",
+          "kind": "短语"
+        }
+      ]
+    },
+    {
+      "id": "s13",
+      "en": "As to the prospects for federal legislation, commentators suggest that comprehensive federal privacy legislation seems unlikely in the short term.",
+      "zhReference": "至于联邦立法的前景，评论者认为短期内不太可能出台全面的联邦隐私法。",
+      "vocabulary": [
+        {
+          "term": "comprehensive federal privacy legislation",
+          "meaning": "全面的联邦隐私立法",
+          "kind": "短语"
+        },
+        {
+          "term": "in the short term",
+          "meaning": "短期内",
+          "kind": "短语"
+        }
+      ]
+    },
+    {
+      "id": "s14",
+      "en": "States have begun implementing their own solutions to shore up protections for consumer-generated health data.",
+      "zhReference": "各州已开始推行自己的方案，加强对消费者产生的健康数据的保护。",
+      "vocabulary": [
+        {
+          "term": "shore up protections",
+          "meaning": "加强保护",
+          "kind": "短语"
+        },
+        {
+          "term": "consumer-generated health data",
+          "meaning": "消费者产生的健康数据",
+          "kind": "短语"
+        }
+      ]
+    },
+    {
+      "id": "s15",
+      "en": "California has been at the forefront of state privacy efforts with the California Consumer Privacy Act of 2018.",
+      "zhReference": "加利福尼亚州通过 2018 年的《加州消费者隐私法》，一直走在州级隐私保护的前沿。",
+      "vocabulary": [
+        {
+          "term": "at the forefront of",
+          "meaning": "走在……前列",
+          "kind": "短语"
+        },
+        {
+          "term": "state privacy efforts",
+          "meaning": "州一级的隐私保护努力",
+          "kind": "短语"
+        }
+      ]
+    },
+    {
+      "id": "s16",
+      "en": "Virginia, Colorado and Utah have also recently passed state consumer data privacy legislation.",
+      "zhReference": "弗吉尼亚、科罗拉多和犹他三州最近也通过了消费者数据隐私法。",
+      "vocabulary": [
+        {
+          "term": "consumer data privacy legislation",
+          "meaning": "消费者数据隐私法",
+          "kind": "短语"
+        },
+        {
+          "term": "passed",
+          "meaning": "通过法案",
+          "kind": "熟词僻义"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,410 @@
+{
+  "title": "2019 真题 Text 2 · 森林碳汇的取舍",
+  "description": "加州森林管理计划为何短期减少储碳能力，却有利于长期吸收二氧化碳。",
+  "source": "2019年真题.pdf · Reading Comprehension",
+  "author": "2019 English Exam",
+  "level": "intermediate",
+  "tags": [
+    "2019真题",
+    "Reading Comprehension",
+    "Forests",
+    "Climate"
+  ],
+  "estimatedMinutes": 25,
+  "heroNote": "注意暂时疏伐与长期增强碳汇之间看似矛盾、实则互补的关系。",
+  "publishedAt": "2019-01-01",
+  "sentences": [
+    {
+      "id": "s1",
+      "en": "Forests give us shade, quiet and one of the harder challenges in the fight against climate change.",
+      "zhReference": "森林为我们提供荫凉和宁静，却也是应对气候变化时更棘手的挑战之一。",
+      "vocabulary": [
+        {
+          "term": "fight against climate change",
+          "meaning": "应对气候变化的斗争",
+          "kind": "短语"
+        },
+        {
+          "term": "shade",
+          "meaning": "荫凉",
+          "kind": "生词"
+        }
+      ]
+    },
+    {
+      "id": "s2",
+      "en": "Even as we humans count on forests to soak up a good share of the carbon dioxide we produce, we are threatening their ability to do so.",
+      "zhReference": "我们人类一边指望森林吸收所排放的大量二氧化碳，一边却在削弱它们的吸收能力。",
+      "vocabulary": [
+        {
+          "term": "count on",
+          "meaning": "指望",
+          "kind": "短语"
+        },
+        {
+          "term": "soak up",
+          "meaning": "吸收",
+          "kind": "短语"
+        },
+        {
+          "term": "carbon dioxide",
+          "meaning": "二氧化碳",
+          "kind": "短语"
+        }
+      ]
+    },
+    {
+      "id": "s3",
+      "en": "The climate change we are hastening could one day leave us with forests that emit more carbon than they absorb.",
+      "zhReference": "我们正在加速的气候变化，有朝一日可能使森林排放的碳多于它们吸收的碳。",
+      "vocabulary": [
+        {
+          "term": "hastening",
+          "meaning": "加速",
+          "kind": "生词"
+        },
+        {
+          "term": "emit more carbon than they absorb",
+          "meaning": "排碳多于吸碳",
+          "kind": "短语"
+        }
+      ]
+    },
+    {
+      "id": "s4",
+      "en": "Thankfully, there is a way out of this trap—but it involves striking a subtle balance.",
+      "zhReference": "好在有办法走出这一困境，但需要把握微妙的平衡。",
+      "vocabulary": [
+        {
+          "term": "way out of this trap",
+          "meaning": "走出困境的方法",
+          "kind": "短语"
+        },
+        {
+          "term": "striking a subtle balance",
+          "meaning": "达成微妙的平衡",
+          "kind": "短语"
+        }
+      ]
+    },
+    {
+      "id": "s5",
+      "en": "Helping forests flourish as valuable “carbon sinks” long into the future may require reducing their capacity to absorb carbon now.",
+      "zhReference": "要让森林在遥远的未来仍作为宝贵的“碳汇”健康生长，可能需要暂时降低它们眼下的吸碳能力。",
+      "vocabulary": [
+        {
+          "term": "carbon sinks",
+          "meaning": "碳汇",
+          "kind": "短语"
+        },
+        {
+          "term": "flourish",
+          "meaning": "繁盛生长",
+          "kind": "生词"
+        },
+        {
+          "term": "reducing their capacity",
+          "meaning": "降低它们的能力",
+          "kind": "短语"
+        }
+      ]
+    },
+    {
+      "id": "s6",
+      "en": "California is leading the way, as it does on so many climate efforts, in figuring out the details.",
+      "zhReference": "和在许多气候行动中一样，加利福尼亚州率先研究其中的具体做法。",
+      "vocabulary": [
+        {
+          "term": "leading the way",
+          "meaning": "走在前面",
+          "kind": "短语"
+        },
+        {
+          "term": "figuring out the details",
+          "meaning": "弄清具体办法",
+          "kind": "短语"
+        }
+      ]
+    },
+    {
+      "id": "s7",
+      "en": "The state’s proposed Forest Carbon Plan aims to double efforts to thin out young trees and clear brush in parts of the forest.",
+      "zhReference": "该州提出的森林碳计划旨在加倍努力，疏伐部分林区的幼树并清理灌木丛。",
+      "vocabulary": [
+        {
+          "term": "thin out young trees",
+          "meaning": "疏伐幼树",
+          "kind": "短语"
+        },
+        {
+          "term": "clear brush",
+          "meaning": "清理灌木丛",
+          "kind": "短语"
+        }
+      ]
+    },
+    {
+      "id": "s8",
+      "en": "This temporarily lowers carbon-carrying capacity.",
+      "zhReference": "这会暂时降低森林的储碳能力。",
+      "vocabulary": [
+        {
+          "term": "carbon-carrying capacity",
+          "meaning": "储碳能力",
+          "kind": "短语"
+        },
+        {
+          "term": "temporarily",
+          "meaning": "暂时地",
+          "kind": "生词"
+        }
+      ]
+    },
+    {
+      "id": "s9",
+      "en": "But the remaining trees draw a greater share of the available moisture, so they grow and thrive, restoring the forest’s capacity to pull carbon from the air.",
+      "zhReference": "但留下的树木可以获得更多可用水分，从而生长茁壮，恢复森林从空气中吸收碳的能力。",
+      "vocabulary": [
+        {
+          "term": "available moisture",
+          "meaning": "可用水分",
+          "kind": "短语"
+        },
+        {
+          "term": "thrive",
+          "meaning": "茁壮成长",
+          "kind": "生词"
+        },
+        {
+          "term": "pull carbon from the air",
+          "meaning": "从空气中吸收碳",
+          "kind": "短语"
+        }
+      ]
+    },
+    {
+      "id": "s10",
+      "en": "Healthy trees are also better able to fend off insects.",
+      "zhReference": "健康的树木也更能抵御虫害。",
+      "vocabulary": [
+        {
+          "term": "fend off insects",
+          "meaning": "抵御昆虫侵害",
+          "kind": "短语"
+        },
+        {
+          "term": "Healthy trees",
+          "meaning": "健康的树木",
+          "kind": "短语"
+        }
+      ]
+    },
+    {
+      "id": "s11",
+      "en": "The landscape is rendered less easily burnable.",
+      "zhReference": "这样处理的林地也变得不容易燃烧。",
+      "vocabulary": [
+        {
+          "term": "rendered",
+          "meaning": "变得；被处理成",
+          "kind": "熟词僻义"
+        },
+        {
+          "term": "burnable",
+          "meaning": "易燃的",
+          "kind": "生词"
+        }
+      ]
+    },
+    {
+      "id": "s12",
+      "en": "Even in the event of a fire, fewer trees are consumed.",
+      "zhReference": "即使发生火灾，烧毁的树木也会更少。",
+      "vocabulary": [
+        {
+          "term": "in the event of a fire",
+          "meaning": "如果发生火灾",
+          "kind": "短语"
+        },
+        {
+          "term": "consumed",
+          "meaning": "被烧毁",
+          "kind": "熟词僻义"
+        }
+      ]
+    },
+    {
+      "id": "s13",
+      "en": "The need for such planning is increasingly urgent.",
+      "zhReference": "这种规划正变得越来越迫切。",
+      "vocabulary": [
+        {
+          "term": "increasingly urgent",
+          "meaning": "越来越紧迫",
+          "kind": "短语"
+        },
+        {
+          "term": "planning",
+          "meaning": "规划",
+          "kind": "熟词僻义"
+        }
+      ]
+    },
+    {
+      "id": "s14",
+      "en": "Already, since 2010, drought and insects have killed over 100 million trees in California, most of them in 2016 alone, and wildfires have burned hundreds of thousands of acres.",
+      "zhReference": "自 2010 年以来，干旱和虫害已导致加州超过一亿棵树死亡，其中多数仅发生在 2016 年；野火还烧毁了数十万英亩林地。",
+      "vocabulary": [
+        {
+          "term": "drought",
+          "meaning": "干旱",
+          "kind": "生词"
+        },
+        {
+          "term": "hundreds of thousands of acres",
+          "meaning": "数十万英亩",
+          "kind": "短语"
+        }
+      ]
+    },
+    {
+      "id": "s15",
+      "en": "California plans to treat 35,000 acres of forest a year by 2020, and 60,000 by 2030—financed from the proceeds of the state’s emissions-permit auctions.",
+      "zhReference": "加州计划到 2020 年每年处理三万五千英亩森林，到 2030 年增至六万英亩，资金来自该州排放许可拍卖的收入。",
+      "vocabulary": [
+        {
+          "term": "emissions-permit auctions",
+          "meaning": "排放许可拍卖",
+          "kind": "短语"
+        },
+        {
+          "term": "proceeds",
+          "meaning": "所得收入",
+          "kind": "熟词僻义"
+        },
+        {
+          "term": "treat 35,000 acres",
+          "meaning": "治理三万五千英亩",
+          "kind": "短语"
+        }
+      ]
+    },
+    {
+      "id": "s16",
+      "en": "That’s only a small share of the total acreage that could benefit, about half a million acres in all, so it will be vital to prioritize areas at greatest risk of fire or drought.",
+      "zhReference": "但这只是总计约五十万英亩可能受益林地中的一小部分，因此优先处理火灾或干旱风险最高的地区至关重要。",
+      "vocabulary": [
+        {
+          "term": "total acreage",
+          "meaning": "总面积",
+          "kind": "短语"
+        },
+        {
+          "term": "prioritize",
+          "meaning": "优先处理",
+          "kind": "生词"
+        },
+        {
+          "term": "at greatest risk of",
+          "meaning": "风险最高",
+          "kind": "短语"
+        }
+      ]
+    },
+    {
+      "id": "s17",
+      "en": "The strategy also aims to ensure that carbon in woody material removed from the forests is locked away in the form of solid lumber or burned as biofuel in vehicles that would otherwise run on fossil fuels.",
+      "zhReference": "该策略还希望确保移出森林的木质材料中的碳，或者以实木木材的形式长期封存，或者作为生物燃料供原本会使用化石燃料的车辆燃烧。",
+      "vocabulary": [
+        {
+          "term": "locked away",
+          "meaning": "长期封存",
+          "kind": "短语"
+        },
+        {
+          "term": "solid lumber",
+          "meaning": "实木木材",
+          "kind": "短语"
+        },
+        {
+          "term": "biofuel",
+          "meaning": "生物燃料",
+          "kind": "生词"
+        }
+      ]
+    },
+    {
+      "id": "s18",
+      "en": "New research on transportation biofuels is already under way.",
+      "zhReference": "关于交通运输生物燃料的新研究已经在进行。",
+      "vocabulary": [
+        {
+          "term": "under way",
+          "meaning": "正在进行",
+          "kind": "短语"
+        },
+        {
+          "term": "transportation biofuels",
+          "meaning": "交通用生物燃料",
+          "kind": "短语"
+        }
+      ]
+    },
+    {
+      "id": "s19",
+      "en": "State governments are well accustomed to managing forests, but traditionally they’ve focused on wildlife, watersheds and opportunities for recreation.",
+      "zhReference": "各州政府很熟悉森林管理，但过去主要关注野生动物、流域和休闲活动机会。",
+      "vocabulary": [
+        {
+          "term": "accustomed to",
+          "meaning": "习惯于",
+          "kind": "短语"
+        },
+        {
+          "term": "watersheds",
+          "meaning": "流域",
+          "kind": "生词"
+        },
+        {
+          "term": "recreation",
+          "meaning": "休闲活动",
+          "kind": "生词"
+        }
+      ]
+    },
+    {
+      "id": "s20",
+      "en": "Only recently have they come to see the vital part forests will have to play in storing carbon.",
+      "zhReference": "只是近来，它们才开始认识到森林在储碳方面将发挥的重要作用。",
+      "vocabulary": [
+        {
+          "term": "Only recently have they",
+          "meaning": "直到最近他们才……；倒装句",
+          "kind": "短语"
+        },
+        {
+          "term": "vital part",
+          "meaning": "重要作用",
+          "kind": "短语"
+        }
+      ]
+    },
+    {
+      "id": "s21",
+      "en": "California’s plan, which is expected to be finalized by the governor next year, should serve as a model.",
+      "zhReference": "加州的计划预计明年由州长最终敲定，应该成为其他地方的范例。",
+      "vocabulary": [
+        {
+          "term": "serve as a model",
+          "meaning": "成为典范",
+          "kind": "短语"
+        },
+        {
+          "term": "finalized",
+          "meaning": "最终敲定",
+          "kind": "生词"
+        }
+      ]
+    }
+  ]
+}

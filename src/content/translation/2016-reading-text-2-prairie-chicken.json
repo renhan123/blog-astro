@@ -1,0 +1,354 @@
+{
+  "title": "2016 真题 Text 2 · 小草原松鸡保护之争",
+  "description": "围绕受威胁物种的保护分级，探讨联邦政府、各州、企业和环保组织的分歧。",
+  "source": "2016年真题.pdf · Reading Comprehension",
+  "author": "2016 English Exam",
+  "level": "intermediate",
+  "tags": [
+    "2016真题",
+    "Reading Comprehension",
+    "Wildlife",
+    "Conservation"
+  ],
+  "estimatedMinutes": 25,
+  "heroNote": "区分 threatened 和 endangered 的法律后果，留意双赢方案为何遭遇双方反对。",
+  "publishedAt": "2016-01-01",
+  "sentences": [
+    {
+      "id": "s1",
+      "en": "Biologists estimate that as many as 2 million lesser prairie chickens—a kind of bird living on stretching grasslands—once lent red to the often grey landscape of the midwestern and southwestern United States.",
+      "zhReference": "生物学家估计，过去曾有多达两百万只小草原松鸡——一种栖息在广袤草原上的鸟——为美国中西部和西南部常显灰暗的景观增添一抹红色。",
+      "vocabulary": [
+        {
+          "term": "lesser prairie chickens",
+          "meaning": "小草原松鸡",
+          "kind": "短语"
+        },
+        {
+          "term": "lent red to",
+          "meaning": "给……增添红色",
+          "kind": "短语"
+        },
+        {
+          "term": "stretching grasslands",
+          "meaning": "广袤草原",
+          "kind": "短语"
+        }
+      ]
+    },
+    {
+      "id": "s2",
+      "en": "But just some 22,000 birds remain today, occupying about 16% of the species’ historic range.",
+      "zhReference": "但如今只剩约两万两千只，分布范围仅为这一物种历史栖息地的约百分之十六。",
+      "vocabulary": [
+        {
+          "term": "historic range",
+          "meaning": "历史分布范围",
+          "kind": "短语"
+        },
+        {
+          "term": "occupying",
+          "meaning": "占据",
+          "kind": "熟词僻义"
+        }
+      ]
+    },
+    {
+      "id": "s3",
+      "en": "The crash was a major reason the U.S. Fish and Wildlife Service (USFWS) decided to formally list the bird as threatened.",
+      "zhReference": "种群数量骤减是美国鱼类及野生动物管理局正式将这种鸟列为“受威胁”物种的主要原因。",
+      "vocabulary": [
+        {
+          "term": "The crash",
+          "meaning": "种群骤减",
+          "kind": "熟词僻义"
+        },
+        {
+          "term": "list the bird as threatened",
+          "meaning": "将这种鸟列为受威胁物种",
+          "kind": "短语"
+        }
+      ]
+    },
+    {
+      "id": "s4",
+      "en": "“The lesser prairie chicken is in a desperate situation,” said USFWS Director Daniel Ashe.",
+      "zhReference": "该局局长丹尼尔·阿什说：“小草原松鸡正处于危急境地。”",
+      "vocabulary": [
+        {
+          "term": "desperate situation",
+          "meaning": "危急境地",
+          "kind": "短语"
+        },
+        {
+          "term": "USFWS Director",
+          "meaning": "鱼类及野生动物管理局局长",
+          "kind": "短语"
+        }
+      ]
+    },
+    {
+      "id": "s5",
+      "en": "Some environmentalists, however, were disappointed.",
+      "zhReference": "然而，一些环保人士对此感到失望。",
+      "vocabulary": [
+        {
+          "term": "environmentalists",
+          "meaning": "环保人士",
+          "kind": "生词"
+        },
+        {
+          "term": "disappointed",
+          "meaning": "失望的",
+          "kind": "生词"
+        }
+      ]
+    },
+    {
+      "id": "s6",
+      "en": "They had pushed the agency to designate the bird as “endangered,” a status that gives federal officials greater regulatory power to crack down on threats.",
+      "zhReference": "他们曾敦促该机构将这种鸟列为“濒危”物种；这一身份赋予联邦官员更大的监管权力，以严厉打击各种威胁。",
+      "vocabulary": [
+        {
+          "term": "designate",
+          "meaning": "指定为",
+          "kind": "生词"
+        },
+        {
+          "term": "endangered",
+          "meaning": "濒危的",
+          "kind": "生词"
+        },
+        {
+          "term": "crack down on",
+          "meaning": "严厉打击",
+          "kind": "短语"
+        }
+      ]
+    },
+    {
+      "id": "s7",
+      "en": "But Ashe and others argued that the “threatened” tag gave the federal government flexibility to try out new, potentially less confrontational conservation approaches.",
+      "zhReference": "但阿什等人认为，“受威胁”这一标签让联邦政府有灵活性去尝试新的、可能冲突更少的保护方法。",
+      "vocabulary": [
+        {
+          "term": "threatened",
+          "meaning": "受威胁物种的标签",
+          "kind": "短语"
+        },
+        {
+          "term": "confrontational",
+          "meaning": "带有对抗性的",
+          "kind": "生词"
+        },
+        {
+          "term": "conservation approaches",
+          "meaning": "保护措施",
+          "kind": "短语"
+        }
+      ]
+    },
+    {
+      "id": "s8",
+      "en": "In particular, they called for forging closer collaborations with western state governments, which are often uneasy with federal action, and with the private landowners who control an estimated 95% of the prairie chicken’s habitat.",
+      "zhReference": "他们尤其呼吁与往往对联邦行动感到不安的西部各州政府，以及控制着估计百分之九十五小草原松鸡栖息地的私人土地所有者建立更紧密的合作。",
+      "vocabulary": [
+        {
+          "term": "forging closer collaborations",
+          "meaning": "建立更紧密的合作",
+          "kind": "短语"
+        },
+        {
+          "term": "uneasy with",
+          "meaning": "对……感到不安",
+          "kind": "短语"
+        },
+        {
+          "term": "habitat",
+          "meaning": "栖息地",
+          "kind": "生词"
+        }
+      ]
+    },
+    {
+      "id": "s9",
+      "en": "Under the plan, for example, the agency said it would not prosecute landowners or businesses that unintentionally kill, harm, or disturb the bird, as long as they had signed a range-wide management plan to restore prairie chicken habitat.",
+      "zhReference": "例如，该机构表示，根据这一计划，只要土地所有者或企业签署了覆盖整个分布区的松鸡栖息地恢复管理方案，即使无意中杀死、伤害或惊扰了这种鸟，也不会遭到起诉。",
+      "vocabulary": [
+        {
+          "term": "prosecute",
+          "meaning": "起诉",
+          "kind": "生词"
+        },
+        {
+          "term": "range-wide management plan",
+          "meaning": "覆盖全分布区的管理计划",
+          "kind": "短语"
+        },
+        {
+          "term": "as long as",
+          "meaning": "只要",
+          "kind": "短语"
+        }
+      ]
+    },
+    {
+      "id": "s10",
+      "en": "Negotiated by USFWS and the states, the plan requires individuals and businesses that damage habitat as part of their operations to pay into a fund to replace every acre destroyed with 2 new acres of suitable habitat.",
+      "zhReference": "这一由管理局和各州谈判制定的计划，要求因经营活动破坏栖息地的个人和企业向基金缴款，每毁坏一英亩，就要新建两英亩适宜的栖息地。",
+      "vocabulary": [
+        {
+          "term": "pay into a fund",
+          "meaning": "向基金缴款",
+          "kind": "短语"
+        },
+        {
+          "term": "every acre destroyed",
+          "meaning": "每破坏一英亩",
+          "kind": "短语"
+        },
+        {
+          "term": "suitable habitat",
+          "meaning": "适宜的栖息地",
+          "kind": "短语"
+        }
+      ]
+    },
+    {
+      "id": "s11",
+      "en": "The fund will also be used to compensate landowners who set aside habitat.",
+      "zhReference": "基金还将用于补偿划出土地作为栖息地的土地所有者。",
+      "vocabulary": [
+        {
+          "term": "compensate landowners",
+          "meaning": "补偿土地所有者",
+          "kind": "短语"
+        },
+        {
+          "term": "set aside habitat",
+          "meaning": "划出土地作栖息地",
+          "kind": "短语"
+        }
+      ]
+    },
+    {
+      "id": "s12",
+      "en": "USFWS also set an interim goal of restoring prairie chicken populations to an annual average of 67,000 birds over the next 10 years.",
+      "zhReference": "该管理局还设定了阶段性目标：在未来十年里，将小草原松鸡种群恢复到每年平均六万七千只。",
+      "vocabulary": [
+        {
+          "term": "interim goal",
+          "meaning": "阶段性目标",
+          "kind": "短语"
+        },
+        {
+          "term": "annual average",
+          "meaning": "年度平均数量",
+          "kind": "短语"
+        }
+      ]
+    },
+    {
+      "id": "s13",
+      "en": "And it gives the Western Association of Fish and Wildlife Agencies (WAFWA), a coalition of state agencies, the job of monitoring progress.",
+      "zhReference": "该计划还把监测进展的任务交给西部鱼类及野生动物机构协会——一个由各州机构组成的联盟。",
+      "vocabulary": [
+        {
+          "term": "coalition",
+          "meaning": "联盟",
+          "kind": "生词"
+        },
+        {
+          "term": "monitoring progress",
+          "meaning": "监测进展",
+          "kind": "短语"
+        }
+      ]
+    },
+    {
+      "id": "s14",
+      "en": "Overall, the idea is to let “states remain in the driver’s seat for managing the species,” Ashe said.",
+      "zhReference": "阿什说，总体来说，其思路是让“各州继续主导这一物种的管理”。",
+      "vocabulary": [
+        {
+          "term": "in the driver’s seat",
+          "meaning": "掌握主导权",
+          "kind": "短语"
+        },
+        {
+          "term": "managing the species",
+          "meaning": "管理这一物种",
+          "kind": "短语"
+        }
+      ]
+    },
+    {
+      "id": "s15",
+      "en": "Not everyone buys the win-win rhetoric.",
+      "zhReference": "并不是所有人都认可这种双赢说法。",
+      "vocabulary": [
+        {
+          "term": "buys",
+          "meaning": "相信；接受",
+          "kind": "熟词僻义"
+        },
+        {
+          "term": "win-win rhetoric",
+          "meaning": "双赢说辞",
+          "kind": "短语"
+        }
+      ]
+    },
+    {
+      "id": "s16",
+      "en": "Some Congress members are trying to block the plan, and at least a dozen industry groups, four states, and three environmental groups are challenging it in federal court.",
+      "zhReference": "一些国会议员正试图阻止该计划；至少十多个行业团体、四个州和三个环保组织也正在联邦法院对其提出挑战。",
+      "vocabulary": [
+        {
+          "term": "challenging it in federal court",
+          "meaning": "在联邦法院提起诉讼挑战它",
+          "kind": "短语"
+        },
+        {
+          "term": "block the plan",
+          "meaning": "阻止计划",
+          "kind": "短语"
+        }
+      ]
+    },
+    {
+      "id": "s17",
+      "en": "Not surprisingly, industry groups and states generally argue it goes too far; environmentalists say it doesn’t go far enough.",
+      "zhReference": "不出所料，行业团体和各州普遍认为计划做得太过，而环保人士则认为力度还不够。",
+      "vocabulary": [
+        {
+          "term": "goes too far",
+          "meaning": "做得太过",
+          "kind": "短语"
+        },
+        {
+          "term": "doesn’t go far enough",
+          "meaning": "力度还不够",
+          "kind": "短语"
+        }
+      ]
+    },
+    {
+      "id": "s18",
+      "en": "“The federal government is giving responsibility for managing the bird to the same industries that are pushing it to extinction,” says biologist Jay Lininger.",
+      "zhReference": "生物学家杰伊·莱宁格说：“联邦政府正把管理这种鸟的责任交给那些把它推向灭绝的行业。”",
+      "vocabulary": [
+        {
+          "term": "pushing it to extinction",
+          "meaning": "把它推向灭绝",
+          "kind": "短语"
+        },
+        {
+          "term": "responsibility for managing",
+          "meaning": "管理……的责任",
+          "kind": "短语"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,354 @@
+{
+  "title": "2018 真题 Text 3 · 数字巨头出售的是我们的数据",
+  "description": "以平台收购和广告市场为例，揭示免费数字服务背后的数据商业模式。",
+  "source": "2018年真题.pdf · Reading Comprehension",
+  "author": "2018 English Exam",
+  "level": "intermediate",
+  "tags": [
+    "2018真题",
+    "Reading Comprehension",
+    "Digital Economy",
+    "Privacy"
+  ],
+  "estimatedMinutes": 26,
+  "heroNote": "理解使用者与付费客户的区别，以及最后蚂蚁和蚜虫的比喻。",
+  "publishedAt": "2018-01-01",
+  "sentences": [
+    {
+      "id": "s1",
+      "en": "The power and ambition of the giants of the digital economy is astonishing—Amazon has just announced the purchase of the upmarket grocery chain Whole Foods for $13.5bn, but two years ago Facebook paid even more than that to acquire the WhatsApp messaging service, which doesn’t have any physical product at all.",
+      "zhReference": "数字经济巨头的实力与野心令人震惊：亚马逊刚宣布以一百三十五亿美元收购高端连锁超市全食食品；而两年前，Facebook 花了更多的钱收购 WhatsApp 即时通信服务，后者甚至没有任何实体产品。",
+      "vocabulary": [
+        {
+          "term": "giants of the digital economy",
+          "meaning": "数字经济巨头",
+          "kind": "短语"
+        },
+        {
+          "term": "upmarket grocery chain",
+          "meaning": "高档连锁超市",
+          "kind": "短语"
+        },
+        {
+          "term": "physical product",
+          "meaning": "实体产品",
+          "kind": "短语"
+        }
+      ]
+    },
+    {
+      "id": "s2",
+      "en": "What WhatsApp offered Facebook was an intricate and finely detailed web of its users’ friendships and social lives.",
+      "zhReference": "WhatsApp 能提供给 Facebook 的，是一张复杂而细致、描绘其用户友谊与社交生活的关系网。",
+      "vocabulary": [
+        {
+          "term": "intricate",
+          "meaning": "错综复杂的",
+          "kind": "生词"
+        },
+        {
+          "term": "web of its users’ friendships",
+          "meaning": "用户友谊关系网络",
+          "kind": "短语"
+        }
+      ]
+    },
+    {
+      "id": "s3",
+      "en": "Facebook promised the European commission then that it would not link phone numbers to Facebook identities, but it broke the promise almost as soon as the deal went through.",
+      "zhReference": "Facebook 当时向欧盟委员会承诺，不会把电话号码与 Facebook 身份关联起来，但交易刚完成就违背了承诺。",
+      "vocabulary": [
+        {
+          "term": "went through",
+          "meaning": "完成；获得批准",
+          "kind": "短语"
+        },
+        {
+          "term": "link phone numbers to",
+          "meaning": "把号码与……关联",
+          "kind": "短语"
+        }
+      ]
+    },
+    {
+      "id": "s4",
+      "en": "Even without knowing what was in the messages, the knowledge of who sent them and to whom was enormously revealing and still could be.",
+      "zhReference": "即便不知道消息内容，只要知道是谁发给谁，就能揭示大量信息；现在仍是如此。",
+      "vocabulary": [
+        {
+          "term": "enormously revealing",
+          "meaning": "极能揭示信息",
+          "kind": "短语"
+        },
+        {
+          "term": "who sent them and to whom",
+          "meaning": "谁发给了谁",
+          "kind": "短语"
+        }
+      ]
+    },
+    {
+      "id": "s5",
+      "en": "What political journalist, what party whip, would not want to know the makeup of the WhatsApp groups in which Theresa May’s enemies are currently plotting?",
+      "zhReference": "哪个政治记者、哪个党鞭，不想知道特雷莎·梅的对手如今在其中谋划的 WhatsApp 群组是由谁组成的？",
+      "vocabulary": [
+        {
+          "term": "party whip",
+          "meaning": "负责党内纪律的党鞭",
+          "kind": "短语"
+        },
+        {
+          "term": "makeup of the WhatsApp groups",
+          "meaning": "群组的成员构成",
+          "kind": "短语"
+        },
+        {
+          "term": "plotting",
+          "meaning": "密谋",
+          "kind": "生词"
+        }
+      ]
+    },
+    {
+      "id": "s6",
+      "en": "It may be that the value of Whole Foods to Amazon is not so much the 460 shops it owns, but the records of which customers have purchased what.",
+      "zhReference": "全食食品对于亚马逊的价值，可能不在于它拥有的四百六十家门店，而在于记录了顾客买过什么的数据。",
+      "vocabulary": [
+        {
+          "term": "not so much",
+          "meaning": "与其说……不如说……",
+          "kind": "短语"
+        },
+        {
+          "term": "records of which customers",
+          "meaning": "顾客购买记录",
+          "kind": "短语"
+        }
+      ]
+    },
+    {
+      "id": "s7",
+      "en": "Competition law appears to be the only way to address these imbalances of power.",
+      "zhReference": "竞争法似乎是应对这些权力失衡的唯一办法。",
+      "vocabulary": [
+        {
+          "term": "Competition law",
+          "meaning": "反垄断法；竞争法",
+          "kind": "短语"
+        },
+        {
+          "term": "imbalances of power",
+          "meaning": "权力不平衡",
+          "kind": "短语"
+        }
+      ]
+    },
+    {
+      "id": "s8",
+      "en": "But it is clumsy.",
+      "zhReference": "但这种办法很笨拙。",
+      "vocabulary": [
+        {
+          "term": "clumsy",
+          "meaning": "笨拙而不灵活的",
+          "kind": "生词"
+        },
+        {
+          "term": "it",
+          "meaning": "指竞争法",
+          "kind": "熟词僻义"
+        }
+      ]
+    },
+    {
+      "id": "s9",
+      "en": "For one thing, it is very slow compared to the pace of change within the digital economy.",
+      "zhReference": "首先，与数字经济变化的速度相比，竞争法的反应非常慢。",
+      "vocabulary": [
+        {
+          "term": "pace of change",
+          "meaning": "变化速度",
+          "kind": "短语"
+        },
+        {
+          "term": "For one thing",
+          "meaning": "首先",
+          "kind": "短语"
+        }
+      ]
+    },
+    {
+      "id": "s10",
+      "en": "By the time a problem has been addressed and remedied it may have vanished in the marketplace, to be replaced by new abuses of power.",
+      "zhReference": "等到问题得到处理和补救时，它可能早已从市场消失，取而代之的是新的权力滥用。",
+      "vocabulary": [
+        {
+          "term": "remedied",
+          "meaning": "得到补救",
+          "kind": "生词"
+        },
+        {
+          "term": "abuses of power",
+          "meaning": "权力滥用",
+          "kind": "短语"
+        },
+        {
+          "term": "vanished in the marketplace",
+          "meaning": "从市场消失",
+          "kind": "短语"
+        }
+      ]
+    },
+    {
+      "id": "s11",
+      "en": "But there is a deeper conceptual problem, too.",
+      "zhReference": "但这里还有一个更深层的概念问题。",
+      "vocabulary": [
+        {
+          "term": "conceptual problem",
+          "meaning": "概念层面的问题",
+          "kind": "短语"
+        },
+        {
+          "term": "deeper",
+          "meaning": "更深层的",
+          "kind": "生词"
+        }
+      ]
+    },
+    {
+      "id": "s12",
+      "en": "Competition law as presently interpreted deals with financial disadvantage to consumers and this is not obvious when the users of these services don’t pay for them.",
+      "zhReference": "按照目前的解释，竞争法处理的是消费者遭受的经济损失；当这些服务的使用者无需付费时，这种损失就不明显了。",
+      "vocabulary": [
+        {
+          "term": "financial disadvantage to consumers",
+          "meaning": "消费者的经济损失",
+          "kind": "短语"
+        },
+        {
+          "term": "presently interpreted",
+          "meaning": "目前的解释方式",
+          "kind": "短语"
+        }
+      ]
+    },
+    {
+      "id": "s13",
+      "en": "The users of their services are not their customers.",
+      "zhReference": "这些服务的使用者并不是它们的客户。",
+      "vocabulary": [
+        {
+          "term": "users",
+          "meaning": "使用者；不一定是付费客户",
+          "kind": "熟词僻义"
+        },
+        {
+          "term": "customers",
+          "meaning": "付费客户",
+          "kind": "熟词僻义"
+        }
+      ]
+    },
+    {
+      "id": "s14",
+      "en": "That would be the people who buy advertising from them—and Facebook and Google, the two virtual giants, dominate digital advertising to the disadvantage of all other media and entertainment companies.",
+      "zhReference": "真正的客户是向它们购买广告的人；而 Facebook 和 Google 两大虚拟巨头控制着数字广告市场，使所有其他媒体和娱乐公司处于不利地位。",
+      "vocabulary": [
+        {
+          "term": "buy advertising",
+          "meaning": "购买广告",
+          "kind": "短语"
+        },
+        {
+          "term": "to the disadvantage of",
+          "meaning": "使……处于不利地位",
+          "kind": "短语"
+        },
+        {
+          "term": "virtual giants",
+          "meaning": "虚拟巨头",
+          "kind": "短语"
+        }
+      ]
+    },
+    {
+      "id": "s15",
+      "en": "The product they’re selling is data, and we, the users, convert our lives to data for the benefit of the digital giants.",
+      "zhReference": "它们出售的产品是数据，而我们这些用户为了数字巨头的利益，把自己的生活转化为数据。",
+      "vocabulary": [
+        {
+          "term": "convert our lives to data",
+          "meaning": "把生活变成数据",
+          "kind": "短语"
+        },
+        {
+          "term": "for the benefit of",
+          "meaning": "为了……的利益",
+          "kind": "短语"
+        }
+      ]
+    },
+    {
+      "id": "s16",
+      "en": "Just as some ants farm the bugs called aphids for the honeydew they produce when they feed, so Google farms us for the data that our digital lives yield.",
+      "zhReference": "就像有些蚂蚁为了蚜虫进食时分泌的蜜露而饲养蚜虫，Google 也为了我们数字生活产生的数据而“饲养”我们。",
+      "vocabulary": [
+        {
+          "term": "farm the bugs",
+          "meaning": "饲养虫子",
+          "kind": "熟词僻义"
+        },
+        {
+          "term": "aphids",
+          "meaning": "蚜虫",
+          "kind": "生词"
+        },
+        {
+          "term": "honeydew",
+          "meaning": "蜜露",
+          "kind": "生词"
+        }
+      ]
+    },
+    {
+      "id": "s17",
+      "en": "Ants keep predatory insects away from where their aphids feed; Gmail keeps the spammers out of our inboxes.",
+      "zhReference": "蚂蚁赶走捕食蚜虫的昆虫；Gmail 则把垃圾邮件发送者挡在我们的收件箱外。",
+      "vocabulary": [
+        {
+          "term": "predatory insects",
+          "meaning": "捕食性昆虫",
+          "kind": "短语"
+        },
+        {
+          "term": "spammers",
+          "meaning": "垃圾邮件发送者",
+          "kind": "生词"
+        },
+        {
+          "term": "inboxes",
+          "meaning": "收件箱",
+          "kind": "生词"
+        }
+      ]
+    },
+    {
+      "id": "s18",
+      "en": "It doesn’t feel like a human or democratic relationship, even if both sides benefit.",
+      "zhReference": "即便双方都受益，这也不像是一种人性化或民主的关系。",
+      "vocabulary": [
+        {
+          "term": "both sides benefit",
+          "meaning": "双方受益",
+          "kind": "短语"
+        },
+        {
+          "term": "democratic relationship",
+          "meaning": "民主平等的关系",
+          "kind": "短语"
+        }
+      ]
+    }
+  ]
+}

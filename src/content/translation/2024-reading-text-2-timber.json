@@ -1,0 +1,291 @@
+{
+  "title": "2024 真题 Text 2 · 英国的木材供应危机",
+  "description": "林业组织呼吁通过生产性植树减少木材进口，并满足低碳建筑需求。",
+  "source": "2024年真题.pdf · Reading Comprehension",
+  "author": "2024 English Exam",
+  "level": "intermediate",
+  "tags": [
+    "2024真题",
+    "Reading Comprehension",
+    "Forestry",
+    "Construction"
+  ],
+  "estimatedMinutes": 24,
+  "heroNote": "注意林地既可服务生物多样性，也可持续提供建筑木材。",
+  "publishedAt": "2024-01-01",
+  "sentences": [
+    {
+      "id": "s1",
+      "en": "The UK is facing a future construction crisis because of a failure to plant trees to produce wood, Confor has warned.",
+      "zhReference": "林业和木材行业机构 Confor 警告，由于未能植树生产木材，英国未来可能面临建筑业危机。",
+      "vocabulary": [
+        {
+          "term": "construction crisis",
+          "meaning": "建筑业危机",
+          "kind": "短语"
+        },
+        {
+          "term": "plant trees to produce wood",
+          "meaning": "植树生产木材",
+          "kind": "短语"
+        }
+      ]
+    },
+    {
+      "id": "s2",
+      "en": "The forestry and wood trade body has called for urgent action to reduce the country’s reliance on timber imports and provide a stable supply of wood for future generations.",
+      "zhReference": "该行业组织呼吁紧急行动，减少英国对进口木材的依赖，为后代提供稳定的木材供应。",
+      "vocabulary": [
+        {
+          "term": "timber imports",
+          "meaning": "进口木材",
+          "kind": "短语"
+        },
+        {
+          "term": "stable supply of wood",
+          "meaning": "稳定的木材供应",
+          "kind": "短语"
+        },
+        {
+          "term": "trade body",
+          "meaning": "行业组织",
+          "kind": "短语"
+        }
+      ]
+    },
+    {
+      "id": "s3",
+      "en": "Currently only 20 per cent of the UK’s wood requirement is home-grown while it remains the second-largest net importer of timber in the world.",
+      "zhReference": "目前英国所需木材只有百分之二十产自本国，同时英国仍是世界第二大木材净进口国。",
+      "vocabulary": [
+        {
+          "term": "home-grown",
+          "meaning": "本土生产的",
+          "kind": "生词"
+        },
+        {
+          "term": "net importer",
+          "meaning": "净进口国",
+          "kind": "短语"
+        },
+        {
+          "term": "wood requirement",
+          "meaning": "木材需求量",
+          "kind": "短语"
+        }
+      ]
+    },
+    {
+      "id": "s4",
+      "en": "Coming at a time of fresh incentives from the UK government for landowners to grow more trees, the trade body says these don’t go far enough and fail to promote the benefits of planting them to boost timber supplies.",
+      "zhReference": "英国政府最近出台激励土地所有者多种树的政策，但该行业组织说这些措施远远不够，未能宣传植树增加木材供应的好处。",
+      "vocabulary": [
+        {
+          "term": "fresh incentives",
+          "meaning": "新的激励措施",
+          "kind": "短语"
+        },
+        {
+          "term": "don’t go far enough",
+          "meaning": "力度不够",
+          "kind": "短语"
+        },
+        {
+          "term": "boost timber supplies",
+          "meaning": "增加木材供应",
+          "kind": "短语"
+        }
+      ]
+    },
+    {
+      "id": "s5",
+      "en": "“Not only are we facing a carbon crisis now, but we will also be facing a future construction crisis because of a failure to plant trees to produce wood,” said Stuart Goodall, chief executive of Confor.",
+      "zhReference": "Confor 首席执行官斯图尔特·古多尔说：“我们现在面临的不仅是碳危机，如果不植树生产木材，未来还将面临建筑业危机。”",
+      "vocabulary": [
+        {
+          "term": "carbon crisis",
+          "meaning": "碳危机",
+          "kind": "短语"
+        },
+        {
+          "term": "chief executive",
+          "meaning": "首席执行官",
+          "kind": "短语"
+        }
+      ]
+    },
+    {
+      "id": "s6",
+      "en": "“For decades we have not taken responsibility for investing in our domestic wood supply, leaving us exposed to fluctuating prices and fighting for future supplies of wood as global demand rises and our own supplies fall.”",
+      "zhReference": "“几十年来，我们没有尽到投资本国木材供应的责任；全球需求上升、本国供应下降时，这让我们暴露在价格波动风险中，不得不争夺未来的木材供应。”",
+      "vocabulary": [
+        {
+          "term": "domestic wood supply",
+          "meaning": "国内木材供应",
+          "kind": "短语"
+        },
+        {
+          "term": "exposed to fluctuating prices",
+          "meaning": "暴露在价格波动风险中",
+          "kind": "短语"
+        }
+      ]
+    },
+    {
+      "id": "s7",
+      "en": "The UK has ideal conditions for growing wood to build low-carbon homes and is a global leader in certifying that its forests are sustainably managed, Confor says.",
+      "zhReference": "Confor 表示，英国具有培育建造低碳住宅所需木材的理想条件，并在认证森林可持续管理方面处于全球领先地位。",
+      "vocabulary": [
+        {
+          "term": "low-carbon homes",
+          "meaning": "低碳住宅",
+          "kind": "短语"
+        },
+        {
+          "term": "sustainably managed",
+          "meaning": "可持续管理的",
+          "kind": "短语"
+        },
+        {
+          "term": "certifying",
+          "meaning": "认证",
+          "kind": "生词"
+        }
+      ]
+    },
+    {
+      "id": "s8",
+      "en": "While around three quarters of Scottish homes are built from Scottish timber, the use of home-grown wood in England is only around 25 per cent.",
+      "zhReference": "苏格兰约四分之三的住宅使用苏格兰木材建造，而英格兰使用国产木材的比例仅约百分之二十五。",
+      "vocabulary": [
+        {
+          "term": "Scottish timber",
+          "meaning": "苏格兰木材",
+          "kind": "短语"
+        },
+        {
+          "term": "home-grown wood",
+          "meaning": "本国产木材",
+          "kind": "短语"
+        }
+      ]
+    },
+    {
+      "id": "s9",
+      "en": "The causes of the UK’s current position are complex and range from outdated perceptions of productive forestry to the decimation of trees by grey squirrels.",
+      "zhReference": "英国形成如今状况的原因复杂，包括对生产性林业的过时看法，以及灰松鼠造成的树木大量损毁。",
+      "vocabulary": [
+        {
+          "term": "productive forestry",
+          "meaning": "生产性林业",
+          "kind": "短语"
+        },
+        {
+          "term": "decimation of trees",
+          "meaning": "树木遭大规模破坏",
+          "kind": "短语"
+        },
+        {
+          "term": "outdated perceptions",
+          "meaning": "过时看法",
+          "kind": "短语"
+        }
+      ]
+    },
+    {
+      "id": "s10",
+      "en": "It also encompasses significant hesitation on behalf of farmers and other landowners to invest in longer-term planting projects.",
+      "zhReference": "其中还包括农民和其他土地所有者明显不愿投资周期更长的植树项目。",
+      "vocabulary": [
+        {
+          "term": "encompasses",
+          "meaning": "包括",
+          "kind": "生词"
+        },
+        {
+          "term": "significant hesitation",
+          "meaning": "明显犹豫",
+          "kind": "短语"
+        },
+        {
+          "term": "longer-term planting projects",
+          "meaning": "更长期的植树项目",
+          "kind": "短语"
+        }
+      ]
+    },
+    {
+      "id": "s11",
+      "en": "While productive tree planting can deliver real financial benefits to rural economies and contribute to the UK’s net-zero strategy, the focus of government support continues to be on food production and the rewilding and planting of native woodland solely for biodiversity.",
+      "zhReference": "尽管生产性植树能为农村经济带来实际经济收益，也有助于英国净零排放战略，政府支持却仍主要集中于粮食生产，以及仅为保护生物多样性而实施的本土林地复野和种植。",
+      "vocabulary": [
+        {
+          "term": "rural economies",
+          "meaning": "农村经济",
+          "kind": "短语"
+        },
+        {
+          "term": "net-zero strategy",
+          "meaning": "净零排放战略",
+          "kind": "短语"
+        },
+        {
+          "term": "rewilding",
+          "meaning": "复野；恢复自然生态",
+          "kind": "生词"
+        }
+      ]
+    },
+    {
+      "id": "s12",
+      "en": "Goodall added: “While food production and biodiversity health are clearly of critical importance, we need our land to also provide secure supplies of wood for construction, manufacturing and contribute to net zero.",
+      "zhReference": "古多尔补充说：“粮食生产与生物多样性健康显然极其重要，但我们也需要土地为建筑业、制造业稳定提供木材，并助力实现净零排放。",
+      "vocabulary": [
+        {
+          "term": "secure supplies of wood",
+          "meaning": "稳定可靠的木材供应",
+          "kind": "短语"
+        },
+        {
+          "term": "critical importance",
+          "meaning": "极为重要",
+          "kind": "短语"
+        }
+      ]
+    },
+    {
+      "id": "s13",
+      "en": "“While the UK government has stated its ambition for more tree planting, there has been little action on the ground.",
+      "zhReference": "“虽然英国政府已提出多种树的目标，实际行动却很少。",
+      "vocabulary": [
+        {
+          "term": "on the ground",
+          "meaning": "在实际行动中",
+          "kind": "短语"
+        },
+        {
+          "term": "stated its ambition",
+          "meaning": "提出自己的目标",
+          "kind": "短语"
+        }
+      ]
+    },
+    {
+      "id": "s14",
+      "en": "Confor is now calling for much greater impetus behind those aspirations to ensure we have enough wood to meet increasing demand.”",
+      "zhReference": "Confor 现在呼吁采取更有力的措施推进这些目标，以确保木材足以满足不断增长的需求。”",
+      "vocabulary": [
+        {
+          "term": "greater impetus",
+          "meaning": "更强推动力",
+          "kind": "短语"
+        },
+        {
+          "term": "meet increasing demand",
+          "meaning": "满足日益增长的需求",
+          "kind": "短语"
+        }
+      ]
+    }
+  ]
+}

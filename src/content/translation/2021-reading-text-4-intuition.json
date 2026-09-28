@@ -1,0 +1,400 @@
+{
+  "title": "2021 真题 Text 4 · 直觉什么时候更可靠",
+  "description": "从薄片判断实验出发，分析直觉与深思熟虑各自适用的决策场景。",
+  "source": "2021年真题.pdf · Reading Comprehension",
+  "author": "2021 English Exam",
+  "level": "intermediate",
+  "tags": [
+    "2021真题",
+    "Reading Comprehension",
+    "Psychology",
+    "Intuition"
+  ],
+  "estimatedMinutes": 27,
+  "heroNote": "结论并非“直觉总是正确”：规则与词汇任务仍更依赖理性思考。",
+  "publishedAt": "2021-01-01",
+  "sentences": [
+    {
+      "id": "s1",
+      "en": "We’re fairly good at judging people based on first impressions, thin slices of experience ranging from a glimpse of a photo to a five-minute interaction, and deliberation can be not only extraneous but intrusive.",
+      "zhReference": "我们很善于凭第一印象、凭从照片一瞥到五分钟交谈这些短暂经历判断他人，而深思熟虑不仅可能多余，还可能妨碍判断。",
+      "vocabulary": [
+        {
+          "term": "first impressions",
+          "meaning": "第一印象",
+          "kind": "短语"
+        },
+        {
+          "term": "thin slices of experience",
+          "meaning": "短暂的经验片段",
+          "kind": "短语"
+        },
+        {
+          "term": "extraneous but intrusive",
+          "meaning": "不仅多余还会妨碍",
+          "kind": "短语"
+        }
+      ]
+    },
+    {
+      "id": "s2",
+      "en": "In one study of the ability she called “thin slicing,” the late psychologist Nalini Ambady asked participants to watch silent 10-second video clips of professors and to rate the instructor’s overall effectiveness.",
+      "zhReference": "在一项研究中，已故心理学家纳利尼·安巴迪让参与者观看教授们十秒钟的无声视频，给教师的整体教学效果打分；她把这种能力称为“薄片判断”。",
+      "vocabulary": [
+        {
+          "term": "thin slicing",
+          "meaning": "薄片判断；根据少量信息迅速判断",
+          "kind": "短语"
+        },
+        {
+          "term": "late psychologist",
+          "meaning": "已故心理学家",
+          "kind": "短语"
+        },
+        {
+          "term": "overall effectiveness",
+          "meaning": "总体效果",
+          "kind": "短语"
+        }
+      ]
+    },
+    {
+      "id": "s3",
+      "en": "Their ratings correlated strongly with students’ end-of-semester ratings.",
+      "zhReference": "他们的评分与学生在学期结束时给出的评分高度相关。",
+      "vocabulary": [
+        {
+          "term": "correlated strongly with",
+          "meaning": "与……高度相关",
+          "kind": "短语"
+        },
+        {
+          "term": "end-of-semester ratings",
+          "meaning": "学期末评分",
+          "kind": "短语"
+        }
+      ]
+    },
+    {
+      "id": "s4",
+      "en": "Another set of participants had to count backward from 1,000 by nines as they watched the clips, occupying their conscious working memory.",
+      "zhReference": "另一组参与者观看视频时，还得从一千开始每次减九倒着数，以占用有意识的工作记忆。",
+      "vocabulary": [
+        {
+          "term": "count backward",
+          "meaning": "倒着数数",
+          "kind": "短语"
+        },
+        {
+          "term": "working memory",
+          "meaning": "工作记忆",
+          "kind": "短语"
+        }
+      ]
+    },
+    {
+      "id": "s5",
+      "en": "Their ratings were just as accurate, demonstrating the intuitive nature of the social processing.",
+      "zhReference": "他们的评分一样准确，说明这种社交信息处理具有直觉性质。",
+      "vocabulary": [
+        {
+          "term": "intuitive nature",
+          "meaning": "直觉性质",
+          "kind": "短语"
+        },
+        {
+          "term": "social processing",
+          "meaning": "社会信息处理",
+          "kind": "短语"
+        }
+      ]
+    },
+    {
+      "id": "s6",
+      "en": "Critically, another group was asked to spend a minute writing down reasons for their judgment, before giving the rating.",
+      "zhReference": "关键的是，还有一组人在评分前被要求花一分钟写出判断理由。",
+      "vocabulary": [
+        {
+          "term": "Critically",
+          "meaning": "关键的是",
+          "kind": "熟词僻义"
+        },
+        {
+          "term": "writing down reasons",
+          "meaning": "写下理由",
+          "kind": "短语"
+        }
+      ]
+    },
+    {
+      "id": "s7",
+      "en": "Accuracy dropped dramatically.",
+      "zhReference": "他们判断的准确率大幅下降。",
+      "vocabulary": [
+        {
+          "term": "dropped dramatically",
+          "meaning": "大幅下降",
+          "kind": "短语"
+        },
+        {
+          "term": "Accuracy",
+          "meaning": "准确性",
+          "kind": "生词"
+        }
+      ]
+    },
+    {
+      "id": "s8",
+      "en": "Ambady suspected that deliberation focused them on vivid but misleading cues, such as certain gestures or utterances, rather than letting the complex interplay of subtle signals form a holistic impression.",
+      "zhReference": "安巴迪推测，深思熟虑使他们把注意力放在某些手势或话语等鲜明却误导人的线索上，而没有让各种微妙信号的复杂互动形成整体印象。",
+      "vocabulary": [
+        {
+          "term": "misleading cues",
+          "meaning": "误导性线索",
+          "kind": "短语"
+        },
+        {
+          "term": "holistic impression",
+          "meaning": "整体印象",
+          "kind": "短语"
+        },
+        {
+          "term": "utterances",
+          "meaning": "话语",
+          "kind": "生词"
+        }
+      ]
+    },
+    {
+      "id": "s9",
+      "en": "She found similar interference when participants watched 15-second clips of pairs of people and judged whether they were strangers, friends, or dating partners.",
+      "zhReference": "参与者观看成对人物的十五秒短片，判断他们是陌生人、朋友还是情侣时，她也发现了类似干扰。",
+      "vocabulary": [
+        {
+          "term": "dating partners",
+          "meaning": "约会伴侣",
+          "kind": "短语"
+        },
+        {
+          "term": "similar interference",
+          "meaning": "类似干扰",
+          "kind": "短语"
+        }
+      ]
+    },
+    {
+      "id": "s10",
+      "en": "Other research shows we’re better at detecting deception from thin slices when we rely on intuition instead of reflection.",
+      "zhReference": "其他研究表明，在根据短暂片段识别欺骗时，依靠直觉而非反复分析，效果更好。",
+      "vocabulary": [
+        {
+          "term": "detecting deception",
+          "meaning": "识别欺骗",
+          "kind": "短语"
+        },
+        {
+          "term": "rely on intuition",
+          "meaning": "依赖直觉",
+          "kind": "短语"
+        }
+      ]
+    },
+    {
+      "id": "s11",
+      "en": "“It’s as if you’re driving a stick shift,” says Judith Hall, a psychologist at Northeastern University, “and if you start thinking about it too much, you can’t remember what you’re doing.",
+      "zhReference": "东北大学心理学家朱迪思·霍尔说：“这就像开手动挡车：你一旦想得太多，就记不起自己该怎么操作了。",
+      "vocabulary": [
+        {
+          "term": "stick shift",
+          "meaning": "手动挡汽车",
+          "kind": "短语"
+        },
+        {
+          "term": "thinking about it too much",
+          "meaning": "对其想得过多",
+          "kind": "短语"
+        }
+      ]
+    },
+    {
+      "id": "s12",
+      "en": "But if you go on automatic pilot, you’re fine.",
+      "zhReference": "但如果凭习惯自动操作，就没问题。",
+      "vocabulary": [
+        {
+          "term": "automatic pilot",
+          "meaning": "自动驾驶模式；凭习惯行动",
+          "kind": "短语"
+        },
+        {
+          "term": "you’re fine",
+          "meaning": "便能应付",
+          "kind": "短语"
+        }
+      ]
+    },
+    {
+      "id": "s13",
+      "en": "Much of our social life is like that.”",
+      "zhReference": "我们很多社交活动都是如此。”",
+      "vocabulary": [
+        {
+          "term": "social life",
+          "meaning": "社交生活",
+          "kind": "短语"
+        },
+        {
+          "term": "like that",
+          "meaning": "就是那样",
+          "kind": "短语"
+        }
+      ]
+    },
+    {
+      "id": "s14",
+      "en": "Thinking too much can also harm our ability to form preferences.",
+      "zhReference": "想得太多也可能损害我们形成偏好的能力。",
+      "vocabulary": [
+        {
+          "term": "form preferences",
+          "meaning": "形成偏好",
+          "kind": "短语"
+        },
+        {
+          "term": "harm our ability",
+          "meaning": "损害能力",
+          "kind": "短语"
+        }
+      ]
+    },
+    {
+      "id": "s15",
+      "en": "College students’ ratings of strawberry jams and college courses aligned better with experts’ opinions when the students weren’t asked to analyze their rationale.",
+      "zhReference": "如果不要求大学生分析理由，他们对草莓果酱和大学课程的评价与专家意见更加一致。",
+      "vocabulary": [
+        {
+          "term": "aligned better with",
+          "meaning": "与……更一致",
+          "kind": "短语"
+        },
+        {
+          "term": "rationale",
+          "meaning": "理由；推理依据",
+          "kind": "生词"
+        }
+      ]
+    },
+    {
+      "id": "s16",
+      "en": "And people made car-buying decisions that were both objectively better and more personally satisfying when asked to focus on their feelings rather than on details, but only if the decision was complex—when they had a lot of information to process.",
+      "zhReference": "当购买汽车的决策复杂、需要处理大量信息时，让人关注自己的感受而不是细节，他们做出的决定客观上更好，主观上也更满意；但只有在复杂决策时才如此。",
+      "vocabulary": [
+        {
+          "term": "objectively better",
+          "meaning": "客观上更好",
+          "kind": "短语"
+        },
+        {
+          "term": "personally satisfying",
+          "meaning": "个人更满意",
+          "kind": "短语"
+        },
+        {
+          "term": "decision was complex",
+          "meaning": "复杂决策",
+          "kind": "短语"
+        }
+      ]
+    },
+    {
+      "id": "s17",
+      "en": "Intuition’s special powers are unleashed only in certain circumstances.",
+      "zhReference": "直觉的特殊力量只会在特定情况下发挥作用。",
+      "vocabulary": [
+        {
+          "term": "unleashed",
+          "meaning": "释放；发挥",
+          "kind": "熟词僻义"
+        },
+        {
+          "term": "certain circumstances",
+          "meaning": "特定情境",
+          "kind": "短语"
+        }
+      ]
+    },
+    {
+      "id": "s18",
+      "en": "In one study, participants completed a battery of eight tasks, including four that tapped reflective thinking (discerning rules, comprehending vocabulary) and four that tapped intuition and creativity (generating new products or figures of speech).",
+      "zhReference": "一项研究让参与者完成一组共八项任务：其中四项考察反思性思维，如辨别规则、理解词汇；另外四项考察直觉和创造力，如设计新产品或创造修辞。",
+      "vocabulary": [
+        {
+          "term": "a battery of eight tasks",
+          "meaning": "一组八项任务",
+          "kind": "短语"
+        },
+        {
+          "term": "tapped reflective thinking",
+          "meaning": "考查反思性思维",
+          "kind": "短语"
+        },
+        {
+          "term": "figures of speech",
+          "meaning": "修辞手法",
+          "kind": "短语"
+        }
+      ]
+    },
+    {
+      "id": "s19",
+      "en": "Then they rated the degree to which they had used intuition (“gut feelings,” “hunches,” “my heart”).",
+      "zhReference": "接着，参与者评估自己在多大程度上运用了直觉，比如“直觉感受”“预感”或“听从内心”。",
+      "vocabulary": [
+        {
+          "term": "gut feelings",
+          "meaning": "直觉感受",
+          "kind": "短语"
+        },
+        {
+          "term": "hunches",
+          "meaning": "预感",
+          "kind": "生词"
+        }
+      ]
+    },
+    {
+      "id": "s20",
+      "en": "Use of their gut hurt their performance on the first four tasks, as expected, and helped them on the rest.",
+      "zhReference": "正如预期，依靠直觉损害了他们在前四项任务上的表现，却帮助他们完成其余任务。",
+      "vocabulary": [
+        {
+          "term": "Use of their gut",
+          "meaning": "凭直觉做决定",
+          "kind": "短语"
+        },
+        {
+          "term": "hurt their performance",
+          "meaning": "损害了他们的表现",
+          "kind": "短语"
+        }
+      ]
+    },
+    {
+      "id": "s21",
+      "en": "Sometimes the heart is smarter than the head.",
+      "zhReference": "有时候，心比脑更聪明。",
+      "vocabulary": [
+        {
+          "term": "heart is smarter than the head",
+          "meaning": "有时直觉比理性判断更可靠",
+          "kind": "短语"
+        },
+        {
+          "term": "Sometimes",
+          "meaning": "有时候",
+          "kind": "短语"
+        }
+      ]
+    }
+  ]
+}

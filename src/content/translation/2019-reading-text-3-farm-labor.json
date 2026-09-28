@@ -1,0 +1,502 @@
+{
+  "title": "2019 真题 Text 3 · 美国农场的劳动力缺口",
+  "description": "分析农业劳动力老龄化、签证制度与食品进口之间的关系。",
+  "source": "2019年真题.pdf · Reading Comprehension",
+  "author": "2019 English Exam",
+  "level": "intermediate",
+  "tags": [
+    "2019真题",
+    "Reading Comprehension",
+    "Agriculture",
+    "Immigration"
+  ],
+  "estimatedMinutes": 28,
+  "heroNote": "注意原扫描件的全文比 OCR 草稿长；核心主张是改革农业劳工签证规则。",
+  "publishedAt": "2019-01-01",
+  "sentences": [
+    {
+      "id": "s1",
+      "en": "American farmers have been complaining of labor shortages for several years.",
+      "zhReference": "美国农民抱怨劳动力短缺已有好几年。",
+      "vocabulary": [
+        {
+          "term": "labor shortages",
+          "meaning": "劳动力短缺",
+          "kind": "短语"
+        },
+        {
+          "term": "complaining of",
+          "meaning": "抱怨……",
+          "kind": "短语"
+        }
+      ]
+    },
+    {
+      "id": "s2",
+      "en": "The complaints are unlikely to stop without an overhaul of immigration rules for farm workers.",
+      "zhReference": "如果不彻底改革农业工人的移民规定，这些抱怨恐怕不会停止。",
+      "vocabulary": [
+        {
+          "term": "overhaul",
+          "meaning": "彻底改革",
+          "kind": "生词"
+        },
+        {
+          "term": "immigration rules",
+          "meaning": "移民规定",
+          "kind": "短语"
+        }
+      ]
+    },
+    {
+      "id": "s3",
+      "en": "Congress has obstructed efforts to create a more straightforward visa for agricultural workers that would let foreign workers stay longer in the U.S. and change jobs within the industry.",
+      "zhReference": "国会阻碍了建立更简便的农业工人签证的努力；这种签证本可让外国工人在美国停留更久，并在行业内换工作。",
+      "vocabulary": [
+        {
+          "term": "obstructed efforts",
+          "meaning": "阻碍努力",
+          "kind": "短语"
+        },
+        {
+          "term": "straightforward visa",
+          "meaning": "更简便的签证",
+          "kind": "短语"
+        },
+        {
+          "term": "change jobs within the industry",
+          "meaning": "在行业内换工作",
+          "kind": "短语"
+        }
+      ]
+    },
+    {
+      "id": "s4",
+      "en": "If this doesn’t change, American businesses, communities, and consumers will be the losers.",
+      "zhReference": "若现状不变，美国企业、社区和消费者都将成为受损的一方。",
+      "vocabulary": [
+        {
+          "term": "will be the losers",
+          "meaning": "将成为受损者",
+          "kind": "短语"
+        },
+        {
+          "term": "consumers",
+          "meaning": "消费者",
+          "kind": "生词"
+        }
+      ]
+    },
+    {
+      "id": "s5",
+      "en": "Perhaps half of U.S. farm laborers are undocumented immigrants.",
+      "zhReference": "美国农业劳动者或许有一半是无证移民。",
+      "vocabulary": [
+        {
+          "term": "undocumented immigrants",
+          "meaning": "无证移民",
+          "kind": "短语"
+        },
+        {
+          "term": "farm laborers",
+          "meaning": "农场劳动者",
+          "kind": "短语"
+        }
+      ]
+    },
+    {
+      "id": "s6",
+      "en": "As fewer such workers enter the country, the characteristics of the agricultural workforce are changing.",
+      "zhReference": "随着进入美国的此类工人减少，农业劳动力的构成也在变化。",
+      "vocabulary": [
+        {
+          "term": "agricultural workforce",
+          "meaning": "农业劳动力",
+          "kind": "短语"
+        },
+        {
+          "term": "characteristics",
+          "meaning": "特征",
+          "kind": "生词"
+        }
+      ]
+    },
+    {
+      "id": "s7",
+      "en": "Today’s farm laborers, while still predominantly born in Mexico, are more likely to be settled rather than migrating and more likely to be married than single.",
+      "zhReference": "如今的农场劳动者仍以墨西哥出生者为主，但比过去更可能定居而非迁移，也更可能已婚而非单身。",
+      "vocabulary": [
+        {
+          "term": "predominantly",
+          "meaning": "主要地",
+          "kind": "生词"
+        },
+        {
+          "term": "settled rather than migrating",
+          "meaning": "定居而非流动",
+          "kind": "短语"
+        }
+      ]
+    },
+    {
+      "id": "s8",
+      "en": "They’re also aging.",
+      "zhReference": "他们也在变老。",
+      "vocabulary": [
+        {
+          "term": "aging",
+          "meaning": "逐渐变老",
+          "kind": "生词"
+        },
+        {
+          "term": "They",
+          "meaning": "指农业工人",
+          "kind": "熟词僻义"
+        }
+      ]
+    },
+    {
+      "id": "s9",
+      "en": "At the start of this century, about one-third of crop workers were over the age of 35.",
+      "zhReference": "本世纪初，大约三分之一的农作物采摘工人超过三十五岁。",
+      "vocabulary": [
+        {
+          "term": "crop workers",
+          "meaning": "农作物工人",
+          "kind": "短语"
+        },
+        {
+          "term": "one-third",
+          "meaning": "三分之一",
+          "kind": "短语"
+        }
+      ]
+    },
+    {
+      "id": "s10",
+      "en": "Now more than half are.",
+      "zhReference": "现在，超过一半的人已经超过这一年龄。",
+      "vocabulary": [
+        {
+          "term": "more than half",
+          "meaning": "超过一半",
+          "kind": "短语"
+        },
+        {
+          "term": "are",
+          "meaning": "省略了 over the age of 35",
+          "kind": "熟词僻义"
+        }
+      ]
+    },
+    {
+      "id": "s11",
+      "en": "And picking crops is hard on older bodies.",
+      "zhReference": "采摘农作物对年长者的身体负担很大。",
+      "vocabulary": [
+        {
+          "term": "hard on older bodies",
+          "meaning": "对年长者身体负担很大",
+          "kind": "短语"
+        },
+        {
+          "term": "picking crops",
+          "meaning": "采摘作物",
+          "kind": "短语"
+        }
+      ]
+    },
+    {
+      "id": "s12",
+      "en": "One oft-debated cure for this labor shortage remains as implausible as it’s been all along: Native U.S. workers won’t be returning to the farm.",
+      "zhReference": "一个经常被讨论的劳动力短缺“解决方案”仍和过去一样不切实际：美国本土工人不会回到农场。",
+      "vocabulary": [
+        {
+          "term": "oft-debated cure",
+          "meaning": "常被讨论的解决办法",
+          "kind": "短语"
+        },
+        {
+          "term": "implausible",
+          "meaning": "不切实际的",
+          "kind": "生词"
+        },
+        {
+          "term": "all along",
+          "meaning": "一直以来",
+          "kind": "短语"
+        }
+      ]
+    },
+    {
+      "id": "s13",
+      "en": "Mechanization isn’t the answer, either—not yet, at least.",
+      "zhReference": "机械化也不是答案——至少目前还不是。",
+      "vocabulary": [
+        {
+          "term": "Mechanization",
+          "meaning": "机械化",
+          "kind": "生词"
+        },
+        {
+          "term": "not yet",
+          "meaning": "至少现在还不行",
+          "kind": "短语"
+        }
+      ]
+    },
+    {
+      "id": "s14",
+      "en": "Production of corn, cotton, rice, soybeans, and wheat has been largely mechanized, but many high-value, labor-intensive crops, such as strawberries, need labor.",
+      "zhReference": "玉米、棉花、大米、大豆和小麦的生产已基本实现机械化，但许多高价值、劳动密集型作物，例如草莓，仍需要人力。",
+      "vocabulary": [
+        {
+          "term": "labor-intensive crops",
+          "meaning": "劳动密集型作物",
+          "kind": "短语"
+        },
+        {
+          "term": "high-value",
+          "meaning": "高价值的",
+          "kind": "生词"
+        },
+        {
+          "term": "mechanized",
+          "meaning": "机械化的",
+          "kind": "生词"
+        }
+      ]
+    },
+    {
+      "id": "s15",
+      "en": "Even dairy farms, where robots do a small share of milking, have a long way to go before they’re automated.",
+      "zhReference": "即使在奶牛场，机器人也只承担小部分挤奶工作，距离全面自动化还有很长的路。",
+      "vocabulary": [
+        {
+          "term": "a long way to go",
+          "meaning": "还有很长的路",
+          "kind": "短语"
+        },
+        {
+          "term": "automated",
+          "meaning": "自动化的",
+          "kind": "生词"
+        }
+      ]
+    },
+    {
+      "id": "s16",
+      "en": "As a result, farms have grown increasingly reliant on temporary guest workers using the H-2A visa to fill the gaps in the workforce.",
+      "zhReference": "因此，农场越来越依赖持 H-2A 签证的临时外籍劳工填补用工缺口。",
+      "vocabulary": [
+        {
+          "term": "reliant on",
+          "meaning": "依赖",
+          "kind": "短语"
+        },
+        {
+          "term": "guest workers",
+          "meaning": "外籍临时劳工",
+          "kind": "短语"
+        },
+        {
+          "term": "fill the gaps",
+          "meaning": "填补缺口",
+          "kind": "短语"
+        }
+      ]
+    },
+    {
+      "id": "s17",
+      "en": "Starting around 2012, requests for the visas rose sharply; from 2011 to 2016 the number of visas issued more than doubled.",
+      "zhReference": "自 2012 年前后起，这类签证的申请量迅速上升；2011 年至 2016 年间，签发数量翻了一倍多。",
+      "vocabulary": [
+        {
+          "term": "visas issued",
+          "meaning": "签发的签证",
+          "kind": "短语"
+        },
+        {
+          "term": "more than doubled",
+          "meaning": "增加了一倍多",
+          "kind": "短语"
+        }
+      ]
+    },
+    {
+      "id": "s18",
+      "en": "The H-2A visa has no numerical cap, unlike the H-2B visa for nonagricultural work, which is limited to 66,000 a year.",
+      "zhReference": "与每年限额六万六千份的非农业 H-2B 签证不同，H-2A 签证没有数量上限。",
+      "vocabulary": [
+        {
+          "term": "numerical cap",
+          "meaning": "数量上限",
+          "kind": "短语"
+        },
+        {
+          "term": "nonagricultural work",
+          "meaning": "非农业工作",
+          "kind": "短语"
+        }
+      ]
+    },
+    {
+      "id": "s19",
+      "en": "Even so, employers complain they aren’t given all the workers they need.",
+      "zhReference": "即便如此，雇主仍抱怨没有获得所需的全部工人。",
+      "vocabulary": [
+        {
+          "term": "Even so",
+          "meaning": "即便如此",
+          "kind": "短语"
+        },
+        {
+          "term": "all the workers they need",
+          "meaning": "所需的全部工人",
+          "kind": "短语"
+        }
+      ]
+    },
+    {
+      "id": "s20",
+      "en": "The process is cumbersome, expensive, and unreliable.",
+      "zhReference": "申请流程繁琐、费用高，而且不可靠。",
+      "vocabulary": [
+        {
+          "term": "cumbersome",
+          "meaning": "繁琐的",
+          "kind": "生词"
+        },
+        {
+          "term": "unreliable",
+          "meaning": "不可靠的",
+          "kind": "生词"
+        }
+      ]
+    },
+    {
+      "id": "s21",
+      "en": "One survey found that bureaucratic delays led the average H-2A worker to arrive on the job 22 days late.",
+      "zhReference": "一项调查发现，官僚手续的拖延使持 H-2A 签证的工人平均晚到岗二十二天。",
+      "vocabulary": [
+        {
+          "term": "bureaucratic delays",
+          "meaning": "官僚手续造成的拖延",
+          "kind": "短语"
+        },
+        {
+          "term": "arrive on the job",
+          "meaning": "到岗",
+          "kind": "短语"
+        }
+      ]
+    },
+    {
+      "id": "s22",
+      "en": "The shortage is compounded by federal immigration raids, which remove some workers and drive others underground.",
+      "zhReference": "联邦移民突击检查又加剧了短缺：一些工人被遣走，另一些则被迫转入地下。",
+      "vocabulary": [
+        {
+          "term": "compounded by",
+          "meaning": "因……而加剧",
+          "kind": "短语"
+        },
+        {
+          "term": "immigration raids",
+          "meaning": "移民突击检查",
+          "kind": "短语"
+        },
+        {
+          "term": "drive others underground",
+          "meaning": "使其他人转入地下",
+          "kind": "短语"
+        }
+      ]
+    },
+    {
+      "id": "s23",
+      "en": "In a 2012 survey, 71 percent of tree-fruit growers and almost 80 percent of raisin and berry growers said they were short of labor.",
+      "zhReference": "2012 年的一项调查中，百分之七十一的树生水果种植者，以及近百分之八十的葡萄干和浆果种植者都表示劳动力不足。",
+      "vocabulary": [
+        {
+          "term": "tree-fruit growers",
+          "meaning": "树生水果种植者",
+          "kind": "短语"
+        },
+        {
+          "term": "short of labor",
+          "meaning": "缺乏劳动力",
+          "kind": "短语"
+        }
+      ]
+    },
+    {
+      "id": "s24",
+      "en": "Some western farmers have responded by moving operations to Mexico.",
+      "zhReference": "一些西部农民选择把业务迁往墨西哥。",
+      "vocabulary": [
+        {
+          "term": "moving operations to Mexico",
+          "meaning": "把经营业务迁往墨西哥",
+          "kind": "短语"
+        },
+        {
+          "term": "responded by",
+          "meaning": "以……回应",
+          "kind": "短语"
+        }
+      ]
+    },
+    {
+      "id": "s25",
+      "en": "From 1998 to 2000, 14.5 percent of the fruit Americans consumed was imported.",
+      "zhReference": "1998 年至 2000 年，美国人消费的水果中有百分之十四点五依赖进口。",
+      "vocabulary": [
+        {
+          "term": "consumed",
+          "meaning": "消费",
+          "kind": "熟词僻义"
+        },
+        {
+          "term": "imported",
+          "meaning": "进口的",
+          "kind": "生词"
+        }
+      ]
+    },
+    {
+      "id": "s26",
+      "en": "Little more than a decade later, the share of imports was 25.8 percent.",
+      "zhReference": "仅仅过了十多年，这一进口比例就上升到百分之二十五点八。",
+      "vocabulary": [
+        {
+          "term": "share of imports",
+          "meaning": "进口份额",
+          "kind": "短语"
+        },
+        {
+          "term": "Little more than a decade later",
+          "meaning": "仅仅十多年后",
+          "kind": "短语"
+        }
+      ]
+    },
+    {
+      "id": "s27",
+      "en": "In effect, the U.S. can import food or it can import the workers who pick it.",
+      "zhReference": "事实上，美国可以选择进口食品，或者进口采摘食品的工人。",
+      "vocabulary": [
+        {
+          "term": "In effect",
+          "meaning": "实际上",
+          "kind": "短语"
+        },
+        {
+          "term": "workers who pick it",
+          "meaning": "采摘食物的工人",
+          "kind": "短语"
+        }
+      ]
+    }
+  ]
+}

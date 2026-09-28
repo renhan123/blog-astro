@@ -1,0 +1,373 @@
+{
+  "title": "2025 真题 Text 1 · 数字支付时代的小费通胀",
+  "description": "分析小费范围扩大、比例上涨与服务质量脱钩的原因及争议。",
+  "source": "2025年真题.pdf · Reading Comprehension",
+  "author": "2025 English Exam",
+  "level": "intermediate",
+  "tags": [
+    "2025真题",
+    "Reading Comprehension",
+    "Tipping",
+    "Consumer"
+  ],
+  "estimatedMinutes": 26,
+  "heroNote": "区分 tip creep（小费适用范围扩大）与 tipflation（小费比例上升）。",
+  "publishedAt": "2025-01-01",
+  "sentences": [
+    {
+      "id": "s1",
+      "en": "U.S. customers historically tipped people they assumed were earning most of their income via tips, such as restaurant servers earning less than the minimum wage.",
+      "zhReference": "过去，美国消费者通常只给他们认为主要靠小费维生的人小费，比如收入低于最低工资标准的餐厅服务员。",
+      "vocabulary": [
+        {
+          "term": "via tips",
+          "meaning": "靠小费",
+          "kind": "短语"
+        },
+        {
+          "term": "minimum wage",
+          "meaning": "最低工资",
+          "kind": "短语"
+        },
+        {
+          "term": "restaurant servers",
+          "meaning": "餐厅服务员",
+          "kind": "短语"
+        }
+      ]
+    },
+    {
+      "id": "s2",
+      "en": "In the early 2010s, a wide range of businesses started processing purchases with iPads and other digital payment systems.",
+      "zhReference": "二〇一〇年代初，各种商家开始使用 iPad 等数字支付系统处理交易。",
+      "vocabulary": [
+        {
+          "term": "processing purchases",
+          "meaning": "处理消费交易",
+          "kind": "短语"
+        },
+        {
+          "term": "digital payment systems",
+          "meaning": "数字支付系统",
+          "kind": "短语"
+        }
+      ]
+    },
+    {
+      "id": "s3",
+      "en": "These systems often prompted customers to tip for services that were not previously tipped.",
+      "zhReference": "这些系统经常提示顾客为以前不付小费的服务给小费。",
+      "vocabulary": [
+        {
+          "term": "prompted customers to tip",
+          "meaning": "提示顾客付小费",
+          "kind": "短语"
+        },
+        {
+          "term": "previously tipped",
+          "meaning": "过去会给小费的",
+          "kind": "短语"
+        }
+      ]
+    },
+    {
+      "id": "s4",
+      "en": "Today’s tip requests are often not connected to the salary and service norms that used to determine when and how people tip.",
+      "zhReference": "如今的索要小费往往与过去决定何时、如何给小费的工资和服务惯例无关。",
+      "vocabulary": [
+        {
+          "term": "tip requests",
+          "meaning": "索要小费",
+          "kind": "短语"
+        },
+        {
+          "term": "salary and service norms",
+          "meaning": "工资与服务惯例",
+          "kind": "短语"
+        }
+      ]
+    },
+    {
+      "id": "s5",
+      "en": "Customers in the past nearly always paid tips after receiving a service, such as at the conclusion of a restaurant meal, after getting a haircut or once a pizza was delivered.",
+      "zhReference": "过去，顾客几乎总在接受服务后付小费，比如吃完饭、理完发，或者披萨送达之后。",
+      "vocabulary": [
+        {
+          "term": "at the conclusion of",
+          "meaning": "在……结束时",
+          "kind": "短语"
+        },
+        {
+          "term": "once a pizza was delivered",
+          "meaning": "披萨送达后",
+          "kind": "短语"
+        }
+      ]
+    },
+    {
+      "id": "s6",
+      "en": "That timing could reward high-quality service and give workers an incentive to provide it.",
+      "zhReference": "这种给小费的时机会奖励优质服务，激励员工提供优质服务。",
+      "vocabulary": [
+        {
+          "term": "incentive",
+          "meaning": "激励",
+          "kind": "生词"
+        },
+        {
+          "term": "high-quality service",
+          "meaning": "优质服务",
+          "kind": "短语"
+        }
+      ]
+    },
+    {
+      "id": "s7",
+      "en": "It’s becoming more common for tips to be requested beforehand.",
+      "zhReference": "如今，人们越来越常被要求在服务前先付小费。",
+      "vocabulary": [
+        {
+          "term": "beforehand",
+          "meaning": "事先",
+          "kind": "生词"
+        },
+        {
+          "term": "requested",
+          "meaning": "被要求",
+          "kind": "熟词僻义"
+        }
+      ]
+    },
+    {
+      "id": "s8",
+      "en": "And new tipping technology may even automatically add tips.",
+      "zhReference": "新的小费技术甚至可能自动加上小费。",
+      "vocabulary": [
+        {
+          "term": "automatically add tips",
+          "meaning": "自动加小费",
+          "kind": "短语"
+        },
+        {
+          "term": "tipping technology",
+          "meaning": "小费技术",
+          "kind": "短语"
+        }
+      ]
+    },
+    {
+      "id": "s9",
+      "en": "The prevalence of digital payment devices has made it easier to ask customers for a tip.",
+      "zhReference": "数字支付设备的普及让商家更容易向顾客索要小费。",
+      "vocabulary": [
+        {
+          "term": "prevalence",
+          "meaning": "普及",
+          "kind": "生词"
+        },
+        {
+          "term": "digital payment devices",
+          "meaning": "数字支付设备",
+          "kind": "短语"
+        }
+      ]
+    },
+    {
+      "id": "s10",
+      "en": "That helps explain why tip requests are creeping into new kinds of services.",
+      "zhReference": "这有助于解释为什么小费请求逐渐蔓延到新类型的服务。",
+      "vocabulary": [
+        {
+          "term": "creeping into",
+          "meaning": "悄悄蔓延到",
+          "kind": "短语"
+        },
+        {
+          "term": "new kinds of services",
+          "meaning": "新的服务种类",
+          "kind": "短语"
+        }
+      ]
+    },
+    {
+      "id": "s11",
+      "en": "Customers now routinely see menus of suggested default options—often well above 20% of what they owe.",
+      "zhReference": "如今，顾客经常在屏幕上看到预设的小费推荐选项，往往远超应付款的百分之二十。",
+      "vocabulary": [
+        {
+          "term": "default options",
+          "meaning": "默认选项",
+          "kind": "短语"
+        },
+        {
+          "term": "well above 20%",
+          "meaning": "远高于百分之二十",
+          "kind": "短语"
+        }
+      ]
+    },
+    {
+      "id": "s12",
+      "en": "The amounts have risen from 10% or less in the 1950s to 15% around the year 2000 to 20% or higher today.",
+      "zhReference": "小费比例从二十世纪五十年代的百分之十或更低，上升到 2000 年前后的百分之十五，再到如今的百分之二十或更高。",
+      "vocabulary": [
+        {
+          "term": "have risen from",
+          "meaning": "从……上涨",
+          "kind": "短语"
+        },
+        {
+          "term": "or higher",
+          "meaning": "甚至更高",
+          "kind": "短语"
+        }
+      ]
+    },
+    {
+      "id": "s13",
+      "en": "This increase is sometimes called tipflation—the expectation of ever-higher tip amounts.",
+      "zhReference": "这种增长有时被称为“小费通胀”——人们被期待付越来越高比例的小费。",
+      "vocabulary": [
+        {
+          "term": "tipflation",
+          "meaning": "小费通胀",
+          "kind": "生词"
+        },
+        {
+          "term": "ever-higher tip amounts",
+          "meaning": "越来越高的小费金额",
+          "kind": "短语"
+        }
+      ]
+    },
+    {
+      "id": "s14",
+      "en": "Tipping has always been a vital source of income for workers in historically tipped services, like restaurants, where the tipped minimum wage can be as low as US$2.13 an hour.",
+      "zhReference": "在餐饮等传统有小费的服务行业，小费一直是劳动者重要的收入来源；这些行业计入小费的最低时薪可以低至二点一三美元。",
+      "vocabulary": [
+        {
+          "term": "tipped minimum wage",
+          "meaning": "计入小费的最低工资",
+          "kind": "短语"
+        },
+        {
+          "term": "vital source of income",
+          "meaning": "重要收入来源",
+          "kind": "短语"
+        }
+      ]
+    },
+    {
+      "id": "s15",
+      "en": "Tip creep and tipflation are now further supplementing the income of many low-wage service workers.",
+      "zhReference": "小费范围扩大和小费通胀，如今进一步补贴许多低工资服务业员工的收入。",
+      "vocabulary": [
+        {
+          "term": "Tip creep",
+          "meaning": "小费索取范围扩大",
+          "kind": "短语"
+        },
+        {
+          "term": "supplementing the income",
+          "meaning": "补充收入",
+          "kind": "短语"
+        }
+      ]
+    },
+    {
+      "id": "s16",
+      "en": "Notably, tipping primarily benefits some of these workers, such as waiters, but not others, such as cooks and dishwashers.",
+      "zhReference": "值得注意的是，小费主要让其中一些劳动者受益，如服务员，而不惠及厨师或洗碗工等其他员工。",
+      "vocabulary": [
+        {
+          "term": "primarily benefits",
+          "meaning": "主要有利于",
+          "kind": "短语"
+        },
+        {
+          "term": "dishwashers",
+          "meaning": "洗碗工",
+          "kind": "生词"
+        }
+      ]
+    },
+    {
+      "id": "s17",
+      "en": "To ensure that all employees were paid fair wages, some restaurants banned tipping and increased prices, but this movement toward no-tipping services has largely fizzled out.",
+      "zhReference": "为了确保所有员工获得公平工资，一些餐厅曾禁止小费并提高价格，但这场取消小费的运动大体上已经偃旗息鼓。",
+      "vocabulary": [
+        {
+          "term": "fizzled out",
+          "meaning": "逐渐失败并消失",
+          "kind": "短语"
+        },
+        {
+          "term": "fair wages",
+          "meaning": "公平工资",
+          "kind": "短语"
+        },
+        {
+          "term": "no-tipping services",
+          "meaning": "不收小费的服务",
+          "kind": "短语"
+        }
+      ]
+    },
+    {
+      "id": "s18",
+      "en": "So, to increase employee wages without raising prices, more employers are succumbing to the temptations of tip creep and tipflation.",
+      "zhReference": "因此，越来越多的雇主为了不涨价却提高员工收入，开始屈从于小费范围扩大与小费通胀的诱惑。",
+      "vocabulary": [
+        {
+          "term": "succumbing to the temptations",
+          "meaning": "屈从于诱惑",
+          "kind": "短语"
+        },
+        {
+          "term": "raising prices",
+          "meaning": "提高价格",
+          "kind": "短语"
+        }
+      ]
+    },
+    {
+      "id": "s19",
+      "en": "However, many customers are frustrated because they feel they are being asked for too high of a tip, too often.",
+      "zhReference": "然而，许多顾客感到不满，因为他们觉得索要小费太频繁、金额也太高。",
+      "vocabulary": [
+        {
+          "term": "frustrated",
+          "meaning": "沮丧不满的",
+          "kind": "生词"
+        },
+        {
+          "term": "too often",
+          "meaning": "过于频繁",
+          "kind": "短语"
+        }
+      ]
+    },
+    {
+      "id": "s20",
+      "en": "And, as our research emphasizes, tipping now seems to be more coercive, less generous and often completely dissociated from service quality.",
+      "zhReference": "正如我们的研究强调的，如今的小费似乎更具强制性、更少出于慷慨，而且往往与服务质量完全脱钩。",
+      "vocabulary": [
+        {
+          "term": "coercive",
+          "meaning": "带有强制性的",
+          "kind": "生词"
+        },
+        {
+          "term": "dissociated from service quality",
+          "meaning": "与服务质量脱钩",
+          "kind": "短语"
+        },
+        {
+          "term": "generous",
+          "meaning": "慷慨的",
+          "kind": "生词"
+        }
+      ]
+    }
+  ]
+}

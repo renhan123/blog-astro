@@ -1,0 +1,337 @@
+{
+  "title": "2024 真题 Text 1 · AI 增长与公平分配",
+  "description": "讨论人工智能产业过度集中如何加剧地区不平等并阻碍技术普及。",
+  "source": "2024年真题.pdf · Reading Comprehension",
+  "author": "2024 English Exam",
+  "level": "intermediate",
+  "tags": [
+    "2024真题",
+    "Reading Comprehension",
+    "AI",
+    "Inequality"
+  ],
+  "estimatedMinutes": 26,
+  "heroNote": "作者并非反对 AI，而是主张让更多地区和行业分享技术进步的收益。",
+  "publishedAt": "2024-01-01",
+  "sentences": [
+    {
+      "id": "s1",
+      "en": "In her new book Cogs and Monsters: What Economics Is, and What It Should Be, Diane Coyle, an economist at Cambridge University, argues that the digital economy requires new ways of thinking about progress.",
+      "zhReference": "剑桥大学经济学家黛安·科伊尔在新书《齿轮与怪兽：经济学是什么以及应该是什么》中指出，数字经济要求我们以新方式思考进步。",
+      "vocabulary": [
+        {
+          "term": "digital economy",
+          "meaning": "数字经济",
+          "kind": "短语"
+        },
+        {
+          "term": "thinking about progress",
+          "meaning": "思考何为进步",
+          "kind": "短语"
+        }
+      ]
+    },
+    {
+      "id": "s2",
+      "en": "“Whatever we mean by the economy growing, by things getting better, the gains will have to be more evenly shared than in the recent past,” she writes.",
+      "zhReference": "她写道：“不论我们所说的经济增长、事物变好具体指什么，收益都必须比近些年得到更公平的分享。”",
+      "vocabulary": [
+        {
+          "term": "more evenly shared",
+          "meaning": "更公平地分享",
+          "kind": "短语"
+        },
+        {
+          "term": "recent past",
+          "meaning": "近些年",
+          "kind": "短语"
+        }
+      ]
+    },
+    {
+      "id": "s3",
+      "en": "“An economy of tech millionaires or billionaires and gig workers, with middle-income jobs undercut by automation, will not be politically sustainable.”",
+      "zhReference": "“一个由科技百万富翁或亿万富翁与零工组成、而中等收入岗位遭自动化侵蚀的经济，在政治上无法持久。”",
+      "vocabulary": [
+        {
+          "term": "gig workers",
+          "meaning": "零工劳动者",
+          "kind": "短语"
+        },
+        {
+          "term": "undercut by automation",
+          "meaning": "被自动化侵蚀",
+          "kind": "短语"
+        },
+        {
+          "term": "politically sustainable",
+          "meaning": "政治上可持续的",
+          "kind": "短语"
+        }
+      ]
+    },
+    {
+      "id": "s4",
+      "en": "Improving living standards and increasing prosperity for more people will require greater use of digital technologies to boost productivity in various sectors, including health care and construction, says Coyle.",
+      "zhReference": "科伊尔认为，要改善更多人的生活水平并增加繁荣，就得更广泛地在医疗和建筑等行业使用数字技术来提高生产率。",
+      "vocabulary": [
+        {
+          "term": "boost productivity",
+          "meaning": "提高生产率",
+          "kind": "短语"
+        },
+        {
+          "term": "various sectors",
+          "meaning": "不同行业",
+          "kind": "短语"
+        },
+        {
+          "term": "living standards",
+          "meaning": "生活水平",
+          "kind": "短语"
+        }
+      ]
+    },
+    {
+      "id": "s5",
+      "en": "But people can’t be expected to embrace the changes if they’re not seeing the benefits—if they’re just seeing good jobs being destroyed.",
+      "zhReference": "但如果人们看不到收益，只看到好工作被毁掉，就不能指望他们接受变革。",
+      "vocabulary": [
+        {
+          "term": "embrace the changes",
+          "meaning": "接受变革",
+          "kind": "短语"
+        },
+        {
+          "term": "good jobs being destroyed",
+          "meaning": "好工作被毁掉",
+          "kind": "短语"
+        }
+      ]
+    },
+    {
+      "id": "s6",
+      "en": "In a recent interview, Coyle said she fears that tech’s inequality problem could be a roadblock to deploying AI.",
+      "zhReference": "在最近的一次采访中，科伊尔表示担心，科技行业的不平等问题可能成为部署人工智能的障碍。",
+      "vocabulary": [
+        {
+          "term": "roadblock to deploying AI",
+          "meaning": "部署 AI 的障碍",
+          "kind": "短语"
+        },
+        {
+          "term": "inequality problem",
+          "meaning": "不平等问题",
+          "kind": "短语"
+        }
+      ]
+    },
+    {
+      "id": "s7",
+      "en": "“We’re talking about disruption,” she says.",
+      "zhReference": "她说：“我们谈论的是颠覆。”",
+      "vocabulary": [
+        {
+          "term": "disruption",
+          "meaning": "颠覆性变化",
+          "kind": "生词"
+        },
+        {
+          "term": "talking about",
+          "meaning": "谈论",
+          "kind": "短语"
+        }
+      ]
+    },
+    {
+      "id": "s8",
+      "en": "“These are transformative technologies that change the ways we spend our time every day, that change business models that succeed.”",
+      "zhReference": "“这些变革性技术改变我们每天度过时间的方式，也改变哪些商业模式能够成功。”",
+      "vocabulary": [
+        {
+          "term": "transformative technologies",
+          "meaning": "变革性技术",
+          "kind": "短语"
+        },
+        {
+          "term": "business models",
+          "meaning": "商业模式",
+          "kind": "短语"
+        }
+      ]
+    },
+    {
+      "id": "s9",
+      "en": "To make such “tremendous changes,” she adds, you need social buy-in.",
+      "zhReference": "她补充说，要实现如此“巨大的变化”，需要社会公众的支持。",
+      "vocabulary": [
+        {
+          "term": "social buy-in",
+          "meaning": "社会公众的认同",
+          "kind": "短语"
+        },
+        {
+          "term": "tremendous changes",
+          "meaning": "巨大变化",
+          "kind": "短语"
+        }
+      ]
+    },
+    {
+      "id": "s10",
+      "en": "Instead, says Coyle, resentment is simmering among many as the benefits are perceived to go to elites in a handful of prosperous cities.",
+      "zhReference": "但科伊尔说，许多人感到不满，因为他们觉得好处只流向少数富裕城市中的精英。",
+      "vocabulary": [
+        {
+          "term": "resentment is simmering",
+          "meaning": "怨气正在酝酿",
+          "kind": "短语"
+        },
+        {
+          "term": "prosperous cities",
+          "meaning": "富裕城市",
+          "kind": "短语"
+        },
+        {
+          "term": "elites",
+          "meaning": "精英",
+          "kind": "生词"
+        }
+      ]
+    },
+    {
+      "id": "s11",
+      "en": "According to the Brookings Institution, a short list of eight American cities that included San Francisco, San Jose, Boston, and Seattle had roughly 38% of all tech jobs by 2019.",
+      "zhReference": "布鲁金斯学会数据显示，到 2019 年，包括旧金山、圣何塞、波士顿和西雅图在内的八座美国城市，拥有大约百分之三十八的科技岗位。",
+      "vocabulary": [
+        {
+          "term": "roughly 38%",
+          "meaning": "约百分之三十八",
+          "kind": "短语"
+        },
+        {
+          "term": "tech jobs",
+          "meaning": "科技工作岗位",
+          "kind": "短语"
+        }
+      ]
+    },
+    {
+      "id": "s12",
+      "en": "New AI technologies are particularly concentrated: Brookings’s Mark Muro and Sifan Liu estimate that just 15 cities account for two-thirds of the AI assets and capabilities in the United States.",
+      "zhReference": "新的人工智能技术尤其集中：布鲁金斯学会的马克·穆罗和刘思凡估计，仅十五座城市就占了美国三分之二的 AI 资产与能力。",
+      "vocabulary": [
+        {
+          "term": "account for two-thirds",
+          "meaning": "占三分之二",
+          "kind": "短语"
+        },
+        {
+          "term": "AI assets and capabilities",
+          "meaning": "人工智能资产和能力",
+          "kind": "短语"
+        }
+      ]
+    },
+    {
+      "id": "s13",
+      "en": "The dominance of a few cities in the invention and commercialization of AI means that geographical disparities in wealth will continue to soar.",
+      "zhReference": "少数城市主导 AI 发明和商业化，意味着地区之间的财富差距将持续扩大。",
+      "vocabulary": [
+        {
+          "term": "geographical disparities",
+          "meaning": "地域差距",
+          "kind": "短语"
+        },
+        {
+          "term": "continue to soar",
+          "meaning": "继续急剧扩大",
+          "kind": "短语"
+        },
+        {
+          "term": "commercialization",
+          "meaning": "商业化",
+          "kind": "生词"
+        }
+      ]
+    },
+    {
+      "id": "s14",
+      "en": "Not only will this foster political and social unrest, but it could, as Coyle suggests, hold back the sorts of AI technologies needed for regional economies to grow.",
+      "zhReference": "这不仅会加剧政治与社会动荡，而且正如科伊尔指出的，还可能阻碍那些帮助区域经济增长的人工智能技术发展。",
+      "vocabulary": [
+        {
+          "term": "foster political and social unrest",
+          "meaning": "助长政治与社会动荡",
+          "kind": "短语"
+        },
+        {
+          "term": "hold back",
+          "meaning": "阻碍",
+          "kind": "短语"
+        },
+        {
+          "term": "regional economies",
+          "meaning": "区域经济",
+          "kind": "短语"
+        }
+      ]
+    },
+    {
+      "id": "s15",
+      "en": "Part of the solution could lie in somehow loosening the stranglehold that Big Tech has on defining the AI agenda.",
+      "zhReference": "部分解决办法或许是设法削弱科技巨头对 AI 议程定义的垄断。",
+      "vocabulary": [
+        {
+          "term": "stranglehold",
+          "meaning": "牢牢控制",
+          "kind": "熟词僻义"
+        },
+        {
+          "term": "defining the AI agenda",
+          "meaning": "定义人工智能议程",
+          "kind": "短语"
+        }
+      ]
+    },
+    {
+      "id": "s16",
+      "en": "That will likely take increased federal funding for research independent of the tech giants.",
+      "zhReference": "这可能需要增加联邦资金，支持独立于科技巨头的研究。",
+      "vocabulary": [
+        {
+          "term": "independent of the tech giants",
+          "meaning": "独立于科技巨头",
+          "kind": "短语"
+        },
+        {
+          "term": "federal funding",
+          "meaning": "联邦资金",
+          "kind": "短语"
+        }
+      ]
+    },
+    {
+      "id": "s17",
+      "en": "A more immediate response is to broaden our digital imaginations to conceive of AI technologies that don’t simply replace jobs but expand opportunities in the sectors that different parts of the country care most about, like health care, education, and manufacturing.",
+      "zhReference": "更直接的回应是拓宽我们对数字技术的想象：设计人工智能技术，不只是替代工作，还能在医疗、教育和制造业等各地区最关心的行业创造更多机会。",
+      "vocabulary": [
+        {
+          "term": "broaden our digital imaginations",
+          "meaning": "拓宽数字技术想象力",
+          "kind": "短语"
+        },
+        {
+          "term": "conceive of",
+          "meaning": "构想",
+          "kind": "短语"
+        },
+        {
+          "term": "expand opportunities",
+          "meaning": "创造更多机会",
+          "kind": "短语"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,451 @@
+{
+  "title": "2018 真题 Text 1 · 职业教育与多样化人才",
+  "description": "探讨高中动手实践教育的价值及对所有人都追求大学学位的反思。",
+  "source": "2018年真题.pdf · Reading Comprehension",
+  "author": "2018 English Exam",
+  "level": "intermediate",
+  "tags": [
+    "2018真题",
+    "Reading Comprehension",
+    "Education",
+    "Vocational Training"
+  ],
+  "estimatedMinutes": 26,
+  "heroNote": "注意作者承认大学学历的价值，但反对教育模式一刀切。",
+  "publishedAt": "2018-01-01",
+  "sentences": [
+    {
+      "id": "s1",
+      "en": "It is curious that Stephen Koziatek feels almost as though he has to justify his efforts to give his students a better future.",
+      "zhReference": "令人奇怪的是，斯蒂芬·科齐亚特克几乎觉得自己必须为给学生创造更好未来的努力作辩解。",
+      "vocabulary": [
+        {
+          "term": "justify his efforts",
+          "meaning": "为自己的努力辩护",
+          "kind": "短语"
+        },
+        {
+          "term": "curious",
+          "meaning": "令人费解的",
+          "kind": "熟词僻义"
+        }
+      ]
+    },
+    {
+      "id": "s2",
+      "en": "Mr. Koziatek is part of something pioneering.",
+      "zhReference": "科齐亚特克先生正在参与一项开创性的事业。",
+      "vocabulary": [
+        {
+          "term": "pioneering",
+          "meaning": "开创性的",
+          "kind": "生词"
+        },
+        {
+          "term": "part of something",
+          "meaning": "参与某件事",
+          "kind": "短语"
+        }
+      ]
+    },
+    {
+      "id": "s3",
+      "en": "He is a teacher at a New Hampshire high school where learning is not something of books and tests and mechanical memorization, but practical.",
+      "zhReference": "他在新罕布什尔州的一所高中任教，那里倡导的学习不是书本、考试和机械记忆，而是实践。",
+      "vocabulary": [
+        {
+          "term": "mechanical memorization",
+          "meaning": "机械记忆",
+          "kind": "短语"
+        },
+        {
+          "term": "practical",
+          "meaning": "重实践的",
+          "kind": "熟词僻义"
+        }
+      ]
+    },
+    {
+      "id": "s4",
+      "en": "When did it become accepted wisdom that students should be able to name the 13th president of the United States but be utterly overwhelmed by a broken bike chain?",
+      "zhReference": "学生能够说出美国第十三任总统的名字，却会被一条断了的自行车链弄得束手无策——这种想法是什么时候成了公认常识的？",
+      "vocabulary": [
+        {
+          "term": "accepted wisdom",
+          "meaning": "公认的看法",
+          "kind": "短语"
+        },
+        {
+          "term": "utterly overwhelmed",
+          "meaning": "完全不知所措",
+          "kind": "短语"
+        }
+      ]
+    },
+    {
+      "id": "s5",
+      "en": "As Koziatek knows, there is learning in just about everything.",
+      "zhReference": "科齐亚特克知道，几乎任何事情中都有值得学习的东西。",
+      "vocabulary": [
+        {
+          "term": "there is learning in",
+          "meaning": "……中有学习的机会",
+          "kind": "短语"
+        },
+        {
+          "term": "just about everything",
+          "meaning": "几乎所有事",
+          "kind": "短语"
+        }
+      ]
+    },
+    {
+      "id": "s6",
+      "en": "Nothing is necessarily gained by forcing students to learn geometry at a graffitied desk stuck with generations of discarded chewing gum.",
+      "zhReference": "强迫学生坐在涂满涂鸦、粘着几代学生丢弃的口香糖的课桌旁学习几何，并不一定有收获。",
+      "vocabulary": [
+        {
+          "term": "graffitied desk",
+          "meaning": "涂满涂鸦的课桌",
+          "kind": "短语"
+        },
+        {
+          "term": "discarded chewing gum",
+          "meaning": "丢弃的口香糖",
+          "kind": "短语"
+        },
+        {
+          "term": "necessarily gained",
+          "meaning": "必然获得",
+          "kind": "短语"
+        }
+      ]
+    },
+    {
+      "id": "s7",
+      "en": "They can also learn geometry by assembling a bicycle.",
+      "zhReference": "他们也可以通过组装自行车学习几何。",
+      "vocabulary": [
+        {
+          "term": "assembling a bicycle",
+          "meaning": "组装自行车",
+          "kind": "短语"
+        },
+        {
+          "term": "geometry",
+          "meaning": "几何学",
+          "kind": "生词"
+        }
+      ]
+    },
+    {
+      "id": "s8",
+      "en": "But he’s also found a kind of insidious prejudice.",
+      "zhReference": "但他还发现了一种隐蔽的偏见。",
+      "vocabulary": [
+        {
+          "term": "insidious prejudice",
+          "meaning": "不易察觉的偏见",
+          "kind": "短语"
+        },
+        {
+          "term": "prejudice",
+          "meaning": "偏见",
+          "kind": "生词"
+        }
+      ]
+    },
+    {
+      "id": "s9",
+      "en": "Working with your hands is seen as almost a mark of inferiority.",
+      "zhReference": "动手劳动几乎被看成低人一等的标志。",
+      "vocabulary": [
+        {
+          "term": "a mark of inferiority",
+          "meaning": "低人一等的标志",
+          "kind": "短语"
+        },
+        {
+          "term": "Working with your hands",
+          "meaning": "动手劳动",
+          "kind": "短语"
+        }
+      ]
+    },
+    {
+      "id": "s10",
+      "en": "Schools in the family of vocational education “have that stereotype...that it’s for kids who can’t make it academically,” he says.",
+      "zhReference": "他说，职业教育学校“背负着一种刻板印象：这是给学习上混不下去的孩子准备的”。",
+      "vocabulary": [
+        {
+          "term": "vocational education",
+          "meaning": "职业教育",
+          "kind": "短语"
+        },
+        {
+          "term": "stereotype",
+          "meaning": "刻板印象",
+          "kind": "生词"
+        },
+        {
+          "term": "make it academically",
+          "meaning": "学业上取得成功",
+          "kind": "短语"
+        }
+      ]
+    },
+    {
+      "id": "s11",
+      "en": "On one hand, that viewpoint is a logical product of America’s evolution.",
+      "zhReference": "一方面，这种观点是美国经济演变的合乎逻辑的产物。",
+      "vocabulary": [
+        {
+          "term": "logical product",
+          "meaning": "合乎逻辑的产物",
+          "kind": "短语"
+        },
+        {
+          "term": "viewpoint",
+          "meaning": "观点",
+          "kind": "生词"
+        }
+      ]
+    },
+    {
+      "id": "s12",
+      "en": "Manufacturing is not the economic engine that it once was.",
+      "zhReference": "制造业不再是过去那样的经济引擎。",
+      "vocabulary": [
+        {
+          "term": "economic engine",
+          "meaning": "经济引擎",
+          "kind": "短语"
+        },
+        {
+          "term": "Manufacturing",
+          "meaning": "制造业",
+          "kind": "生词"
+        }
+      ]
+    },
+    {
+      "id": "s13",
+      "en": "The job security that the US economy once offered to high school graduates has largely evaporated.",
+      "zhReference": "美国经济曾为高中毕业生提供的工作保障也基本消失。",
+      "vocabulary": [
+        {
+          "term": "job security",
+          "meaning": "工作保障",
+          "kind": "短语"
+        },
+        {
+          "term": "evaporated",
+          "meaning": "消失殆尽",
+          "kind": "熟词僻义"
+        }
+      ]
+    },
+    {
+      "id": "s14",
+      "en": "More education is the new principle.",
+      "zhReference": "接受更多教育成了新的原则。",
+      "vocabulary": [
+        {
+          "term": "More education",
+          "meaning": "接受更多教育",
+          "kind": "短语"
+        },
+        {
+          "term": "principle",
+          "meaning": "原则",
+          "kind": "生词"
+        }
+      ]
+    },
+    {
+      "id": "s15",
+      "en": "We want more for our kids, and rightfully so.",
+      "zhReference": "我们希望孩子得到更好的发展，这无可厚非。",
+      "vocabulary": [
+        {
+          "term": "rightfully so",
+          "meaning": "理应如此",
+          "kind": "短语"
+        },
+        {
+          "term": "want more for",
+          "meaning": "希望……获得更多",
+          "kind": "短语"
+        }
+      ]
+    },
+    {
+      "id": "s16",
+      "en": "But the headlong push into bachelor’s degrees for all—and the subtle devaluing of anything less—misses an important point; That’s not the only thing the American economy needs.",
+      "zhReference": "但急于让所有人都拿学士学位、悄然贬低低于本科学历的一切，却忽略了一个重要事实：美国经济需要的并不只有大学毕业生。",
+      "vocabulary": [
+        {
+          "term": "headlong push into",
+          "meaning": "贸然全力推进",
+          "kind": "短语"
+        },
+        {
+          "term": "subtle devaluing",
+          "meaning": "不易察觉的贬低",
+          "kind": "短语"
+        },
+        {
+          "term": "bachelor’s degrees",
+          "meaning": "学士学位",
+          "kind": "短语"
+        }
+      ]
+    },
+    {
+      "id": "s17",
+      "en": "Yes, a bachelor’s degree opens more doors.",
+      "zhReference": "没错，学士学位能带来更多机会。",
+      "vocabulary": [
+        {
+          "term": "opens more doors",
+          "meaning": "带来更多机会",
+          "kind": "短语"
+        },
+        {
+          "term": "bachelor’s degree",
+          "meaning": "学士学位",
+          "kind": "短语"
+        }
+      ]
+    },
+    {
+      "id": "s18",
+      "en": "But even now, 54 percent of the jobs in the country are middle-skill jobs, such as construction and high-skill manufacturing.",
+      "zhReference": "但即便现在，美国百分之五十四的工作仍属于中等技能岗位，例如建筑业和高技能制造业。",
+      "vocabulary": [
+        {
+          "term": "middle-skill jobs",
+          "meaning": "中等技能岗位",
+          "kind": "短语"
+        },
+        {
+          "term": "high-skill manufacturing",
+          "meaning": "高技能制造业",
+          "kind": "短语"
+        }
+      ]
+    },
+    {
+      "id": "s19",
+      "en": "But only 44 percent of workers are adequately trained.",
+      "zhReference": "然而，只有百分之四十四的劳动者受过足够的培训。",
+      "vocabulary": [
+        {
+          "term": "adequately trained",
+          "meaning": "得到充分培训",
+          "kind": "短语"
+        },
+        {
+          "term": "workers",
+          "meaning": "劳动者",
+          "kind": "生词"
+        }
+      ]
+    },
+    {
+      "id": "s20",
+      "en": "In other words, at a time when the working class has turned the country on its political head, frustrated that the opportunity that once defined America is vanishing, one obvious solution is staring us in the face.",
+      "zhReference": "换句话说，当工人阶级因定义美国的机会正在消失而沮丧、进而颠覆国家政治格局时，一个显而易见的解决办法就摆在眼前。",
+      "vocabulary": [
+        {
+          "term": "working class",
+          "meaning": "工人阶级",
+          "kind": "短语"
+        },
+        {
+          "term": "turned the country on its political head",
+          "meaning": "颠覆国家政治格局",
+          "kind": "短语"
+        },
+        {
+          "term": "staring us in the face",
+          "meaning": "摆在我们眼前",
+          "kind": "短语"
+        }
+      ]
+    },
+    {
+      "id": "s21",
+      "en": "There is a gap in working-class jobs, but the workers who need those jobs most aren’t equipped to do them.",
+      "zhReference": "工人阶级的岗位存在技能缺口，但最需要这些岗位的劳动者却不具备胜任它们的技能。",
+      "vocabulary": [
+        {
+          "term": "equipped to do them",
+          "meaning": "有能力胜任岗位",
+          "kind": "短语"
+        },
+        {
+          "term": "gap in working-class jobs",
+          "meaning": "工人阶级岗位的技能缺口",
+          "kind": "短语"
+        }
+      ]
+    },
+    {
+      "id": "s22",
+      "en": "Koziatek’s Manchester School of Technology High School is trying to fill that gap.",
+      "zhReference": "科齐亚特克所在的曼彻斯特技术高中正试图填补这一缺口。",
+      "vocabulary": [
+        {
+          "term": "fill that gap",
+          "meaning": "填补这一缺口",
+          "kind": "短语"
+        },
+        {
+          "term": "School of Technology",
+          "meaning": "技术学校",
+          "kind": "短语"
+        }
+      ]
+    },
+    {
+      "id": "s23",
+      "en": "Koziatek’s school is a wake-up call.",
+      "zhReference": "科齐亚特克的学校敲响了警钟。",
+      "vocabulary": [
+        {
+          "term": "wake-up call",
+          "meaning": "警钟",
+          "kind": "短语"
+        },
+        {
+          "term": "school",
+          "meaning": "学校教育",
+          "kind": "熟词僻义"
+        }
+      ]
+    },
+    {
+      "id": "s24",
+      "en": "When education becomes one-size-fits-all, it risks overlooking a nation’s diversity of gifts.",
+      "zhReference": "当教育变成一刀切的模式，就有可能忽视一个国家多种多样的人才。",
+      "vocabulary": [
+        {
+          "term": "one-size-fits-all",
+          "meaning": "一刀切的",
+          "kind": "短语"
+        },
+        {
+          "term": "diversity of gifts",
+          "meaning": "多样的天赋",
+          "kind": "短语"
+        },
+        {
+          "term": "overlooking",
+          "meaning": "忽视",
+          "kind": "生词"
+        }
+      ]
+    }
+  ]
+}

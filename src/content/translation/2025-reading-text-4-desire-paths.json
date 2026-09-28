@@ -1,0 +1,318 @@
+{
+  "title": "2025 真题 Text 4 · 城市中的意愿路径",
+  "description": "从踩出的人行捷径到百老汇，讨论城市规划与人们真实行为的关系。",
+  "source": "2025年真题.pdf · Reading Comprehension",
+  "author": "2025 English Exam",
+  "level": "intermediate",
+  "tags": [
+    "2025真题",
+    "Reading Comprehension",
+    "Urban Planning",
+    "Desire Paths"
+  ],
+  "estimatedMinutes": 25,
+  "heroNote": "desire paths 并非正式规划道路，而是使用者反复走出、表达集体偏好的路线。",
+  "publishedAt": "2025-01-01",
+  "sentences": [
+    {
+      "id": "s1",
+      "en": "Navigating beyond the organised pavements and parks of our urban spaces, desire paths are the unofficial footprints of a community, revealing the unspoken preferences, shared shortcuts and collective choices of humans.",
+      "zhReference": "在城市规划整齐的人行道和公园之外，人们自行踩出的“意愿路径”是社区非正式的足迹，揭示了人们未明说的偏好、共同选择的捷径和集体决定。",
+      "vocabulary": [
+        {
+          "term": "desire paths",
+          "meaning": "人们自行踩出的意愿路径",
+          "kind": "短语"
+        },
+        {
+          "term": "unofficial footprints",
+          "meaning": "非正式的足迹",
+          "kind": "短语"
+        },
+        {
+          "term": "unspoken preferences",
+          "meaning": "未明说的偏好",
+          "kind": "短语"
+        }
+      ]
+    },
+    {
+      "id": "s2",
+      "en": "Often appearing as trodden dirt tracks through otherwise neat green spaces, these routes of collective disobedience cut corners, bisect lawns and cross hills, representing the natural capability of people (and animals) to go from point A to point B most effectively.",
+      "zhReference": "这些小路常以穿过整洁绿地的踩实泥径出现：它们像是集体“不服从”的路线，抄近道、穿草坪、越山丘，体现人和动物最有效地从 A 点到 B 点的自然能力。",
+      "vocabulary": [
+        {
+          "term": "trodden dirt tracks",
+          "meaning": "踩实的泥土小径",
+          "kind": "短语"
+        },
+        {
+          "term": "bisect lawns",
+          "meaning": "横穿草坪",
+          "kind": "短语"
+        },
+        {
+          "term": "cut corners",
+          "meaning": "抄近道",
+          "kind": "短语"
+        }
+      ]
+    },
+    {
+      "id": "s3",
+      "en": "Urban planners interpret desire paths as more than just convenient shortcuts; they offer valuable insights into the dynamics between planning and behaviour.",
+      "zhReference": "城市规划师认为，意愿路径不只是方便的捷径，还能揭示规划与人类行为之间的互动关系。",
+      "vocabulary": [
+        {
+          "term": "insights into",
+          "meaning": "对……的深入认识",
+          "kind": "短语"
+        },
+        {
+          "term": "dynamics between",
+          "meaning": "……之间的互动",
+          "kind": "短语"
+        }
+      ]
+    },
+    {
+      "id": "s4",
+      "en": "Ohio State University allowed its students to navigate the Oval, a lawn in the centre of campus, freely, then proceeded to pave the desire paths, creating a web of effective routes students had established.",
+      "zhReference": "俄亥俄州立大学先让学生自由穿行校园中央的椭圆形草坪，然后把他们踩出的意愿路径铺成正式道路，形成学生自行开辟的高效路线网络。",
+      "vocabulary": [
+        {
+          "term": "proceeded to pave",
+          "meaning": "随后铺成道路",
+          "kind": "短语"
+        },
+        {
+          "term": "the Oval",
+          "meaning": "校园椭圆形草坪",
+          "kind": "短语"
+        },
+        {
+          "term": "effective routes",
+          "meaning": "高效路线",
+          "kind": "短语"
+        }
+      ]
+    },
+    {
+      "id": "s5",
+      "en": "Yet, reluctance persists among other planners to integrate desire paths into formal plans, citing concerns about safety, environmental impact, or primarily, aesthetics.",
+      "zhReference": "然而，其他规划师仍不愿把意愿路径纳入正式规划，理由是担忧安全、环境影响，尤其是美观。",
+      "vocabulary": [
+        {
+          "term": "reluctance persists",
+          "meaning": "仍然存在不情愿",
+          "kind": "短语"
+        },
+        {
+          "term": "aesthetics",
+          "meaning": "美观；审美",
+          "kind": "生词"
+        },
+        {
+          "term": "formal plans",
+          "meaning": "正式规划",
+          "kind": "短语"
+        }
+      ]
+    },
+    {
+      "id": "s6",
+      "en": "A Reddit webpage devoted to the phenomenon, boasting nearly 50,000 members, showcases images of local desire paths adorned with signs instructing pedestrians to adhere to designated walkways, underscoring the rebellious nature inherent in these human-made tracks.",
+      "zhReference": "Reddit 上专门讨论这一现象的页面拥有近五万名成员，展示各地意愿路径的照片；照片中的标牌要求行人走指定道路，反而凸显这些人造小路内在的反叛性。",
+      "vocabulary": [
+        {
+          "term": "adhere to designated walkways",
+          "meaning": "遵守指定步道",
+          "kind": "短语"
+        },
+        {
+          "term": "boasting nearly 50,000 members",
+          "meaning": "拥有近五万成员",
+          "kind": "短语"
+        },
+        {
+          "term": "inherent",
+          "meaning": "固有的",
+          "kind": "生词"
+        }
+      ]
+    },
+    {
+      "id": "s7",
+      "en": "This clash highlights an ongoing struggle between the organic, user-driven evolution of public spaces and the desire for a visually curated and controlled urban environment.",
+      "zhReference": "这种冲突体现出一场持续的较量：一边是由使用者推动、自然演化的公共空间，另一边是对外观经过设计、受严格控制的城市环境的追求。",
+      "vocabulary": [
+        {
+          "term": "user-driven evolution",
+          "meaning": "由使用者推动的演变",
+          "kind": "短语"
+        },
+        {
+          "term": "visually curated",
+          "meaning": "外观经精心设计的",
+          "kind": "短语"
+        },
+        {
+          "term": "ongoing struggle",
+          "meaning": "持续的较量",
+          "kind": "短语"
+        }
+      ]
+    },
+    {
+      "id": "s8",
+      "en": "The Wickquasgeck Trail is an example of a historical desire path, created by Native Americans to cross the forests of Manhattan and move between settlements quickly.",
+      "zhReference": "威克夸斯盖克小径是历史上意愿路径的一个例子，由美洲原住民开辟，用来穿过曼哈顿森林，在聚落间快速通行。",
+      "vocabulary": [
+        {
+          "term": "Native Americans",
+          "meaning": "美洲原住民",
+          "kind": "短语"
+        },
+        {
+          "term": "settlements",
+          "meaning": "聚落",
+          "kind": "生词"
+        }
+      ]
+    },
+    {
+      "id": "s9",
+      "en": "This trail, when Dutch colonists arrived, was widened and made into one of the main trade roads across the island, known at the time as de Heere Straat, or Gentlemen’s Street.",
+      "zhReference": "荷兰殖民者到来后，这条小路被拓宽，成为横贯曼哈顿岛的主要贸易道路之一，当时名为“德赫雷街”，即“绅士街”。",
+      "vocabulary": [
+        {
+          "term": "Dutch colonists",
+          "meaning": "荷兰殖民者",
+          "kind": "短语"
+        },
+        {
+          "term": "trade roads",
+          "meaning": "贸易道路",
+          "kind": "短语"
+        }
+      ]
+    },
+    {
+      "id": "s10",
+      "en": "Following the British assumption of control in New York, the street was renamed Broadway.",
+      "zhReference": "英国接管纽约后，这条路改名为百老汇大道。",
+      "vocabulary": [
+        {
+          "term": "assumption of control",
+          "meaning": "接管控制权",
+          "kind": "短语"
+        },
+        {
+          "term": "renamed Broadway",
+          "meaning": "改名百老汇",
+          "kind": "短语"
+        }
+      ]
+    },
+    {
+      "id": "s11",
+      "en": "Notably, Broadway stands out as one of the few areas in NYC that defies the grid-based system applied to the rest of the city, cutting a diagonal across parts of the city.",
+      "zhReference": "值得注意的是，百老汇是纽约市少数没有遵循其他城区网格化街道布局的区域之一，它斜穿城市部分地段。",
+      "vocabulary": [
+        {
+          "term": "grid-based system",
+          "meaning": "网格化道路体系",
+          "kind": "短语"
+        },
+        {
+          "term": "defies",
+          "meaning": "不遵循；违背",
+          "kind": "熟词僻义"
+        },
+        {
+          "term": "cutting a diagonal",
+          "meaning": "斜穿",
+          "kind": "短语"
+        }
+      ]
+    },
+    {
+      "id": "s12",
+      "en": "In online spaces, desire paths have sparked a fascination that can approach obsession, with the Reddit page serving as a hub.",
+      "zhReference": "在网络空间中，意愿路径激发了近乎痴迷的兴趣，Reddit 页面成了讨论中心。",
+      "vocabulary": [
+        {
+          "term": "approach obsession",
+          "meaning": "接近痴迷",
+          "kind": "短语"
+        },
+        {
+          "term": "serving as a hub",
+          "meaning": "作为讨论中心",
+          "kind": "短语"
+        }
+      ]
+    },
+    {
+      "id": "s13",
+      "en": "Contributors offer a wide array of stories, from little-known new shortcuts to long-established alternate routes.",
+      "zhReference": "投稿者分享了各种各样的故事，从鲜为人知的新捷径到存在已久的替代路线。",
+      "vocabulary": [
+        {
+          "term": "a wide array of",
+          "meaning": "各种各样的",
+          "kind": "短语"
+        },
+        {
+          "term": "long-established alternate routes",
+          "meaning": "长期存在的替代路线",
+          "kind": "短语"
+        }
+      ]
+    },
+    {
+      "id": "s14",
+      "en": "Animal desire paths, such as ducks forging trails through frozen ponds or dogs carving direct routes in gardens, highlight the adaptability of these trails in both human and animal experiences.",
+      "zhReference": "动物的意愿路径，例如鸭子在结冰池塘上踩出小路，或狗在花园里开辟直达路线，说明这类路径在人与动物的经验中都具有适应性。",
+      "vocabulary": [
+        {
+          "term": "forging trails",
+          "meaning": "开辟小路",
+          "kind": "短语"
+        },
+        {
+          "term": "frozen ponds",
+          "meaning": "结冰池塘",
+          "kind": "短语"
+        },
+        {
+          "term": "adaptability",
+          "meaning": "适应性",
+          "kind": "生词"
+        }
+      ]
+    },
+    {
+      "id": "s15",
+      "en": "As desire paths criss-cross through both physical and virtual landscapes, they stand as a proof of the collective insistence on forging unconventional routes and embracing the spirit of communal choice.",
+      "zhReference": "随着意愿路径纵横交错于现实和虚拟空间，它们证明人们集体坚持开辟不循常规的路线，并乐于拥抱共同选择的精神。",
+      "vocabulary": [
+        {
+          "term": "criss-cross",
+          "meaning": "纵横交错地穿行",
+          "kind": "生词"
+        },
+        {
+          "term": "unconventional routes",
+          "meaning": "不循常规的路线",
+          "kind": "短语"
+        },
+        {
+          "term": "communal choice",
+          "meaning": "集体选择",
+          "kind": "短语"
+        }
+      ]
+    }
+  ]
+}

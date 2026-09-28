@@ -1,0 +1,320 @@
+{
+  "title": "2021 真题 Text 2 · 英国粮食自给为何困难",
+  "description": "借英国脱欧后的粮食安全讨论，分析土地与农业结构对自给自足的限制。",
+  "source": "2021年真题.pdf · Reading Comprehension",
+  "author": "2021 English Exam",
+  "level": "intermediate",
+  "tags": [
+    "2021真题",
+    "Reading Comprehension",
+    "Food Security",
+    "Brexit"
+  ],
+  "estimatedMinutes": 25,
+  "heroNote": "看清 85%、80%、25% 和 23% 各自统计的对象，避免混淆。",
+  "publishedAt": "2021-01-01",
+  "sentences": [
+    {
+      "id": "s1",
+      "en": "With the global population predicted to hit close to 10 billion by 2050, and forecasts that agricultural production in some regions will need to nearly double to keep pace, food security is increasingly making headlines.",
+      "zhReference": "随着全球人口预计到 2050 年接近一百亿，加上预测部分地区的农业生产需要几乎翻番才能跟上需求，粮食安全正越来越受关注。",
+      "vocabulary": [
+        {
+          "term": "food security",
+          "meaning": "粮食安全",
+          "kind": "短语"
+        },
+        {
+          "term": "keep pace",
+          "meaning": "跟上需求",
+          "kind": "短语"
+        },
+        {
+          "term": "making headlines",
+          "meaning": "成为新闻焦点",
+          "kind": "短语"
+        }
+      ]
+    },
+    {
+      "id": "s2",
+      "en": "In the UK, it has become a big talking point recently too, for a rather particular reason: Brexit.",
+      "zhReference": "在英国，粮食安全近来也成了热门话题，原因十分特别：英国脱欧。",
+      "vocabulary": [
+        {
+          "term": "talking point",
+          "meaning": "热门话题",
+          "kind": "短语"
+        },
+        {
+          "term": "Brexit",
+          "meaning": "英国脱欧",
+          "kind": "生词"
+        }
+      ]
+    },
+    {
+      "id": "s3",
+      "en": "Brexit is seen by some as an opportunity to reverse a recent trend towards the UK importing food.",
+      "zhReference": "一些人认为，脱欧是扭转英国近年食品进口趋势的机会。",
+      "vocabulary": [
+        {
+          "term": "reverse a recent trend",
+          "meaning": "扭转近期趋势",
+          "kind": "短语"
+        },
+        {
+          "term": "importing food",
+          "meaning": "进口食品",
+          "kind": "短语"
+        }
+      ]
+    },
+    {
+      "id": "s4",
+      "en": "The country produces only about 60 per cent of the food it eats, down from almost three-quarters in the late 1980s.",
+      "zhReference": "英国自己生产的食品只占消费量的约百分之六十，低于二十世纪八十年代末接近四分之三的水平。",
+      "vocabulary": [
+        {
+          "term": "three-quarters",
+          "meaning": "四分之三",
+          "kind": "短语"
+        },
+        {
+          "term": "down from",
+          "meaning": "从……降下来",
+          "kind": "短语"
+        }
+      ]
+    },
+    {
+      "id": "s5",
+      "en": "A move back to self-sufficiency, the argument goes, would boost the farming industry, political sovereignty and even the nation’s health.",
+      "zhReference": "他们认为，恢复粮食自给自足能促进农业、政治主权，甚至增进国民健康。",
+      "vocabulary": [
+        {
+          "term": "self-sufficiency",
+          "meaning": "自给自足",
+          "kind": "生词"
+        },
+        {
+          "term": "political sovereignty",
+          "meaning": "政治主权",
+          "kind": "短语"
+        },
+        {
+          "term": "boost",
+          "meaning": "提升",
+          "kind": "生词"
+        }
+      ]
+    },
+    {
+      "id": "s6",
+      "en": "Sounds great—but how feasible is this vision?",
+      "zhReference": "听起来不错——但这种愿景有多可行？",
+      "vocabulary": [
+        {
+          "term": "feasible",
+          "meaning": "可行的",
+          "kind": "生词"
+        },
+        {
+          "term": "vision",
+          "meaning": "愿景",
+          "kind": "熟词僻义"
+        }
+      ]
+    },
+    {
+      "id": "s7",
+      "en": "According to a report on UK food production from the University of Leeds, UK, 85 per cent of the country’s total land area is associated with meat and dairy production.",
+      "zhReference": "英国利兹大学一份关于本国食品生产的报告显示，全国百分之八十五的土地面积与肉类和乳制品生产相关。",
+      "vocabulary": [
+        {
+          "term": "dairy production",
+          "meaning": "乳制品生产",
+          "kind": "短语"
+        },
+        {
+          "term": "associated with",
+          "meaning": "与……有关",
+          "kind": "短语"
+        }
+      ]
+    },
+    {
+      "id": "s8",
+      "en": "That supplies 80 per cent of what is consumed, so even covering the whole country in livestock farms wouldn’t allow us to cover all our meat and dairy needs.",
+      "zhReference": "这些土地供应了消费量的百分之八十，所以即使把全国都变成畜牧农场，也无法满足全部肉类和乳制品需求。",
+      "vocabulary": [
+        {
+          "term": "livestock farms",
+          "meaning": "畜牧农场",
+          "kind": "短语"
+        },
+        {
+          "term": "cover all our meat and dairy needs",
+          "meaning": "满足全部肉乳需求",
+          "kind": "短语"
+        }
+      ]
+    },
+    {
+      "id": "s9",
+      "en": "There are many caveats to those figures, but they are still grave.",
+      "zhReference": "这些数字虽有不少需要说明的限制条件，但情况仍很严峻。",
+      "vocabulary": [
+        {
+          "term": "caveats",
+          "meaning": "保留意见；限制条件",
+          "kind": "生词"
+        },
+        {
+          "term": "grave",
+          "meaning": "严重的",
+          "kind": "熟词僻义"
+        }
+      ]
+    },
+    {
+      "id": "s10",
+      "en": "To become much more self-sufficient, the UK would need to drastically reduce its consumption of animal foods, and probably also farm more intensively—meaning fewer green fields and more factory-style production.",
+      "zhReference": "英国若想大幅提高自给率，就必须极大削减动物性食品消费，可能还要实行更加集约的农业——这意味着更少绿地和更多工厂化生产。",
+      "vocabulary": [
+        {
+          "term": "drastically reduce",
+          "meaning": "大幅减少",
+          "kind": "短语"
+        },
+        {
+          "term": "farm more intensively",
+          "meaning": "更加集约化种植",
+          "kind": "短语"
+        },
+        {
+          "term": "factory-style production",
+          "meaning": "工厂化生产",
+          "kind": "短语"
+        }
+      ]
+    },
+    {
+      "id": "s11",
+      "en": "But switching to a mainly plant-based diet wouldn’t help.",
+      "zhReference": "然而，改以植物性食物为主也无济于事。",
+      "vocabulary": [
+        {
+          "term": "plant-based diet",
+          "meaning": "以植物性食物为主的饮食",
+          "kind": "短语"
+        },
+        {
+          "term": "wouldn’t help",
+          "meaning": "也没用",
+          "kind": "短语"
+        }
+      ]
+    },
+    {
+      "id": "s12",
+      "en": "There is a good reason why the UK is dominated by animal husbandry: most of its terrain doesn’t have the right soil or climate to grow crops on a commercial basis.",
+      "zhReference": "英国以畜牧业为主有充分理由：大部分土地的土壤和气候都不适合商业化种植农作物。",
+      "vocabulary": [
+        {
+          "term": "animal husbandry",
+          "meaning": "畜牧业",
+          "kind": "短语"
+        },
+        {
+          "term": "terrain",
+          "meaning": "地形土地",
+          "kind": "生词"
+        },
+        {
+          "term": "on a commercial basis",
+          "meaning": "按商业规模",
+          "kind": "短语"
+        }
+      ]
+    },
+    {
+      "id": "s13",
+      "en": "Just 25 per cent of the country’s land is suitable for crop-growing, most of which is already occupied by arable fields.",
+      "zhReference": "全国仅百分之二十五的土地适合种植作物，而其中大部分已是耕地。",
+      "vocabulary": [
+        {
+          "term": "suitable for crop-growing",
+          "meaning": "适宜种植作物",
+          "kind": "短语"
+        },
+        {
+          "term": "arable fields",
+          "meaning": "耕地",
+          "kind": "短语"
+        }
+      ]
+    },
+    {
+      "id": "s14",
+      "en": "Even if we converted all the suitable land to fields of fruit and veg—which would involve taking out all the nature reserves and removing thousands of people from their homes—we would achieve only a 30 per cent boost in crop production.",
+      "zhReference": "即使把所有适宜土地变成果蔬田——这需要撤销全部自然保护区，迫使成千上万人搬离家园——作物产量也只能提高百分之三十。",
+      "vocabulary": [
+        {
+          "term": "nature reserves",
+          "meaning": "自然保护区",
+          "kind": "短语"
+        },
+        {
+          "term": "converted all the suitable land",
+          "meaning": "转换全部适宜土地",
+          "kind": "短语"
+        },
+        {
+          "term": "boost in crop production",
+          "meaning": "作物产量增加",
+          "kind": "短语"
+        }
+      ]
+    },
+    {
+      "id": "s15",
+      "en": "Just 23 per cent of the fruit and vegetables consumed in the UK are currently home-grown, so even with the most extreme measures we could meet only 30 per cent of our fresh produce needs.",
+      "zhReference": "目前英国消费的果蔬只有百分之二十三产自本土；即使采取最极端的措施，也仅能满足本国百分之三十的新鲜农产品需求。",
+      "vocabulary": [
+        {
+          "term": "home-grown",
+          "meaning": "本土种植的",
+          "kind": "生词"
+        },
+        {
+          "term": "fresh produce",
+          "meaning": "新鲜农产品",
+          "kind": "短语"
+        },
+        {
+          "term": "extreme measures",
+          "meaning": "极端措施",
+          "kind": "短语"
+        }
+      ]
+    },
+    {
+      "id": "s16",
+      "en": "That is before we look for the space to grow the grains, sugars, seeds and oils that provide us with the vast bulk of our current calorie intake.",
+      "zhReference": "这还没算上种植谷物、糖料作物、油料种子等所需的土地，而它们为我们提供了目前摄入热量的绝大部分。",
+      "vocabulary": [
+        {
+          "term": "vast bulk",
+          "meaning": "绝大部分",
+          "kind": "短语"
+        },
+        {
+          "term": "calorie intake",
+          "meaning": "热量摄入",
+          "kind": "短语"
+        }
+      ]
+    }
+  ]
+}

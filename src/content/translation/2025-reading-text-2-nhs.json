@@ -1,0 +1,344 @@
+{
+  "title": "2025 真题 Text 2 · 重新构想英国医疗体系",
+  "description": "从医院中心模式的局限出发，讨论社会健康因素和医疗资源的分配。",
+  "source": "2025年真题.pdf · Reading Comprehension",
+  "author": "2025 English Exam",
+  "level": "intermediate",
+  "tags": [
+    "2025真题",
+    "Reading Comprehension",
+    "Healthcare",
+    "NHS"
+  ],
+  "estimatedMinutes": 26,
+  "heroNote": "抓住“增进国民健康”与“修补医疗机构”之间的视角差别。",
+  "publishedAt": "2025-01-01",
+  "sentences": [
+    {
+      "id": "s1",
+      "en": "When it was established, the National Health Service (NHS) was visionary: offering high-quality, timely care to meet the dominant needs of the population it served.",
+      "zhReference": "英国国家医疗服务体系刚建立时具有前瞻性：它及时提供优质医疗，满足当时人群的主要健康需求。",
+      "vocabulary": [
+        {
+          "term": "National Health Service",
+          "meaning": "英国国家医疗服务体系",
+          "kind": "短语"
+        },
+        {
+          "term": "visionary",
+          "meaning": "富有远见的",
+          "kind": "生词"
+        },
+        {
+          "term": "dominant needs",
+          "meaning": "主要需求",
+          "kind": "短语"
+        }
+      ]
+    },
+    {
+      "id": "s2",
+      "en": "Nearly 75 years on, with the UK facing very different health challenges, it is clear that model is out of date.",
+      "zhReference": "近七十五年过去了，英国如今面临截然不同的健康挑战，这一模式显然已经过时。",
+      "vocabulary": [
+        {
+          "term": "75 years on",
+          "meaning": "七十五年后",
+          "kind": "短语"
+        },
+        {
+          "term": "out of date",
+          "meaning": "过时的",
+          "kind": "短语"
+        }
+      ]
+    },
+    {
+      "id": "s3",
+      "en": "From life expectancy to cancer and infant mortality rates, we are lagging behind many of our peers.",
+      "zhReference": "从预期寿命到癌症和婴儿死亡率等指标，英国都落后于许多同类国家。",
+      "vocabulary": [
+        {
+          "term": "life expectancy",
+          "meaning": "预期寿命",
+          "kind": "短语"
+        },
+        {
+          "term": "infant mortality rates",
+          "meaning": "婴儿死亡率",
+          "kind": "短语"
+        },
+        {
+          "term": "lagging behind",
+          "meaning": "落后于",
+          "kind": "短语"
+        }
+      ]
+    },
+    {
+      "id": "s4",
+      "en": "With more than 6.8 million on waitlists, healthcare is becoming increasingly inaccessible for those who cannot opt to pay for private treatment; and the cost of providing healthcare is increasingly squeezing out investment in other public services.",
+      "zhReference": "超过六百八十万人在等候名单上；对无力自费接受私人治疗的人来说，医疗服务越来越难获得，而且医疗费用正日益挤占其他公共服务的投资。",
+      "vocabulary": [
+        {
+          "term": "waitlists",
+          "meaning": "候诊名单",
+          "kind": "生词"
+        },
+        {
+          "term": "squeezing out investment",
+          "meaning": "挤占投资",
+          "kind": "短语"
+        },
+        {
+          "term": "private treatment",
+          "meaning": "私人医疗",
+          "kind": "短语"
+        }
+      ]
+    },
+    {
+      "id": "s5",
+      "en": "As demand for healthcare continues to grow, pressures on the workforce—which is already near breaking point—will only become more acute.",
+      "zhReference": "随着医疗需求持续增长，原已接近崩溃边缘的医护人员将面临更严峻的压力。",
+      "vocabulary": [
+        {
+          "term": "near breaking point",
+          "meaning": "接近承受极限",
+          "kind": "短语"
+        },
+        {
+          "term": "more acute",
+          "meaning": "更严峻的",
+          "kind": "短语"
+        }
+      ]
+    },
+    {
+      "id": "s6",
+      "en": "Many of the answers to the crisis in health and care are well rehearsed.",
+      "zhReference": "应对医疗与照护危机的许多办法早已被反复提及。",
+      "vocabulary": [
+        {
+          "term": "well rehearsed",
+          "meaning": "已反复讨论过的",
+          "kind": "熟词僻义"
+        },
+        {
+          "term": "crisis in health and care",
+          "meaning": "医疗与照护危机",
+          "kind": "短语"
+        }
+      ]
+    },
+    {
+      "id": "s7",
+      "en": "We need to be much better at reducing and diverting demand on health services, rather than simply managing it.",
+      "zhReference": "我们需要更有效地减少并分流对医疗服务的需求，而不是仅仅管理已有需求。",
+      "vocabulary": [
+        {
+          "term": "diverting demand",
+          "meaning": "分流需求",
+          "kind": "短语"
+        },
+        {
+          "term": "rather than simply managing it",
+          "meaning": "而不只是管理需求",
+          "kind": "短语"
+        }
+      ]
+    },
+    {
+      "id": "s8",
+      "en": "Much more needs to be invested in communities and primary care to reduce our reliance on hospitals.",
+      "zhReference": "应在社区和初级保健投入更多资金，减少对医院的依赖。",
+      "vocabulary": [
+        {
+          "term": "primary care",
+          "meaning": "初级保健",
+          "kind": "短语"
+        },
+        {
+          "term": "reliance on hospitals",
+          "meaning": "对医院的依赖",
+          "kind": "短语"
+        }
+      ]
+    },
+    {
+      "id": "s9",
+      "en": "And capacity in social care needs to be greater, to support the growing number of people living with long-term conditions.",
+      "zhReference": "社会照护能力也需要加强，以支持越来越多患有长期疾病的人。",
+      "vocabulary": [
+        {
+          "term": "social care",
+          "meaning": "社会照护",
+          "kind": "短语"
+        },
+        {
+          "term": "long-term conditions",
+          "meaning": "长期健康问题",
+          "kind": "短语"
+        }
+      ]
+    },
+    {
+      "id": "s10",
+      "en": "Yet despite two decades of strategies and a number of major health reforms, we have failed to make meaningful progress on any of these aims.",
+      "zhReference": "然而，经历了二十年的战略制定和多次重大医疗改革，我们在这些目标上都未取得实质进展。",
+      "vocabulary": [
+        {
+          "term": "meaningful progress",
+          "meaning": "实质性进展",
+          "kind": "短语"
+        },
+        {
+          "term": "major health reforms",
+          "meaning": "重大医疗改革",
+          "kind": "短语"
+        }
+      ]
+    },
+    {
+      "id": "s11",
+      "en": "That is why the Reform think tank is launching a new programme of work entitled “Reimagining health”, supported by ten former health ministers.",
+      "zhReference": "因此，获得十名前卫生大臣支持的改革智库正推出一项名为“重新构想健康”的新工作计划。",
+      "vocabulary": [
+        {
+          "term": "think tank",
+          "meaning": "智库",
+          "kind": "短语"
+        },
+        {
+          "term": "entitled",
+          "meaning": "题为……的",
+          "kind": "熟词僻义"
+        }
+      ]
+    },
+    {
+      "id": "s12",
+      "en": "Together, we are calling for a much more open and honest conversation about the future of health in the UK, and an “urgent rethink” of the hospital-centric model we retain.",
+      "zhReference": "我们共同呼吁就英国医疗的未来展开更开放、诚实的讨论，并“紧急重新思考”目前仍维持的医院中心模式。",
+      "vocabulary": [
+        {
+          "term": "hospital-centric model",
+          "meaning": "以医院为中心的模式",
+          "kind": "短语"
+        },
+        {
+          "term": "urgent rethink",
+          "meaning": "紧急重新思考",
+          "kind": "短语"
+        }
+      ]
+    },
+    {
+      "id": "s13",
+      "en": "This must begin with the question of how we maximise the health of the nation, rather than “fix” the NHS.",
+      "zhReference": "首先要问的应该是如何最大限度增进国民健康，而不是如何“修补”国家医疗服务体系。",
+      "vocabulary": [
+        {
+          "term": "maximise the health of the nation",
+          "meaning": "最大限度提升国民健康",
+          "kind": "短语"
+        },
+        {
+          "term": "rather than “fix”",
+          "meaning": "而非仅仅修补",
+          "kind": "短语"
+        }
+      ]
+    },
+    {
+      "id": "s14",
+      "en": "It is estimated, for example, that healthcare accounts for only about 20% of health outcomes.",
+      "zhReference": "例如，据估计，医疗服务对健康结果的贡献只有约百分之二十。",
+      "vocabulary": [
+        {
+          "term": "accounts for only about 20%",
+          "meaning": "仅占约百分之二十",
+          "kind": "短语"
+        },
+        {
+          "term": "health outcomes",
+          "meaning": "健康结果",
+          "kind": "短语"
+        }
+      ]
+    },
+    {
+      "id": "s15",
+      "en": "Much more important are the places we live, work and socialise—yet there is no clear cross-government strategy for improving these social determinants of health.",
+      "zhReference": "更重要的是我们生活、工作与社交的环境；然而，政府各部门并无明确的跨部门战略来改善这些健康的社会决定因素。",
+      "vocabulary": [
+        {
+          "term": "social determinants of health",
+          "meaning": "健康的社会决定因素",
+          "kind": "短语"
+        },
+        {
+          "term": "cross-government strategy",
+          "meaning": "跨政府部门战略",
+          "kind": "短语"
+        }
+      ]
+    },
+    {
+      "id": "s16",
+      "en": "Worse, when policies like the national obesity strategy are scrapped, taxpayers are left with the heavy price tag of treating the illnesses, like diabetes, that result.",
+      "zhReference": "更糟的是，国家肥胖治理战略一类政策一旦被废除，纳税人就得承担治疗糖尿病等后续疾病的高昂费用。",
+      "vocabulary": [
+        {
+          "term": "scrapped",
+          "meaning": "被废除",
+          "kind": "生词"
+        },
+        {
+          "term": "heavy price tag",
+          "meaning": "高昂代价",
+          "kind": "短语"
+        },
+        {
+          "term": "taxpayers",
+          "meaning": "纳税人",
+          "kind": "生词"
+        }
+      ]
+    },
+    {
+      "id": "s17",
+      "en": "Reform wants to ask how power and resources should be distributed in our health system.",
+      "zhReference": "改革智库希望提出一个问题：卫生系统中的权力与资源应如何分配？",
+      "vocabulary": [
+        {
+          "term": "distributed",
+          "meaning": "分配",
+          "kind": "生词"
+        },
+        {
+          "term": "power and resources",
+          "meaning": "权力和资源",
+          "kind": "短语"
+        }
+      ]
+    },
+    {
+      "id": "s18",
+      "en": "What health functions should remain at the centre, and what should be given to local leaders, often responsible for services that create health, and with a much better understanding of the needs of their populations?",
+      "zhReference": "哪些卫生职能应留在中央，哪些应交由地方领导者负责？他们通常负责有助于促进健康的服务，也更了解本地居民的需求。",
+      "vocabulary": [
+        {
+          "term": "remain at the centre",
+          "meaning": "保留在中央",
+          "kind": "短语"
+        },
+        {
+          "term": "local leaders",
+          "meaning": "地方领导者",
+          "kind": "短语"
+        }
+      ]
+    }
+  ]
+}

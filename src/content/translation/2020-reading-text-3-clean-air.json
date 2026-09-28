@@ -1,0 +1,393 @@
+{
+  "title": "2020 真题 Text 3 · 清洁空气政策为何需要国家行动",
+  "description": "从马德里政策反复与伦敦超低排放区出发，讨论城市空气治理的局限。",
+  "source": "2020年真题.pdf · Reading Comprehension",
+  "author": "2020 English Exam",
+  "level": "intermediate",
+  "tags": [
+    "2020真题",
+    "Reading Comprehension",
+    "Air Pollution",
+    "Public Policy"
+  ],
+  "estimatedMinutes": 27,
+  "heroNote": "注意作者肯定城市行动，但强调应由国家层面约束汽车制造商。",
+  "publishedAt": "2020-01-01",
+  "sentences": [
+    {
+      "id": "s1",
+      "en": "Madrid was hailed as a public health guiding light last November when it rolled out ambitious restrictions on the most polluting cars.",
+      "zhReference": "去年十一月，马德里推出针对污染最严重汽车的大胆限制措施时，曾被誉为公共卫生领域的榜样。",
+      "vocabulary": [
+        {
+          "term": "hailed as",
+          "meaning": "被誉为",
+          "kind": "短语"
+        },
+        {
+          "term": "rolled out",
+          "meaning": "推出",
+          "kind": "短语"
+        },
+        {
+          "term": "polluting cars",
+          "meaning": "高污染汽车",
+          "kind": "短语"
+        }
+      ]
+    },
+    {
+      "id": "s2",
+      "en": "Seven months and one election day later, a new conservative city council suspended enforcement of the clean air zone, a first step toward its possible termination.",
+      "zhReference": "七个月和一次选举之后，新上台的保守派市议会暂停执行清洁空气区规定，这可能是最终废除该区的第一步。",
+      "vocabulary": [
+        {
+          "term": "suspended enforcement",
+          "meaning": "暂停执行",
+          "kind": "短语"
+        },
+        {
+          "term": "clean air zone",
+          "meaning": "清洁空气区",
+          "kind": "短语"
+        },
+        {
+          "term": "termination",
+          "meaning": "终止",
+          "kind": "生词"
+        }
+      ]
+    },
+    {
+      "id": "s3",
+      "en": "Mayor José Luis Martinez-Almeida made opposition to the zone a centrepiece of his election campaign, despite its success in improving air quality.",
+      "zhReference": "尽管清洁空气区成功改善了空气质量，市长何塞·路易斯·马丁内斯-阿尔梅达仍把反对该区作为竞选的核心议题。",
+      "vocabulary": [
+        {
+          "term": "centrepiece",
+          "meaning": "核心组成部分",
+          "kind": "生词"
+        },
+        {
+          "term": "despite its success",
+          "meaning": "尽管它取得成功",
+          "kind": "短语"
+        }
+      ]
+    },
+    {
+      "id": "s4",
+      "en": "A judge has now overruled the city’s decision to stop levying fines, ordering them restored.",
+      "zhReference": "如今，一名法官推翻了市政府停止罚款的决定，命令恢复征收罚款。",
+      "vocabulary": [
+        {
+          "term": "overruled",
+          "meaning": "推翻裁决",
+          "kind": "生词"
+        },
+        {
+          "term": "levying fines",
+          "meaning": "征收罚款",
+          "kind": "短语"
+        },
+        {
+          "term": "restored",
+          "meaning": "恢复",
+          "kind": "生词"
+        }
+      ]
+    },
+    {
+      "id": "s5",
+      "en": "But with legal battles ahead, the zone’s future looks uncertain at best.",
+      "zhReference": "但法律争斗仍在前方，清洁空气区的未来充其量也只能说不确定。",
+      "vocabulary": [
+        {
+          "term": "at best",
+          "meaning": "充其量",
+          "kind": "短语"
+        },
+        {
+          "term": "legal battles ahead",
+          "meaning": "未来的法律争斗",
+          "kind": "短语"
+        }
+      ]
+    },
+    {
+      "id": "s6",
+      "en": "Madrid’s back and forth on clean air is a pointed reminder of the limits to the patchwork, city-by-city approach that characterises efforts on air pollution across Europe, Britain very much included.",
+      "zhReference": "马德里在清洁空气政策上反复摇摆，鲜明地提醒我们：欧洲各地（英国也不例外）逐城施策、拼凑式应对空气污染的方法有其局限。",
+      "vocabulary": [
+        {
+          "term": "back and forth",
+          "meaning": "反复摇摆",
+          "kind": "短语"
+        },
+        {
+          "term": "patchwork, city-by-city approach",
+          "meaning": "各城各自为政的拼凑式办法",
+          "kind": "短语"
+        },
+        {
+          "term": "pointed reminder",
+          "meaning": "鲜明提醒",
+          "kind": "短语"
+        }
+      ]
+    },
+    {
+      "id": "s7",
+      "en": "Among other weaknesses, the measures cities must employ when left to tackle dirty air on their own are politically controversial, and therefore vulnerable.",
+      "zhReference": "这种做法的缺陷之一是：当城市被迫独自应对脏空气时，可采用的措施在政治上颇具争议，因而也很脆弱。",
+      "vocabulary": [
+        {
+          "term": "tackle dirty air on their own",
+          "meaning": "独自应对空气污染",
+          "kind": "短语"
+        },
+        {
+          "term": "vulnerable",
+          "meaning": "脆弱的",
+          "kind": "生词"
+        }
+      ]
+    },
+    {
+      "id": "s8",
+      "en": "That’s because they inevitably put the costs of cleaning the air on to individual drivers—who must pay fees or buy better vehicles—rather than on to the car manufacturers whose cheating is the real cause of our toxic pollution.",
+      "zhReference": "这是因为这些措施不可避免地把净化空气的成本转嫁给个人驾驶者——他们得交费或买更环保的车——而不是转嫁给作弊造假、造成有毒污染的汽车制造商。",
+      "vocabulary": [
+        {
+          "term": "put the costs of cleaning the air on to individual drivers",
+          "meaning": "把成本转嫁给个人司机",
+          "kind": "短语"
+        },
+        {
+          "term": "car manufacturers",
+          "meaning": "汽车制造商",
+          "kind": "短语"
+        },
+        {
+          "term": "toxic pollution",
+          "meaning": "有毒污染",
+          "kind": "短语"
+        }
+      ]
+    },
+    {
+      "id": "s9",
+      "en": "It’s not hard to imagine a similar reversal happening in London.",
+      "zhReference": "不难想象伦敦也会出现类似的政策逆转。",
+      "vocabulary": [
+        {
+          "term": "similar reversal",
+          "meaning": "类似的政策逆转",
+          "kind": "短语"
+        },
+        {
+          "term": "imagine",
+          "meaning": "设想",
+          "kind": "生词"
+        }
+      ]
+    },
+    {
+      "id": "s10",
+      "en": "The new ultra-low emission zone (Ulez) is likely to be a big issue in next year’s mayoral election.",
+      "zhReference": "新的超低排放区很可能成为明年市长选举中的重大议题。",
+      "vocabulary": [
+        {
+          "term": "ultra-low emission zone",
+          "meaning": "超低排放区",
+          "kind": "短语"
+        },
+        {
+          "term": "mayoral election",
+          "meaning": "市长选举",
+          "kind": "短语"
+        }
+      ]
+    },
+    {
+      "id": "s11",
+      "en": "And if Sadiq Khan wins and extends it to the North and South Circular roads in 2021 as he intends, it is sure to spark intense opposition from the far larger number of motorists who will then be affected.",
+      "zhReference": "如果萨迪克·汗获胜，并按计划在 2021 年把该区扩展至南北环路，届时受影响的驾驶者人数将大幅增加，势必引发强烈反对。",
+      "vocabulary": [
+        {
+          "term": "spark intense opposition",
+          "meaning": "引发强烈反对",
+          "kind": "短语"
+        },
+        {
+          "term": "motorists",
+          "meaning": "开车的人",
+          "kind": "生词"
+        },
+        {
+          "term": "extends it to",
+          "meaning": "将它扩展到",
+          "kind": "短语"
+        }
+      ]
+    },
+    {
+      "id": "s12",
+      "en": "It’s not that measures such as London’s Ulez are useless.",
+      "zhReference": "这并不是说伦敦超低排放区一类措施毫无用处。",
+      "vocabulary": [
+        {
+          "term": "not that measures such as London’s Ulez are useless",
+          "meaning": "不是说……毫无用处",
+          "kind": "短语"
+        },
+        {
+          "term": "measures",
+          "meaning": "措施",
+          "kind": "熟词僻义"
+        }
+      ]
+    },
+    {
+      "id": "s13",
+      "en": "Far from it.",
+      "zhReference": "事实恰恰相反。",
+      "vocabulary": [
+        {
+          "term": "Far from it",
+          "meaning": "恰恰相反",
+          "kind": "短语"
+        },
+        {
+          "term": "it",
+          "meaning": "指无用这一说法",
+          "kind": "熟词僻义"
+        }
+      ]
+    },
+    {
+      "id": "s14",
+      "en": "Local officials are using the levers that are available to them to safeguard residents’ health in the face of a serious threat.",
+      "zhReference": "面对严重威胁，地方官员正利用手头可用的政策工具保护居民健康。",
+      "vocabulary": [
+        {
+          "term": "using the levers",
+          "meaning": "利用政策杠杆",
+          "kind": "短语"
+        },
+        {
+          "term": "safeguard residents’ health",
+          "meaning": "保护居民健康",
+          "kind": "短语"
+        }
+      ]
+    },
+    {
+      "id": "s15",
+      "en": "The zones do deliver some improvements to air quality, and the science tells us that means real health benefits.",
+      "zhReference": "这些区域确实在一定程度上改善了空气质量，科学证据表明这会带来切实的健康益处。",
+      "vocabulary": [
+        {
+          "term": "do deliver",
+          "meaning": "确实带来",
+          "kind": "短语"
+        },
+        {
+          "term": "real health benefits",
+          "meaning": "真正的健康益处",
+          "kind": "短语"
+        }
+      ]
+    },
+    {
+      "id": "s16",
+      "en": "But mayors and councillors can only do so much about a problem that is far bigger than any one city or town.",
+      "zhReference": "但面对远超一城一镇范围的问题，市长和地方议员能做的终究有限。",
+      "vocabulary": [
+        {
+          "term": "can only do so much",
+          "meaning": "所能做的有限",
+          "kind": "短语"
+        },
+        {
+          "term": "councillors",
+          "meaning": "地方议员",
+          "kind": "生词"
+        }
+      ]
+    },
+    {
+      "id": "s17",
+      "en": "They are acting because national governments—Britain’s and others across Europe—have failed to do so.",
+      "zhReference": "他们之所以采取行动，是因为英国和欧洲其他国家的中央政府未能有所作为。",
+      "vocabulary": [
+        {
+          "term": "failed to do so",
+          "meaning": "未能有所作为",
+          "kind": "短语"
+        },
+        {
+          "term": "national governments",
+          "meaning": "中央政府",
+          "kind": "短语"
+        }
+      ]
+    },
+    {
+      "id": "s18",
+      "en": "Restrictions that keep highly polluting cars out of certain areas—city centres, “school streets”, even individual roads—are a response to the absence of a larger effort to properly enforce existing regulations and require auto companies to bring their vehicles into compliance.",
+      "zhReference": "限制高污染汽车进入市中心、“学校街道”甚至单条道路，是对更大范围政策缺位的回应：中央政府没有切实执行现有法规，也没有要求车企让汽车符合排放规定。",
+      "vocabulary": [
+        {
+          "term": "bring their vehicles into compliance",
+          "meaning": "使汽车符合规定",
+          "kind": "短语"
+        },
+        {
+          "term": "enforce existing regulations",
+          "meaning": "执行现有法规",
+          "kind": "短语"
+        },
+        {
+          "term": "school streets",
+          "meaning": "学校附近限制车辆进入的街道",
+          "kind": "短语"
+        }
+      ]
+    },
+    {
+      "id": "s19",
+      "en": "Wales has introduced special low speed limits to minimise pollution.",
+      "zhReference": "威尔士已推出特殊的低速限速措施以减少污染。",
+      "vocabulary": [
+        {
+          "term": "speed limits",
+          "meaning": "限速",
+          "kind": "短语"
+        },
+        {
+          "term": "minimise pollution",
+          "meaning": "减轻污染",
+          "kind": "短语"
+        }
+      ]
+    },
+    {
+      "id": "s20",
+      "en": "We’re doing everything but insist that manufacturers clean up their cars.",
+      "zhReference": "除了坚持要求汽车制造商清理车辆污染，我们几乎什么都做了。",
+      "vocabulary": [
+        {
+          "term": "everything but insist",
+          "meaning": "唯独没有坚持要求",
+          "kind": "短语"
+        },
+        {
+          "term": "clean up their cars",
+          "meaning": "解决汽车污染问题",
+          "kind": "短语"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,284 @@
+{
+  "title": "2015 真题 Text 2 · 第一代大学生的学业差距",
+  "description": "探讨第一代大学生所面临的隐性阶层壁垒及低成本干预措施。",
+  "source": "2015年真题.pdf · Reading Comprehension",
+  "author": "2015 English Exam",
+  "level": "intermediate",
+  "tags": [
+    "2015真题",
+    "Reading Comprehension",
+    "Education",
+    "Social Class"
+  ],
+  "estimatedMinutes": 23,
+  "heroNote": "注意 first-generation 的界定，以及文章由悲观的悖论转向乐观解决方案的结构。",
+  "publishedAt": "2015-01-01",
+  "sentences": [
+    {
+      "id": "s1",
+      "en": "For years, studies have found that first-generation college students—those who do not have a parent with a college degree—lag other students on a range of education achievement factors.",
+      "zhReference": "多年来，研究发现，第一代大学生——父母没有大学学位的学生——在一系列教育成绩指标上落后于其他学生。",
+      "vocabulary": [
+        {
+          "term": "first-generation college students",
+          "meaning": "第一代大学生；父母未取得大学学位的学生",
+          "kind": "短语"
+        },
+        {
+          "term": "lag other students",
+          "meaning": "落后于其他学生",
+          "kind": "短语"
+        },
+        {
+          "term": "achievement factors",
+          "meaning": "学业表现指标",
+          "kind": "短语"
+        }
+      ]
+    },
+    {
+      "id": "s2",
+      "en": "Their grades are lower and their dropout rates are higher.",
+      "zhReference": "他们的成绩较差，辍学率较高。",
+      "vocabulary": [
+        {
+          "term": "dropout rates",
+          "meaning": "辍学率",
+          "kind": "短语"
+        },
+        {
+          "term": "grades",
+          "meaning": "成绩",
+          "kind": "熟词僻义"
+        }
+      ]
+    },
+    {
+      "id": "s3",
+      "en": "But since such students are most likely to advance economically if they succeed in higher education, colleges and universities have pushed for decades to recruit more of them.",
+      "zhReference": "但由于这些学生一旦接受高等教育并顺利毕业，就最有可能改善经济状况，大学几十年来一直努力招收更多这样的学生。",
+      "vocabulary": [
+        {
+          "term": "advance economically",
+          "meaning": "改善经济状况",
+          "kind": "短语"
+        },
+        {
+          "term": "recruit",
+          "meaning": "招收",
+          "kind": "生词"
+        },
+        {
+          "term": "higher education",
+          "meaning": "高等教育",
+          "kind": "短语"
+        }
+      ]
+    },
+    {
+      "id": "s4",
+      "en": "This has created “a paradox” in that recruiting first-generation students, but then watching many of them fail, means that higher education has “continued to reproduce and widen, rather than close” an achievement gap based on social class, according to the depressing beginning of a paper forthcoming in the journal Psychological Science.",
+      "zhReference": "这造成了一种“悖论”：据一篇即将在《心理科学》期刊发表的论文开篇所述，高等教育招收第一代大学生，却又眼看着其中许多人失败，结果按社会阶层划分的学业差距不但没有缩小，反而“持续再现并扩大”。",
+      "vocabulary": [
+        {
+          "term": "paradox",
+          "meaning": "悖论",
+          "kind": "生词"
+        },
+        {
+          "term": "reproduce and widen",
+          "meaning": "重现并扩大",
+          "kind": "短语"
+        },
+        {
+          "term": "forthcoming",
+          "meaning": "即将发表的",
+          "kind": "生词"
+        }
+      ]
+    },
+    {
+      "id": "s5",
+      "en": "But the article is actually quite optimistic, as it outlines a potential solution to this problem, suggesting that an approach (which involves a one-hour, next-to-no-cost program) can close 63 percent of the achievement gap (measured by such factors as grades) between first-generation and other students.",
+      "zhReference": "但这篇论文实际上相当乐观：它提出了一种可能的解决办法，认为一项只需一小时、几乎不花钱的干预措施，可以缩小第一代大学生与其他学生之间百分之六十三的成绩差距，这种差距可通过分数等指标衡量。",
+      "vocabulary": [
+        {
+          "term": "outlines",
+          "meaning": "概述；提出",
+          "kind": "熟词僻义"
+        },
+        {
+          "term": "next-to-no-cost",
+          "meaning": "几乎零成本的",
+          "kind": "短语"
+        },
+        {
+          "term": "close 63 percent of",
+          "meaning": "缩小百分之六十三的差距",
+          "kind": "短语"
+        }
+      ]
+    },
+    {
+      "id": "s6",
+      "en": "The authors of the paper are from different universities, and their findings are based on a study involving 147 students (who completed the project) at an unnamed private university.",
+      "zhReference": "论文作者来自不同大学，他们的结论基于一所未具名私立大学的 147 名学生完成项目后的研究结果。",
+      "vocabulary": [
+        {
+          "term": "findings",
+          "meaning": "研究结果",
+          "kind": "熟词僻义"
+        },
+        {
+          "term": "unnamed private university",
+          "meaning": "未具名的私立大学",
+          "kind": "短语"
+        }
+      ]
+    },
+    {
+      "id": "s7",
+      "en": "First generation was defined as not having a parent with a four-year college degree.",
+      "zhReference": "“第一代大学生”的定义是父母均未取得四年制大学学位的学生。",
+      "vocabulary": [
+        {
+          "term": "four-year college degree",
+          "meaning": "四年制大学学位",
+          "kind": "短语"
+        },
+        {
+          "term": "defined as",
+          "meaning": "被界定为",
+          "kind": "短语"
+        }
+      ]
+    },
+    {
+      "id": "s8",
+      "en": "Most of the first-generation students (59.1 percent) were recipients of Pell Grants, a federal grant for undergraduates with financial need, while this was true only for 8.6 percent of the students with at least one parent with a four-year degree.",
+      "zhReference": "大多数第一代大学生（百分之五十九点一）都获得了佩尔助学金——面向经济困难本科生的联邦补助；而父母至少有一方拥有四年制大学学位的学生中，仅百分之八点六获得此类补助。",
+      "vocabulary": [
+        {
+          "term": "recipients of Pell Grants",
+          "meaning": "佩尔助学金获得者",
+          "kind": "短语"
+        },
+        {
+          "term": "undergraduates",
+          "meaning": "本科生",
+          "kind": "生词"
+        },
+        {
+          "term": "financial need",
+          "meaning": "经济困难",
+          "kind": "短语"
+        }
+      ]
+    },
+    {
+      "id": "s9",
+      "en": "Their thesis—that a relatively modest intervention could have a big impact—was based on the view that first-generation students may be most lacking not in potential but in practical knowledge about how to deal with the issues that face most college students.",
+      "zhReference": "他们的论点——相对温和的干预可能产生很大影响——基于这样一种看法：第一代大学生最缺乏的也许不是潜力，而是应对大学生普遍面临的问题所需的实用知识。",
+      "vocabulary": [
+        {
+          "term": "modest intervention",
+          "meaning": "适度的干预",
+          "kind": "短语"
+        },
+        {
+          "term": "potential",
+          "meaning": "潜力",
+          "kind": "生词"
+        },
+        {
+          "term": "practical knowledge",
+          "meaning": "实用知识",
+          "kind": "短语"
+        }
+      ]
+    },
+    {
+      "id": "s10",
+      "en": "They cite past research by several authors to show that this is the gap that must be narrowed to close the achievement gap.",
+      "zhReference": "他们引用多位作者早先的研究，说明必须弥合这种知识差距，才能缩小学业差距。",
+      "vocabulary": [
+        {
+          "term": "cite past research",
+          "meaning": "引用早先研究",
+          "kind": "短语"
+        },
+        {
+          "term": "narrowed",
+          "meaning": "缩小",
+          "kind": "熟词僻义"
+        },
+        {
+          "term": "achievement gap",
+          "meaning": "学业差距",
+          "kind": "短语"
+        }
+      ]
+    },
+    {
+      "id": "s11",
+      "en": "Many first-generation students “struggle to navigate the middle-class culture of higher education, learn the ‘rules of the game,’ and take advantage of college resources,” they write.",
+      "zhReference": "他们写道，许多第一代大学生“难以适应高等教育中的中产阶级文化，摸清其中的‘游戏规则’，并充分利用大学资源”。",
+      "vocabulary": [
+        {
+          "term": "navigate",
+          "meaning": "设法适应；应对",
+          "kind": "熟词僻义"
+        },
+        {
+          "term": "rules of the game",
+          "meaning": "隐性的行事规则",
+          "kind": "短语"
+        },
+        {
+          "term": "take advantage of",
+          "meaning": "充分利用",
+          "kind": "短语"
+        }
+      ]
+    },
+    {
+      "id": "s12",
+      "en": "And this becomes more of a problem when colleges don’t talk about the class advantages and disadvantages of different groups of students.",
+      "zhReference": "而当大学不谈论不同学生群体在社会阶层上的优势和劣势时，问题就会加剧。",
+      "vocabulary": [
+        {
+          "term": "class advantages and disadvantages",
+          "meaning": "阶层优势与劣势",
+          "kind": "短语"
+        },
+        {
+          "term": "different groups",
+          "meaning": "不同群体",
+          "kind": "短语"
+        }
+      ]
+    },
+    {
+      "id": "s13",
+      "en": "“Because US colleges and universities seldom acknowledge how social class can affect students’ educational experiences, many first-generation students lack insight about why they are struggling and do not understand how students ‘like them’ can improve.”",
+      "zhReference": "“由于美国大学很少承认社会阶层会影响学生的教育经历，许多第一代大学生不了解自己为何陷入困境，也不知道与自己‘处境相似’的学生该如何进步。”",
+      "vocabulary": [
+        {
+          "term": "acknowledge",
+          "meaning": "承认",
+          "kind": "生词"
+        },
+        {
+          "term": "lack insight about",
+          "meaning": "不理解……的深层原因",
+          "kind": "短语"
+        },
+        {
+          "term": "social class",
+          "meaning": "社会阶层",
+          "kind": "短语"
+        }
+      ]
+    }
+  ]
+}

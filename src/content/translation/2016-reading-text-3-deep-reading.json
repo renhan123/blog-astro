@@ -1,0 +1,410 @@
+{
+  "title": "2016 真题 Text 3 · 如何找回深度阅读的时间",
+  "description": "讨论效率思维为何妨碍沉浸式阅读，以及固定阅读时段的意义。",
+  "source": "2016年真题.pdf · Reading Comprehension",
+  "author": "2016 English Exam",
+  "level": "intermediate",
+  "tags": [
+    "2016真题",
+    "Reading Comprehension",
+    "Reading",
+    "Time"
+  ],
+  "estimatedMinutes": 25,
+  "heroNote": "区分挤出零散时间与创造适合深度阅读的时间状态。",
+  "publishedAt": "2016-01-01",
+  "sentences": [
+    {
+      "id": "s1",
+      "en": "That everyone’s too busy these days is a cliché.",
+      "zhReference": "如今人人都忙得不可开交，这话早已是老生常谈。",
+      "vocabulary": [
+        {
+          "term": "cliché",
+          "meaning": "老生常谈",
+          "kind": "生词"
+        },
+        {
+          "term": "too busy",
+          "meaning": "太忙",
+          "kind": "短语"
+        }
+      ]
+    },
+    {
+      "id": "s2",
+      "en": "But one specific complaint is made especially mournfully: There’s never any time to read.",
+      "zhReference": "但人们特别哀叹的一项具体抱怨是：永远没时间读书。",
+      "vocabulary": [
+        {
+          "term": "mournfully",
+          "meaning": "哀伤地",
+          "kind": "生词"
+        },
+        {
+          "term": "specific complaint",
+          "meaning": "具体抱怨",
+          "kind": "短语"
+        }
+      ]
+    },
+    {
+      "id": "s3",
+      "en": "What makes the problem thornier is that the usual time-management techniques don’t seem sufficient.",
+      "zhReference": "使这个问题更加棘手的是，通常的时间管理技巧似乎并不足以解决它。",
+      "vocabulary": [
+        {
+          "term": "thornier",
+          "meaning": "更棘手的",
+          "kind": "熟词僻义"
+        },
+        {
+          "term": "time-management techniques",
+          "meaning": "时间管理技巧",
+          "kind": "短语"
+        }
+      ]
+    },
+    {
+      "id": "s4",
+      "en": "The web’s full of articles offering tips on making time to read: “Give up TV” or “Carry a book with you at all times.”",
+      "zhReference": "网上满是教人挤出时间阅读的文章，建议如“少看电视”或“随时带一本书”。",
+      "vocabulary": [
+        {
+          "term": "making time to read",
+          "meaning": "挤时间读书",
+          "kind": "短语"
+        },
+        {
+          "term": "at all times",
+          "meaning": "随时",
+          "kind": "短语"
+        }
+      ]
+    },
+    {
+      "id": "s5",
+      "en": "But in my experience, using such methods to free up the odd 30 minutes doesn’t work.",
+      "zhReference": "但以我的经验，靠这些办法挤出零散的半小时并不奏效。",
+      "vocabulary": [
+        {
+          "term": "free up",
+          "meaning": "腾出",
+          "kind": "短语"
+        },
+        {
+          "term": "the odd 30 minutes",
+          "meaning": "偶尔零散的三十分钟",
+          "kind": "短语"
+        }
+      ]
+    },
+    {
+      "id": "s6",
+      "en": "Sit down to read and the flywheel of work-related thoughts keeps spinning—or else you’re so exhausted that a challenging book’s the last thing you need.",
+      "zhReference": "你坐下来读书，脑中与工作有关的念头却像飞轮一样转个不停；要不就是累得不行，最不想看的就是一本费脑筋的书。",
+      "vocabulary": [
+        {
+          "term": "flywheel",
+          "meaning": "飞轮；比喻停不下来的念头",
+          "kind": "熟词僻义"
+        },
+        {
+          "term": "keeps spinning",
+          "meaning": "不停旋转",
+          "kind": "短语"
+        },
+        {
+          "term": "the last thing you need",
+          "meaning": "最不想要的东西",
+          "kind": "短语"
+        }
+      ]
+    },
+    {
+      "id": "s7",
+      "en": "The modern mind, Tim Parks, a novelist and critic, writes, “is overwhelmingly inclined toward communication...",
+      "zhReference": "小说家兼评论家蒂姆·帕克斯写道，现代人的心智“极其倾向于交流……",
+      "vocabulary": [
+        {
+          "term": "overwhelmingly inclined toward",
+          "meaning": "强烈倾向于",
+          "kind": "短语"
+        },
+        {
+          "term": "novelist and critic",
+          "meaning": "小说家和评论家",
+          "kind": "短语"
+        }
+      ]
+    },
+    {
+      "id": "s8",
+      "en": "It is not simply that one is interrupted; it is that one is actually inclined to interruption.”",
+      "zhReference": "问题并不只是我们受到打断，更在于我们实际上主动倾向于被打断”。",
+      "vocabulary": [
+        {
+          "term": "inclined to interruption",
+          "meaning": "倾向于被打断",
+          "kind": "短语"
+        },
+        {
+          "term": "interrupted",
+          "meaning": "被打断",
+          "kind": "生词"
+        }
+      ]
+    },
+    {
+      "id": "s9",
+      "en": "Deep reading requires not just time, but a special kind of time which can’t be obtained merely by becoming more efficient.",
+      "zhReference": "深度阅读不仅需要时间，还需要一种特别的时间状态，单靠提高效率是得不到的。",
+      "vocabulary": [
+        {
+          "term": "Deep reading",
+          "meaning": "深度阅读",
+          "kind": "短语"
+        },
+        {
+          "term": "merely by",
+          "meaning": "仅仅通过",
+          "kind": "短语"
+        }
+      ]
+    },
+    {
+      "id": "s10",
+      "en": "In fact, “becoming more efficient” is part of the problem.",
+      "zhReference": "事实上，“变得更有效率”本身就是问题的一部分。",
+      "vocabulary": [
+        {
+          "term": "part of the problem",
+          "meaning": "问题的一部分",
+          "kind": "短语"
+        },
+        {
+          "term": "efficient",
+          "meaning": "高效的",
+          "kind": "生词"
+        }
+      ]
+    },
+    {
+      "id": "s11",
+      "en": "Thinking of time as a resource to be maximised means you approach it instrumentally, judging any given moment as well spent only in so far as it advances progress toward some goal.",
+      "zhReference": "把时间看成必须尽量充分利用的资源，就意味着以功利的方式对待时间：只有某个时刻推动我们朝目标前进，才认为它没有被浪费。",
+      "vocabulary": [
+        {
+          "term": "instrumentally",
+          "meaning": "功利地；把它当作工具",
+          "kind": "熟词僻义"
+        },
+        {
+          "term": "in so far as",
+          "meaning": "只有在……范围内",
+          "kind": "短语"
+        },
+        {
+          "term": "advances progress",
+          "meaning": "推动进展",
+          "kind": "短语"
+        }
+      ]
+    },
+    {
+      "id": "s12",
+      "en": "Immersive reading, by contrast, depends on being willing to risk inefficiency, goallessness, even time-wasting.",
+      "zhReference": "相比之下，沉浸式阅读要求人愿意承受低效、没有目标甚至浪费时间的风险。",
+      "vocabulary": [
+        {
+          "term": "Immersive reading",
+          "meaning": "沉浸式阅读",
+          "kind": "短语"
+        },
+        {
+          "term": "goallessness",
+          "meaning": "无目标状态",
+          "kind": "生词"
+        },
+        {
+          "term": "by contrast",
+          "meaning": "相比之下",
+          "kind": "短语"
+        }
+      ]
+    },
+    {
+      "id": "s13",
+      "en": "Try to slot it in as a to-do list item and you’ll manage only goal-focused reading—useful, sometimes, but not the most fulfilling kind.",
+      "zhReference": "如果试图把它塞进待办清单，你最终只能进行目标导向的阅读；这有时有用，但并非最有满足感的阅读。",
+      "vocabulary": [
+        {
+          "term": "slot it in",
+          "meaning": "把它硬塞进日程",
+          "kind": "短语"
+        },
+        {
+          "term": "to-do list item",
+          "meaning": "待办事项",
+          "kind": "短语"
+        },
+        {
+          "term": "goal-focused reading",
+          "meaning": "目标导向的阅读",
+          "kind": "短语"
+        }
+      ]
+    },
+    {
+      "id": "s14",
+      "en": "“The future comes at us like empty bottles along an unstoppable and nearly infinite conveyor belt,” writes Gary Eberle in his book Sacred Time, and “we feel a pressure to fill these different-sized bottles (days, hours, minutes) as they pass, for if they get by without being filled, we will have wasted them.”",
+      "zhReference": "加里·埃伯勒在《神圣时间》一书中写道：“未来就像无法停下、近乎无限长的传送带上的空瓶子不断朝我们而来；我们感到必须在不同大小的瓶子——天、小时、分钟——经过时把它们装满，因为如果瓶子空着过去，我们就觉得浪费了时间。”",
+      "vocabulary": [
+        {
+          "term": "conveyor belt",
+          "meaning": "传送带",
+          "kind": "短语"
+        },
+        {
+          "term": "get by",
+          "meaning": "过去；经过",
+          "kind": "熟词僻义"
+        },
+        {
+          "term": "nearly infinite",
+          "meaning": "近乎无限的",
+          "kind": "短语"
+        }
+      ]
+    },
+    {
+      "id": "s15",
+      "en": "No mind-set could be worse for losing yourself in a book.",
+      "zhReference": "没有比这种心态更不利于沉浸在一本书中的了。",
+      "vocabulary": [
+        {
+          "term": "mind-set",
+          "meaning": "心态；思维方式",
+          "kind": "生词"
+        },
+        {
+          "term": "losing yourself in a book",
+          "meaning": "沉浸在书里",
+          "kind": "短语"
+        }
+      ]
+    },
+    {
+      "id": "s16",
+      "en": "So what does work?",
+      "zhReference": "那么，什么方法有效呢？",
+      "vocabulary": [
+        {
+          "term": "does work",
+          "meaning": "确实有效",
+          "kind": "短语"
+        },
+        {
+          "term": "what",
+          "meaning": "什么方法",
+          "kind": "熟词僻义"
+        }
+      ]
+    },
+    {
+      "id": "s17",
+      "en": "Perhaps surprisingly, scheduling regular times for reading.",
+      "zhReference": "也许令人意外，安排固定的阅读时间是可行的。",
+      "vocabulary": [
+        {
+          "term": "scheduling regular times",
+          "meaning": "安排固定时段",
+          "kind": "短语"
+        },
+        {
+          "term": "surprisingly",
+          "meaning": "令人意外地",
+          "kind": "生词"
+        }
+      ]
+    },
+    {
+      "id": "s18",
+      "en": "You’d think this might fuel the efficiency mind-set, but in fact, Eberle notes, such ritualistic behaviour helps us “step outside time’s flow” into “soul time.”",
+      "zhReference": "你可能以为这会助长效率至上的思维，但埃伯勒指出，这种仪式化的行为其实有助于我们“走出时间的流动”，进入“心灵时间”。",
+      "vocabulary": [
+        {
+          "term": "fuel",
+          "meaning": "助长；推动",
+          "kind": "熟词僻义"
+        },
+        {
+          "term": "ritualistic behaviour",
+          "meaning": "仪式化行为",
+          "kind": "短语"
+        },
+        {
+          "term": "step outside time’s flow",
+          "meaning": "暂时跳出时间的流动",
+          "kind": "短语"
+        }
+      ]
+    },
+    {
+      "id": "s19",
+      "en": "You could limit distractions by reading only physical books, or on single-purpose e-readers.",
+      "zhReference": "你可以只读纸质书或使用单一用途的电子阅读器，来减少干扰。",
+      "vocabulary": [
+        {
+          "term": "single-purpose e-readers",
+          "meaning": "单一用途的电子阅读器",
+          "kind": "短语"
+        },
+        {
+          "term": "limit distractions",
+          "meaning": "减少干扰",
+          "kind": "短语"
+        }
+      ]
+    },
+    {
+      "id": "s20",
+      "en": "“Carry a book with you at all times” can actually work, too—providing you dip in often enough, so that reading becomes the default state from which you temporarily surface to take care of business, before dropping back down.",
+      "zhReference": "“随身带一本书”其实也有效——只要你足够频繁地翻阅，使阅读成为默认状态，而你只是偶尔从中抽身处理事务，然后又重新沉浸其中。",
+      "vocabulary": [
+        {
+          "term": "providing",
+          "meaning": "只要；条件是",
+          "kind": "熟词僻义"
+        },
+        {
+          "term": "dip in",
+          "meaning": "不时翻阅",
+          "kind": "短语"
+        },
+        {
+          "term": "take care of business",
+          "meaning": "处理事务",
+          "kind": "短语"
+        }
+      ]
+    },
+    {
+      "id": "s21",
+      "en": "On a really good day, it no longer feels as if you’re “making time to read,” but just reading, and making time for everything else.",
+      "zhReference": "在真正美好的一天，你不再觉得自己在“挤时间读书”，而是自然地读书，同时为其他所有事情挤出时间。",
+      "vocabulary": [
+        {
+          "term": "making time to read",
+          "meaning": "挤时间读书",
+          "kind": "短语"
+        },
+        {
+          "term": "everything else",
+          "meaning": "其他所有事",
+          "kind": "短语"
+        }
+      ]
+    }
+  ]
+}

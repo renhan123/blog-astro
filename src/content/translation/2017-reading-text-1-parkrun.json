@@ -1,0 +1,468 @@
+{
+  "title": "2017 真题 Text 1 · 公园跑与奥运遗产",
+  "description": "比较公园跑的开放参与理念与伦敦奥运会未能实现的全民运动目标。",
+  "source": "2017年真题.pdf · Reading Comprehension",
+  "author": "2017 English Exam",
+  "level": "intermediate",
+  "tags": [
+    "2017真题",
+    "Reading Comprehension",
+    "Sports",
+    "Public Policy"
+  ],
+  "estimatedMinutes": 28,
+  "heroNote": "留意 Parkrun 和奥运遗产的对比：重在参与，而非只强调胜利。",
+  "publishedAt": "2017-01-01",
+  "sentences": [
+    {
+      "id": "s1",
+      "en": "Every Saturday morning, at 9 am, more than 50,000 runners set off to run 5km around their local park.",
+      "zhReference": "每周六上午九点，五万多名跑者出发，绕着当地公园跑五公里。",
+      "vocabulary": [
+        {
+          "term": "set off",
+          "meaning": "出发",
+          "kind": "短语"
+        },
+        {
+          "term": "local park",
+          "meaning": "当地公园",
+          "kind": "短语"
+        }
+      ]
+    },
+    {
+      "id": "s2",
+      "en": "The Parkrun phenomenon began with a dozen friends and has inspired 400 events in the UK and more abroad.",
+      "zhReference": "公园跑这一现象始于十几位朋友，如今已在英国催生四百场活动，在海外也有更多活动。",
+      "vocabulary": [
+        {
+          "term": "phenomenon",
+          "meaning": "现象",
+          "kind": "生词"
+        },
+        {
+          "term": "inspired",
+          "meaning": "促成；带动",
+          "kind": "熟词僻义"
+        }
+      ]
+    },
+    {
+      "id": "s3",
+      "en": "Events are free, staffed by thousands of volunteers.",
+      "zhReference": "活动免费，由数千名志愿者提供服务。",
+      "vocabulary": [
+        {
+          "term": "staffed by",
+          "meaning": "由……配备人员",
+          "kind": "短语"
+        },
+        {
+          "term": "volunteers",
+          "meaning": "志愿者",
+          "kind": "生词"
+        }
+      ]
+    },
+    {
+      "id": "s4",
+      "en": "Runners range from four years old to grandparents; their times range from Andrew Baddeley’s world record 13 minutes 48 seconds up to an hour.",
+      "zhReference": "参加者从四岁儿童到祖父母辈都有；成绩从安德鲁·巴德利创造的十三分四十八秒世界纪录到一小时不等。",
+      "vocabulary": [
+        {
+          "term": "range from",
+          "meaning": "范围从……到……",
+          "kind": "短语"
+        },
+        {
+          "term": "world record",
+          "meaning": "世界纪录",
+          "kind": "短语"
+        }
+      ]
+    },
+    {
+      "id": "s5",
+      "en": "Parkrun is succeeding where London’s Olympic “legacy” is failing.",
+      "zhReference": "伦敦奥运会的“遗产”未能实现的目标，公园跑却做到了。",
+      "vocabulary": [
+        {
+          "term": "legacy",
+          "meaning": "遗产；后续影响",
+          "kind": "熟词僻义"
+        },
+        {
+          "term": "succeeding where",
+          "meaning": "在……失败之处成功",
+          "kind": "短语"
+        }
+      ]
+    },
+    {
+      "id": "s6",
+      "en": "Ten years ago on Monday, it was announced that the Games of the 30th Olympiad would be in London.",
+      "zhReference": "十年前的这个星期一，第三十届奥运会将由伦敦举办的消息正式公布。",
+      "vocabulary": [
+        {
+          "term": "Games of the 30th Olympiad",
+          "meaning": "第三十届奥运会",
+          "kind": "短语"
+        },
+        {
+          "term": "announced",
+          "meaning": "宣布",
+          "kind": "生词"
+        }
+      ]
+    },
+    {
+      "id": "s7",
+      "en": "Planning documents pledged that the great legacy of the Games would be to lever a nation of sport lovers away from their couches.",
+      "zhReference": "规划文件承诺，奥运会的重要遗产是把热爱体育的国民从沙发上拉起来。",
+      "vocabulary": [
+        {
+          "term": "lever",
+          "meaning": "撬动；促使",
+          "kind": "熟词僻义"
+        },
+        {
+          "term": "away from their couches",
+          "meaning": "让他们离开沙发参加运动",
+          "kind": "短语"
+        },
+        {
+          "term": "pledged",
+          "meaning": "承诺",
+          "kind": "生词"
+        }
+      ]
+    },
+    {
+      "id": "s8",
+      "en": "The population would be fitter, healthier and produce more winners.",
+      "zhReference": "人们将更健康、更强壮，并涌现更多冠军。",
+      "vocabulary": [
+        {
+          "term": "fitter",
+          "meaning": "更强健的",
+          "kind": "生词"
+        },
+        {
+          "term": "produce more winners",
+          "meaning": "培养更多优胜者",
+          "kind": "短语"
+        }
+      ]
+    },
+    {
+      "id": "s9",
+      "en": "It has not happened.",
+      "zhReference": "但这一愿景没有实现。",
+      "vocabulary": [
+        {
+          "term": "has not happened",
+          "meaning": "并未发生",
+          "kind": "短语"
+        },
+        {
+          "term": "It",
+          "meaning": "指代前文的愿景",
+          "kind": "熟词僻义"
+        }
+      ]
+    },
+    {
+      "id": "s10",
+      "en": "The number of adults doing weekly sport did rise, by nearly 2 million in the run-up to 2012—but the general population was growing faster.",
+      "zhReference": "在临近 2012 年奥运会的几年里，每周参加体育运动的成年人数的确增加了近两百万，但总人口的增长速度更快。",
+      "vocabulary": [
+        {
+          "term": "in the run-up to",
+          "meaning": "在……前的准备阶段",
+          "kind": "短语"
+        },
+        {
+          "term": "general population",
+          "meaning": "总人口",
+          "kind": "短语"
+        }
+      ]
+    },
+    {
+      "id": "s11",
+      "en": "Worse, the numbers are now falling at an accelerating rate.",
+      "zhReference": "更糟的是，参与人数如今正以越来越快的速度下降。",
+      "vocabulary": [
+        {
+          "term": "accelerating rate",
+          "meaning": "加快的速度",
+          "kind": "短语"
+        },
+        {
+          "term": "falling",
+          "meaning": "下降",
+          "kind": "熟词僻义"
+        }
+      ]
+    },
+    {
+      "id": "s12",
+      "en": "The opposition claims primary school pupils doing at least two hours of sport a week have nearly halved.",
+      "zhReference": "反对党称，每周至少运动两小时的小学生人数几乎减半。",
+      "vocabulary": [
+        {
+          "term": "the opposition",
+          "meaning": "反对党",
+          "kind": "短语"
+        },
+        {
+          "term": "have nearly halved",
+          "meaning": "几乎减半",
+          "kind": "短语"
+        }
+      ]
+    },
+    {
+      "id": "s13",
+      "en": "Obesity has risen among adults and children.",
+      "zhReference": "成年人和儿童的肥胖率都在上升。",
+      "vocabulary": [
+        {
+          "term": "Obesity",
+          "meaning": "肥胖症；肥胖率",
+          "kind": "生词"
+        },
+        {
+          "term": "among adults and children",
+          "meaning": "在成人和儿童中",
+          "kind": "短语"
+        }
+      ]
+    },
+    {
+      "id": "s14",
+      "en": "Official retrospections continue as to why London 2012 failed to “inspire a generation.”",
+      "zhReference": "官方仍在反思为什么伦敦奥运会未能“激励一代人”。",
+      "vocabulary": [
+        {
+          "term": "retrospections",
+          "meaning": "反思",
+          "kind": "生词"
+        },
+        {
+          "term": "inspire a generation",
+          "meaning": "激励一代人",
+          "kind": "短语"
+        }
+      ]
+    },
+    {
+      "id": "s15",
+      "en": "The success of Parkrun offers answers.",
+      "zhReference": "公园跑的成功提供了答案。",
+      "vocabulary": [
+        {
+          "term": "offers answers",
+          "meaning": "提供答案",
+          "kind": "短语"
+        },
+        {
+          "term": "success",
+          "meaning": "成功",
+          "kind": "生词"
+        }
+      ]
+    },
+    {
+      "id": "s16",
+      "en": "Parkrun is not a race but a time trial: Your only competitor is the clock.",
+      "zhReference": "公园跑不是比赛，而是计时测试：你唯一的对手是时钟。",
+      "vocabulary": [
+        {
+          "term": "time trial",
+          "meaning": "计时测试",
+          "kind": "短语"
+        },
+        {
+          "term": "competitor",
+          "meaning": "对手",
+          "kind": "生词"
+        }
+      ]
+    },
+    {
+      "id": "s17",
+      "en": "The ethos welcomes anybody.",
+      "zhReference": "它的理念是欢迎所有人参与。",
+      "vocabulary": [
+        {
+          "term": "ethos",
+          "meaning": "理念；精神",
+          "kind": "生词"
+        },
+        {
+          "term": "welcomes anybody",
+          "meaning": "欢迎任何人",
+          "kind": "短语"
+        }
+      ]
+    },
+    {
+      "id": "s18",
+      "en": "There is as much joy over a puffed-out first-timer being clapped over the line as there is about top talent shining.",
+      "zhReference": "气喘吁吁的初跑者在掌声中跑过终点所带来的喜悦，与顶尖选手表现出色时不相上下。",
+      "vocabulary": [
+        {
+          "term": "puffed-out",
+          "meaning": "气喘吁吁的",
+          "kind": "生词"
+        },
+        {
+          "term": "clapped over the line",
+          "meaning": "在掌声中跑过终点",
+          "kind": "短语"
+        },
+        {
+          "term": "top talent",
+          "meaning": "顶尖选手",
+          "kind": "短语"
+        }
+      ]
+    },
+    {
+      "id": "s19",
+      "en": "The Olympic bidders, by contrast, wanted to get more people doing sport and to produce more elite athletes.",
+      "zhReference": "相比之下，奥运申办者既想让更多人运动，也想培养更多精英运动员。",
+      "vocabulary": [
+        {
+          "term": "elite athletes",
+          "meaning": "精英运动员",
+          "kind": "短语"
+        },
+        {
+          "term": "by contrast",
+          "meaning": "相比之下",
+          "kind": "短语"
+        }
+      ]
+    },
+    {
+      "id": "s20",
+      "en": "The dual aim was mixed up: The stress on success over taking part was intimidating for newcomers.",
+      "zhReference": "这两个目标被混为一谈：过于强调获胜而非参与，让新手望而生畏。",
+      "vocabulary": [
+        {
+          "term": "dual aim",
+          "meaning": "双重目标",
+          "kind": "短语"
+        },
+        {
+          "term": "intimidating for newcomers",
+          "meaning": "让新手望而生畏",
+          "kind": "短语"
+        },
+        {
+          "term": "stress on success",
+          "meaning": "对成功的强调",
+          "kind": "短语"
+        }
+      ]
+    },
+    {
+      "id": "s21",
+      "en": "Indeed, there is something a little absurd in the state getting involved in the planning of such a fundamentally “grassroots” concept as community sports associations.",
+      "zhReference": "事实上，国家参与规划社区体育协会这种根本属于“草根”的事情，本身多少有点荒谬。",
+      "vocabulary": [
+        {
+          "term": "grassroots",
+          "meaning": "草根的；民间自发的",
+          "kind": "熟词僻义"
+        },
+        {
+          "term": "community sports associations",
+          "meaning": "社区体育组织",
+          "kind": "短语"
+        }
+      ]
+    },
+    {
+      "id": "s22",
+      "en": "If there is a role for government, it should really be getting involved in providing common goods—making sure there is space for playing fields and the money to pave tennis and netball courts, and encouraging the provision of all these activities in schools.",
+      "zhReference": "如果政府确实该发挥作用，它应该提供公共设施：确保有运动场地、铺设网球场和无挡板篮球场的经费，并鼓励学校开展这些运动。",
+      "vocabulary": [
+        {
+          "term": "common goods",
+          "meaning": "公共设施与服务",
+          "kind": "短语"
+        },
+        {
+          "term": "playing fields",
+          "meaning": "运动场地",
+          "kind": "短语"
+        },
+        {
+          "term": "provision of",
+          "meaning": "提供……",
+          "kind": "短语"
+        }
+      ]
+    },
+    {
+      "id": "s23",
+      "en": "But successive governments have presided over selling green spaces, squeezing money from local authorities and declining attention on sport in education.",
+      "zhReference": "但历届政府却放任绿地出售、削减地方政府经费，并减少对学校体育教育的关注。",
+      "vocabulary": [
+        {
+          "term": "successive governments",
+          "meaning": "历届政府",
+          "kind": "短语"
+        },
+        {
+          "term": "presided over",
+          "meaning": "任内发生且放任",
+          "kind": "熟词僻义"
+        },
+        {
+          "term": "squeezing money from",
+          "meaning": "从……削减经费",
+          "kind": "短语"
+        }
+      ]
+    },
+    {
+      "id": "s24",
+      "en": "Instead of wordy, worthy strategies, future governments need to do more to provide the conditions for sport to thrive.",
+      "zhReference": "未来的政府与其提出冗长而冠冕堂皇的战略，不如多做实事，为体育蓬勃发展创造条件。",
+      "vocabulary": [
+        {
+          "term": "wordy, worthy strategies",
+          "meaning": "冗长又自以为是的战略",
+          "kind": "短语"
+        },
+        {
+          "term": "thrive",
+          "meaning": "蓬勃发展",
+          "kind": "生词"
+        }
+      ]
+    },
+    {
+      "id": "s25",
+      "en": "Or at least not make them worse.",
+      "zhReference": "或者至少不要把这些条件弄得更糟。",
+      "vocabulary": [
+        {
+          "term": "make them worse",
+          "meaning": "使这些条件变得更糟",
+          "kind": "短语"
+        },
+        {
+          "term": "at least",
+          "meaning": "至少",
+          "kind": "短语"
+        }
+      ]
+    }
+  ]
+}

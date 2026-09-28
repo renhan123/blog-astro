@@ -1,0 +1,436 @@
+{
+  "title": "2023 真题 Text 4 · 青少年的叛逆与利他",
+  "description": "研究发现青春期的冒险叛逆与亲社会行为可能同步发展。",
+  "source": "2023年真题.pdf · Reading Comprehension",
+  "author": "2023 English Exam",
+  "level": "intermediate",
+  "tags": [
+    "2023真题",
+    "Reading Comprehension",
+    "Adolescence",
+    "Psychology"
+  ],
+  "estimatedMinutes": 27,
+  "heroNote": "抓住核心解释“奖励敏感度”，不要把叛逆等同于缺乏同情心。",
+  "publishedAt": "2023-01-01",
+  "sentences": [
+    {
+      "id": "s1",
+      "en": "Teenagers are paradoxical.",
+      "zhReference": "青少年是充满矛盾的。",
+      "vocabulary": [
+        {
+          "term": "paradoxical",
+          "meaning": "看似矛盾的",
+          "kind": "生词"
+        },
+        {
+          "term": "Teenagers",
+          "meaning": "青少年",
+          "kind": "生词"
+        }
+      ]
+    },
+    {
+      "id": "s2",
+      "en": "That’s a mild and detached way of saying something that parents often express with considerably stronger language.",
+      "zhReference": "这个说法还算温和客观；父母谈到同一现象时往往措辞激烈得多。",
+      "vocabulary": [
+        {
+          "term": "mild and detached",
+          "meaning": "温和而客观的",
+          "kind": "短语"
+        },
+        {
+          "term": "stronger language",
+          "meaning": "更激烈的措辞",
+          "kind": "短语"
+        }
+      ]
+    },
+    {
+      "id": "s3",
+      "en": "But the paradox is scientific as well as personal.",
+      "zhReference": "但这种矛盾不仅是个人感受，也有科学依据。",
+      "vocabulary": [
+        {
+          "term": "scientific as well as personal",
+          "meaning": "不仅个人感受也有科学依据",
+          "kind": "短语"
+        },
+        {
+          "term": "paradox",
+          "meaning": "矛盾",
+          "kind": "生词"
+        }
+      ]
+    },
+    {
+      "id": "s4",
+      "en": "In adolescence, helpless and dependent children who have relied on grown-ups for just about everything become independent people who can take care of themselves and help each other.",
+      "zhReference": "进入青春期后，曾几乎凡事依赖成人、无助的孩子，会成长为能够照顾自己并互相帮助的独立个体。",
+      "vocabulary": [
+        {
+          "term": "relied on grown-ups",
+          "meaning": "依赖成年人",
+          "kind": "短语"
+        },
+        {
+          "term": "take care of themselves",
+          "meaning": "照顾自己",
+          "kind": "短语"
+        }
+      ]
+    },
+    {
+      "id": "s5",
+      "en": "At the same time, once cheerful and compliant children become rebellious teenage risk-takers.",
+      "zhReference": "与此同时，过去开朗听话的孩子却变成叛逆、爱冒险的青少年。",
+      "vocabulary": [
+        {
+          "term": "compliant",
+          "meaning": "顺从的",
+          "kind": "生词"
+        },
+        {
+          "term": "risk-takers",
+          "meaning": "敢于冒险的人",
+          "kind": "短语"
+        }
+      ]
+    },
+    {
+      "id": "s6",
+      "en": "A new study published in the journal Child Development, by Eveline Crone of the University of Leiden and colleagues, suggests that the positive and negative sides of teenagers go hand in hand.",
+      "zhReference": "莱顿大学的埃弗琳·克龙等人在《儿童发展》期刊发表的新研究表明，青少年的积极面与消极面是相伴而生的。",
+      "vocabulary": [
+        {
+          "term": "go hand in hand",
+          "meaning": "相伴而生",
+          "kind": "短语"
+        },
+        {
+          "term": "positive and negative sides",
+          "meaning": "积极与消极两面",
+          "kind": "短语"
+        }
+      ]
+    },
+    {
+      "id": "s7",
+      "en": "The study is part of a new wave of thinking about adolescence.",
+      "zhReference": "这项研究属于重新认识青春期的一股新思潮。",
+      "vocabulary": [
+        {
+          "term": "new wave of thinking",
+          "meaning": "新的思潮",
+          "kind": "短语"
+        },
+        {
+          "term": "adolescence",
+          "meaning": "青春期",
+          "kind": "生词"
+        }
+      ]
+    },
+    {
+      "id": "s8",
+      "en": "For a long time, scientists and policy makers concentrated on the idea that teenagers were a problem that needed to be solved.",
+      "zhReference": "长期以来，科学家和政策制定者集中关注的观念是：青少年是一个需要解决的问题。",
+      "vocabulary": [
+        {
+          "term": "policy makers",
+          "meaning": "政策制定者",
+          "kind": "短语"
+        },
+        {
+          "term": "concentrated on",
+          "meaning": "集中关注",
+          "kind": "短语"
+        }
+      ]
+    },
+    {
+      "id": "s9",
+      "en": "The new work emphasizes that adolescence is a time of opportunity as well as risk.",
+      "zhReference": "这项新研究强调，青春期既有风险，也充满机会。",
+      "vocabulary": [
+        {
+          "term": "opportunity as well as risk",
+          "meaning": "机会与风险并存",
+          "kind": "短语"
+        },
+        {
+          "term": "emphasizes",
+          "meaning": "强调",
+          "kind": "生词"
+        }
+      ]
+    },
+    {
+      "id": "s10",
+      "en": "The researchers studied “prosocial” and rebellious traits in more than 200 children and young adults, ranging from 11 to 28 years old.",
+      "zhReference": "研究人员调查了两百多名十一岁至二十八岁的儿童和年轻人，考察他们的亲社会和叛逆特征。",
+      "vocabulary": [
+        {
+          "term": "prosocial",
+          "meaning": "亲社会的",
+          "kind": "生词"
+        },
+        {
+          "term": "rebellious traits",
+          "meaning": "叛逆特质",
+          "kind": "短语"
+        }
+      ]
+    },
+    {
+      "id": "s11",
+      "en": "The participants filled out questionnaires about how often they did things that were altruistic and positive, like sacrificing their own interests to help a friend, or rebellious and negative, like getting drunk or staying out late.",
+      "zhReference": "参与者填写问卷，报告自己多常做出利他和积极的事，例如牺牲自己的利益帮助朋友，或多常做出叛逆和消极的事，例如喝醉酒、夜不归宿。",
+      "vocabulary": [
+        {
+          "term": "altruistic",
+          "meaning": "利他的",
+          "kind": "生词"
+        },
+        {
+          "term": "sacrificing their own interests",
+          "meaning": "牺牲自己的利益",
+          "kind": "短语"
+        },
+        {
+          "term": "staying out late",
+          "meaning": "深夜不归",
+          "kind": "短语"
+        }
+      ]
+    },
+    {
+      "id": "s12",
+      "en": "Other studies have shown that rebellious behavior increases as you become a teenager and then fades away as you grow older.",
+      "zhReference": "其他研究表明，叛逆行为在进入青春期后增多，随着年龄增长又逐渐消退。",
+      "vocabulary": [
+        {
+          "term": "fades away",
+          "meaning": "渐渐消退",
+          "kind": "短语"
+        },
+        {
+          "term": "rebellious behavior",
+          "meaning": "叛逆行为",
+          "kind": "短语"
+        }
+      ]
+    },
+    {
+      "id": "s13",
+      "en": "But the new study shows that, interestingly, the same pattern holds for prosocial behavior.",
+      "zhReference": "但新研究有趣地发现，亲社会行为也遵循相同的变化规律。",
+      "vocabulary": [
+        {
+          "term": "same pattern holds for",
+          "meaning": "相同规律也适用于",
+          "kind": "短语"
+        },
+        {
+          "term": "interestingly",
+          "meaning": "有趣的是",
+          "kind": "生词"
+        }
+      ]
+    },
+    {
+      "id": "s14",
+      "en": "Teenagers were more likely than younger children or adults to report that they did things like unselfishly help a friend.",
+      "zhReference": "与更小的儿童或成年人相比，青少年更可能报告自己会无私地帮助朋友。",
+      "vocabulary": [
+        {
+          "term": "unselfishly help",
+          "meaning": "无私地帮助",
+          "kind": "短语"
+        },
+        {
+          "term": "report that",
+          "meaning": "报告自己……",
+          "kind": "短语"
+        }
+      ]
+    },
+    {
+      "id": "s15",
+      "en": "Most significantly, there was a positive correlation between prosociality and rebelliousness.",
+      "zhReference": "最重要的是，亲社会性与叛逆性呈正相关。",
+      "vocabulary": [
+        {
+          "term": "positive correlation",
+          "meaning": "正相关",
+          "kind": "短语"
+        },
+        {
+          "term": "prosociality",
+          "meaning": "亲社会性",
+          "kind": "生词"
+        },
+        {
+          "term": "rebelliousness",
+          "meaning": "叛逆性",
+          "kind": "生词"
+        }
+      ]
+    },
+    {
+      "id": "s16",
+      "en": "The teenagers who were more rebellious were also more likely to help others.",
+      "zhReference": "越叛逆的青少年，也越可能帮助别人。",
+      "vocabulary": [
+        {
+          "term": "more likely to help",
+          "meaning": "更可能帮助",
+          "kind": "短语"
+        },
+        {
+          "term": "rebellious",
+          "meaning": "叛逆的",
+          "kind": "生词"
+        }
+      ]
+    },
+    {
+      "id": "s17",
+      "en": "The good and bad sides of adolescence seem to develop together.",
+      "zhReference": "青春期的好与坏似乎同步发展。",
+      "vocabulary": [
+        {
+          "term": "develop together",
+          "meaning": "同步发展",
+          "kind": "短语"
+        },
+        {
+          "term": "good and bad sides",
+          "meaning": "好与坏两面",
+          "kind": "短语"
+        }
+      ]
+    },
+    {
+      "id": "s18",
+      "en": "Is there some common factor that underlies these apparently contradictory developments?",
+      "zhReference": "这些看似矛盾的发展，是否有共同的潜在因素？",
+      "vocabulary": [
+        {
+          "term": "underlies",
+          "meaning": "构成……的潜在基础",
+          "kind": "熟词僻义"
+        },
+        {
+          "term": "contradictory developments",
+          "meaning": "相互矛盾的发展",
+          "kind": "短语"
+        }
+      ]
+    },
+    {
+      "id": "s19",
+      "en": "One idea is that teenage behavior is related to what researchers call “reward sensitivity.”",
+      "zhReference": "一种看法是，青少年行为与研究人员所称的“奖励敏感度”有关。",
+      "vocabulary": [
+        {
+          "term": "reward sensitivity",
+          "meaning": "奖励敏感度",
+          "kind": "短语"
+        },
+        {
+          "term": "related to",
+          "meaning": "与……有关",
+          "kind": "短语"
+        }
+      ]
+    },
+    {
+      "id": "s20",
+      "en": "Decision-making always involves balancing rewards and risks, benefits and costs.",
+      "zhReference": "做决定总涉及权衡奖励与风险、收益与成本。",
+      "vocabulary": [
+        {
+          "term": "balancing rewards and risks",
+          "meaning": "权衡收益与风险",
+          "kind": "短语"
+        },
+        {
+          "term": "decision-making",
+          "meaning": "决策",
+          "kind": "短语"
+        }
+      ]
+    },
+    {
+      "id": "s21",
+      "en": "“Reward sensitivity” measures how much reward it takes to outweigh risk.",
+      "zhReference": "“奖励敏感度”衡量奖励需要有多大，才能超过所承担的风险。",
+      "vocabulary": [
+        {
+          "term": "outweigh risk",
+          "meaning": "超过风险",
+          "kind": "短语"
+        },
+        {
+          "term": "measures",
+          "meaning": "衡量",
+          "kind": "熟词僻义"
+        }
+      ]
+    },
+    {
+      "id": "s22",
+      "en": "Teenagers are particularly sensitive to social rewards—winning the game, impressing a new friend, getting that boy to notice you.",
+      "zhReference": "青少年对社交奖励特别敏感，比如赢得比赛、给新朋友留下印象，或让喜欢的男孩注意自己。",
+      "vocabulary": [
+        {
+          "term": "social rewards",
+          "meaning": "社交回报",
+          "kind": "短语"
+        },
+        {
+          "term": "impressing a new friend",
+          "meaning": "给新朋友留下印象",
+          "kind": "短语"
+        }
+      ]
+    },
+    {
+      "id": "s23",
+      "en": "Reward sensitivity, like prosocial behavior and risk-taking, seems to go up in adolescence and then down again as we age.",
+      "zhReference": "奖励敏感度和亲社会行为、冒险行为一样，似乎在青春期上升，成年后又下降。",
+      "vocabulary": [
+        {
+          "term": "go up in adolescence",
+          "meaning": "在青春期上升",
+          "kind": "短语"
+        },
+        {
+          "term": "risk-taking",
+          "meaning": "冒险行为",
+          "kind": "短语"
+        }
+      ]
+    },
+    {
+      "id": "s24",
+      "en": "Somehow, when you hit 30, the chance that something exciting and new will happen at that party just doesn’t seem to outweigh the effort of getting up off the couch.",
+      "zhReference": "不知为何，当你到了三十岁，参加聚会可能遇到新鲜有趣事情的机会，似乎已不足以抵消离开沙发的麻烦。",
+      "vocabulary": [
+        {
+          "term": "hit 30",
+          "meaning": "年满三十",
+          "kind": "短语"
+        },
+        {
+          "term": "outweigh the effort",
+          "meaning": "抵得过所费力气",
+          "kind": "短语"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,322 @@
+{
+  "title": "2024 真题 Text 3 · 老年驾驶员的安全问题",
+  "description": "探讨如何评估老年人的驾驶能力，以及驾照续证与车辆设计的作用。",
+  "source": "2024年真题.pdf · Reading Comprehension",
+  "author": "2024 English Exam",
+  "level": "intermediate",
+  "tags": [
+    "2024真题",
+    "Reading Comprehension",
+    "Aging",
+    "Road Safety"
+  ],
+  "estimatedMinutes": 26,
+  "heroNote": "注意“亲自续证”和“视力测试”的效果，以及二者叠加不一定更有效。",
+  "publishedAt": "2024-01-01",
+  "sentences": [
+    {
+      "id": "s1",
+      "en": "One of the biggest challenges in keeping unsafe aging drivers off the road is convincing them that it’s time to turn over the keys.",
+      "zhReference": "让不再具备安全驾驶能力的老年人远离道路，最大的挑战之一是说服他们该交出车钥匙了。",
+      "vocabulary": [
+        {
+          "term": "turn over the keys",
+          "meaning": "交出车钥匙；停止驾驶",
+          "kind": "短语"
+        },
+        {
+          "term": "off the road",
+          "meaning": "不再上路",
+          "kind": "短语"
+        }
+      ]
+    },
+    {
+      "id": "s2",
+      "en": "“It’s a complete life-changer” when someone stops—or is forced to stop—driving, said former risk manager Anne M. Menke.",
+      "zhReference": "前风险经理安妮·门克说，当一个人停止驾驶或被迫停止驾驶时，“这会彻底改变他的生活”。",
+      "vocabulary": [
+        {
+          "term": "life-changer",
+          "meaning": "改变生活的大事",
+          "kind": "生词"
+        },
+        {
+          "term": "forced to stop",
+          "meaning": "被迫停止",
+          "kind": "短语"
+        }
+      ]
+    },
+    {
+      "id": "s3",
+      "en": "“The American Medical Association advises physicians that ‘in situations where clear evidence of substantial driving impairment implies a strong threat to patient and public safety, and where the physician’s advice to discontinue driving privileges is ignored, it is desirable and ethical to notify the Department of Motor Vehicles,” Menke wrote.",
+      "zhReference": "门克写道：“美国医学会建议医生，‘在有明确证据表明驾驶能力严重受损、对患者和公众安全构成重大威胁，而且医生建议停止驾驶却遭忽视的情况下，通知机动车管理部门是可取且合乎伦理的。’",
+      "vocabulary": [
+        {
+          "term": "driving impairment",
+          "meaning": "驾驶能力受损",
+          "kind": "短语"
+        },
+        {
+          "term": "discontinue driving privileges",
+          "meaning": "停止驾车资格",
+          "kind": "短语"
+        },
+        {
+          "term": "Department of Motor Vehicles",
+          "meaning": "机动车管理部门",
+          "kind": "短语"
+        }
+      ]
+    },
+    {
+      "id": "s4",
+      "en": "“Some states require physicians to report, others allow but do not mandate reports, while a few consider a report a breach of confidentiality.",
+      "zhReference": "“有些州要求医生报告，有些州允许但不强制报告，另有少数州则认为报告违反保密义务。",
+      "vocabulary": [
+        {
+          "term": "breach of confidentiality",
+          "meaning": "违反保密义务",
+          "kind": "短语"
+        },
+        {
+          "term": "mandate reports",
+          "meaning": "强制要求报告",
+          "kind": "短语"
+        }
+      ]
+    },
+    {
+      "id": "s5",
+      "en": "There could be liability and penalties if a physician does not act in accordance with state laws on reporting and confidentiality,” she counseled.",
+      "zhReference": "如果医生的行为不符合本州关于报告与保密的法律，可能承担责任并受到处罚。”她提醒道。",
+      "vocabulary": [
+        {
+          "term": "in accordance with",
+          "meaning": "依照",
+          "kind": "短语"
+        },
+        {
+          "term": "liability and penalties",
+          "meaning": "法律责任和处罚",
+          "kind": "短语"
+        }
+      ]
+    },
+    {
+      "id": "s6",
+      "en": "Part of the problem in keeping older drivers safe is that the difficulties are addressed piecemeal by different professions with different focuses, including gerontologists, highway administration officials, automotive engineers and others, said gerontologist Elizabeth Dugan.",
+      "zhReference": "老龄学专家伊丽莎白·杜根说，保障老年司机安全的一部分难题在于，老龄学专家、公路管理人员、汽车工程师等不同专业人士各有侧重，零敲碎打地处理问题。",
+      "vocabulary": [
+        {
+          "term": "addressed piecemeal",
+          "meaning": "零碎地处理",
+          "kind": "短语"
+        },
+        {
+          "term": "gerontologists",
+          "meaning": "老龄学专家",
+          "kind": "生词"
+        },
+        {
+          "term": "automotive engineers",
+          "meaning": "汽车工程师",
+          "kind": "短语"
+        }
+      ]
+    },
+    {
+      "id": "s7",
+      "en": "“There’s not a National Institute of Older Driver Studies,” she said.",
+      "zhReference": "她说：“并不存在一个全国老年驾驶员研究所。”",
+      "vocabulary": [
+        {
+          "term": "Older Driver Studies",
+          "meaning": "老年驾驶员研究",
+          "kind": "短语"
+        },
+        {
+          "term": "National Institute",
+          "meaning": "国家研究所",
+          "kind": "短语"
+        }
+      ]
+    },
+    {
+      "id": "s8",
+      "en": "“We need better evidence on what makes drivers unsafe” and what can help, said Dugan.",
+      "zhReference": "杜根说：“我们需要更好的证据，弄清是什么让司机驾驶不安全，以及什么措施有帮助。”",
+      "vocabulary": [
+        {
+          "term": "what makes drivers unsafe",
+          "meaning": "驾驶不安全的原因",
+          "kind": "短语"
+        },
+        {
+          "term": "better evidence",
+          "meaning": "更充分的证据",
+          "kind": "短语"
+        }
+      ]
+    },
+    {
+      "id": "s9",
+      "en": "One thing that does seem to work is requiring drivers to report in person for license renewal.",
+      "zhReference": "确实看似有效的一项措施是要求司机亲自到场更新驾照。",
+      "vocabulary": [
+        {
+          "term": "report in person",
+          "meaning": "本人到场",
+          "kind": "短语"
+        },
+        {
+          "term": "license renewal",
+          "meaning": "驾照更新",
+          "kind": "短语"
+        }
+      ]
+    },
+    {
+      "id": "s10",
+      "en": "Mandatory in-person renewal was associated with a 31 percent reduction in fatal crashes involving drivers 85 or older, according to one study.",
+      "zhReference": "一项研究显示，强制亲自续证与八十五岁及以上司机所涉致命车祸减少百分之三十一相关。",
+      "vocabulary": [
+        {
+          "term": "associated with",
+          "meaning": "与……有关联",
+          "kind": "短语"
+        },
+        {
+          "term": "fatal crashes",
+          "meaning": "致命车祸",
+          "kind": "短语"
+        }
+      ]
+    },
+    {
+      "id": "s11",
+      "en": "Passing vision tests also produced a similar decline in fatal crashes for those drivers, although there appeared to be no benefit from combining the two.",
+      "zhReference": "通过视力测试也使这类司机的致命车祸比例出现类似下降，不过两种措施一起采用似乎并没有额外好处。",
+      "vocabulary": [
+        {
+          "term": "vision tests",
+          "meaning": "视力测试",
+          "kind": "短语"
+        },
+        {
+          "term": "combining the two",
+          "meaning": "两者结合",
+          "kind": "短语"
+        }
+      ]
+    },
+    {
+      "id": "s12",
+      "en": "Many older drivers don’t see eye doctors or can’t afford to.",
+      "zhReference": "许多老年司机不看眼科医生，或者负担不起眼科检查。",
+      "vocabulary": [
+        {
+          "term": "can’t afford to",
+          "meaning": "负担不起",
+          "kind": "短语"
+        },
+        {
+          "term": "eye doctors",
+          "meaning": "眼科医生",
+          "kind": "短语"
+        }
+      ]
+    },
+    {
+      "id": "s13",
+      "en": "Primary care providers have their hands full and may not be able to follow through with patients who have trouble driving because they can’t turn their heads or remember where they are going—or have gotten shorter and haven’t changed their seat settings sufficiently to reach car pedals easily.",
+      "zhReference": "初级保健医生已忙得不可开交，可能无力持续跟进这些驾驶困难的患者：有的人转不了头或记不住目的地；有的人身高缩短后没充分调整座椅位置，难以轻松踩到踏板。",
+      "vocabulary": [
+        {
+          "term": "have their hands full",
+          "meaning": "忙得不可开交",
+          "kind": "短语"
+        },
+        {
+          "term": "follow through with",
+          "meaning": "持续跟进",
+          "kind": "短语"
+        },
+        {
+          "term": "seat settings",
+          "meaning": "座椅设置",
+          "kind": "短语"
+        }
+      ]
+    },
+    {
+      "id": "s14",
+      "en": "As long as there are other cars on the roads, self-driving cars won’t solve the problems of crashes, said Dugan.",
+      "zhReference": "杜根说，只要路上还有其他车，自动驾驶汽车就无法解决撞车问题。",
+      "vocabulary": [
+        {
+          "term": "self-driving cars",
+          "meaning": "自动驾驶汽车",
+          "kind": "短语"
+        },
+        {
+          "term": "As long as",
+          "meaning": "只要",
+          "kind": "短语"
+        }
+      ]
+    },
+    {
+      "id": "s15",
+      "en": "Avoiding dangers posed by all those human drivers would require too many algorithms, she said.",
+      "zhReference": "她说，要避开所有人类驾驶员造成的危险，需要太多算法。",
+      "vocabulary": [
+        {
+          "term": "algorithms",
+          "meaning": "算法",
+          "kind": "生词"
+        },
+        {
+          "term": "posed by",
+          "meaning": "由……造成的",
+          "kind": "短语"
+        }
+      ]
+    },
+    {
+      "id": "s16",
+      "en": "But we need to do more to improve safety, said Dugan.",
+      "zhReference": "不过杜根表示，我们仍应采取更多措施提高安全性。",
+      "vocabulary": [
+        {
+          "term": "improve safety",
+          "meaning": "提高安全性",
+          "kind": "短语"
+        },
+        {
+          "term": "do more",
+          "meaning": "做得更多",
+          "kind": "短语"
+        }
+      ]
+    },
+    {
+      "id": "s17",
+      "en": "“If we’re going to have 100-year lives, we need cars that a 90-year-old can drive comfortably.”",
+      "zhReference": "“如果我们将迎来百岁人生，就需要让九十岁的人也能舒适驾驶的汽车。”",
+      "vocabulary": [
+        {
+          "term": "100-year lives",
+          "meaning": "百岁人生",
+          "kind": "短语"
+        },
+        {
+          "term": "drive comfortably",
+          "meaning": "舒适地驾驶",
+          "kind": "短语"
+        }
+      ]
+    }
+  ]
+}

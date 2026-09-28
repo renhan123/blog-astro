@@ -1,0 +1,358 @@
+{
+  "title": "2023 真题 Text 3 · 互联网与认知卸载",
+  "description": "讨论数字技术改变记忆内容和学习方式，但是否损害记忆能力尚无定论。",
+  "source": "2023年真题.pdf · Reading Comprehension",
+  "author": "2023 English Exam",
+  "level": "intermediate",
+  "tags": [
+    "2023真题",
+    "Reading Comprehension",
+    "Memory",
+    "Technology"
+  ],
+  "estimatedMinutes": 26,
+  "heroNote": "分清“改变记住什么”和“损害记忆能力”，留意研究结论的限定。",
+  "publishedAt": "2023-01-01",
+  "sentences": [
+    {
+      "id": "s1",
+      "en": "The Internet may be changing merely what we remember, not our capacity to do so, suggests Columbia University psychology professor Betsy Sparrow.",
+      "zhReference": "哥伦比亚大学心理学教授贝齐·斯帕罗认为，互联网或许只是改变了我们记住什么，而没有改变记忆能力本身。",
+      "vocabulary": [
+        {
+          "term": "capacity to do so",
+          "meaning": "记忆的能力",
+          "kind": "短语"
+        },
+        {
+          "term": "merely what we remember",
+          "meaning": "仅仅是我们记住什么",
+          "kind": "短语"
+        }
+      ]
+    },
+    {
+      "id": "s2",
+      "en": "In 2011, Sparrow led a study in which participants were asked to record 40 factoids in a computer (“an ostrich’s eye is bigger than its brain,” for example).",
+      "zhReference": "2011 年，斯帕罗主持一项研究，要求参与者在电脑里记录四十条小事实，例如“鸵鸟的眼睛比大脑还大”。",
+      "vocabulary": [
+        {
+          "term": "factoids",
+          "meaning": "小事实",
+          "kind": "生词"
+        },
+        {
+          "term": "record 40 factoids",
+          "meaning": "记录四十条小事实",
+          "kind": "短语"
+        }
+      ]
+    },
+    {
+      "id": "s3",
+      "en": "Half of the participants were told the information would be erased, while the other half were told it would be saved.",
+      "zhReference": "一半参与者被告知信息将被删除，另一半则被告知信息会被保存。",
+      "vocabulary": [
+        {
+          "term": "erased",
+          "meaning": "被删除",
+          "kind": "生词"
+        },
+        {
+          "term": "saved",
+          "meaning": "被保存",
+          "kind": "熟词僻义"
+        }
+      ]
+    },
+    {
+      "id": "s4",
+      "en": "Guess what?",
+      "zhReference": "猜猜结果怎样？",
+      "vocabulary": [
+        {
+          "term": "Guess what",
+          "meaning": "猜猜结果",
+          "kind": "短语"
+        },
+        {
+          "term": "what",
+          "meaning": "什么",
+          "kind": "生词"
+        }
+      ]
+    },
+    {
+      "id": "s5",
+      "en": "The latter group made no effort to recall the information when quizzed on it later, because they knew they could find it on their computers.",
+      "zhReference": "后一组在后来接受提问时，没有努力回想信息，因为他们知道可以在电脑里找到。",
+      "vocabulary": [
+        {
+          "term": "latter group",
+          "meaning": "后一组",
+          "kind": "短语"
+        },
+        {
+          "term": "quizzed on it",
+          "meaning": "就此接受提问",
+          "kind": "短语"
+        }
+      ]
+    },
+    {
+      "id": "s6",
+      "en": "In the same study, a group was asked to remember both the information and the folders it was stored in.",
+      "zhReference": "同一项研究还要求一组人同时记住信息及其存放的文件夹。",
+      "vocabulary": [
+        {
+          "term": "stored in",
+          "meaning": "存放于",
+          "kind": "短语"
+        },
+        {
+          "term": "folders",
+          "meaning": "文件夹",
+          "kind": "生词"
+        }
+      ]
+    },
+    {
+      "id": "s7",
+      "en": "They didn’t remember the information, but they remembered how to find the folders.",
+      "zhReference": "他们不记得信息本身，却记得如何找到文件夹。",
+      "vocabulary": [
+        {
+          "term": "remembered how to find",
+          "meaning": "记得如何找到",
+          "kind": "短语"
+        },
+        {
+          "term": "information",
+          "meaning": "信息",
+          "kind": "生词"
+        }
+      ]
+    },
+    {
+      "id": "s8",
+      "en": "In other words, human memory is not deteriorating but “adapting to new communications technology,” Sparrow says.",
+      "zhReference": "斯帕罗说，换句话说，人的记忆并未退化，而是在“适应新的通信技术”。",
+      "vocabulary": [
+        {
+          "term": "deteriorating",
+          "meaning": "退化",
+          "kind": "生词"
+        },
+        {
+          "term": "adapting to",
+          "meaning": "适应",
+          "kind": "短语"
+        }
+      ]
+    },
+    {
+      "id": "s9",
+      "en": "In a very practical way, the Internet is becoming an external hard drive for our memories, a process known as “cognitive offloading.”",
+      "zhReference": "在非常实际的意义上，互联网正成为我们记忆的外置硬盘，这个过程叫作“认知卸载”。",
+      "vocabulary": [
+        {
+          "term": "external hard drive",
+          "meaning": "外置硬盘",
+          "kind": "短语"
+        },
+        {
+          "term": "cognitive offloading",
+          "meaning": "认知卸载",
+          "kind": "短语"
+        }
+      ]
+    },
+    {
+      "id": "s10",
+      "en": "Traditionally, this role was fulfilled by data banks, libraries, and other humans.",
+      "zhReference": "过去承担这种角色的是数据库、图书馆和其他人。",
+      "vocabulary": [
+        {
+          "term": "data banks",
+          "meaning": "数据库",
+          "kind": "短语"
+        },
+        {
+          "term": "fulfilled by",
+          "meaning": "由……完成",
+          "kind": "短语"
+        }
+      ]
+    },
+    {
+      "id": "s11",
+      "en": "Your father may never remember birthdays because your mother does, for instance.",
+      "zhReference": "例如，爸爸或许从不记得生日，因为妈妈记得。",
+      "vocabulary": [
+        {
+          "term": "for instance",
+          "meaning": "例如",
+          "kind": "短语"
+        },
+        {
+          "term": "remember birthdays",
+          "meaning": "记得生日",
+          "kind": "短语"
+        }
+      ]
+    },
+    {
+      "id": "s12",
+      "en": "Some worry that this is having a destructive effect on society, but Sparrow sees an upside.",
+      "zhReference": "有些人担心这会对社会造成破坏，但斯帕罗看到了积极的一面。",
+      "vocabulary": [
+        {
+          "term": "destructive effect",
+          "meaning": "破坏性影响",
+          "kind": "短语"
+        },
+        {
+          "term": "sees an upside",
+          "meaning": "看到好处",
+          "kind": "短语"
+        }
+      ]
+    },
+    {
+      "id": "s13",
+      "en": "Perhaps, she suggests, the trend will change our approach to learning from a focus on individual facts and memorization to an emphasis on more conceptual thinking—something that is not available on the Internet.",
+      "zhReference": "她认为，这种趋势或许会让我们的学习方法从关注个别事实和死记硬背，转向更重视概念思维——这种能力无法直接从互联网上获取。",
+      "vocabulary": [
+        {
+          "term": "conceptual thinking",
+          "meaning": "概念思维",
+          "kind": "短语"
+        },
+        {
+          "term": "memorization",
+          "meaning": "记忆；死记硬背",
+          "kind": "生词"
+        }
+      ]
+    },
+    {
+      "id": "s14",
+      "en": "“I personally have never seen all that much intellectual value in memorizing things,” Sparrow says, adding that we haven’t lost our ability to do it.",
+      "zhReference": "斯帕罗说：“我个人从没觉得记住事物有那么大的智力价值。”她还补充说，我们并没有失去记忆的能力。",
+      "vocabulary": [
+        {
+          "term": "intellectual value",
+          "meaning": "智力价值",
+          "kind": "短语"
+        },
+        {
+          "term": "lost our ability",
+          "meaning": "失去能力",
+          "kind": "短语"
+        }
+      ]
+    },
+    {
+      "id": "s15",
+      "en": "Still other experts say it’s too soon to understand how the Internet affects our brains.",
+      "zhReference": "另一些专家则表示，现在还太早，无法弄清互联网如何影响我们的大脑。",
+      "vocabulary": [
+        {
+          "term": "too soon to understand",
+          "meaning": "还太早而无法理解",
+          "kind": "短语"
+        },
+        {
+          "term": "affects our brains",
+          "meaning": "影响我们大脑",
+          "kind": "短语"
+        }
+      ]
+    },
+    {
+      "id": "s16",
+      "en": "There is no experimental evidence showing that it interferes with our ability to focus, for instance, wrote psychologists Christopher Chabris and Daniel J. Simons.",
+      "zhReference": "例如，心理学家克里斯托弗·查布里斯和丹尼尔·西蒙斯写道，没有实验证据表明互联网妨碍我们的专注能力。",
+      "vocabulary": [
+        {
+          "term": "experimental evidence",
+          "meaning": "实验证据",
+          "kind": "短语"
+        },
+        {
+          "term": "interferes with",
+          "meaning": "干扰",
+          "kind": "短语"
+        }
+      ]
+    },
+    {
+      "id": "s17",
+      "en": "And surfing the web exercised the brain more than reading did among computer-savvy older adults in a 2008 study involving 24 participants at the Semel Institute for Neuroscience and Human Behavior at the University of California, Los Angeles.",
+      "zhReference": "而加州大学洛杉矶分校塞梅尔神经科学与人类行为研究所 2008 年的一项研究发现，在二十四名熟悉电脑的老年参与者中，上网比阅读更能锻炼大脑。",
+      "vocabulary": [
+        {
+          "term": "computer-savvy older adults",
+          "meaning": "熟悉计算机的老年人",
+          "kind": "短语"
+        },
+        {
+          "term": "surfing the web",
+          "meaning": "浏览互联网",
+          "kind": "短语"
+        }
+      ]
+    },
+    {
+      "id": "s18",
+      "en": "“There may be costs associated with our increased reliance on the Internet, but I’d have to imagine that overall the benefits are going to outweigh those costs,” observes psychology professor Benjamin Storm.",
+      "zhReference": "心理学教授本杰明·斯托姆说：“我们越来越依赖互联网可能会付出代价，但我猜总体上收益会超过成本。”",
+      "vocabulary": [
+        {
+          "term": "outweigh those costs",
+          "meaning": "超过那些成本",
+          "kind": "短语"
+        },
+        {
+          "term": "increased reliance on",
+          "meaning": "日益依赖",
+          "kind": "短语"
+        }
+      ]
+    },
+    {
+      "id": "s19",
+      "en": "“It seems pretty clear that memory is changing, but is it changing for the better?",
+      "zhReference": "“记忆显然正在变化，但这是朝更好的方向变化吗？",
+      "vocabulary": [
+        {
+          "term": "for the better",
+          "meaning": "向好的方向",
+          "kind": "短语"
+        },
+        {
+          "term": "pretty clear",
+          "meaning": "相当明显",
+          "kind": "短语"
+        }
+      ]
+    },
+    {
+      "id": "s20",
+      "en": "At this point, we don’t know.”",
+      "zhReference": "目前我们还不知道。”",
+      "vocabulary": [
+        {
+          "term": "At this point",
+          "meaning": "目前",
+          "kind": "短语"
+        },
+        {
+          "term": "don’t know",
+          "meaning": "尚不清楚",
+          "kind": "短语"
+        }
+      ]
+    }
+  ]
+}

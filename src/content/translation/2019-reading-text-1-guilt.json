@@ -1,0 +1,456 @@
+{
+  "title": "2019 真题 Text 1 · 内疚也有积极意义",
+  "description": "探讨内疚作为社会情绪如何促进合作、弥补同情心不足。",
+  "source": "2019年真题.pdf · Reading Comprehension",
+  "author": "2019 English Exam",
+  "level": "intermediate",
+  "tags": [
+    "2019真题",
+    "Reading Comprehension",
+    "Psychology",
+    "Guilt"
+  ],
+  "estimatedMinutes": 27,
+  "heroNote": "留意内疚并非纯粹负面情绪，以及它如何影响同情心较弱儿童的分享行为。",
+  "publishedAt": "2019-01-01",
+  "sentences": [
+    {
+      "id": "s1",
+      "en": "Unlike so-called basic emotions such as sadness, fear, and anger, guilt emerges a little later, in conjunction with a child’s growing grasp of social and moral norms.",
+      "zhReference": "与悲伤、恐惧和愤怒等所谓基本情绪不同，内疚会稍晚出现，伴随着孩子对社会和道德规范的理解逐渐增强。",
+      "vocabulary": [
+        {
+          "term": "basic emotions",
+          "meaning": "基本情绪",
+          "kind": "短语"
+        },
+        {
+          "term": "in conjunction with",
+          "meaning": "伴随着",
+          "kind": "短语"
+        },
+        {
+          "term": "moral norms",
+          "meaning": "道德规范",
+          "kind": "短语"
+        }
+      ]
+    },
+    {
+      "id": "s2",
+      "en": "Children aren’t born knowing how to say “I’m sorry”; rather, they learn over time that such statements appease parents and friends—and their own consciences.",
+      "zhReference": "孩子并非生来就懂得说“对不起”；他们逐渐学会，这样的话能安抚父母、朋友，也让自己的良心得到安慰。",
+      "vocabulary": [
+        {
+          "term": "appease",
+          "meaning": "安抚",
+          "kind": "生词"
+        },
+        {
+          "term": "consciences",
+          "meaning": "良心",
+          "kind": "生词"
+        },
+        {
+          "term": "over time",
+          "meaning": "随着时间推移",
+          "kind": "短语"
+        }
+      ]
+    },
+    {
+      "id": "s3",
+      "en": "This is why researchers generally regard so-called moral guilt, in the right amount, to be a good thing.",
+      "zhReference": "这就是为什么研究人员通常认为，适度的所谓道德性内疚是件好事。",
+      "vocabulary": [
+        {
+          "term": "moral guilt",
+          "meaning": "道德性内疚",
+          "kind": "短语"
+        },
+        {
+          "term": "in the right amount",
+          "meaning": "适度地",
+          "kind": "短语"
+        }
+      ]
+    },
+    {
+      "id": "s4",
+      "en": "In the popular imagination, of course, guilt still gets a bad rap.",
+      "zhReference": "当然，在大众观念中，内疚仍然背负着坏名声。",
+      "vocabulary": [
+        {
+          "term": "gets a bad rap",
+          "meaning": "背负坏名声",
+          "kind": "短语"
+        },
+        {
+          "term": "popular imagination",
+          "meaning": "大众观念",
+          "kind": "短语"
+        }
+      ]
+    },
+    {
+      "id": "s5",
+      "en": "It is deeply uncomfortable—it’s the emotional equivalent of wearing a jacket weighted with stones.",
+      "zhReference": "它令人非常难受，就像在情绪上穿了一件装满石头的外套。",
+      "vocabulary": [
+        {
+          "term": "emotional equivalent",
+          "meaning": "情绪上的对应物",
+          "kind": "短语"
+        },
+        {
+          "term": "weighted with stones",
+          "meaning": "装满石头的",
+          "kind": "短语"
+        }
+      ]
+    },
+    {
+      "id": "s6",
+      "en": "Yet this understanding is outdated.",
+      "zhReference": "但这种理解已经过时。",
+      "vocabulary": [
+        {
+          "term": "outdated",
+          "meaning": "过时的",
+          "kind": "生词"
+        },
+        {
+          "term": "understanding",
+          "meaning": "理解方式",
+          "kind": "熟词僻义"
+        }
+      ]
+    },
+    {
+      "id": "s7",
+      "en": "“There has been a kind of revival or a rethinking about what guilt is and what role guilt can serve,” says Amrisha Vaish, a psychology researcher at the University of Virginia, adding that this revival is part of a larger recognition that emotions aren’t binary—feelings that may be advantageous in one context may be harmful in another.",
+      "zhReference": "弗吉尼亚大学心理学研究人员阿姆丽莎·瓦伊什说：“人们对内疚是什么、能发挥什么作用，正经历某种重新认识。”她补充说，这也是人们更广泛地认识到情绪并非非好即坏的一部分：一种情绪在某种情境中可能有利，在另一种情境中却可能有害。",
+      "vocabulary": [
+        {
+          "term": "emotions aren’t binary",
+          "meaning": "情绪并非简单的好坏二分",
+          "kind": "短语"
+        },
+        {
+          "term": "advantageous in one context",
+          "meaning": "在某种情境中有益",
+          "kind": "短语"
+        },
+        {
+          "term": "revival",
+          "meaning": "重新兴起",
+          "kind": "熟词僻义"
+        }
+      ]
+    },
+    {
+      "id": "s8",
+      "en": "Jealousy and anger, for example, may have evolved to alert us to important inequalities.",
+      "zhReference": "例如，嫉妒与愤怒或许是为了提醒我们注意重要的不平等而演化出来的。",
+      "vocabulary": [
+        {
+          "term": "alert us to",
+          "meaning": "提醒我们注意",
+          "kind": "短语"
+        },
+        {
+          "term": "inequalities",
+          "meaning": "不平等",
+          "kind": "生词"
+        }
+      ]
+    },
+    {
+      "id": "s9",
+      "en": "Too much happiness can be destructive.",
+      "zhReference": "过度快乐也可能具有破坏性。",
+      "vocabulary": [
+        {
+          "term": "destructive",
+          "meaning": "有破坏性的",
+          "kind": "生词"
+        },
+        {
+          "term": "Too much",
+          "meaning": "过量的",
+          "kind": "短语"
+        }
+      ]
+    },
+    {
+      "id": "s10",
+      "en": "And guilt, by prompting us to think more deeply about our goodness, can encourage humans to make up for errors and fix relationships.",
+      "zhReference": "而内疚能促使我们更深入地反思自己是否善良，从而鼓励人们弥补错误、修复关系。",
+      "vocabulary": [
+        {
+          "term": "make up for errors",
+          "meaning": "弥补错误",
+          "kind": "短语"
+        },
+        {
+          "term": "prompting us to",
+          "meaning": "促使我们……",
+          "kind": "短语"
+        },
+        {
+          "term": "fix relationships",
+          "meaning": "修复关系",
+          "kind": "短语"
+        }
+      ]
+    },
+    {
+      "id": "s11",
+      "en": "Guilt, in other words, can help hold a cooperative species together.",
+      "zhReference": "换句话说，内疚有助于维系一个善于合作的物种。",
+      "vocabulary": [
+        {
+          "term": "hold a cooperative species together",
+          "meaning": "维系一个合作物种",
+          "kind": "短语"
+        },
+        {
+          "term": "cooperative",
+          "meaning": "善于合作的",
+          "kind": "生词"
+        }
+      ]
+    },
+    {
+      "id": "s12",
+      "en": "It is a kind of social glue.",
+      "zhReference": "它是一种社会黏合剂。",
+      "vocabulary": [
+        {
+          "term": "social glue",
+          "meaning": "社会黏合剂",
+          "kind": "短语"
+        },
+        {
+          "term": "glue",
+          "meaning": "胶水；比喻凝聚力",
+          "kind": "熟词僻义"
+        }
+      ]
+    },
+    {
+      "id": "s13",
+      "en": "Viewed in this light, guilt is an opportunity.",
+      "zhReference": "从这个角度看，内疚是一种契机。",
+      "vocabulary": [
+        {
+          "term": "Viewed in this light",
+          "meaning": "从这一角度来看",
+          "kind": "短语"
+        },
+        {
+          "term": "opportunity",
+          "meaning": "契机",
+          "kind": "熟词僻义"
+        }
+      ]
+    },
+    {
+      "id": "s14",
+      "en": "Work by Tina Malti, a psychology professor at the University of Toronto, suggests that guilt may compensate for an emotional deficiency.",
+      "zhReference": "多伦多大学心理学教授蒂娜·马尔蒂的研究表明，内疚可能弥补某种情感上的不足。",
+      "vocabulary": [
+        {
+          "term": "compensate for",
+          "meaning": "弥补",
+          "kind": "短语"
+        },
+        {
+          "term": "emotional deficiency",
+          "meaning": "情感上的缺失",
+          "kind": "短语"
+        }
+      ]
+    },
+    {
+      "id": "s15",
+      "en": "In a number of studies, Malti and others have shown that guilt and sympathy may represent different pathways to cooperation and sharing.",
+      "zhReference": "马尔蒂等人在多项研究中指出，内疚和同情心可能是通向合作与分享的不同途径。",
+      "vocabulary": [
+        {
+          "term": "pathways to cooperation",
+          "meaning": "通向合作的途径",
+          "kind": "短语"
+        },
+        {
+          "term": "sympathy",
+          "meaning": "同情心",
+          "kind": "生词"
+        }
+      ]
+    },
+    {
+      "id": "s16",
+      "en": "Some kids who are low in sympathy may make up for that shortfall by experiencing more guilt, which can rein in their nastier impulses.",
+      "zhReference": "同情心较弱的孩子或许可以凭借更强的内疚感弥补这一缺陷，抑制自己更不友善的冲动。",
+      "vocabulary": [
+        {
+          "term": "make up for that shortfall",
+          "meaning": "弥补这一不足",
+          "kind": "短语"
+        },
+        {
+          "term": "rein in",
+          "meaning": "抑制",
+          "kind": "短语"
+        },
+        {
+          "term": "nastier impulses",
+          "meaning": "更不友善的冲动",
+          "kind": "短语"
+        }
+      ]
+    },
+    {
+      "id": "s17",
+      "en": "And vice versa: High sympathy can substitute for low guilt.",
+      "zhReference": "反过来也一样：高度的同情心可以弥补较弱的内疚感。",
+      "vocabulary": [
+        {
+          "term": "vice versa",
+          "meaning": "反过来也是如此",
+          "kind": "短语"
+        },
+        {
+          "term": "substitute for",
+          "meaning": "替代；弥补",
+          "kind": "短语"
+        }
+      ]
+    },
+    {
+      "id": "s18",
+      "en": "In a 2014 study, for example, Malti looked at 244 children.",
+      "zhReference": "例如，在 2014 年的一项研究中，马尔蒂观察了 244 名儿童。",
+      "vocabulary": [
+        {
+          "term": "looked at 244 children",
+          "meaning": "研究了 244 名儿童",
+          "kind": "短语"
+        },
+        {
+          "term": "study",
+          "meaning": "研究",
+          "kind": "熟词僻义"
+        }
+      ]
+    },
+    {
+      "id": "s19",
+      "en": "Using caregiver assessments and the children’s self-observations, she rated each child’s overall sympathy level and his or her tendency to feel negative emotions after moral transgressions.",
+      "zhReference": "通过照护者的评估和孩子们的自我观察，她评定了每个孩子的总体同情心水平，以及他们在做出违背道德的行为后产生负面情绪的倾向。",
+      "vocabulary": [
+        {
+          "term": "caregiver assessments",
+          "meaning": "照护者的评估",
+          "kind": "短语"
+        },
+        {
+          "term": "moral transgressions",
+          "meaning": "违背道德的行为",
+          "kind": "短语"
+        },
+        {
+          "term": "self-observations",
+          "meaning": "自我观察",
+          "kind": "短语"
+        }
+      ]
+    },
+    {
+      "id": "s20",
+      "en": "Then the kids were handed chocolate coins, and given a chance to share them with an anonymous child.",
+      "zhReference": "接着，孩子们拿到巧克力硬币，并有机会与一位匿名儿童分享。",
+      "vocabulary": [
+        {
+          "term": "anonymous child",
+          "meaning": "匿名儿童",
+          "kind": "短语"
+        },
+        {
+          "term": "handed",
+          "meaning": "分发给",
+          "kind": "熟词僻义"
+        }
+      ]
+    },
+    {
+      "id": "s21",
+      "en": "For the low-sympathy kids, how much they shared appeared to turn on how inclined they were to feel guilty.",
+      "zhReference": "对于同情心较弱的孩子而言，分享多少似乎取决于他们有多容易感到内疚。",
+      "vocabulary": [
+        {
+          "term": "turn on",
+          "meaning": "取决于",
+          "kind": "短语"
+        },
+        {
+          "term": "inclined they were to feel guilty",
+          "meaning": "容易感到内疚",
+          "kind": "短语"
+        }
+      ]
+    },
+    {
+      "id": "s22",
+      "en": "The guilt-prone ones shared more, even though they hadn’t magically become more sympathetic to the other child’s deprivation.",
+      "zhReference": "容易内疚的孩子分享得更多，即便他们并没有神奇地变得更能同情另一个孩子的匮乏处境。",
+      "vocabulary": [
+        {
+          "term": "guilt-prone",
+          "meaning": "容易内疚的",
+          "kind": "生词"
+        },
+        {
+          "term": "deprivation",
+          "meaning": "匮乏",
+          "kind": "生词"
+        }
+      ]
+    },
+    {
+      "id": "s23",
+      "en": "“That’s good news,” Malti says.",
+      "zhReference": "马尔蒂说：“这是个好消息。”",
+      "vocabulary": [
+        {
+          "term": "good news",
+          "meaning": "好消息",
+          "kind": "短语"
+        },
+        {
+          "term": "Malti",
+          "meaning": "马尔蒂",
+          "kind": "生词"
+        }
+      ]
+    },
+    {
+      "id": "s24",
+      "en": "“We can be prosocial because we caused harm and we feel regret.”",
+      "zhReference": "“我们可以因为伤害了别人而心生悔意，进而做出有利于他人的行为。”",
+      "vocabulary": [
+        {
+          "term": "prosocial",
+          "meaning": "亲社会的；利他的",
+          "kind": "生词"
+        },
+        {
+          "term": "feel regret",
+          "meaning": "感到懊悔",
+          "kind": "短语"
+        }
+      ]
+    }
+  ]
+}

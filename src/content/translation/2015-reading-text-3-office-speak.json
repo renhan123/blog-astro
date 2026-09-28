@@ -1,0 +1,337 @@
+{
+  "title": "2015 真题 Text 3 · 办公室语言的力量",
+  "description": "分析团队、使命与热情等企业话语如何影响人们理解工作与身份。",
+  "source": "2015年真题.pdf · Reading Comprehension",
+  "author": "2015 English Exam",
+  "level": "intermediate",
+  "tags": [
+    "2015真题",
+    "Reading Comprehension",
+    "Workplace",
+    "Language"
+  ],
+  "estimatedMinutes": 24,
+  "heroNote": "重点理解 office speak 的表层鼓舞作用与最后一段所揭示的讽刺意味。",
+  "publishedAt": "2015-01-01",
+  "sentences": [
+    {
+      "id": "s1",
+      "en": "Even in traditional offices, “the lingua franca of corporate America has gotten much more emotional and much more right-brained than it was 20 years ago,” said Harvard Business School professor Nancy Koehn.",
+      "zhReference": "哈佛商学院教授南希·科恩说，即便在传统办公室里，“美国企业通行的语言也比二十年前感性得多，更偏向右脑式思维”。",
+      "vocabulary": [
+        {
+          "term": "lingua franca",
+          "meaning": "通用语言",
+          "kind": "短语"
+        },
+        {
+          "term": "right-brained",
+          "meaning": "偏向感性与直觉的",
+          "kind": "熟词僻义"
+        },
+        {
+          "term": "corporate America",
+          "meaning": "美国企业界",
+          "kind": "短语"
+        }
+      ]
+    },
+    {
+      "id": "s2",
+      "en": "She started spinning off examples.",
+      "zhReference": "她接着举了一连串例子。",
+      "vocabulary": [
+        {
+          "term": "spinning off examples",
+          "meaning": "接连举出例子",
+          "kind": "短语"
+        },
+        {
+          "term": "spinning off",
+          "meaning": "衍生出；接连提出",
+          "kind": "熟词僻义"
+        }
+      ]
+    },
+    {
+      "id": "s3",
+      "en": "“If you and I parachuted back to Fortune 500 companies in 1990, we would see much less frequent use of terms like journey, mission, passion.",
+      "zhReference": "“如果你我回到 1990 年的《财富》五百强企业，就会发现‘旅程’‘使命’‘热情’之类的词远没有今天常见。",
+      "vocabulary": [
+        {
+          "term": "parachuted back to",
+          "meaning": "仿佛突然回到",
+          "kind": "短语"
+        },
+        {
+          "term": "Fortune 500 companies",
+          "meaning": "财富五百强企业",
+          "kind": "短语"
+        }
+      ]
+    },
+    {
+      "id": "s4",
+      "en": "There were goals, there were strategies, there were objectives, but we didn’t talk about energy; we didn’t talk about passion.”",
+      "zhReference": "当时我们谈目标、战略、具体指标，却不谈活力，也不谈热情。”",
+      "vocabulary": [
+        {
+          "term": "objectives",
+          "meaning": "具体目标",
+          "kind": "生词"
+        },
+        {
+          "term": "strategies",
+          "meaning": "策略",
+          "kind": "生词"
+        }
+      ]
+    },
+    {
+      "id": "s5",
+      "en": "Koehn pointed out that this new era of corporate vocabulary is very “team”-oriented—and not by coincidence.",
+      "zhReference": "科恩指出，这个新时代的企业用语明显以“团队”为导向，而且这并非巧合。",
+      "vocabulary": [
+        {
+          "term": "team",
+          "meaning": "以团队为导向的",
+          "kind": "短语"
+        },
+        {
+          "term": "not by coincidence",
+          "meaning": "并非巧合",
+          "kind": "短语"
+        }
+      ]
+    },
+    {
+      "id": "s6",
+      "en": "“Let’s not forget sports—in male-dominated corporate America, it’s still a big deal.",
+      "zhReference": "“别忘了体育运动——在男性占主导地位的美国企业界，它仍然举足轻重。",
+      "vocabulary": [
+        {
+          "term": "male-dominated",
+          "meaning": "由男性主导的",
+          "kind": "生词"
+        },
+        {
+          "term": "a big deal",
+          "meaning": "重要的事情",
+          "kind": "短语"
+        }
+      ]
+    },
+    {
+      "id": "s7",
+      "en": "It’s not explicitly conscious; it’s the idea that I’m a coach, and you’re my team, and we’re in this together.",
+      "zhReference": "这种影响并非完全出于自觉；人们抱着这样的想法：我是教练，你们是我的队员，我们并肩作战。",
+      "vocabulary": [
+        {
+          "term": "in this together",
+          "meaning": "共同承担；并肩作战",
+          "kind": "短语"
+        },
+        {
+          "term": "explicitly conscious",
+          "meaning": "明确自觉的",
+          "kind": "短语"
+        }
+      ]
+    },
+    {
+      "id": "s8",
+      "en": "There are lots and lots of CEOs in very different companies, but most think of themselves as coaches and this is their team and they want to win.”",
+      "zhReference": "不同公司有许许多多首席执行官，但大多数人都把自己看作教练，把员工视为自己的团队，想要获胜。”",
+      "vocabulary": [
+        {
+          "term": "think of themselves as",
+          "meaning": "把自己看作",
+          "kind": "短语"
+        },
+        {
+          "term": "CEOs",
+          "meaning": "首席执行官",
+          "kind": "生词"
+        }
+      ]
+    },
+    {
+      "id": "s9",
+      "en": "These terms are also intended to infuse work with meaning—and, as Rakesh Khurana, another professor, points out, increase allegiance to the firm.",
+      "zhReference": "这些词语也意在赋予工作意义——正如另一位教授拉凯什·库拉纳指出的，还能增强员工对公司的忠诚。",
+      "vocabulary": [
+        {
+          "term": "infuse work with meaning",
+          "meaning": "赋予工作意义",
+          "kind": "短语"
+        },
+        {
+          "term": "allegiance to the firm",
+          "meaning": "对公司的忠诚",
+          "kind": "短语"
+        }
+      ]
+    },
+    {
+      "id": "s10",
+      "en": "“You have the importation of terminology that historically used to be associated with non-profit organizations and religious organizations: terms like vision, values, passion, and purpose,” said Khurana.",
+      "zhReference": "库拉纳说：“我们借用了过去与非营利组织和宗教组织相关的术语，例如愿景、价值观、热情和宗旨。”",
+      "vocabulary": [
+        {
+          "term": "importation of terminology",
+          "meaning": "术语的借用",
+          "kind": "短语"
+        },
+        {
+          "term": "non-profit organizations",
+          "meaning": "非营利组织",
+          "kind": "短语"
+        }
+      ]
+    },
+    {
+      "id": "s11",
+      "en": "This new focus on personal fulfillment can help keep employees motivated amid increasingly loud debates over work-life balance.",
+      "zhReference": "这种对个人成就感的新关注，有助于在工作与生活平衡的争论愈发激烈之际保持员工的积极性。",
+      "vocabulary": [
+        {
+          "term": "personal fulfillment",
+          "meaning": "个人满足感",
+          "kind": "短语"
+        },
+        {
+          "term": "amid",
+          "meaning": "在……之中",
+          "kind": "生词"
+        },
+        {
+          "term": "work-life balance",
+          "meaning": "工作与生活平衡",
+          "kind": "短语"
+        }
+      ]
+    },
+    {
+      "id": "s12",
+      "en": "The “mommy wars” of the 1990s are still going on today, prompting arguments about why women still can’t have it all and books like Sheryl Sandberg’s Lean In, whose title has become a buzzword in its own right.",
+      "zhReference": "二十世纪九十年代有关母职与事业的争论至今仍在继续，催生了关于女性为何仍无法兼顾一切的讨论，也催生了谢丽尔·桑德伯格的《向前一步》等书；该书书名本身已成为流行语。",
+      "vocabulary": [
+        {
+          "term": "mommy wars",
+          "meaning": "关于母职与工作的争论",
+          "kind": "短语"
+        },
+        {
+          "term": "can’t have it all",
+          "meaning": "无法兼顾一切",
+          "kind": "短语"
+        },
+        {
+          "term": "buzzword",
+          "meaning": "流行语",
+          "kind": "生词"
+        }
+      ]
+    },
+    {
+      "id": "s13",
+      "en": "Terms like unplug, offline, life-hack, bandwidth, and capacity are all about setting boundaries between the office and the home.",
+      "zhReference": "“断开连接”“离线”“生活妙招”“带宽”和“容量”等词都关乎在办公室与家庭之间设定界限。",
+      "vocabulary": [
+        {
+          "term": "unplug",
+          "meaning": "脱离网络与工作联系",
+          "kind": "熟词僻义"
+        },
+        {
+          "term": "bandwidth",
+          "meaning": "精力与处理能力",
+          "kind": "熟词僻义"
+        },
+        {
+          "term": "setting boundaries",
+          "meaning": "划定界限",
+          "kind": "短语"
+        }
+      ]
+    },
+    {
+      "id": "s14",
+      "en": "But if your work is your “passion,” you’ll be more likely to devote yourself to it, even if that means going home for dinner and then working long after the kids are in bed.",
+      "zhReference": "但如果工作是你的“热爱”，你更可能全身心投入，即便这意味着回家吃过晚饭、等孩子上床后还要继续工作。",
+      "vocabulary": [
+        {
+          "term": "devote yourself to",
+          "meaning": "全身心投入",
+          "kind": "短语"
+        },
+        {
+          "term": "long after",
+          "meaning": "远在……之后",
+          "kind": "短语"
+        }
+      ]
+    },
+    {
+      "id": "s15",
+      "en": "But this seems to be the irony of office speak: Everyone makes fun of it, but managers love it, companies depend on it, and regular people willingly absorb it.",
+      "zhReference": "这似乎就是办公室话语的讽刺之处：人人都拿它开玩笑，管理者却喜欢它，公司依赖它，普通人也愿意接受它。",
+      "vocabulary": [
+        {
+          "term": "irony of office speak",
+          "meaning": "办公室话语的讽刺之处",
+          "kind": "短语"
+        },
+        {
+          "term": "absorb it",
+          "meaning": "接受并内化它",
+          "kind": "熟词僻义"
+        },
+        {
+          "term": "makes fun of",
+          "meaning": "取笑",
+          "kind": "短语"
+        }
+      ]
+    },
+    {
+      "id": "s16",
+      "en": "As a linguist once said, “You can get people to think it’s nonsense at the same time that you buy into it.”",
+      "zhReference": "正如一位语言学家所说：“你可以让人们一边觉得它荒谬，一边又相信并接受它。”",
+      "vocabulary": [
+        {
+          "term": "nonsense",
+          "meaning": "荒谬之言",
+          "kind": "生词"
+        },
+        {
+          "term": "buy into it",
+          "meaning": "接受并相信它",
+          "kind": "短语"
+        }
+      ]
+    },
+    {
+      "id": "s17",
+      "en": "In a workplace that’s fundamentally indifferent to your life and its meaning, office speak can help you figure out how you relate to your work—and how your work defines who you are.",
+      "zhReference": "在一个根本不关心你的生活及其意义的职场中，办公室话语却可以帮助你弄明白自己与工作的关系，以及工作如何定义你是谁。",
+      "vocabulary": [
+        {
+          "term": "fundamentally indifferent to",
+          "meaning": "根本不关心",
+          "kind": "短语"
+        },
+        {
+          "term": "figure out",
+          "meaning": "弄明白",
+          "kind": "短语"
+        },
+        {
+          "term": "defines who you are",
+          "meaning": "定义你的身份",
+          "kind": "短语"
+        }
+      ]
+    }
+  ]
+}

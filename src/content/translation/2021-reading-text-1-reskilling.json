@@ -1,0 +1,361 @@
+{
+  "title": "2021 真题 Text 1 · 疫情时代的技能再培训",
+  "description": "讨论岗位技能变化与疫情失业背景下由谁承担劳动者再培训的责任。",
+  "source": "2021年真题.pdf · Reading Comprehension",
+  "author": "2021 English Exam",
+  "level": "intermediate",
+  "tags": [
+    "2021真题",
+    "Reading Comprehension",
+    "Reskilling",
+    "Employment"
+  ],
+  "estimatedMinutes": 25,
+  "heroNote": "注意技能不匹配与单纯失业的区别，以及航空乘务员转岗支持医院的案例。",
+  "publishedAt": "2021-01-01",
+  "sentences": [
+    {
+      "id": "s1",
+      "en": "“Reskilling” is something that sounds like a buzzword but is actually a requirement if we plan to have a future in which a lot of would-be workers do not get left behind.",
+      "zhReference": "“再培训”听起来像个时髦词，但如果我们希望未来不让大量潜在劳动者掉队，它实际上是必需的。",
+      "vocabulary": [
+        {
+          "term": "Reskilling",
+          "meaning": "再培训；学习新岗位技能",
+          "kind": "生词"
+        },
+        {
+          "term": "would-be workers",
+          "meaning": "潜在劳动者",
+          "kind": "短语"
+        },
+        {
+          "term": "left behind",
+          "meaning": "掉队",
+          "kind": "短语"
+        }
+      ]
+    },
+    {
+      "id": "s2",
+      "en": "We know we are moving into a period where the jobs in demand will change rapidly, as will the requirements of the jobs that remain.",
+      "zhReference": "我们知道，社会正进入一个岗位需求会快速变化的时期，留存岗位的任职要求也会迅速改变。",
+      "vocabulary": [
+        {
+          "term": "jobs in demand",
+          "meaning": "紧缺岗位",
+          "kind": "短语"
+        },
+        {
+          "term": "as will",
+          "meaning": "……也将如此",
+          "kind": "短语"
+        }
+      ]
+    },
+    {
+      "id": "s3",
+      "en": "Research by the World Economic Forum finds that on average 42 per cent of the “core skills” within job roles will change by 2022.",
+      "zhReference": "世界经济论坛的研究发现，到 2022 年，各岗位平均有百分之四十二的“核心技能”将发生变化。",
+      "vocabulary": [
+        {
+          "term": "core skills",
+          "meaning": "核心技能",
+          "kind": "短语"
+        },
+        {
+          "term": "job roles",
+          "meaning": "岗位职责",
+          "kind": "短语"
+        }
+      ]
+    },
+    {
+      "id": "s4",
+      "en": "That is a very short timeline.",
+      "zhReference": "这个时间窗口非常短。",
+      "vocabulary": [
+        {
+          "term": "short timeline",
+          "meaning": "很短的时间窗口",
+          "kind": "短语"
+        },
+        {
+          "term": "timeline",
+          "meaning": "时间安排",
+          "kind": "生词"
+        }
+      ]
+    },
+    {
+      "id": "s5",
+      "en": "The question of who should pay for reskilling is a thorny one.",
+      "zhReference": "谁应该支付再培训费用，是一个棘手的问题。",
+      "vocabulary": [
+        {
+          "term": "thorny",
+          "meaning": "棘手的",
+          "kind": "熟词僻义"
+        },
+        {
+          "term": "pay for reskilling",
+          "meaning": "为再培训付费",
+          "kind": "短语"
+        }
+      ]
+    },
+    {
+      "id": "s6",
+      "en": "For individual companies, the temptation is always to let go of workers whose skills are no longer in demand and replace them with those whose skills are.",
+      "zhReference": "对于单个企业，总有一种诱惑：解雇技能不再受市场需要的员工，换上技能正好符合需求的人。",
+      "vocabulary": [
+        {
+          "term": "let go of workers",
+          "meaning": "解雇员工",
+          "kind": "短语"
+        },
+        {
+          "term": "in demand",
+          "meaning": "受市场需要",
+          "kind": "短语"
+        }
+      ]
+    },
+    {
+      "id": "s7",
+      "en": "That does not always happen.",
+      "zhReference": "但情况并不总是如此。",
+      "vocabulary": [
+        {
+          "term": "does not always happen",
+          "meaning": "并非总是如此",
+          "kind": "短语"
+        },
+        {
+          "term": "That",
+          "meaning": "指前述解雇并替换员工",
+          "kind": "熟词僻义"
+        }
+      ]
+    },
+    {
+      "id": "s8",
+      "en": "AT&T is often given as the gold standard of a company that decided to do a massive reskilling program rather than go with a fire-and-hire strategy.",
+      "zhReference": "AT&T 常被誉为典范：它选择开展大规模再培训，而不是采取“解雇旧人、雇用新人”的策略。",
+      "vocabulary": [
+        {
+          "term": "gold standard",
+          "meaning": "黄金标准；典范",
+          "kind": "短语"
+        },
+        {
+          "term": "fire-and-hire strategy",
+          "meaning": "解雇再招聘的策略",
+          "kind": "短语"
+        }
+      ]
+    },
+    {
+      "id": "s9",
+      "en": "Other companies had also pledged to create their own plans.",
+      "zhReference": "其他公司也承诺制定各自的计划。",
+      "vocabulary": [
+        {
+          "term": "pledged",
+          "meaning": "承诺",
+          "kind": "生词"
+        },
+        {
+          "term": "create their own plans",
+          "meaning": "制定各自计划",
+          "kind": "短语"
+        }
+      ]
+    },
+    {
+      "id": "s10",
+      "en": "When the skills mismatch is in the broader economy, though, the focus usually turns to government to handle.",
+      "zhReference": "不过，当技能不匹配是整个经济的问题时，关注点通常就转向由政府来处理。",
+      "vocabulary": [
+        {
+          "term": "skills mismatch",
+          "meaning": "技能不匹配",
+          "kind": "短语"
+        },
+        {
+          "term": "broader economy",
+          "meaning": "整体经济",
+          "kind": "短语"
+        }
+      ]
+    },
+    {
+      "id": "s11",
+      "en": "Efforts in Canada and elsewhere have been arguably languid at best, and have given us a situation where we frequently hear of employers begging for workers, even at times and in regions where unemployment is high.",
+      "zhReference": "加拿大等地的努力充其量只能说迟缓，结果我们经常听到雇主急于招人，甚至在失业率很高的时期和地区也是如此。",
+      "vocabulary": [
+        {
+          "term": "languid at best",
+          "meaning": "充其量也很迟缓",
+          "kind": "短语"
+        },
+        {
+          "term": "begging for workers",
+          "meaning": "急切招聘工人",
+          "kind": "短语"
+        },
+        {
+          "term": "unemployment",
+          "meaning": "失业",
+          "kind": "生词"
+        }
+      ]
+    },
+    {
+      "id": "s12",
+      "en": "With the pandemic, unemployment is very high indeed.",
+      "zhReference": "随着疫情暴发，失业率确实升得很高。",
+      "vocabulary": [
+        {
+          "term": "With the pandemic",
+          "meaning": "随着疫情发生",
+          "kind": "短语"
+        },
+        {
+          "term": "indeed",
+          "meaning": "确实",
+          "kind": "生词"
+        }
+      ]
+    },
+    {
+      "id": "s13",
+      "en": "In February, at 3.5 per cent and 5.5 per cent respectively, unemployment rates in Canada and the United States were at generational lows and worker shortages were everywhere.",
+      "zhReference": "二月时，加拿大和美国的失业率分别是百分之三点五和百分之五点五，处于一代人以来的低点，劳动力短缺普遍存在。",
+      "vocabulary": [
+        {
+          "term": "generational lows",
+          "meaning": "一代人以来的低点",
+          "kind": "短语"
+        },
+        {
+          "term": "respectively",
+          "meaning": "分别地",
+          "kind": "生词"
+        },
+        {
+          "term": "worker shortages",
+          "meaning": "劳动力短缺",
+          "kind": "短语"
+        }
+      ]
+    },
+    {
+      "id": "s14",
+      "en": "As of May, those rates had spiked up to 13.3 per cent and 13.7 per cent, and although many worker shortages had disappeared, not all had done so.",
+      "zhReference": "到五月，这两个数字分别飙升至百分之十三点三和百分之十三点七；尽管许多岗位不再缺人，但并非所有行业都如此。",
+      "vocabulary": [
+        {
+          "term": "spiked up to",
+          "meaning": "飙升到",
+          "kind": "短语"
+        },
+        {
+          "term": "not all had done so",
+          "meaning": "并非所有短缺都消失",
+          "kind": "短语"
+        }
+      ]
+    },
+    {
+      "id": "s15",
+      "en": "In the medical field, to take an obvious example, the pandemic meant that there were still clear shortages of doctors, nurses and other medical personnel.",
+      "zhReference": "以医疗领域为例，疫情意味着医生、护士等医护人员仍明显短缺。",
+      "vocabulary": [
+        {
+          "term": "medical personnel",
+          "meaning": "医护人员",
+          "kind": "短语"
+        },
+        {
+          "term": "In the medical field",
+          "meaning": "在医疗领域",
+          "kind": "短语"
+        }
+      ]
+    },
+    {
+      "id": "s16",
+      "en": "Of course, it is not like you can take an unemployed waiter and train him to be a doctor in a few weeks.",
+      "zhReference": "当然，你不可能让一位失业服务员在几周内就培训成医生。",
+      "vocabulary": [
+        {
+          "term": "train him to be a doctor",
+          "meaning": "把他培训成医生",
+          "kind": "短语"
+        },
+        {
+          "term": "it is not like",
+          "meaning": "并不是说……",
+          "kind": "短语"
+        }
+      ]
+    },
+    {
+      "id": "s17",
+      "en": "But even if you cannot close that gap, maybe you can close others, and doing so would be to the benefit of all concerned.",
+      "zhReference": "但即使无法弥合这一缺口，也许还能弥合其他岗位缺口，而这样做会让有关各方受益。",
+      "vocabulary": [
+        {
+          "term": "close that gap",
+          "meaning": "弥合这一缺口",
+          "kind": "短语"
+        },
+        {
+          "term": "to the benefit of all concerned",
+          "meaning": "使有关各方受益",
+          "kind": "短语"
+        }
+      ]
+    },
+    {
+      "id": "s18",
+      "en": "That seems to be the case in Sweden: When forced to furlough 90 per cent of their cabin staff, Scandinavian Airlines decided to start up a short retraining program that reskilled the laid-off workers to support hospital staff.",
+      "zhReference": "瑞典似乎就是这样：北欧航空被迫让百分之九十的乘务人员暂时停工后，决定开展短期再培训，让这些被裁减或停工的员工转而支持医院工作人员。",
+      "vocabulary": [
+        {
+          "term": "furlough",
+          "meaning": "让员工暂时停工",
+          "kind": "生词"
+        },
+        {
+          "term": "reskilled the laid-off workers",
+          "meaning": "对停工或裁减的员工再培训",
+          "kind": "短语"
+        },
+        {
+          "term": "cabin staff",
+          "meaning": "机组乘务人员",
+          "kind": "短语"
+        }
+      ]
+    },
+    {
+      "id": "s19",
+      "en": "The effort was a collective one and involved other companies as well as a Swedish university.",
+      "zhReference": "这项努力是集体行动，还涉及其他公司和一所瑞典大学。",
+      "vocabulary": [
+        {
+          "term": "collective one",
+          "meaning": "一项集体努力",
+          "kind": "短语"
+        },
+        {
+          "term": "as well as",
+          "meaning": "以及",
+          "kind": "短语"
+        }
+      ]
+    }
+  ]
+}

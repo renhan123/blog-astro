@@ -1,0 +1,344 @@
+{
+  "title": "2020 真题 Text 4 · Z 世代的就业观",
+  "description": "分析经历经济危机后成长的 Z 世代为何更看重工作稳定与风险规避。",
+  "source": "2020年真题.pdf · Reading Comprehension",
+  "author": "2020 English Exam",
+  "level": "intermediate",
+  "tags": [
+    "2020真题",
+    "Reading Comprehension",
+    "Generation Z",
+    "Employment"
+  ],
+  "estimatedMinutes": 25,
+  "heroNote": "区分千禧一代对灵活性的偏好与 Z 世代对确定性的追求。",
+  "publishedAt": "2020-01-01",
+  "sentences": [
+    {
+      "id": "s1",
+      "en": "Now that members of Generation Z are graduating college this spring—the most commonly-accepted definition says this generation was born after 1995, give or take a year—the attention has been rising steadily in recent weeks.",
+      "zhReference": "随着 Z 世代成员今年春天陆续大学毕业——最普遍的定义是他们出生于 1995 年之后，前后可差一年——最近几周人们对这一群体的关注持续升温。",
+      "vocabulary": [
+        {
+          "term": "Generation Z",
+          "meaning": "Z 世代",
+          "kind": "短语"
+        },
+        {
+          "term": "give or take a year",
+          "meaning": "前后差一年左右",
+          "kind": "短语"
+        },
+        {
+          "term": "attention has been rising",
+          "meaning": "关注度持续上升",
+          "kind": "短语"
+        }
+      ]
+    },
+    {
+      "id": "s2",
+      "en": "Gen Zs are about to hit the streets looking for work in a labor market that’s tighter than it’s been in decades.",
+      "zhReference": "Z 世代即将走上街头求职，而当前劳动力市场比过去几十年都更紧俏。",
+      "vocabulary": [
+        {
+          "term": "hit the streets looking for work",
+          "meaning": "走上街头求职",
+          "kind": "短语"
+        },
+        {
+          "term": "labor market that’s tighter",
+          "meaning": "更紧俏的劳动力市场",
+          "kind": "短语"
+        }
+      ]
+    },
+    {
+      "id": "s3",
+      "en": "And employers are planning on hiring about 17 percent more new graduates for jobs in the U.S. this year than last, according to a survey conducted by the National Association of Colleges and Employers.",
+      "zhReference": "美国全国大学与雇主协会的一项调查显示，雇主计划今年招聘的美国应届毕业生比去年多约百分之十七。",
+      "vocabulary": [
+        {
+          "term": "planning on hiring",
+          "meaning": "计划招聘",
+          "kind": "短语"
+        },
+        {
+          "term": "survey conducted by",
+          "meaning": "由……开展的调查",
+          "kind": "短语"
+        }
+      ]
+    },
+    {
+      "id": "s4",
+      "en": "Everybody wants to know how the people who will soon inhabit those empty office cubicles will differ from those who came before them.",
+      "zhReference": "大家都想知道，即将坐进那些空办公室工位的人与前辈有何不同。",
+      "vocabulary": [
+        {
+          "term": "inhabit those empty office cubicles",
+          "meaning": "坐进那些空工位",
+          "kind": "短语"
+        },
+        {
+          "term": "came before them",
+          "meaning": "在他们之前的人",
+          "kind": "短语"
+        }
+      ]
+    },
+    {
+      "id": "s5",
+      "en": "If “entitled” is the most common adjective, fairly or not, applied to millennials (those born between 1981 and 1995), the catchwords for Generation Z are practical and cautious.",
+      "zhReference": "如果说“自以为理所应得”是不论公允与否、最常用来形容千禧一代（一九八一年至一九九五年出生）的话，那么描述 Z 世代的关键词就是务实和谨慎。",
+      "vocabulary": [
+        {
+          "term": "entitled",
+          "meaning": "自以为理所应得的",
+          "kind": "熟词僻义"
+        },
+        {
+          "term": "catchwords",
+          "meaning": "关键词",
+          "kind": "生词"
+        },
+        {
+          "term": "millennials",
+          "meaning": "千禧一代",
+          "kind": "生词"
+        }
+      ]
+    },
+    {
+      "id": "s6",
+      "en": "According to the career counselors and experts who study them, Generation Zs are clear-eyed, economic pragmatists.",
+      "zhReference": "研究他们的职业顾问和专家认为，Z 世代头脑清醒，是经济上的实用主义者。",
+      "vocabulary": [
+        {
+          "term": "clear-eyed",
+          "meaning": "头脑清醒的",
+          "kind": "生词"
+        },
+        {
+          "term": "economic pragmatists",
+          "meaning": "经济上的实用主义者",
+          "kind": "短语"
+        }
+      ]
+    },
+    {
+      "id": "s7",
+      "en": "Despite graduating into the best economy in the past 50 years, Gen Zs know what an economic train wreck looks like.",
+      "zhReference": "尽管毕业时遇上过去五十年来最好的经济形势，Z 世代仍知道经济灾难是什么样子。",
+      "vocabulary": [
+        {
+          "term": "economic train wreck",
+          "meaning": "经济灾难",
+          "kind": "短语"
+        },
+        {
+          "term": "graduating into",
+          "meaning": "毕业进入……环境",
+          "kind": "短语"
+        }
+      ]
+    },
+    {
+      "id": "s8",
+      "en": "They were impressionable kids during the crash of 2008, when many of their parents lost their jobs or their life savings or both.",
+      "zhReference": "二〇〇八年金融危机时他们还是容易受影响的孩子，当时许多人的父母失去了工作、毕生积蓄，或两者皆失。",
+      "vocabulary": [
+        {
+          "term": "impressionable kids",
+          "meaning": "容易受影响的孩子",
+          "kind": "短语"
+        },
+        {
+          "term": "life savings",
+          "meaning": "毕生积蓄",
+          "kind": "短语"
+        }
+      ]
+    },
+    {
+      "id": "s9",
+      "en": "They aren’t interested in taking any chances.",
+      "zhReference": "他们不愿意冒险。",
+      "vocabulary": [
+        {
+          "term": "taking any chances",
+          "meaning": "冒风险",
+          "kind": "短语"
+        },
+        {
+          "term": "interested in",
+          "meaning": "有兴趣",
+          "kind": "短语"
+        }
+      ]
+    },
+    {
+      "id": "s10",
+      "en": "The booming economy seems to have done little to assuage this underlying generational sense of anxious urgency, especially for those who have college debt.",
+      "zhReference": "蓬勃的经济似乎也无助于缓解这一代人内心深处焦虑而急迫的感受，尤其是对背负大学债务的人。",
+      "vocabulary": [
+        {
+          "term": "assuage",
+          "meaning": "缓解",
+          "kind": "生词"
+        },
+        {
+          "term": "underlying generational sense",
+          "meaning": "这一代人深层的感受",
+          "kind": "短语"
+        },
+        {
+          "term": "college debt",
+          "meaning": "大学债务",
+          "kind": "短语"
+        }
+      ]
+    },
+    {
+      "id": "s11",
+      "en": "College loan balances in the U.S. now stand at a record $1.5 trillion, according to the Federal Reserve.",
+      "zhReference": "美联储数据显示，美国大学贷款余额目前达到创纪录的一点五万亿美元。",
+      "vocabulary": [
+        {
+          "term": "loan balances",
+          "meaning": "贷款余额",
+          "kind": "短语"
+        },
+        {
+          "term": "stand at a record",
+          "meaning": "达到创纪录水平",
+          "kind": "短语"
+        }
+      ]
+    },
+    {
+      "id": "s12",
+      "en": "One survey from Accenture found that 88 percent of graduating seniors this year chose their major with a job in mind.",
+      "zhReference": "埃森哲的一项调查发现，今年百分之八十八的应届毕业生在选择专业时就考虑了工作。",
+      "vocabulary": [
+        {
+          "term": "graduating seniors",
+          "meaning": "应届毕业生",
+          "kind": "短语"
+        },
+        {
+          "term": "with a job in mind",
+          "meaning": "考虑未来就业",
+          "kind": "短语"
+        }
+      ]
+    },
+    {
+      "id": "s13",
+      "en": "In a 2019 survey of University of Georgia students, meanwhile, the career office found the most desirable trait in a future employer was the ability to offer secure employment (followed by professional development and training, and then inspiring purpose).",
+      "zhReference": "与此同时，佐治亚大学 2019 年的一项学生调查发现，未来雇主最受看重的特征是能提供稳定工作，其次是职业发展与培训，再次是能激发使命感。",
+      "vocabulary": [
+        {
+          "term": "secure employment",
+          "meaning": "稳定工作",
+          "kind": "短语"
+        },
+        {
+          "term": "desirable trait",
+          "meaning": "理想特征",
+          "kind": "短语"
+        },
+        {
+          "term": "inspiring purpose",
+          "meaning": "能激发使命感的目标",
+          "kind": "短语"
+        }
+      ]
+    },
+    {
+      "id": "s14",
+      "en": "Job security or stability was the second most important career goal (work-life balance was number one), followed by a sense of being dedicated to a cause or to feel good about serving the greater good.",
+      "zhReference": "就业保障或稳定性是第二重要的职业目标，第一是工作与生活平衡；其后才是投身某项事业或为公共利益服务带来的满足感。",
+      "vocabulary": [
+        {
+          "term": "work-life balance",
+          "meaning": "工作与生活平衡",
+          "kind": "短语"
+        },
+        {
+          "term": "serving the greater good",
+          "meaning": "服务公共利益",
+          "kind": "短语"
+        }
+      ]
+    },
+    {
+      "id": "s15",
+      "en": "That’s a big change from the previous generation.",
+      "zhReference": "这与上一代人相比变化很大。",
+      "vocabulary": [
+        {
+          "term": "previous generation",
+          "meaning": "上一代人",
+          "kind": "短语"
+        },
+        {
+          "term": "big change",
+          "meaning": "显著变化",
+          "kind": "短语"
+        }
+      ]
+    },
+    {
+      "id": "s16",
+      "en": "“Millennials wanted more flexibility in their lives,” notes Tanya Michelsen, Associate Director of YouthSight, a UK-based brand manager that conducts regular 60-day surveys of British youth, in findings that might just as well apply to American youth.",
+      "zhReference": "英国品牌研究机构 YouthSight 的副主任坦娅·米歇尔森指出：“千禧一代希望生活更灵活。”该机构定期对英国青年进行为期六十天的调查，其发现或许同样适用于美国青年。",
+      "vocabulary": [
+        {
+          "term": "flexibility in their lives",
+          "meaning": "生活中的灵活性",
+          "kind": "短语"
+        },
+        {
+          "term": "might just as well apply to",
+          "meaning": "同样可能适用于",
+          "kind": "短语"
+        }
+      ]
+    },
+    {
+      "id": "s17",
+      "en": "“Generation Zs are looking for more certainty and stability, because of the rise of the gig economy.",
+      "zhReference": "“由于零工经济兴起，Z 世代正在寻求更高的确定性和稳定性。",
+      "vocabulary": [
+        {
+          "term": "gig economy",
+          "meaning": "零工经济",
+          "kind": "短语"
+        },
+        {
+          "term": "certainty and stability",
+          "meaning": "确定性与稳定性",
+          "kind": "短语"
+        }
+      ]
+    },
+    {
+      "id": "s18",
+      "en": "They have trouble seeing a financial future and they are quite risk averse.”",
+      "zhReference": "他们很难看到经济上有保障的未来，而且非常厌恶风险。”",
+      "vocabulary": [
+        {
+          "term": "risk averse",
+          "meaning": "厌恶风险的",
+          "kind": "短语"
+        },
+        {
+          "term": "financial future",
+          "meaning": "经济上的未来",
+          "kind": "短语"
+        }
+      ]
+    }
+  ]
+}

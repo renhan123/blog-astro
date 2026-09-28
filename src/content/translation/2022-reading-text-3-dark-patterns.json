@@ -1,0 +1,342 @@
+{
+  "title": "2022 真题 Text 3 · 警惕暗黑设计模式",
+  "description": "分析易注册难取消等界面操纵手法，以及企业自律和监管的边界。",
+  "source": "2022年真题.pdf · Reading Comprehension",
+  "author": "2022 English Exam",
+  "level": "intermediate",
+  "tags": [
+    "2022真题",
+    "Reading Comprehension",
+    "UX",
+    "Privacy"
+  ],
+  "estimatedMinutes": 26,
+  "heroNote": "理解 dark patterns 的含义及 roach motel 指“易进难出”的体验。",
+  "publishedAt": "2022-01-01",
+  "sentences": [
+    {
+      "id": "s1",
+      "en": "We have all encountered them, in both our personal and professional lives.",
+      "zhReference": "无论在私人生活还是职业生活中，我们都遇见过它们。",
+      "vocabulary": [
+        {
+          "term": "encountered them",
+          "meaning": "遇到它们",
+          "kind": "短语"
+        },
+        {
+          "term": "professional lives",
+          "meaning": "职业生活",
+          "kind": "短语"
+        }
+      ]
+    },
+    {
+      "id": "s2",
+      "en": "Think about the times you felt tricked or frustrated by a membership or subscription that had a seamless sign-up process but was later difficult to cancel.",
+      "zhReference": "想想那些让你觉得受骗或沮丧的会员或订阅服务：注册过程流畅无阻，后来取消起来却非常困难。",
+      "vocabulary": [
+        {
+          "term": "seamless sign-up process",
+          "meaning": "顺畅的注册流程",
+          "kind": "短语"
+        },
+        {
+          "term": "subscription",
+          "meaning": "订阅服务",
+          "kind": "生词"
+        },
+        {
+          "term": "difficult to cancel",
+          "meaning": "难以取消",
+          "kind": "短语"
+        }
+      ]
+    },
+    {
+      "id": "s3",
+      "en": "Something that should be simple and transparent can be complicated, intentionally or unintentionally, in ways that impair consumer choice.",
+      "zhReference": "本应简单透明的事情，可能被有意或无意地设计得复杂，从而损害消费者的选择权。",
+      "vocabulary": [
+        {
+          "term": "impair consumer choice",
+          "meaning": "损害消费者选择",
+          "kind": "短语"
+        },
+        {
+          "term": "transparent",
+          "meaning": "透明的",
+          "kind": "生词"
+        }
+      ]
+    },
+    {
+      "id": "s4",
+      "en": "These are examples of dark patterns.",
+      "zhReference": "这些都是“暗黑设计模式”的例子。",
+      "vocabulary": [
+        {
+          "term": "dark patterns",
+          "meaning": "暗黑设计模式",
+          "kind": "短语"
+        },
+        {
+          "term": "examples of",
+          "meaning": "……的例子",
+          "kind": "短语"
+        }
+      ]
+    },
+    {
+      "id": "s5",
+      "en": "First coined in 2010 by user experience expert Harry Brignull, “dark patterns” is a catch-all term for practices that manipulate user interfaces to influence the decision-making ability of users.",
+      "zhReference": "“暗黑设计模式”一词最早由用户体验专家哈里·布里格纳尔于 2010 年提出，泛指通过操纵用户界面来影响用户决策能力的做法。",
+      "vocabulary": [
+        {
+          "term": "catch-all term",
+          "meaning": "笼统的总称",
+          "kind": "短语"
+        },
+        {
+          "term": "manipulate user interfaces",
+          "meaning": "操纵用户界面",
+          "kind": "短语"
+        },
+        {
+          "term": "coined",
+          "meaning": "创造了术语",
+          "kind": "熟词僻义"
+        }
+      ]
+    },
+    {
+      "id": "s6",
+      "en": "Brignull identifies 12 types of common dark patterns, ranging from misdirection and hidden costs to “roach motel,” where a user experience seems easy and intuitive at the start, but turns difficult when the user tries to get out.",
+      "zhReference": "布里格纳尔列出了十二类常见暗黑设计模式，从误导和隐藏费用，到“蟑螂旅馆”——用户起初觉得进入服务很容易、很直观，但想退出时却异常困难。",
+      "vocabulary": [
+        {
+          "term": "misdirection",
+          "meaning": "误导",
+          "kind": "生词"
+        },
+        {
+          "term": "hidden costs",
+          "meaning": "隐藏费用",
+          "kind": "短语"
+        },
+        {
+          "term": "roach motel",
+          "meaning": "易进难出的设计",
+          "kind": "短语"
+        }
+      ]
+    },
+    {
+      "id": "s7",
+      "en": "In a 2019 study of 53,000 product pages and 11,000 websites, researchers found that about one in 10 employs these design practices.",
+      "zhReference": "在 2019 年一项涉及五万三千个商品页面和一万一千个网站的研究中，研究人员发现约十分之一使用了这些设计手法。",
+      "vocabulary": [
+        {
+          "term": "one in 10",
+          "meaning": "十分之一",
+          "kind": "短语"
+        },
+        {
+          "term": "employs these design practices",
+          "meaning": "使用这些设计手法",
+          "kind": "短语"
+        }
+      ]
+    },
+    {
+      "id": "s8",
+      "en": "Though widely prevalent, the concept of dark patterns is still not well understood.",
+      "zhReference": "尽管这类手法很普遍，暗黑设计模式这一概念仍未得到充分理解。",
+      "vocabulary": [
+        {
+          "term": "widely prevalent",
+          "meaning": "广泛存在",
+          "kind": "短语"
+        },
+        {
+          "term": "not well understood",
+          "meaning": "未被充分理解",
+          "kind": "短语"
+        }
+      ]
+    },
+    {
+      "id": "s9",
+      "en": "Business and nonprofit leaders should be aware of dark patterns and try to avoid the gray areas they engender.",
+      "zhReference": "企业与非营利机构负责人应了解这些模式，尽量避免它们造成的灰色地带。",
+      "vocabulary": [
+        {
+          "term": "gray areas",
+          "meaning": "灰色地带",
+          "kind": "短语"
+        },
+        {
+          "term": "engender",
+          "meaning": "产生",
+          "kind": "生词"
+        }
+      ]
+    },
+    {
+      "id": "s10",
+      "en": "Where is the line between ethical, persuasive design and dark patterns?",
+      "zhReference": "符合伦理的说服性设计与暗黑设计模式的界线在哪里？",
+      "vocabulary": [
+        {
+          "term": "ethical, persuasive design",
+          "meaning": "合乎伦理的劝导式设计",
+          "kind": "短语"
+        },
+        {
+          "term": "dark patterns",
+          "meaning": "暗黑设计模式",
+          "kind": "短语"
+        }
+      ]
+    },
+    {
+      "id": "s11",
+      "en": "Businesses should engage in conversations with IT, compliance, risk, and legal teams to review their privacy policy, and include in the discussion the customer/user experience designers and coders responsible for the company’s user interface, as well as the marketers and advertisers responsible for sign-ups, checkout baskets, pricing, and promotions.",
+      "zhReference": "企业应让信息技术、合规、风险与法务团队讨论审查隐私政策，也应让负责用户界面的用户体验设计师和程序员，以及负责注册、购物车结算、定价和促销的营销人员与广告人员参与。",
+      "vocabulary": [
+        {
+          "term": "compliance",
+          "meaning": "合规",
+          "kind": "生词"
+        },
+        {
+          "term": "checkout baskets",
+          "meaning": "结算购物车",
+          "kind": "短语"
+        },
+        {
+          "term": "privacy policy",
+          "meaning": "隐私政策",
+          "kind": "短语"
+        }
+      ]
+    },
+    {
+      "id": "s12",
+      "en": "Any or all these teams can play a role in creating or avoiding “digital deception.”",
+      "zhReference": "上述任何一个或所有团队都可能在制造或避免“数字欺骗”方面发挥作用。",
+      "vocabulary": [
+        {
+          "term": "digital deception",
+          "meaning": "数字欺骗",
+          "kind": "短语"
+        },
+        {
+          "term": "play a role in",
+          "meaning": "在……中起作用",
+          "kind": "短语"
+        }
+      ]
+    },
+    {
+      "id": "s13",
+      "en": "Lawmakers and regulators are slowly starting to address the ambiguity around dark patterns, most recently at the state level.",
+      "zhReference": "立法者与监管者正慢慢着手解决暗黑设计模式带来的模糊问题，最近的努力主要出现在州一级。",
+      "vocabulary": [
+        {
+          "term": "ambiguity",
+          "meaning": "模糊性",
+          "kind": "生词"
+        },
+        {
+          "term": "regulators",
+          "meaning": "监管者",
+          "kind": "生词"
+        },
+        {
+          "term": "state level",
+          "meaning": "州一级",
+          "kind": "短语"
+        }
+      ]
+    },
+    {
+      "id": "s14",
+      "en": "In March, the California Attorney General announced the approval of additional regulations under the California Consumer Privacy Act (CCPA) that “ensure that consumers will not be confused or misled when seeking to exercise their data privacy rights.”",
+      "zhReference": "今年三月，加州总检察长宣布批准《加州消费者隐私法》下的额外规定，以“确保消费者在行使数据隐私权时不会受到混淆或误导”。",
+      "vocabulary": [
+        {
+          "term": "Attorney General",
+          "meaning": "总检察长",
+          "kind": "短语"
+        },
+        {
+          "term": "exercise their data privacy rights",
+          "meaning": "行使数据隐私权",
+          "kind": "短语"
+        }
+      ]
+    },
+    {
+      "id": "s15",
+      "en": "The regulations aim to ban dark patterns—this means prohibiting companies from using “confusing language or unnecessary steps such as forcing them to click through multiple screens or listen to reasons why they shouldn’t opt out.”",
+      "zhReference": "这些规定旨在禁止暗黑设计模式，也就是禁止企业使用“令人困惑的语言或多余步骤，比如迫使消费者点过多个页面，或听取不该退出服务的劝说理由”。",
+      "vocabulary": [
+        {
+          "term": "opt out",
+          "meaning": "选择退出",
+          "kind": "短语"
+        },
+        {
+          "term": "unnecessary steps",
+          "meaning": "不必要的步骤",
+          "kind": "短语"
+        },
+        {
+          "term": "prohibiting",
+          "meaning": "禁止",
+          "kind": "生词"
+        }
+      ]
+    },
+    {
+      "id": "s16",
+      "en": "As more states consider promulgating additional regulations, there is a need for greater accountability from within the business community.",
+      "zhReference": "随着更多州考虑颁布额外法规，企业内部也需要承担更大的责任。",
+      "vocabulary": [
+        {
+          "term": "promulgating",
+          "meaning": "颁布",
+          "kind": "生词"
+        },
+        {
+          "term": "accountability",
+          "meaning": "问责；责任",
+          "kind": "生词"
+        }
+      ]
+    },
+    {
+      "id": "s17",
+      "en": "Dark patterns also can be addressed on a self-regulatory basis, but only if organizations hold themselves accountable, not just to legal requirements but also to industry best practices and standards.",
+      "zhReference": "暗黑设计模式也能通过行业自律解决，但前提是组织不仅遵守法律要求，还须依照行业最佳实践和标准对自己负责。",
+      "vocabulary": [
+        {
+          "term": "self-regulatory basis",
+          "meaning": "自律的方式",
+          "kind": "短语"
+        },
+        {
+          "term": "hold themselves accountable",
+          "meaning": "对自己负责",
+          "kind": "短语"
+        },
+        {
+          "term": "industry best practices",
+          "meaning": "行业最佳实践",
+          "kind": "短语"
+        }
+      ]
+    }
+  ]
+}

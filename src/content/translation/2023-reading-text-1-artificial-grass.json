@@ -1,0 +1,305 @@
+{
+  "title": "2023 真题 Text 1 · 人造草坪的环境争议",
+  "description": "英国园艺界禁用假草与政府不禁止使用之间的环保争论。",
+  "source": "2023年真题.pdf · Reading Comprehension",
+  "author": "2023 English Exam",
+  "level": "intermediate",
+  "tags": [
+    "2023真题",
+    "Reading Comprehension",
+    "Environment",
+    "Gardening"
+  ],
+  "estimatedMinutes": 24,
+  "heroNote": "注意支持者与反对者对真草和假草环境成本的不同论述。",
+  "publishedAt": "2023-01-01",
+  "sentences": [
+    {
+      "id": "s1",
+      "en": "In the quest for the perfect lawn, homeowners across the country are taking a shortcut—and it is the environment that is paying the price.",
+      "zhReference": "全国各地的房主为了追求完美草坪选择走捷径，而为此付出代价的是环境。",
+      "vocabulary": [
+        {
+          "term": "taking a shortcut",
+          "meaning": "走捷径",
+          "kind": "短语"
+        },
+        {
+          "term": "paying the price",
+          "meaning": "付出代价",
+          "kind": "短语"
+        },
+        {
+          "term": "quest for",
+          "meaning": "追求",
+          "kind": "短语"
+        }
+      ]
+    },
+    {
+      "id": "s2",
+      "en": "About eight million square metres of plastic grass is sold each year but opposition has now spread to the highest gardening circles.",
+      "zhReference": "每年售出约八百万平方米的塑料草坪，但反对它的声音如今已传到园艺界最高层。",
+      "vocabulary": [
+        {
+          "term": "gardening circles",
+          "meaning": "园艺界",
+          "kind": "短语"
+        },
+        {
+          "term": "opposition",
+          "meaning": "反对声音",
+          "kind": "生词"
+        }
+      ]
+    },
+    {
+      "id": "s3",
+      "en": "The Chelsea Flower Show has banned fake grass from this year’s event, declaring it to be not part of its ethos.",
+      "zhReference": "切尔西花展禁止本年活动使用假草，称其不符合花展理念。",
+      "vocabulary": [
+        {
+          "term": "banned fake grass",
+          "meaning": "禁止假草",
+          "kind": "短语"
+        },
+        {
+          "term": "ethos",
+          "meaning": "理念；精神",
+          "kind": "生词"
+        }
+      ]
+    },
+    {
+      "id": "s4",
+      "en": "The Royal Horticultural Society (RHS), which runs the annual show in west London, says it has introduced the ban because of the damage plastic grass does to the environment and biodiversity.",
+      "zhReference": "主办伦敦西部年度花展的英国皇家园艺学会表示，颁布禁令是因为塑料草坪会损害环境和生物多样性。",
+      "vocabulary": [
+        {
+          "term": "Horticultural Society",
+          "meaning": "园艺学会",
+          "kind": "短语"
+        },
+        {
+          "term": "biodiversity",
+          "meaning": "生物多样性",
+          "kind": "生词"
+        }
+      ]
+    },
+    {
+      "id": "s5",
+      "en": "Ed Horne, of the RHS, said: “We launched our sustainability strategy last year and fake grass is just not in line with our ethos and views on plastic.",
+      "zhReference": "该学会的埃德·霍恩说：“去年我们推出了可持续发展战略，而假草完全不符合我们的理念和对塑料制品的看法。",
+      "vocabulary": [
+        {
+          "term": "in line with",
+          "meaning": "符合……",
+          "kind": "短语"
+        },
+        {
+          "term": "sustainability strategy",
+          "meaning": "可持续发展战略",
+          "kind": "短语"
+        }
+      ]
+    },
+    {
+      "id": "s6",
+      "en": "We recommend using real grass because of its environmental benefits, which include supporting wildlife, alleviating flooding and cooling the environment.”",
+      "zhReference": "我们建议使用真草，因为它有益于环境，包括支持野生动物、缓解洪水和给环境降温。”",
+      "vocabulary": [
+        {
+          "term": "alleviating flooding",
+          "meaning": "缓解洪水",
+          "kind": "短语"
+        },
+        {
+          "term": "supporting wildlife",
+          "meaning": "支持野生动物",
+          "kind": "短语"
+        }
+      ]
+    },
+    {
+      "id": "s7",
+      "en": "The RHS’s decision comes as campaigners try to raise awareness of the problems fake grass causes.",
+      "zhReference": "英国皇家园艺学会作出这一决定之际，活动人士正试图提高人们对假草问题的认识。",
+      "vocabulary": [
+        {
+          "term": "raise awareness of",
+          "meaning": "提高对……的认识",
+          "kind": "短语"
+        },
+        {
+          "term": "campaigners",
+          "meaning": "倡议活动人士",
+          "kind": "生词"
+        }
+      ]
+    },
+    {
+      "id": "s8",
+      "en": "A Twitter account, which claims to “cut through the greenwash” of artificial grass, already has more than 20,000 followers.",
+      "zhReference": "一个声称要“戳穿人造草坪环保漂绿说辞”的推特账号，已经拥有两万多名关注者。",
+      "vocabulary": [
+        {
+          "term": "cut through the greenwash",
+          "meaning": "戳穿环保漂绿说法",
+          "kind": "短语"
+        },
+        {
+          "term": "followers",
+          "meaning": "关注者",
+          "kind": "熟词僻义"
+        }
+      ]
+    },
+    {
+      "id": "s9",
+      "en": "It is trying to encourage people to sign two petitions, one calling for a ban on the sale of plastic grass and another calling for an “ecological damage” tax on such lawns.",
+      "zhReference": "它正鼓励人们签署两份请愿书：一份呼吁禁止销售塑料草坪，另一份要求对此类草坪征收“生态损害税”。",
+      "vocabulary": [
+        {
+          "term": "petitions",
+          "meaning": "请愿书",
+          "kind": "生词"
+        },
+        {
+          "term": "ecological damage",
+          "meaning": "生态损害税",
+          "kind": "短语"
+        },
+        {
+          "term": "calling for a ban",
+          "meaning": "呼吁禁止",
+          "kind": "短语"
+        }
+      ]
+    },
+    {
+      "id": "s10",
+      "en": "They have gathered 7,276 and 11,282 signatures.",
+      "zhReference": "两份请愿书分别获得七千二百七十六和一万一千二百八十二个签名。",
+      "vocabulary": [
+        {
+          "term": "signatures",
+          "meaning": "签名",
+          "kind": "生词"
+        },
+        {
+          "term": "gathered",
+          "meaning": "征集到",
+          "kind": "熟词僻义"
+        }
+      ]
+    },
+    {
+      "id": "s11",
+      "en": "However, supporters of fake grass point out that there is also an environmental impact with natural lawns, which need mowing and therefore usually consume electricity or petrol.",
+      "zhReference": "然而，假草支持者指出，真草坪同样会影响环境：需要修剪，通常要消耗电力或汽油。",
+      "vocabulary": [
+        {
+          "term": "mowing",
+          "meaning": "修剪草坪",
+          "kind": "生词"
+        },
+        {
+          "term": "environmental impact",
+          "meaning": "环境影响",
+          "kind": "短语"
+        }
+      ]
+    },
+    {
+      "id": "s12",
+      "en": "The industry also points out that real grass requires considerable amounts of water, weed killer or other treatments and that people who lay fake grass tend to use their garden more.",
+      "zhReference": "该行业还指出，真草需要大量用水、除草剂等处理，而铺设假草的人往往更常使用自家花园。",
+      "vocabulary": [
+        {
+          "term": "weed killer",
+          "meaning": "除草剂",
+          "kind": "短语"
+        },
+        {
+          "term": "lay fake grass",
+          "meaning": "铺设假草",
+          "kind": "短语"
+        }
+      ]
+    },
+    {
+      "id": "s13",
+      "en": "The industry also claims that people who lay fake grass spend an average of £500 on trees or shrubs for their garden, which provides habitat for insects.",
+      "zhReference": "该行业还声称，铺假草的人平均会花五百英镑为花园购买树木或灌木，为昆虫提供栖息地。",
+      "vocabulary": [
+        {
+          "term": "shrubs",
+          "meaning": "灌木",
+          "kind": "生词"
+        },
+        {
+          "term": "habitat for insects",
+          "meaning": "昆虫栖息地",
+          "kind": "短语"
+        }
+      ]
+    },
+    {
+      "id": "s14",
+      "en": "In response to another petition last year about banning fake lawns, which gathered 30,000 signatures, the government responded that it has “no plans to ban the use of artificial grass”.",
+      "zhReference": "针对去年一份获得三万签名、要求禁止假草坪的请愿书，政府回应称“没有计划禁止使用人造草坪”。",
+      "vocabulary": [
+        {
+          "term": "petition",
+          "meaning": "请愿书",
+          "kind": "生词"
+        },
+        {
+          "term": "no plans to ban",
+          "meaning": "无计划禁止",
+          "kind": "短语"
+        }
+      ]
+    },
+    {
+      "id": "s15",
+      "en": "It added: “We prefer to help people and organisations make the right choice rather than legislating on such matters.",
+      "zhReference": "政府补充说：“我们倾向于帮助个人和组织作出正确选择，而不是就此立法。",
+      "vocabulary": [
+        {
+          "term": "rather than legislating",
+          "meaning": "而不是通过立法",
+          "kind": "短语"
+        },
+        {
+          "term": "make the right choice",
+          "meaning": "做出正确选择",
+          "kind": "短语"
+        }
+      ]
+    },
+    {
+      "id": "s16",
+      "en": "However, the use of artificial grass must comply with the legal and policy safeguards in place to protect biodiversity and ensure sustainable drainage, while measures such as the strengthened biodiversity duty should serve to encourage public authorities to consider sustainable alternatives.”",
+      "zhReference": "不过，人造草坪的使用必须遵守保护生物多样性、确保可持续排水的法律与政策保障措施；同时，强化的生物多样性义务等措施应促使公共机构考虑可持续替代品。”",
+      "vocabulary": [
+        {
+          "term": "comply with",
+          "meaning": "遵守",
+          "kind": "短语"
+        },
+        {
+          "term": "sustainable drainage",
+          "meaning": "可持续排水",
+          "kind": "短语"
+        },
+        {
+          "term": "biodiversity duty",
+          "meaning": "生物多样性义务",
+          "kind": "短语"
+        }
+      ]
+    }
+  ]
+}

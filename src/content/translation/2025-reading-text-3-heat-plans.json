@@ -1,0 +1,405 @@
+{
+  "title": "2025 真题 Text 3 · 印度高温预警的本地化",
+  "description": "印度高温应对计划如何考虑湿度、夜间气温和弱势社区。",
+  "source": "2025年真题.pdf · Reading Comprehension",
+  "author": "2025 English Exam",
+  "level": "intermediate",
+  "tags": [
+    "2025真题",
+    "Reading Comprehension",
+    "Heatwaves",
+    "Public Health"
+  ],
+  "estimatedMinutes": 26,
+  "heroNote": "比较全国统一温度阈值与结合当地湿度、社区脆弱性的预警方案。",
+  "publishedAt": "2025-01-01",
+  "sentences": [
+    {
+      "id": "s1",
+      "en": "Heat action plans, or HAPs, have been proliferating in India in the past few years.",
+      "zhReference": "近些年，印度的高温应对计划（HAP）不断增加。",
+      "vocabulary": [
+        {
+          "term": "Heat action plans",
+          "meaning": "高温应对计划",
+          "kind": "短语"
+        },
+        {
+          "term": "proliferating",
+          "meaning": "迅速增多",
+          "kind": "生词"
+        }
+      ]
+    },
+    {
+      "id": "s2",
+      "en": "In general, an HAP spells out when and how officials should issue heat warnings and alert hospitals and other institutions.",
+      "zhReference": "一般来说，一份高温应对计划会明确官员应在何时、如何发布高温预警，并通知医院和其他机构。",
+      "vocabulary": [
+        {
+          "term": "spells out",
+          "meaning": "明确规定",
+          "kind": "短语"
+        },
+        {
+          "term": "issue heat warnings",
+          "meaning": "发布高温预警",
+          "kind": "短语"
+        }
+      ]
+    },
+    {
+      "id": "s3",
+      "en": "Nagpur’s plan, for instance, calls for hospitals to set aside “cold wards” in the summer for treating heatstroke patients, and advises builders to give construction laborers a break from work on very hot days.",
+      "zhReference": "例如，那格浦尔的计划要求医院在夏季预留治疗中暑患者的“冷病房”，并建议建筑单位在酷热天气让建筑工人暂停工作休息。",
+      "vocabulary": [
+        {
+          "term": "set aside",
+          "meaning": "预留冷病房",
+          "kind": "短语"
+        },
+        {
+          "term": "heatstroke patients",
+          "meaning": "中暑患者",
+          "kind": "短语"
+        },
+        {
+          "term": "construction laborers",
+          "meaning": "建筑工人",
+          "kind": "短语"
+        }
+      ]
+    },
+    {
+      "id": "s4",
+      "en": "But implementation of existing HAPs has been uneven, according to a report from the Centre for Policy Research.",
+      "zhReference": "但政策研究中心的一份报告称，现有高温应对计划的执行并不均衡。",
+      "vocabulary": [
+        {
+          "term": "implementation",
+          "meaning": "实施",
+          "kind": "生词"
+        },
+        {
+          "term": "uneven",
+          "meaning": "不均衡的",
+          "kind": "生词"
+        }
+      ]
+    },
+    {
+      "id": "s5",
+      "en": "Many lack adequate funding, it found.",
+      "zhReference": "报告发现，其中许多计划缺乏足够经费。",
+      "vocabulary": [
+        {
+          "term": "adequate funding",
+          "meaning": "充足经费",
+          "kind": "短语"
+        },
+        {
+          "term": "lack",
+          "meaning": "缺乏",
+          "kind": "生词"
+        }
+      ]
+    },
+    {
+      "id": "s6",
+      "en": "And their triggering thresholds often are not customized to the local climate.",
+      "zhReference": "而触发预警的阈值也常未针对当地气候作出调整。",
+      "vocabulary": [
+        {
+          "term": "triggering thresholds",
+          "meaning": "触发阈值",
+          "kind": "短语"
+        },
+        {
+          "term": "customized to",
+          "meaning": "针对……定制",
+          "kind": "短语"
+        }
+      ]
+    },
+    {
+      "id": "s7",
+      "en": "In some areas, high daytime temperatures alone might serve as an adequate trigger for alerts.",
+      "zhReference": "在某些地区，只看白天的高温就可能足以触发警报。",
+      "vocabulary": [
+        {
+          "term": "adequate trigger for alerts",
+          "meaning": "足以触发警报的条件",
+          "kind": "短语"
+        },
+        {
+          "term": "daytime temperatures",
+          "meaning": "日间气温",
+          "kind": "短语"
+        }
+      ]
+    },
+    {
+      "id": "s8",
+      "en": "But in other places, nighttime temperatures or humidity might be as important a gauge of risk as daytime highs.",
+      "zhReference": "但在另一些地方，夜间气温或湿度可能和白天最高温一样，是衡量风险的重要指标。",
+      "vocabulary": [
+        {
+          "term": "humidity",
+          "meaning": "湿度",
+          "kind": "生词"
+        },
+        {
+          "term": "gauge of risk",
+          "meaning": "风险指标",
+          "kind": "短语"
+        },
+        {
+          "term": "daytime highs",
+          "meaning": "白天最高温",
+          "kind": "短语"
+        }
+      ]
+    },
+    {
+      "id": "s9",
+      "en": "Mumbai’s April heatstroke deaths highlighted the need for more nuanced and localized warnings, researchers say.",
+      "zhReference": "研究人员表示，孟买四月发生的中暑死亡事件凸显了更细致、更因地制宜的预警的必要性。",
+      "vocabulary": [
+        {
+          "term": "nuanced and localized warnings",
+          "meaning": "更细致且因地制宜的预警",
+          "kind": "短语"
+        },
+        {
+          "term": "heatstroke deaths",
+          "meaning": "中暑死亡",
+          "kind": "短语"
+        }
+      ]
+    },
+    {
+      "id": "s10",
+      "en": "That day’s high temperature of roughly 36°C was 1°C shy of the heat wave alert threshold for coastal cities set by national meteorological authorities.",
+      "zhReference": "那天最高气温约三十六摄氏度，比国家气象部门为沿海城市设定的热浪预警阈值低一度。",
+      "vocabulary": [
+        {
+          "term": "shy of",
+          "meaning": "低于……；差……",
+          "kind": "熟词僻义"
+        },
+        {
+          "term": "alert threshold",
+          "meaning": "预警阈值",
+          "kind": "短语"
+        },
+        {
+          "term": "meteorological authorities",
+          "meaning": "气象部门",
+          "kind": "短语"
+        }
+      ]
+    },
+    {
+      "id": "s11",
+      "en": "But the effects of the heat were amplified by humidity—an often neglected factor in heat alert systems—and the lack of shade at the late-morning outdoor ceremony.",
+      "zhReference": "但湿度——高温预警系统中常被忽视的因素——以及上午较晚时室外仪式场地缺少遮阴，放大了高温的影响。",
+      "vocabulary": [
+        {
+          "term": "amplified by humidity",
+          "meaning": "被湿度放大",
+          "kind": "短语"
+        },
+        {
+          "term": "neglected factor",
+          "meaning": "被忽视的因素",
+          "kind": "短语"
+        },
+        {
+          "term": "lack of shade",
+          "meaning": "缺乏遮阴",
+          "kind": "短语"
+        }
+      ]
+    },
+    {
+      "id": "s12",
+      "en": "To help improve HAPs, urban planner Rajashree Kotharkar’s team is working on a model plan that outlines best practices and could be adapted to local conditions.",
+      "zhReference": "为改进高温应对计划，城市规划师拉贾什里·科塔卡尔的团队正制定一份示范方案，概述最佳做法，并可按当地条件调整。",
+      "vocabulary": [
+        {
+          "term": "model plan",
+          "meaning": "示范方案",
+          "kind": "短语"
+        },
+        {
+          "term": "adapted to local conditions",
+          "meaning": "适应当地条件",
+          "kind": "短语"
+        },
+        {
+          "term": "urban planner",
+          "meaning": "城市规划师",
+          "kind": "短语"
+        }
+      ]
+    },
+    {
+      "id": "s13",
+      "en": "Among other things, she says, all cities should create a vulnerability map to help focus responses on the populations most at risk.",
+      "zhReference": "她还说，所有城市都应绘制脆弱性地图，帮助把应对资源集中到风险最高的人群。",
+      "vocabulary": [
+        {
+          "term": "vulnerability map",
+          "meaning": "脆弱性地图",
+          "kind": "短语"
+        },
+        {
+          "term": "populations most at risk",
+          "meaning": "风险最高的人群",
+          "kind": "短语"
+        }
+      ]
+    },
+    {
+      "id": "s14",
+      "en": "Such mapping doesn’t need to be complex, Kotharkar says.",
+      "zhReference": "科塔卡尔说，这种地图不必很复杂。",
+      "vocabulary": [
+        {
+          "term": "Such mapping",
+          "meaning": "这种地图绘制",
+          "kind": "短语"
+        },
+        {
+          "term": "complex",
+          "meaning": "复杂的",
+          "kind": "生词"
+        }
+      ]
+    },
+    {
+      "id": "s15",
+      "en": "“A useful map can be created by looking at even a few key parameters.”",
+      "zhReference": "“只看几个关键参数，也能绘制有用的地图。”",
+      "vocabulary": [
+        {
+          "term": "key parameters",
+          "meaning": "关键参数",
+          "kind": "短语"
+        },
+        {
+          "term": "useful map",
+          "meaning": "有用的地图",
+          "kind": "短语"
+        }
+      ]
+    },
+    {
+      "id": "s16",
+      "en": "For example, neighborhoods with a large elderly population or informal dwellings that cope poorly with heat could get special warnings or be bolstered with cooling centers.",
+      "zhReference": "例如，老年人口多、或有大量难以抵御高温的非正规住宅的社区，可以收到特别预警，也可以增设降温中心。",
+      "vocabulary": [
+        {
+          "term": "informal dwellings",
+          "meaning": "非正规住宅",
+          "kind": "短语"
+        },
+        {
+          "term": "cope poorly with heat",
+          "meaning": "难以应对高温",
+          "kind": "短语"
+        },
+        {
+          "term": "cooling centers",
+          "meaning": "降温中心",
+          "kind": "短语"
+        }
+      ]
+    },
+    {
+      "id": "s17",
+      "en": "The Nagpur project has already created a risk and vulnerability map, which enabled Kotharkar to tell officials which neighborhoods to focus on in the event of a heat wave this summer.",
+      "zhReference": "那格浦尔项目已经绘制风险与脆弱性地图，使科塔卡尔能够告诉官员，今年夏季发生热浪时应重点关注哪些社区。",
+      "vocabulary": [
+        {
+          "term": "in the event of a heat wave",
+          "meaning": "一旦发生热浪",
+          "kind": "短语"
+        },
+        {
+          "term": "risk and vulnerability map",
+          "meaning": "风险与脆弱性地图",
+          "kind": "短语"
+        }
+      ]
+    },
+    {
+      "id": "s18",
+      "en": "HAPs shouldn’t just include short-term emergency responses, researchers say, but also recommend medium- to long-term measures that could make communities cooler.",
+      "zhReference": "研究人员说，高温应对计划不应只有短期紧急响应，还应提出让社区更凉爽的中长期措施。",
+      "vocabulary": [
+        {
+          "term": "emergency responses",
+          "meaning": "应急响应",
+          "kind": "短语"
+        },
+        {
+          "term": "medium- to long-term measures",
+          "meaning": "中长期措施",
+          "kind": "短语"
+        }
+      ]
+    },
+    {
+      "id": "s19",
+      "en": "In Nagpur, for example, Kotharkar’s team has been able to advise city officials about where to plant trees to provide shade.",
+      "zhReference": "例如在那格浦尔，科塔卡尔团队已能就在哪里植树遮阴向市政官员提出建议。",
+      "vocabulary": [
+        {
+          "term": "provide shade",
+          "meaning": "提供遮阴",
+          "kind": "短语"
+        },
+        {
+          "term": "city officials",
+          "meaning": "市政官员",
+          "kind": "短语"
+        }
+      ]
+    },
+    {
+      "id": "s20",
+      "en": "HAPs could also guide efforts to retrofit homes or modify building regulations.",
+      "zhReference": "高温应对计划还能指导住宅隔热改造或建筑法规调整。",
+      "vocabulary": [
+        {
+          "term": "retrofit homes",
+          "meaning": "改造既有住宅",
+          "kind": "短语"
+        },
+        {
+          "term": "building regulations",
+          "meaning": "建筑法规",
+          "kind": "短语"
+        }
+      ]
+    },
+    {
+      "id": "s21",
+      "en": "“Reducing deaths in an emergency is good target to have, but it’s the lowest target,” says climate researcher Chandni Singh.",
+      "zhReference": "气候研究人员钱德妮·辛格说：“减少紧急情况下的死亡是个值得追求的目标，但这是最低层次的目标。”",
+      "vocabulary": [
+        {
+          "term": "lowest target",
+          "meaning": "最低层次的目标",
+          "kind": "短语"
+        },
+        {
+          "term": "emergency",
+          "meaning": "紧急情况",
+          "kind": "生词"
+        }
+      ]
+    }
+  ]
+}

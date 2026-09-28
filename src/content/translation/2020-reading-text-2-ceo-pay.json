@@ -1,0 +1,339 @@
+{
+  "title": "2020 真题 Text 2 · 首席执行官为何高薪",
+  "description": "从技能需求、人才供给和企业治理等角度解释首席执行官薪酬增长。",
+  "source": "2020年真题.pdf · Reading Comprehension",
+  "author": "2020 English Exam",
+  "level": "advanced",
+  "tags": [
+    "2020真题",
+    "Reading Comprehension",
+    "Business",
+    "CEO Pay"
+  ],
+  "estimatedMinutes": 26,
+  "heroNote": "这是作者对高薪的一种解释，注意区分论点与已经证实的事实。",
+  "publishedAt": "2020-01-01",
+  "sentences": [
+    {
+      "id": "s1",
+      "en": "It is true that CEO pay has gone up—top ones may make 300 times the pay of typical workers on average, and since the mid-1970s, CEO pay for large publicly traded American corporations has, by varying estimates, gone up by about 500%.",
+      "zhReference": "首席执行官的薪酬确实上涨了：顶级首席执行官的收入平均可能是普通工人的三百倍；据不同估算，自二十世纪七十年代中期以来，美国大型上市公司的首席执行官薪酬增长了约百分之五百。",
+      "vocabulary": [
+        {
+          "term": "CEO pay",
+          "meaning": "首席执行官薪酬",
+          "kind": "短语"
+        },
+        {
+          "term": "publicly traded",
+          "meaning": "上市的",
+          "kind": "短语"
+        },
+        {
+          "term": "by varying estimates",
+          "meaning": "根据不同估算",
+          "kind": "短语"
+        }
+      ]
+    },
+    {
+      "id": "s2",
+      "en": "The typical CEO of a top American corporation now makes about $18.9 million a year.",
+      "zhReference": "如今美国顶级企业的首席执行官年薪一般约为一千八百九十万美元。",
+      "vocabulary": [
+        {
+          "term": "typical CEO",
+          "meaning": "普通首席执行官",
+          "kind": "短语"
+        },
+        {
+          "term": "makes about",
+          "meaning": "收入约为",
+          "kind": "熟词僻义"
+        }
+      ]
+    },
+    {
+      "id": "s3",
+      "en": "The best model for understanding the growth of CEO pay is that of limited CEO talent in a world where business opportunities for the top firms are growing rapidly.",
+      "zhReference": "理解首席执行官薪酬增长的最佳模型是：在顶尖企业的商业机会迅速增长的世界里，优秀的首席执行官人才十分有限。",
+      "vocabulary": [
+        {
+          "term": "limited CEO talent",
+          "meaning": "优秀首席执行官人才稀缺",
+          "kind": "短语"
+        },
+        {
+          "term": "business opportunities",
+          "meaning": "商业机会",
+          "kind": "短语"
+        }
+      ]
+    },
+    {
+      "id": "s4",
+      "en": "The efforts of America’s highest-earning 1% have been one of the more dynamic elements of the global economy.",
+      "zhReference": "美国收入最高的百分之一人群的努力，一直是全球经济中较为活跃的因素之一。",
+      "vocabulary": [
+        {
+          "term": "highest-earning 1%",
+          "meaning": "收入最高的百分之一",
+          "kind": "短语"
+        },
+        {
+          "term": "dynamic elements",
+          "meaning": "活跃因素",
+          "kind": "短语"
+        }
+      ]
+    },
+    {
+      "id": "s5",
+      "en": "It’s not popular to say, but one reason their pay has gone up so much is that CEOs really have upped their game relative to many other workers in the U.S. economy.",
+      "zhReference": "说出来也许不受欢迎，但他们的薪酬大幅上涨，一个原因确实是与美国经济中许多其他劳动者相比，首席执行官们提高了自己的能力和表现。",
+      "vocabulary": [
+        {
+          "term": "upped their game",
+          "meaning": "提高了技能和表现",
+          "kind": "短语"
+        },
+        {
+          "term": "relative to",
+          "meaning": "与……相比",
+          "kind": "短语"
+        }
+      ]
+    },
+    {
+      "id": "s6",
+      "en": "Today’s CEO, at least for major American firms, must have many more skills than simply being able to “run the company.”",
+      "zhReference": "如今，至少在美国大企业，首席执行官需要的技能远不止“管理公司”那么简单。",
+      "vocabulary": [
+        {
+          "term": "run the company",
+          "meaning": "经营管理公司",
+          "kind": "短语"
+        },
+        {
+          "term": "major American firms",
+          "meaning": "美国大企业",
+          "kind": "短语"
+        }
+      ]
+    },
+    {
+      "id": "s7",
+      "en": "CEOs must have a good sense of financial markets and maybe even how the company should trade in them.",
+      "zhReference": "他们必须了解金融市场，也许还得知道公司该如何在市场上交易。",
+      "vocabulary": [
+        {
+          "term": "financial markets",
+          "meaning": "金融市场",
+          "kind": "短语"
+        },
+        {
+          "term": "trade in them",
+          "meaning": "在市场中交易",
+          "kind": "短语"
+        }
+      ]
+    },
+    {
+      "id": "s8",
+      "en": "They also need better public relations skills than their predecessors, as the costs of even a minor slipup can be significant.",
+      "zhReference": "他们还需要比前任更强的公共关系能力，因为哪怕一个小小的失误也可能代价巨大。",
+      "vocabulary": [
+        {
+          "term": "public relations skills",
+          "meaning": "公共关系技能",
+          "kind": "短语"
+        },
+        {
+          "term": "predecessors",
+          "meaning": "前任",
+          "kind": "生词"
+        },
+        {
+          "term": "slipup",
+          "meaning": "失误",
+          "kind": "生词"
+        }
+      ]
+    },
+    {
+      "id": "s9",
+      "en": "Then there’s the fact that large American companies are much more globalized than ever before, with supply chains spread across a larger number of countries.",
+      "zhReference": "此外，美国大企业如今比过去更加全球化，供应链遍布更多国家。",
+      "vocabulary": [
+        {
+          "term": "supply chains",
+          "meaning": "供应链",
+          "kind": "短语"
+        },
+        {
+          "term": "globalized",
+          "meaning": "全球化的",
+          "kind": "生词"
+        }
+      ]
+    },
+    {
+      "id": "s10",
+      "en": "To lead in that system requires knowledge that is fairly mind-boggling.",
+      "zhReference": "要领导这样的体系，所需知识之广令人难以想象。",
+      "vocabulary": [
+        {
+          "term": "mind-boggling",
+          "meaning": "令人难以想象的",
+          "kind": "生词"
+        },
+        {
+          "term": "lead in that system",
+          "meaning": "领导那样的体系",
+          "kind": "短语"
+        }
+      ]
+    },
+    {
+      "id": "s11",
+      "en": "Plus, virtually all major American companies are becoming tech companies, often with their own research and development.",
+      "zhReference": "而且，几乎所有美国大企业都在变成科技企业，通常还有自己的研发业务。",
+      "vocabulary": [
+        {
+          "term": "virtually all",
+          "meaning": "几乎所有",
+          "kind": "短语"
+        },
+        {
+          "term": "research and development",
+          "meaning": "研发",
+          "kind": "短语"
+        }
+      ]
+    },
+    {
+      "id": "s12",
+      "en": "And beyond this, major CEOs still have to do all the day-to-day work they have always done.",
+      "zhReference": "除此之外，大企业的首席执行官仍然要完成一贯承担的日常工作。",
+      "vocabulary": [
+        {
+          "term": "day-to-day work",
+          "meaning": "日常工作",
+          "kind": "短语"
+        },
+        {
+          "term": "beyond this",
+          "meaning": "除此之外",
+          "kind": "短语"
+        }
+      ]
+    },
+    {
+      "id": "s13",
+      "en": "The common idea that high CEO pay is mainly about ripping people off doesn’t explain history very well.",
+      "zhReference": "认为首席执行官高薪主要靠剥削他人的普遍观点，并不能很好地解释历史事实。",
+      "vocabulary": [
+        {
+          "term": "ripping people off",
+          "meaning": "剥削；敲诈人们",
+          "kind": "短语"
+        },
+        {
+          "term": "explain history",
+          "meaning": "解释历史事实",
+          "kind": "短语"
+        }
+      ]
+    },
+    {
+      "id": "s14",
+      "en": "By most measures, corporate governance has become a lot tighter and more rigorous since the 1970s.",
+      "zhReference": "按大多数指标衡量，自二十世纪七十年代起，企业治理变得更严密、更严格。",
+      "vocabulary": [
+        {
+          "term": "corporate governance",
+          "meaning": "企业治理",
+          "kind": "短语"
+        },
+        {
+          "term": "rigorous",
+          "meaning": "严格的",
+          "kind": "生词"
+        }
+      ]
+    },
+    {
+      "id": "s15",
+      "en": "Yet it is principally during this period of stronger governance that CEO pay has been high and rising.",
+      "zhReference": "但首席执行官薪酬居高不下、不断上涨的，恰恰主要是治理加强的这段时期。",
+      "vocabulary": [
+        {
+          "term": "principally",
+          "meaning": "主要地",
+          "kind": "生词"
+        },
+        {
+          "term": "stronger governance",
+          "meaning": "更严格的治理",
+          "kind": "短语"
+        }
+      ]
+    },
+    {
+      "id": "s16",
+      "en": "That suggests it is in the broader corporate interest to recruit top candidates for increasingly tough jobs.",
+      "zhReference": "这说明，为越来越艰难的工作招募顶尖候选人，符合企业更广泛的利益。",
+      "vocabulary": [
+        {
+          "term": "broader corporate interest",
+          "meaning": "企业更广泛的利益",
+          "kind": "短语"
+        },
+        {
+          "term": "recruit top candidates",
+          "meaning": "招聘顶尖候选人",
+          "kind": "短语"
+        }
+      ]
+    },
+    {
+      "id": "s17",
+      "en": "Furthermore, the highest CEO salaries are paid to outside candidates, not to the cozy insider picks, another sign that high CEO pay is not some kind of depredation at the expense of the rest of the company.",
+      "zhReference": "此外，最高的首席执行官薪酬付给的是外部候选人，而不是关系亲近的内部人选；这也表明，高薪并非以公司其他人的利益为代价进行掠夺。",
+      "vocabulary": [
+        {
+          "term": "cozy insider picks",
+          "meaning": "关系亲近的内部人选",
+          "kind": "短语"
+        },
+        {
+          "term": "depredation",
+          "meaning": "掠夺",
+          "kind": "生词"
+        },
+        {
+          "term": "at the expense of",
+          "meaning": "以损害……为代价",
+          "kind": "短语"
+        }
+      ]
+    },
+    {
+      "id": "s18",
+      "en": "And the stock market reacts positively when companies tie CEO pay to, say, stock prices, a sign that those practices build up corporate value not just for the CEO.",
+      "zhReference": "而当公司把首席执行官薪酬与股价等指标挂钩时，股市反应积极；这说明这些做法不仅为首席执行官，也为公司整体创造价值。",
+      "vocabulary": [
+        {
+          "term": "tie CEO pay to",
+          "meaning": "把首席执行官薪酬与……挂钩",
+          "kind": "短语"
+        },
+        {
+          "term": "build up corporate value",
+          "meaning": "提升企业价值",
+          "kind": "短语"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,339 @@
+{
+  "title": "2020 真题 Text 1 · 老鼠能和机器人交朋友吗",
+  "description": "研究老鼠如何识别机器鼠的社交行为，以及互助行为背后的机制。",
+  "source": "2020年真题.pdf · Reading Comprehension",
+  "author": "2020 English Exam",
+  "level": "intermediate",
+  "tags": [
+    "2020真题",
+    "Reading Comprehension",
+    "Animal Behavior",
+    "Robots"
+  ],
+  "estimatedMinutes": 25,
+  "heroNote": "注意实验中的两种机器鼠及活老鼠释放它们的概率差异。",
+  "publishedAt": "2020-01-01",
+  "sentences": [
+    {
+      "id": "s1",
+      "en": "Rats and other animals need to be highly attuned to social signals from others so they can identify friends to cooperate with and enemies to avoid.",
+      "zhReference": "老鼠和其他动物需要高度敏感地察觉来自同类的社交信号，以便识别可以合作的伙伴和需要躲避的敌人。",
+      "vocabulary": [
+        {
+          "term": "attuned to",
+          "meaning": "对……敏感",
+          "kind": "短语"
+        },
+        {
+          "term": "social signals",
+          "meaning": "社交信号",
+          "kind": "短语"
+        },
+        {
+          "term": "identify friends",
+          "meaning": "识别同伴",
+          "kind": "短语"
+        }
+      ]
+    },
+    {
+      "id": "s2",
+      "en": "To find out if this extends to non-living beings, Laleh Quinn at the University of California, San Diego, and her colleagues tested whether rats can detect social signals from robotic rats.",
+      "zhReference": "为弄清这种能力是否也适用于非生命体，加州大学圣迭戈分校的拉蕾·奎因及同事测试了老鼠能否识别机器鼠发出的社交信号。",
+      "vocabulary": [
+        {
+          "term": "extends to",
+          "meaning": "适用于",
+          "kind": "短语"
+        },
+        {
+          "term": "non-living beings",
+          "meaning": "非生命体",
+          "kind": "短语"
+        },
+        {
+          "term": "robotic rats",
+          "meaning": "机器鼠",
+          "kind": "短语"
+        }
+      ]
+    },
+    {
+      "id": "s3",
+      "en": "They housed eight adult rats with two types of robotic rat—one social and one asocial—for four days.",
+      "zhReference": "他们让八只成年老鼠与两种机器鼠——一种具有社交行为，一种没有——共同生活了四天。",
+      "vocabulary": [
+        {
+          "term": "housed",
+          "meaning": "安排住在一起",
+          "kind": "熟词僻义"
+        },
+        {
+          "term": "asocial",
+          "meaning": "不具社交性的",
+          "kind": "生词"
+        }
+      ]
+    },
+    {
+      "id": "s4",
+      "en": "The robot rats were quite minimalist, resembling a chunkier version of a computer mouse with wheels to move around and colourful markings.",
+      "zhReference": "机器鼠的设计相当简约，看起来像一个更厚实的电脑鼠标，装有便于移动的轮子和鲜艳的标记。",
+      "vocabulary": [
+        {
+          "term": "minimalist",
+          "meaning": "极简主义的",
+          "kind": "生词"
+        },
+        {
+          "term": "chunkier version",
+          "meaning": "更厚实的版本",
+          "kind": "短语"
+        }
+      ]
+    },
+    {
+      "id": "s5",
+      "en": "During the experiment, the social robot rat followed the living rats around, played with the same toys, and opened cage doors to let trapped rats escape.",
+      "zhReference": "实验期间，有社交行为的机器鼠会跟随活老鼠、玩相同的玩具，并打开笼门放出被困的老鼠。",
+      "vocabulary": [
+        {
+          "term": "trapped rats",
+          "meaning": "被困的老鼠",
+          "kind": "短语"
+        },
+        {
+          "term": "let trapped rats escape",
+          "meaning": "让……逃出来",
+          "kind": "短语"
+        }
+      ]
+    },
+    {
+      "id": "s6",
+      "en": "Meanwhile, the asocial robot simply moved forwards and backwards and side to side.",
+      "zhReference": "与此同时，不具社交行为的机器鼠只是前后左右移动。",
+      "vocabulary": [
+        {
+          "term": "asocial robot",
+          "meaning": "无社交行为的机器人",
+          "kind": "短语"
+        },
+        {
+          "term": "side to side",
+          "meaning": "左右来回",
+          "kind": "短语"
+        }
+      ]
+    },
+    {
+      "id": "s7",
+      "en": "Next, the researchers trapped the robots in cages and gave the rats the opportunity to release them by pressing a lever.",
+      "zhReference": "接着，研究人员把机器鼠关进笼子，让活老鼠有机会按下杠杆放出它们。",
+      "vocabulary": [
+        {
+          "term": "pressing a lever",
+          "meaning": "按下杠杆",
+          "kind": "短语"
+        },
+        {
+          "term": "release them",
+          "meaning": "释放它们",
+          "kind": "短语"
+        }
+      ]
+    },
+    {
+      "id": "s8",
+      "en": "Across 18 trials each, the living rats were 52 per cent more likely on average to set the social robot free than the asocial one.",
+      "zhReference": "每种情形各进行十八次实验后发现，活老鼠释放有社交行为的机器鼠的可能性，平均比释放无社交行为机器鼠高百分之五十二。",
+      "vocabulary": [
+        {
+          "term": "set the social robot free",
+          "meaning": "放出社交型机器鼠",
+          "kind": "短语"
+        },
+        {
+          "term": "on average",
+          "meaning": "平均来说",
+          "kind": "短语"
+        }
+      ]
+    },
+    {
+      "id": "s9",
+      "en": "This suggests that the rats perceived the social robot as a genuine social being.",
+      "zhReference": "这说明老鼠把社交型机器鼠当作真正的社交伙伴。",
+      "vocabulary": [
+        {
+          "term": "perceived",
+          "meaning": "把……视为",
+          "kind": "熟词僻义"
+        },
+        {
+          "term": "genuine social being",
+          "meaning": "真正的社交存在",
+          "kind": "短语"
+        }
+      ]
+    },
+    {
+      "id": "s10",
+      "en": "They may have bonded more with the social robot because it displayed behaviors like communal exploring and playing.",
+      "zhReference": "它们可能与这种机器鼠建立了更亲近的联系，因为它表现出一起探索、玩耍等行为。",
+      "vocabulary": [
+        {
+          "term": "bonded more with",
+          "meaning": "与……建立更紧密的联系",
+          "kind": "短语"
+        },
+        {
+          "term": "communal exploring",
+          "meaning": "共同探索",
+          "kind": "短语"
+        }
+      ]
+    },
+    {
+      "id": "s11",
+      "en": "This could lead to the rats better remembering having freed it earlier, and wanting the robot to return the favour when they get trapped, says Quinn.",
+      "zhReference": "奎因说，这可能让老鼠更清楚地记得自己先前救过它，并期待以后自己被困时机器鼠也能帮忙。",
+      "vocabulary": [
+        {
+          "term": "return the favour",
+          "meaning": "回报恩情",
+          "kind": "短语"
+        },
+        {
+          "term": "having freed it earlier",
+          "meaning": "先前曾放出它",
+          "kind": "短语"
+        }
+      ]
+    },
+    {
+      "id": "s12",
+      "en": "“Rats have been shown to engage in multiple forms of reciprocal help and cooperation, including what is referred to as direct reciprocity—where a rat will help another rat that has previously helped them,” says Quinn.",
+      "zhReference": "奎因说：“研究发现，老鼠会以多种方式相互帮助、合作，包括所谓的直接互惠——一只老鼠会帮助先前帮助过自己的另一只老鼠。”",
+      "vocabulary": [
+        {
+          "term": "reciprocal help",
+          "meaning": "互助",
+          "kind": "短语"
+        },
+        {
+          "term": "direct reciprocity",
+          "meaning": "直接互惠",
+          "kind": "短语"
+        },
+        {
+          "term": "engage in",
+          "meaning": "参与",
+          "kind": "短语"
+        }
+      ]
+    },
+    {
+      "id": "s13",
+      "en": "The readiness of the rats to befriend the social robot was surprising given its minimal design.",
+      "zhReference": "鉴于机器鼠设计极为简陋，活老鼠竟愿意与它交朋友，令人意外。",
+      "vocabulary": [
+        {
+          "term": "readiness of the rats to befriend",
+          "meaning": "愿意结交",
+          "kind": "短语"
+        },
+        {
+          "term": "given its minimal design",
+          "meaning": "考虑到它的极简设计",
+          "kind": "短语"
+        }
+      ]
+    },
+    {
+      "id": "s14",
+      "en": "The robot was the same size as a regular rat but resembled a simple plastic box on wheels.",
+      "zhReference": "它和普通老鼠一样大，却更像一个装着轮子的简易塑料盒。",
+      "vocabulary": [
+        {
+          "term": "resembled",
+          "meaning": "看起来像",
+          "kind": "生词"
+        },
+        {
+          "term": "plastic box on wheels",
+          "meaning": "带轮的塑料盒",
+          "kind": "短语"
+        }
+      ]
+    },
+    {
+      "id": "s15",
+      "en": "“We’d assumed we’d have to give it a moving head and tail, facial features, and put a scent on it to make it smell like a real rat, but that wasn’t necessary,” says Janet Wiles at the University of Queensland in Australia, who helped with the research.",
+      "zhReference": "参与研究的澳大利亚昆士兰大学研究人员珍妮特·怀尔斯说：“我们原以为得给它装上会动的头和尾巴、面部特征，并加上气味让它闻起来像真老鼠，但这些都不必要。”",
+      "vocabulary": [
+        {
+          "term": "facial features",
+          "meaning": "面部特征",
+          "kind": "短语"
+        },
+        {
+          "term": "put a scent on it",
+          "meaning": "让它带有气味",
+          "kind": "短语"
+        }
+      ]
+    },
+    {
+      "id": "s16",
+      "en": "The finding shows how sensitive rats are to social cues, even when they come from basic robots.",
+      "zhReference": "这一发现表明，即使社交线索来自简易机器人，老鼠仍能敏锐察觉。",
+      "vocabulary": [
+        {
+          "term": "social cues",
+          "meaning": "社交线索",
+          "kind": "短语"
+        },
+        {
+          "term": "sensitive rats are to",
+          "meaning": "对……敏感",
+          "kind": "短语"
+        }
+      ]
+    },
+    {
+      "id": "s17",
+      "en": "Similarly, children tend to treat robots as if they are fellow beings, even when they display only simple social signals.",
+      "zhReference": "类似地，孩子常把机器人视为同类，即便机器人只表现出简单的社交信号。",
+      "vocabulary": [
+        {
+          "term": "fellow beings",
+          "meaning": "同类的存在",
+          "kind": "短语"
+        },
+        {
+          "term": "tend to treat",
+          "meaning": "往往把……看作",
+          "kind": "短语"
+        }
+      ]
+    },
+    {
+      "id": "s18",
+      "en": "“We humans seem to be fascinated by robots, and it turns out other animals are too,” says Wiles.",
+      "zhReference": "怀尔斯说：“我们人类似乎对机器人很着迷，事实证明其他动物也是如此。”",
+      "vocabulary": [
+        {
+          "term": "fascinated by",
+          "meaning": "对……着迷",
+          "kind": "短语"
+        },
+        {
+          "term": "it turns out",
+          "meaning": "事实证明",
+          "kind": "短语"
+        }
+      ]
+    }
+  ]
+}

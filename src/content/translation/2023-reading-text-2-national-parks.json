@@ -1,0 +1,332 @@
+{
+  "title": "2023 真题 Text 2 · 国家公园的资金危机",
+  "description": "反思国家公园露营地商业化方案，主张解决长期公共拨款不足。",
+  "source": "2023年真题.pdf · Reading Comprehension",
+  "author": "2023 English Exam",
+  "level": "intermediate",
+  "tags": [
+    "2023真题",
+    "Reading Comprehension",
+    "National Parks",
+    "Funding"
+  ],
+  "estimatedMinutes": 26,
+  "heroNote": "注意区分政府提出的商业化方案与作者认可的公共资金支持。",
+  "publishedAt": "2023-01-01",
+  "sentences": [
+    {
+      "id": "s1",
+      "en": "It’s easy to dismiss as absurd the federal government’s ideas for plugging the chronic funding gap of our national parks.",
+      "zhReference": "联邦政府为填补国家公园长期资金缺口提出的主意，很容易被认为荒唐。",
+      "vocabulary": [
+        {
+          "term": "dismiss as absurd",
+          "meaning": "斥为荒唐",
+          "kind": "短语"
+        },
+        {
+          "term": "plugging the chronic funding gap",
+          "meaning": "填补长期资金缺口",
+          "kind": "短语"
+        }
+      ]
+    },
+    {
+      "id": "s2",
+      "en": "Can anyone really think it’s a good idea to allow Amazon deliveries to your tent in Yosemite or food trucks to line up under the redwood trees at Sequoia National Park?",
+      "zhReference": "难道有人真觉得，把亚马逊包裹送到优胜美地的帐篷，或者让餐车在红杉国家公园的红杉树下排队，是个好主意吗？",
+      "vocabulary": [
+        {
+          "term": "food trucks",
+          "meaning": "餐车",
+          "kind": "短语"
+        },
+        {
+          "term": "line up under",
+          "meaning": "在……下排队",
+          "kind": "短语"
+        }
+      ]
+    },
+    {
+      "id": "s3",
+      "en": "But the government is right about one thing: U.S. national parks are in crisis.",
+      "zhReference": "但政府有一点说对了：美国国家公园正处于危机中。",
+      "vocabulary": [
+        {
+          "term": "in crisis",
+          "meaning": "处于危机中",
+          "kind": "短语"
+        },
+        {
+          "term": "right about one thing",
+          "meaning": "有一点说对了",
+          "kind": "短语"
+        }
+      ]
+    },
+    {
+      "id": "s4",
+      "en": "Collectively, they have a maintenance backlog of more than $12 billion.",
+      "zhReference": "总体来看，待完成的维修维护工作累计需要超过一百二十亿美元。",
+      "vocabulary": [
+        {
+          "term": "maintenance backlog",
+          "meaning": "积压的维修任务",
+          "kind": "短语"
+        },
+        {
+          "term": "Collectively",
+          "meaning": "总体上",
+          "kind": "生词"
+        }
+      ]
+    },
+    {
+      "id": "s5",
+      "en": "Roads, trails, restrooms, visitor centers and other infrastructure are crumbling.",
+      "zhReference": "道路、小径、洗手间、游客中心及其他基础设施正在破败。",
+      "vocabulary": [
+        {
+          "term": "crumbling",
+          "meaning": "破败；摇摇欲坠",
+          "kind": "生词"
+        },
+        {
+          "term": "infrastructure",
+          "meaning": "基础设施",
+          "kind": "生词"
+        }
+      ]
+    },
+    {
+      "id": "s6",
+      "en": "But privatizing and commercializing the campgrounds would not be a cure-all.",
+      "zhReference": "但把露营地私有化、商业化并不是万能药。",
+      "vocabulary": [
+        {
+          "term": "privatizing and commercializing",
+          "meaning": "私有化和商业化",
+          "kind": "短语"
+        },
+        {
+          "term": "cure-all",
+          "meaning": "万能药",
+          "kind": "生词"
+        }
+      ]
+    },
+    {
+      "id": "s7",
+      "en": "Campgrounds are a tiny portion of the overall infrastructure backlog, and businesses in the parks hand over, on average, only about 5% of their revenues to the National Park Service.",
+      "zhReference": "露营地只占整体基础设施积压维修需求中的一小部分，而园内商家平均仅将其收入的约百分之五交给国家公园管理局。",
+      "vocabulary": [
+        {
+          "term": "hand over",
+          "meaning": "上交",
+          "kind": "短语"
+        },
+        {
+          "term": "revenues",
+          "meaning": "收入",
+          "kind": "生词"
+        },
+        {
+          "term": "infrastructure backlog",
+          "meaning": "积压的基础设施维修需求",
+          "kind": "短语"
+        }
+      ]
+    },
+    {
+      "id": "s8",
+      "en": "Moreover, increased privatization would certainly undercut one of the major reasons why 300 million visitors come to the parks each year: to enjoy nature and get a break from the commercial drumbeat that overwhelms daily life.",
+      "zhReference": "此外，私有化程度加深肯定会削弱每年三亿人参观公园的主要原因之一：享受大自然，从充斥日常生活的商业喧嚣中得到片刻喘息。",
+      "vocabulary": [
+        {
+          "term": "undercut",
+          "meaning": "削弱",
+          "kind": "生词"
+        },
+        {
+          "term": "commercial drumbeat",
+          "meaning": "商业喧嚣",
+          "kind": "短语"
+        },
+        {
+          "term": "get a break from",
+          "meaning": "暂时摆脱",
+          "kind": "短语"
+        }
+      ]
+    },
+    {
+      "id": "s9",
+      "en": "The real problem is that the parks have been chronically starved of funding.",
+      "zhReference": "真正的问题是，国家公园长期资金不足。",
+      "vocabulary": [
+        {
+          "term": "starved of funding",
+          "meaning": "经费严重不足",
+          "kind": "短语"
+        },
+        {
+          "term": "chronically",
+          "meaning": "长期地",
+          "kind": "生词"
+        }
+      ]
+    },
+    {
+      "id": "s10",
+      "en": "An economic survey of 700 U.S. taxpayers found that people would be willing to pay a significant amount of money to make sure the parks and their programs are kept intact.",
+      "zhReference": "一项针对七百名美国纳税人的经济调查发现，人们愿意支付相当可观的费用，确保公园及其项目得以完整保留。",
+      "vocabulary": [
+        {
+          "term": "taxpayers",
+          "meaning": "纳税人",
+          "kind": "生词"
+        },
+        {
+          "term": "kept intact",
+          "meaning": "完整保留",
+          "kind": "短语"
+        }
+      ]
+    },
+    {
+      "id": "s11",
+      "en": "Some 81% of respondents said they would be willing to pay additional taxes for the next 10 years to avoid any cuts to the national parks.",
+      "zhReference": "约百分之八十一的受访者表示，愿意未来十年多交税，以避免国家公园被削减经费。",
+      "vocabulary": [
+        {
+          "term": "additional taxes",
+          "meaning": "额外税款",
+          "kind": "短语"
+        },
+        {
+          "term": "respondents",
+          "meaning": "受访者",
+          "kind": "生词"
+        }
+      ]
+    },
+    {
+      "id": "s12",
+      "en": "The national parks provide great value to U.S. residents both as places to escape and as symbols of nature.",
+      "zhReference": "国家公园为美国居民提供了巨大的价值：既是逃离日常的场所，也是自然的象征。",
+      "vocabulary": [
+        {
+          "term": "places to escape",
+          "meaning": "逃离日常的地方",
+          "kind": "短语"
+        },
+        {
+          "term": "symbols of nature",
+          "meaning": "自然的象征",
+          "kind": "短语"
+        }
+      ]
+    },
+    {
+      "id": "s13",
+      "en": "On top of this, they produce value from their extensive educational programs, their positive impact on the climate through carbon sequestration, their contribution to our cultural and artistic life, and of course through tourism.",
+      "zhReference": "除此之外，公园还通过丰富的教育项目、碳封存对气候的积极作用、对文化艺术生活的贡献，当然还有旅游，创造价值。",
+      "vocabulary": [
+        {
+          "term": "carbon sequestration",
+          "meaning": "碳封存",
+          "kind": "短语"
+        },
+        {
+          "term": "educational programs",
+          "meaning": "教育项目",
+          "kind": "短语"
+        },
+        {
+          "term": "through tourism",
+          "meaning": "通过旅游业",
+          "kind": "短语"
+        }
+      ]
+    },
+    {
+      "id": "s14",
+      "en": "The parks also help keep America’s past alive, working with thousands of local jurisdictions around the country to protect historical sites and to bring the stories of these places to life.",
+      "zhReference": "公园还与全国数千个地方行政区合作保护历史遗址、讲述这些地方的故事，使美国的过去继续鲜活。",
+      "vocabulary": [
+        {
+          "term": "local jurisdictions",
+          "meaning": "地方辖区",
+          "kind": "短语"
+        },
+        {
+          "term": "bring the stories of these places to life",
+          "meaning": "使故事鲜活",
+          "kind": "短语"
+        },
+        {
+          "term": "historical sites",
+          "meaning": "历史遗址",
+          "kind": "短语"
+        }
+      ]
+    },
+    {
+      "id": "s15",
+      "en": "The parks do all this on a shoestring.",
+      "zhReference": "公园以微薄的经费完成了这一切。",
+      "vocabulary": [
+        {
+          "term": "on a shoestring",
+          "meaning": "经费十分拮据",
+          "kind": "短语"
+        },
+        {
+          "term": "all this",
+          "meaning": "所有这些工作",
+          "kind": "短语"
+        }
+      ]
+    },
+    {
+      "id": "s16",
+      "en": "Congress allocates only $3 billion a year to the national park system—an amount that has been flat since 2001 (in inflation-adjusted dollars) with the exception of a onetime boost in 2009.",
+      "zhReference": "国会每年仅向国家公园系统拨款三十亿美元；按通胀调整后，这一数字自 2001 年以来基本未变，只有 2009 年获得过一次性增加。",
+      "vocabulary": [
+        {
+          "term": "allocates",
+          "meaning": "拨款",
+          "kind": "生词"
+        },
+        {
+          "term": "inflation-adjusted dollars",
+          "meaning": "经通胀调整的美元",
+          "kind": "短语"
+        },
+        {
+          "term": "onetime boost",
+          "meaning": "一次性增加",
+          "kind": "短语"
+        }
+      ]
+    },
+    {
+      "id": "s17",
+      "en": "Meanwhile, the number of annual visitors has increased by more than 50% since 1980, and now stands at 330 million visitors per year.",
+      "zhReference": "与此同时，自 1980 年以来每年游客数量增加了超过百分之五十，如今达到每年三亿三千万人。",
+      "vocabulary": [
+        {
+          "term": "annual visitors",
+          "meaning": "年度游客",
+          "kind": "短语"
+        },
+        {
+          "term": "stands at",
+          "meaning": "达到",
+          "kind": "短语"
+        }
+      ]
+    }
+  ]
+}

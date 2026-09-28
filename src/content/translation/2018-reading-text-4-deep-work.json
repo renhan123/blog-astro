@@ -1,0 +1,303 @@
+{
+  "title": "2018 真题 Text 4 · 深度工作与有效休息",
+  "description": "讨论如何安排深度工作、为计划留出弹性，以及休息对效率的意义。",
+  "source": "2018年真题.pdf · Reading Comprehension",
+  "author": "2018 English Exam",
+  "level": "intermediate",
+  "tags": [
+    "2018真题",
+    "Reading Comprehension",
+    "Productivity",
+    "Deep Work"
+  ],
+  "estimatedMinutes": 24,
+  "heroNote": "注意作者既提倡专注，也反对过细的计划，并强调必要的休息。",
+  "publishedAt": "2018-01-01",
+  "sentences": [
+    {
+      "id": "s1",
+      "en": "To combat the trap of putting a premium on being busy, Cal Newport, author of Deep Work: Rules for Focused Success in a Distracted World, recommends building a habit of “deep work”—the ability to focus without distraction.",
+      "zhReference": "为了避免陷入推崇忙碌的陷阱，《深度工作：在分心的世界中专注成功的法则》的作者卡尔·纽波特建议培养“深度工作”的习惯，即不受干扰地集中注意力的能力。",
+      "vocabulary": [
+        {
+          "term": "putting a premium on being busy",
+          "meaning": "把忙碌看得很重要",
+          "kind": "短语"
+        },
+        {
+          "term": "deep work",
+          "meaning": "深度工作",
+          "kind": "短语"
+        },
+        {
+          "term": "without distraction",
+          "meaning": "不受干扰",
+          "kind": "短语"
+        }
+      ]
+    },
+    {
+      "id": "s2",
+      "en": "There are a number of approaches to mastering the art of deep work—be it lengthy retreats dedicated to a specific task; developing a daily ritual; or taking a “journalistic” approach to seizing moments of deep work when you can throughout the day.",
+      "zhReference": "掌握深度工作有多种方法：可以长时间独处、专攻某项任务；可以建立每日惯例；也可以采取“记者式”的方法，在一天中随时抓住能深度工作的时机。",
+      "vocabulary": [
+        {
+          "term": "lengthy retreats",
+          "meaning": "长时间闭关工作",
+          "kind": "短语"
+        },
+        {
+          "term": "daily ritual",
+          "meaning": "每日惯例",
+          "kind": "短语"
+        },
+        {
+          "term": "seizing moments",
+          "meaning": "抓住零散时机",
+          "kind": "短语"
+        }
+      ]
+    },
+    {
+      "id": "s3",
+      "en": "Whichever approach, the key is to determine your length of focus time and stick to it.",
+      "zhReference": "无论采取哪种方式，关键都在于确定专注工作的时长，并坚持执行。",
+      "vocabulary": [
+        {
+          "term": "stick to it",
+          "meaning": "坚持下去",
+          "kind": "短语"
+        },
+        {
+          "term": "length of focus time",
+          "meaning": "专注时长",
+          "kind": "短语"
+        }
+      ]
+    },
+    {
+      "id": "s4",
+      "en": "Newport also recommends “deep scheduling” to combat constant interruptions and get more done in less time.",
+      "zhReference": "纽波特还建议采用“深度日程安排”，对抗持续不断的打断，在更短时间内完成更多事情。",
+      "vocabulary": [
+        {
+          "term": "deep scheduling",
+          "meaning": "深度日程安排",
+          "kind": "短语"
+        },
+        {
+          "term": "constant interruptions",
+          "meaning": "持续不断的打断",
+          "kind": "短语"
+        }
+      ]
+    },
+    {
+      "id": "s5",
+      "en": "“At any given point, I should have deep work scheduled for roughly the next month.",
+      "zhReference": "他写道：“在任何时候，我都应该安排好未来大约一个月的深度工作时间。",
+      "vocabulary": [
+        {
+          "term": "roughly the next month",
+          "meaning": "未来大约一个月",
+          "kind": "短语"
+        },
+        {
+          "term": "At any given point",
+          "meaning": "在任何时点",
+          "kind": "短语"
+        }
+      ]
+    },
+    {
+      "id": "s6",
+      "en": "Once on the calendar, I protect this time like I would a doctor’s appointment or important meeting,” he writes.",
+      "zhReference": "一旦写进日程，我就像守护看医生的预约或重要会议一样守护这段时间。”",
+      "vocabulary": [
+        {
+          "term": "on the calendar",
+          "meaning": "列入日程",
+          "kind": "短语"
+        },
+        {
+          "term": "protect this time",
+          "meaning": "保留并保护这段时间",
+          "kind": "短语"
+        }
+      ]
+    },
+    {
+      "id": "s7",
+      "en": "Another approach to getting more done in less time is to rethink how you prioritise your day—in particular how we craft our to-do lists.",
+      "zhReference": "另一种在更短时间内完成更多事情的方法，是重新思考如何安排一天的优先事项，特别是如何编写待办清单。",
+      "vocabulary": [
+        {
+          "term": "prioritise your day",
+          "meaning": "安排一天的优先事项",
+          "kind": "短语"
+        },
+        {
+          "term": "craft our to-do lists",
+          "meaning": "编排待办清单",
+          "kind": "短语"
+        }
+      ]
+    },
+    {
+      "id": "s8",
+      "en": "Tim Harford, author of Messy: The Power of Disorder to Transform Our Lives, points to a study in the early 1980s that divided undergraduates into two groups; some were advised to set out monthly goals and study activities; others were told to plan activities and goals in much more detail, day by day.",
+      "zhReference": "《混乱：无序改变生活的力量》的作者蒂姆·哈福德提到二十世纪八十年代初的一项研究：研究者将本科生分成两组，一组被建议列出每月目标和学习安排；另一组则被要求按天做更细致的活动和目标规划。",
+      "vocabulary": [
+        {
+          "term": "undergraduates",
+          "meaning": "本科生",
+          "kind": "生词"
+        },
+        {
+          "term": "set out monthly goals",
+          "meaning": "列出每月目标",
+          "kind": "短语"
+        },
+        {
+          "term": "day by day",
+          "meaning": "按天逐日",
+          "kind": "短语"
+        }
+      ]
+    },
+    {
+      "id": "s9",
+      "en": "While the researchers assumed that the well-structured daily plans would be most effective when it came to the execution of tasks, they were wrong; the detailed daily plans demotivated students.",
+      "zhReference": "研究者原以为结构严谨的每日计划最有利于执行任务，结果却错了：详细的每日计划反而挫伤了学生的积极性。",
+      "vocabulary": [
+        {
+          "term": "execution of tasks",
+          "meaning": "任务的执行",
+          "kind": "短语"
+        },
+        {
+          "term": "demotivated",
+          "meaning": "挫伤……积极性",
+          "kind": "生词"
+        },
+        {
+          "term": "well-structured",
+          "meaning": "安排周密的",
+          "kind": "短语"
+        }
+      ]
+    },
+    {
+      "id": "s10",
+      "en": "Harford argues that inevitable distractions often render the daily to-do list ineffective, while leaving room for improvisation in such a list can reap the best results.",
+      "zhReference": "哈福德认为，不可避免的干扰常使每日待办清单失效，而在清单中留出随机应变的空间，效果反而最好。",
+      "vocabulary": [
+        {
+          "term": "render the daily to-do list ineffective",
+          "meaning": "使每日清单失效",
+          "kind": "短语"
+        },
+        {
+          "term": "room for improvisation",
+          "meaning": "随机应变的空间",
+          "kind": "短语"
+        },
+        {
+          "term": "reap the best results",
+          "meaning": "取得最好结果",
+          "kind": "短语"
+        }
+      ]
+    },
+    {
+      "id": "s11",
+      "en": "In order to make the most of our focus and energy, we also need to embrace downtime, or as Newport suggests, “be lazy”.",
+      "zhReference": "为了充分利用我们的专注力和精力，我们也需要拥抱休息时间，或者像纽波特所说的那样，“懒一点”。",
+      "vocabulary": [
+        {
+          "term": "make the most of",
+          "meaning": "充分利用",
+          "kind": "短语"
+        },
+        {
+          "term": "embrace downtime",
+          "meaning": "接受并利用休息时间",
+          "kind": "短语"
+        }
+      ]
+    },
+    {
+      "id": "s12",
+      "en": "“Idleness is not just a vacation, an indulgence or a vice; it is as indispensable to the brain as vitamin D is to the body... [idleness] is, paradoxically, necessary to getting any work done,” he argues.",
+      "zhReference": "他认为：“无所事事不仅仅是休假、放纵或坏习惯；它对大脑的重要性，就像维生素 D 对身体一样……矛盾的是，[无所事事]是完成任何工作的必要条件。”",
+      "vocabulary": [
+        {
+          "term": "Idleness",
+          "meaning": "无所事事",
+          "kind": "生词"
+        },
+        {
+          "term": "indulgence",
+          "meaning": "放纵",
+          "kind": "生词"
+        },
+        {
+          "term": "indispensable to",
+          "meaning": "对……不可或缺",
+          "kind": "短语"
+        }
+      ]
+    },
+    {
+      "id": "s13",
+      "en": "Srini Pillay, an assistant professor of psychiatry at Harvard Medical School, believes this counterintuitive link between downtime and productivity may be due to the way our brains operate.",
+      "zhReference": "哈佛医学院精神病学助理教授斯里尼·皮莱认为，休息与效率之间这种违背直觉的联系，可能源于大脑的工作方式。",
+      "vocabulary": [
+        {
+          "term": "counterintuitive link",
+          "meaning": "违背直觉的联系",
+          "kind": "短语"
+        },
+        {
+          "term": "productivity",
+          "meaning": "生产效率",
+          "kind": "生词"
+        }
+      ]
+    },
+    {
+      "id": "s14",
+      "en": "When our brains switch between being focused and unfocused on a task, they tend to be more efficient.",
+      "zhReference": "当大脑在专注与不专注之间切换时，通常会更高效。",
+      "vocabulary": [
+        {
+          "term": "focused and unfocused",
+          "meaning": "专注与不专注",
+          "kind": "短语"
+        },
+        {
+          "term": "switch between",
+          "meaning": "在……之间切换",
+          "kind": "短语"
+        }
+      ]
+    },
+    {
+      "id": "s15",
+      "en": "“What people don’t realise is that in order to complete these tasks they need to use both the focus and unfocus circuits in their brain,” says Pillay.",
+      "zhReference": "皮莱说：“人们没有意识到的是，要完成这些任务，他们需要同时使用大脑中的专注回路和非专注回路。”",
+      "vocabulary": [
+        {
+          "term": "focus and unfocus circuits",
+          "meaning": "专注与非专注回路",
+          "kind": "短语"
+        },
+        {
+          "term": "in order to complete",
+          "meaning": "为了完成",
+          "kind": "短语"
+        }
+      ]
+    }
+  ]
+}

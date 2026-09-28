@@ -1,0 +1,366 @@
+{
+  "title": "2018 真题 Text 2 · 可再生能源的势头",
+  "description": "分析风能与太阳能成本下降和技术进步如何推动全球能源转型。",
+  "source": "2018年真题.pdf · Reading Comprehension",
+  "author": "2018 English Exam",
+  "level": "intermediate",
+  "tags": [
+    "2018真题",
+    "Reading Comprehension",
+    "Renewable Energy",
+    "Climate"
+  ],
+  "estimatedMinutes": 25,
+  "heroNote": "区分政治话语与市场趋势，注意储能技术对可再生能源的作用。",
+  "publishedAt": "2018-01-01",
+  "sentences": [
+    {
+      "id": "s1",
+      "en": "While fossil fuels—coal, oil, gas—still generate roughly 85 percent of the world’s energy supply, it’s clearer than ever that the future belongs to renewable sources such as wind and solar.",
+      "zhReference": "虽然煤、石油和天然气等化石燃料仍供应着全球约百分之八十五的能源，但未来属于风能和太阳能等可再生能源，这一点比以往任何时候都更清楚。",
+      "vocabulary": [
+        {
+          "term": "fossil fuels",
+          "meaning": "化石燃料",
+          "kind": "短语"
+        },
+        {
+          "term": "renewable sources",
+          "meaning": "可再生能源",
+          "kind": "短语"
+        },
+        {
+          "term": "energy supply",
+          "meaning": "能源供应",
+          "kind": "短语"
+        }
+      ]
+    },
+    {
+      "id": "s2",
+      "en": "The move to renewables is picking up momentum around the world; They now account for more than half of new power sources going on line.",
+      "zhReference": "全球向可再生能源转型的步伐正在加快；新上线的发电能源中，它们如今已占一半以上。",
+      "vocabulary": [
+        {
+          "term": "picking up momentum",
+          "meaning": "势头越来越强",
+          "kind": "短语"
+        },
+        {
+          "term": "account for",
+          "meaning": "占据……比例",
+          "kind": "短语"
+        },
+        {
+          "term": "going on line",
+          "meaning": "开始投入使用",
+          "kind": "短语"
+        }
+      ]
+    },
+    {
+      "id": "s3",
+      "en": "Some growth stems from a commitment by governments and farsighted businesses to fund cleaner energy sources.",
+      "zhReference": "部分增长来自政府和有远见的企业投资清洁能源的承诺。",
+      "vocabulary": [
+        {
+          "term": "stems from",
+          "meaning": "源于",
+          "kind": "短语"
+        },
+        {
+          "term": "farsighted",
+          "meaning": "有远见的",
+          "kind": "生词"
+        }
+      ]
+    },
+    {
+      "id": "s4",
+      "en": "But increasingly the story is about the plummeting prices of renewables, especially wind and solar.",
+      "zhReference": "但推动这一趋势的原因越来越多地在于可再生能源，特别是风能和太阳能的价格暴跌。",
+      "vocabulary": [
+        {
+          "term": "plummeting prices",
+          "meaning": "暴跌的价格",
+          "kind": "短语"
+        },
+        {
+          "term": "the story is about",
+          "meaning": "关键在于",
+          "kind": "熟词僻义"
+        }
+      ]
+    },
+    {
+      "id": "s5",
+      "en": "The cost of solar panels has dropped by 80 percent and the cost of wind turbines by close to one-third in the past eight years.",
+      "zhReference": "过去八年，太阳能电池板的成本下降了百分之八十，风力涡轮机的成本下降了近三分之一。",
+      "vocabulary": [
+        {
+          "term": "solar panels",
+          "meaning": "太阳能电池板",
+          "kind": "短语"
+        },
+        {
+          "term": "wind turbines",
+          "meaning": "风力涡轮机",
+          "kind": "短语"
+        }
+      ]
+    },
+    {
+      "id": "s6",
+      "en": "In many parts of the world renewable energy is already a principal energy source.",
+      "zhReference": "在世界许多地方，可再生能源已经是主要能源。",
+      "vocabulary": [
+        {
+          "term": "principal energy source",
+          "meaning": "主要能源",
+          "kind": "短语"
+        },
+        {
+          "term": "renewable energy",
+          "meaning": "可再生能源",
+          "kind": "短语"
+        }
+      ]
+    },
+    {
+      "id": "s7",
+      "en": "In Scotland, for example, wind turbines provide enough electricity to power 95 percent of homes.",
+      "zhReference": "例如，在苏格兰，风力涡轮机产生的电足以满足百分之九十五家庭的用电需求。",
+      "vocabulary": [
+        {
+          "term": "power 95 percent of homes",
+          "meaning": "为百分之九十五的家庭供电",
+          "kind": "短语"
+        },
+        {
+          "term": "wind turbines",
+          "meaning": "风力涡轮机",
+          "kind": "短语"
+        }
+      ]
+    },
+    {
+      "id": "s8",
+      "en": "While the rest of the world takes the lead, notably China and Europe, the United States is also seeing a remarkable shift.",
+      "zhReference": "尽管中国和欧洲等世界其他地区走在前面，美国也正在发生显著转变。",
+      "vocabulary": [
+        {
+          "term": "takes the lead",
+          "meaning": "走在前列",
+          "kind": "短语"
+        },
+        {
+          "term": "remarkable shift",
+          "meaning": "显著转变",
+          "kind": "短语"
+        }
+      ]
+    },
+    {
+      "id": "s9",
+      "en": "In March, for the first time, wind and solar power accounted for more than 10 percent of the power generated in the US, reported the US Energy Information Administration.",
+      "zhReference": "美国能源信息署报告称，三月份，美国风能和太阳能发电量首次超过总发电量的百分之十。",
+      "vocabulary": [
+        {
+          "term": "accounted for",
+          "meaning": "占……比例",
+          "kind": "短语"
+        },
+        {
+          "term": "power generated",
+          "meaning": "发电量",
+          "kind": "短语"
+        }
+      ]
+    },
+    {
+      "id": "s10",
+      "en": "President Trump has underlined fossil fuels—especially coal—as the path to economic growth.",
+      "zhReference": "特朗普总统强调化石燃料，尤其是煤炭，是实现经济增长的道路。",
+      "vocabulary": [
+        {
+          "term": "underlined",
+          "meaning": "强调",
+          "kind": "熟词僻义"
+        },
+        {
+          "term": "path to economic growth",
+          "meaning": "经济增长的道路",
+          "kind": "短语"
+        }
+      ]
+    },
+    {
+      "id": "s11",
+      "en": "In a recent speech in Iowa, he dismissed wind power as an unreliable energy source.",
+      "zhReference": "他最近在艾奥瓦州的一次演讲中，认为风能是一种不可靠的能源。",
+      "vocabulary": [
+        {
+          "term": "dismissed",
+          "meaning": "不予重视；驳斥",
+          "kind": "熟词僻义"
+        },
+        {
+          "term": "unreliable energy source",
+          "meaning": "不可靠的能源",
+          "kind": "短语"
+        }
+      ]
+    },
+    {
+      "id": "s12",
+      "en": "But that message did not play well with many in Iowa, where wind turbines dot the fields and provide 36 percent of the state’s electricity generation—and where tech giants like Microsoft are being attracted by the availability of clean energy to power their data centers.",
+      "zhReference": "但这一说法在许多艾奥瓦州人中并不受欢迎：那里风力涡轮机遍布田野，贡献了全州百分之三十六的发电量；清洁能源还能为数据中心供电，吸引微软等科技巨头。",
+      "vocabulary": [
+        {
+          "term": "did not play well with",
+          "meaning": "不受……欢迎",
+          "kind": "短语"
+        },
+        {
+          "term": "dot the fields",
+          "meaning": "遍布田野",
+          "kind": "短语"
+        },
+        {
+          "term": "data centers",
+          "meaning": "数据中心",
+          "kind": "短语"
+        }
+      ]
+    },
+    {
+      "id": "s13",
+      "en": "The question “what happens when the wind doesn’t blow or the sun doesn’t shine?” has provided a quick put-down for skeptics.",
+      "zhReference": "“风不吹、太阳不照时怎么办？”这一问题曾是质疑者迅速驳斥可再生能源的理由。",
+      "vocabulary": [
+        {
+          "term": "quick put-down",
+          "meaning": "迅速驳斥的说法",
+          "kind": "短语"
+        },
+        {
+          "term": "skeptics",
+          "meaning": "怀疑者",
+          "kind": "生词"
+        }
+      ]
+    },
+    {
+      "id": "s14",
+      "en": "But a boost in the storage capacity of batteries is making their ability to keep power flowing around the clock more likely.",
+      "zhReference": "但电池储能能力的提升，使它们全天候持续供电越来越有可能。",
+      "vocabulary": [
+        {
+          "term": "storage capacity",
+          "meaning": "储能能力",
+          "kind": "短语"
+        },
+        {
+          "term": "around the clock",
+          "meaning": "全天候",
+          "kind": "短语"
+        },
+        {
+          "term": "keep power flowing",
+          "meaning": "保持持续供电",
+          "kind": "短语"
+        }
+      ]
+    },
+    {
+      "id": "s15",
+      "en": "The advance is driven in part by vehicle manufacturers, who are placing big bets on battery-powered electric vehicles.",
+      "zhReference": "这一进步部分受汽车制造商推动，他们正大举押注电动汽车。",
+      "vocabulary": [
+        {
+          "term": "placing big bets on",
+          "meaning": "大举押注",
+          "kind": "短语"
+        },
+        {
+          "term": "battery-powered electric vehicles",
+          "meaning": "电池驱动的电动汽车",
+          "kind": "短语"
+        }
+      ]
+    },
+    {
+      "id": "s16",
+      "en": "Although electric cars are still a rarity on roads now, this massive investment could change the picture rapidly in coming years.",
+      "zhReference": "尽管电动汽车如今在路上仍不常见，但这笔巨额投资可能在未来几年迅速改变局面。",
+      "vocabulary": [
+        {
+          "term": "rarity",
+          "meaning": "罕见之物",
+          "kind": "熟词僻义"
+        },
+        {
+          "term": "change the picture",
+          "meaning": "改变局面",
+          "kind": "短语"
+        }
+      ]
+    },
+    {
+      "id": "s17",
+      "en": "While there’s a long way to go, the trend lines for renewables are spiking.",
+      "zhReference": "虽然还有很长的路要走，可再生能源的发展曲线正在陡升。",
+      "vocabulary": [
+        {
+          "term": "trend lines",
+          "meaning": "发展趋势曲线",
+          "kind": "短语"
+        },
+        {
+          "term": "spiking",
+          "meaning": "陡升",
+          "kind": "熟词僻义"
+        }
+      ]
+    },
+    {
+      "id": "s18",
+      "en": "The pace of change in energy sources appears to be speeding up—perhaps just in time to have a meaningful effect in slowing climate change.",
+      "zhReference": "能源结构变化的速度似乎正在加快——也许恰好能及时对减缓气候变化产生实质性影响。",
+      "vocabulary": [
+        {
+          "term": "just in time",
+          "meaning": "恰好及时",
+          "kind": "短语"
+        },
+        {
+          "term": "meaningful effect",
+          "meaning": "显著效果",
+          "kind": "短语"
+        }
+      ]
+    },
+    {
+      "id": "s19",
+      "en": "What Washington does—or doesn’t do—to promote alternative energy may mean less and less at a time of a global shift in thought.",
+      "zhReference": "在全球观念转变之际，华盛顿是否采取行动推动替代能源，影响可能越来越小。",
+      "vocabulary": [
+        {
+          "term": "Washington",
+          "meaning": "美国联邦政府",
+          "kind": "熟词僻义"
+        },
+        {
+          "term": "alternative energy",
+          "meaning": "替代能源",
+          "kind": "短语"
+        },
+        {
+          "term": "global shift in thought",
+          "meaning": "全球观念转变",
+          "kind": "短语"
+        }
+      ]
+    }
+  ]
+}

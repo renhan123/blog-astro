@@ -1,0 +1,378 @@
+{
+  "title": "2022 真题 Text 2 · 为什么退休后还要工作",
+  "description": "分析美国老年人继续工作的财务与非财务原因。",
+  "source": "2022年真题.pdf · Reading Comprehension",
+  "author": "2022 English Exam",
+  "level": "intermediate",
+  "tags": [
+    "2022真题",
+    "Reading Comprehension",
+    "Retirement",
+    "Work"
+  ],
+  "estimatedMinutes": 26,
+  "heroNote": "别把继续工作都理解为贫困：个人价值、健康和防止无聊也是原因。",
+  "publishedAt": "2022-01-01",
+  "sentences": [
+    {
+      "id": "s1",
+      "en": "More Americans are opting to work well into retirement, a growing trend that threatens to upend the old workforce model.",
+      "zhReference": "越来越多的美国人选择在退休年龄之后继续工作，这种趋势可能颠覆旧有劳动力模式。",
+      "vocabulary": [
+        {
+          "term": "well into retirement",
+          "meaning": "退休后很久仍工作",
+          "kind": "短语"
+        },
+        {
+          "term": "upend",
+          "meaning": "颠覆",
+          "kind": "生词"
+        },
+        {
+          "term": "workforce model",
+          "meaning": "劳动力模式",
+          "kind": "短语"
+        }
+      ]
+    },
+    {
+      "id": "s2",
+      "en": "One in three Americans who are at least 40 have, or plan to have a job in retirement to prepare for a longer life, according to a survey conducted by Harris Poll for TD Ameritrade.",
+      "zhReference": "哈里斯民调为德美利证券所做的调查显示，每三位四十岁及以上美国人中，就有一位已经在退休后工作或计划这样做，为更长寿的人生做好准备。",
+      "vocabulary": [
+        {
+          "term": "One in three",
+          "meaning": "每三人中一人",
+          "kind": "短语"
+        },
+        {
+          "term": "prepare for a longer life",
+          "meaning": "为更长寿命做准备",
+          "kind": "短语"
+        }
+      ]
+    },
+    {
+      "id": "s3",
+      "en": "Even more surprising is that more than half of “unretirees”—those who plan to work in retirement or went back to work after retiring—said they would be employed in their later years even if they had enough money to settle down, the survey showed.",
+      "zhReference": "调查更令人意外的结果是，超过半数的“返岗退休者”——打算退休后继续工作，或退休后重返职场的人——表示，即使有足够的钱安度晚年，他们仍会在晚年继续工作。",
+      "vocabulary": [
+        {
+          "term": "unretirees",
+          "meaning": "退休后继续工作或返岗的人",
+          "kind": "生词"
+        },
+        {
+          "term": "settle down",
+          "meaning": "安定下来；安享晚年",
+          "kind": "短语"
+        },
+        {
+          "term": "employed in their later years",
+          "meaning": "晚年继续工作",
+          "kind": "短语"
+        }
+      ]
+    },
+    {
+      "id": "s4",
+      "en": "Financial needs aren’t the only culprit for the “unretirement” trend.",
+      "zhReference": "经济需要并非这种“退休后继续工作”趋势的唯一原因。",
+      "vocabulary": [
+        {
+          "term": "culprit",
+          "meaning": "原因；诱因",
+          "kind": "熟词僻义"
+        },
+        {
+          "term": "Financial needs",
+          "meaning": "经济需求",
+          "kind": "短语"
+        }
+      ]
+    },
+    {
+      "id": "s5",
+      "en": "Other reasons, according to the study, include personal fulfillment such as staying mentally fit, preventing boredom or avoiding depression.",
+      "zhReference": "研究显示，其他原因包括寻求个人满足感，例如保持头脑敏锐、避免无聊或防止抑郁。",
+      "vocabulary": [
+        {
+          "term": "personal fulfillment",
+          "meaning": "个人满足感",
+          "kind": "短语"
+        },
+        {
+          "term": "mentally fit",
+          "meaning": "头脑敏锐",
+          "kind": "短语"
+        }
+      ]
+    },
+    {
+      "id": "s6",
+      "en": "“The concept of retirement is evolving,” said Christine Russell, senior manager of retirement at TD Ameritrade.",
+      "zhReference": "德美利证券退休业务高级经理克里斯蒂娜·拉塞尔说：“退休的概念正在演变。”",
+      "vocabulary": [
+        {
+          "term": "concept of retirement",
+          "meaning": "退休的观念",
+          "kind": "短语"
+        },
+        {
+          "term": "evolving",
+          "meaning": "逐渐变化",
+          "kind": "生词"
+        }
+      ]
+    },
+    {
+      "id": "s7",
+      "en": "“It’s not just about finances.",
+      "zhReference": "“这并不只是钱的问题。",
+      "vocabulary": [
+        {
+          "term": "finances",
+          "meaning": "财务状况",
+          "kind": "生词"
+        },
+        {
+          "term": "not just about",
+          "meaning": "不仅关乎",
+          "kind": "短语"
+        }
+      ]
+    },
+    {
+      "id": "s8",
+      "en": "The value of work is also driving folks to continue working past retirement.”",
+      "zhReference": "工作的价值也驱使人们在退休后继续工作。”",
+      "vocabulary": [
+        {
+          "term": "past retirement",
+          "meaning": "超过退休年龄",
+          "kind": "短语"
+        },
+        {
+          "term": "driving folks to",
+          "meaning": "促使人们……",
+          "kind": "短语"
+        }
+      ]
+    },
+    {
+      "id": "s9",
+      "en": "One reason for the change in retirement patterns: Americans are living longer.",
+      "zhReference": "退休模式改变的一个原因是美国人寿命更长了。",
+      "vocabulary": [
+        {
+          "term": "retirement patterns",
+          "meaning": "退休模式",
+          "kind": "短语"
+        },
+        {
+          "term": "living longer",
+          "meaning": "活得更久",
+          "kind": "短语"
+        }
+      ]
+    },
+    {
+      "id": "s10",
+      "en": "Older Americans are also the fastest-growing segment of the U.S. workforce.",
+      "zhReference": "美国年长者还是该国劳动力中增长最快的群体。",
+      "vocabulary": [
+        {
+          "term": "fastest-growing segment",
+          "meaning": "增长最快的人群",
+          "kind": "短语"
+        },
+        {
+          "term": "workforce",
+          "meaning": "劳动力",
+          "kind": "生词"
+        }
+      ]
+    },
+    {
+      "id": "s11",
+      "en": "The percentage of retirement-age people in the labor force has doubled over the past three decades.",
+      "zhReference": "过去三十年，达到退休年龄的人参与劳动的比例翻了一番。",
+      "vocabulary": [
+        {
+          "term": "labor force",
+          "meaning": "劳动力人口",
+          "kind": "短语"
+        },
+        {
+          "term": "has doubled",
+          "meaning": "已经翻倍",
+          "kind": "短语"
+        }
+      ]
+    },
+    {
+      "id": "s12",
+      "en": "About 20% of people 65 and older were in the workforce in February 2019, up from an all-time low of 10% in January 1985, according to money manager United Income.",
+      "zhReference": "据资产管理机构 United Income 的数据，2019 年二月，六十五岁及以上人口中约百分之二十仍在工作，高于 1985 年一月百分之十的历史低点。",
+      "vocabulary": [
+        {
+          "term": "all-time low",
+          "meaning": "历史最低水平",
+          "kind": "短语"
+        },
+        {
+          "term": "money manager",
+          "meaning": "资产管理机构",
+          "kind": "短语"
+        }
+      ]
+    },
+    {
+      "id": "s13",
+      "en": "Because of longer life spans, Americans are also boosting their savings to preserve their nest eggs, the TD Ameritrade study showed, which surveyed 2,000 adults between 40 to 79.",
+      "zhReference": "调查了两千名四十至七十九岁成年人的德美利证券研究还表明，由于寿命延长，美国人正增加储蓄，以保护养老积蓄。",
+      "vocabulary": [
+        {
+          "term": "nest eggs",
+          "meaning": "养老储蓄",
+          "kind": "短语"
+        },
+        {
+          "term": "life spans",
+          "meaning": "预期寿命",
+          "kind": "短语"
+        },
+        {
+          "term": "boosting their savings",
+          "meaning": "增加存款",
+          "kind": "短语"
+        }
+      ]
+    },
+    {
+      "id": "s14",
+      "en": "Six in 10 “unretirees” are increasing their savings in anticipation of a longer life.",
+      "zhReference": "每十位“返岗退休者”中有六位正在增加存款，以应对更长的寿命。",
+      "vocabulary": [
+        {
+          "term": "in anticipation of",
+          "meaning": "预期……而",
+          "kind": "短语"
+        },
+        {
+          "term": "Six in 10",
+          "meaning": "十人中六人",
+          "kind": "短语"
+        }
+      ]
+    },
+    {
+      "id": "s15",
+      "en": "Among the most popular ways they are doing this, the company said, is by reducing their overall expenses, securing life insurance or maximizing their contributions to retirement accounts.",
+      "zhReference": "该公司说，最常见的方式包括削减总体开支、购买人寿保险，以及尽可能多地向退休账户缴款。",
+      "vocabulary": [
+        {
+          "term": "retirement accounts",
+          "meaning": "退休储蓄账户",
+          "kind": "短语"
+        },
+        {
+          "term": "life insurance",
+          "meaning": "人寿保险",
+          "kind": "短语"
+        },
+        {
+          "term": "contributions to",
+          "meaning": "向……缴款",
+          "kind": "短语"
+        }
+      ]
+    },
+    {
+      "id": "s16",
+      "en": "Unfortunately, many people who are opting to work in retirement are preparing to do so because they are worried about making ends meet in their later years, said Brent Weiss, a co-founder at Baltimore-based financial-planning firm Facet Wealth.",
+      "zhReference": "不过，金融规划公司 Facet Wealth 的联合创始人布伦特·韦斯说，许多人选择退休后工作，是因为担心晚年入不敷出。",
+      "vocabulary": [
+        {
+          "term": "making ends meet",
+          "meaning": "维持收支平衡",
+          "kind": "短语"
+        },
+        {
+          "term": "financial-planning firm",
+          "meaning": "金融规划公司",
+          "kind": "短语"
+        }
+      ]
+    },
+    {
+      "id": "s17",
+      "en": "He suggested that preretirees should speak with a financial adviser to set long-term financial goals.",
+      "zhReference": "他建议退休前的人与财务顾问交谈，制定长期财务目标。",
+      "vocabulary": [
+        {
+          "term": "preretirees",
+          "meaning": "即将退休的人",
+          "kind": "生词"
+        },
+        {
+          "term": "financial adviser",
+          "meaning": "财务顾问",
+          "kind": "短语"
+        }
+      ]
+    },
+    {
+      "id": "s18",
+      "en": "“The most challenging moments in life are getting married, starting a family and ultimately retiring,” Weiss said.",
+      "zhReference": "韦斯说：“人生中最具挑战性的时刻是结婚、组建家庭，最终是退休。”",
+      "vocabulary": [
+        {
+          "term": "ultimately retiring",
+          "meaning": "最终退休",
+          "kind": "短语"
+        },
+        {
+          "term": "starting a family",
+          "meaning": "组建家庭",
+          "kind": "短语"
+        }
+      ]
+    },
+    {
+      "id": "s19",
+      "en": "“It’s not just a financial decision, but an emotional one.",
+      "zhReference": "“它不仅是财务决定，也是情感决定。",
+      "vocabulary": [
+        {
+          "term": "emotional one",
+          "meaning": "情感上的决定",
+          "kind": "短语"
+        },
+        {
+          "term": "financial decision",
+          "meaning": "财务决定",
+          "kind": "短语"
+        }
+      ]
+    },
+    {
+      "id": "s20",
+      "en": "Many people believe they can’t retire.”",
+      "zhReference": "许多人认为自己根本退不起休。”",
+      "vocabulary": [
+        {
+          "term": "can’t retire",
+          "meaning": "退不起休",
+          "kind": "短语"
+        },
+        {
+          "term": "believe",
+          "meaning": "认为",
+          "kind": "生词"
+        }
+      ]
+    }
+  ]
+}

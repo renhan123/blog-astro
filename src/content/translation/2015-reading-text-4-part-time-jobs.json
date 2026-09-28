@@ -1,0 +1,414 @@
+{
+  "title": "2015 真题 Text 4 · 兼职就业与医保改革",
+  "description": "分析自愿与非自愿兼职就业的区别，以及奥巴马医改对就业选择的影响。",
+  "source": "2015年真题.pdf · Reading Comprehension",
+  "author": "2015 English Exam",
+  "level": "intermediate",
+  "tags": [
+    "2015真题",
+    "Reading Comprehension",
+    "Employment",
+    "Healthcare"
+  ],
+  "estimatedMinutes": 25,
+  "heroNote": "区分 voluntary 与 involuntary part-time：兼职人数增加不一定意味着就业市场恶化。",
+  "publishedAt": "2015-01-01",
+  "sentences": [
+    {
+      "id": "s1",
+      "en": "Many people talked of the 288,000 new jobs the Labor Department reported for June, along with the drop in the unemployment rate to 6.1 percent, as good news.",
+      "zhReference": "许多人把美国劳工部报告的六月新增二十八万八千个就业岗位，以及失业率降至百分之六点一，视为好消息。",
+      "vocabulary": [
+        {
+          "term": "unemployment rate",
+          "meaning": "失业率",
+          "kind": "短语"
+        },
+        {
+          "term": "along with",
+          "meaning": "以及；连同",
+          "kind": "短语"
+        }
+      ]
+    },
+    {
+      "id": "s2",
+      "en": "And they were right.",
+      "zhReference": "他们说得对。",
+      "vocabulary": [
+        {
+          "term": "were right",
+          "meaning": "说得对",
+          "kind": "短语"
+        },
+        {
+          "term": "right",
+          "meaning": "正确的",
+          "kind": "熟词僻义"
+        }
+      ]
+    },
+    {
+      "id": "s3",
+      "en": "For now it appears the economy is creating jobs at a decent pace.",
+      "zhReference": "目前看来，经济正以不错的速度创造就业岗位。",
+      "vocabulary": [
+        {
+          "term": "decent pace",
+          "meaning": "不错的速度",
+          "kind": "短语"
+        },
+        {
+          "term": "creating jobs",
+          "meaning": "创造就业岗位",
+          "kind": "短语"
+        }
+      ]
+    },
+    {
+      "id": "s4",
+      "en": "We still have a long way to go to get back to full employment, but at least we are now finally moving forward at a faster pace.",
+      "zhReference": "要恢复充分就业仍有很长的路要走，但至少我们终于以更快的速度向前迈进。",
+      "vocabulary": [
+        {
+          "term": "full employment",
+          "meaning": "充分就业",
+          "kind": "短语"
+        },
+        {
+          "term": "have a long way to go",
+          "meaning": "还有很长的路要走",
+          "kind": "短语"
+        }
+      ]
+    },
+    {
+      "id": "s5",
+      "en": "However, there is another important part of the jobs picture that was largely overlooked.",
+      "zhReference": "然而，就业形势还有一个重要方面在很大程度上被忽略了。",
+      "vocabulary": [
+        {
+          "term": "jobs picture",
+          "meaning": "就业整体形势",
+          "kind": "短语"
+        },
+        {
+          "term": "overlooked",
+          "meaning": "被忽视的",
+          "kind": "生词"
+        }
+      ]
+    },
+    {
+      "id": "s6",
+      "en": "There was a big jump in the number of people who report voluntarily working part-time.",
+      "zhReference": "自愿从事兼职工作的人数大幅增加。",
+      "vocabulary": [
+        {
+          "term": "voluntarily working part-time",
+          "meaning": "自愿兼职",
+          "kind": "短语"
+        },
+        {
+          "term": "big jump",
+          "meaning": "大幅增加",
+          "kind": "短语"
+        }
+      ]
+    },
+    {
+      "id": "s7",
+      "en": "This figure is now 830,000 (4.4 percent) above its year ago level.",
+      "zhReference": "这一数字目前比一年前高出八十三万人，即增长了百分之四点四。",
+      "vocabulary": [
+        {
+          "term": "year ago level",
+          "meaning": "一年前的水平",
+          "kind": "短语"
+        },
+        {
+          "term": "figure",
+          "meaning": "数字",
+          "kind": "熟词僻义"
+        }
+      ]
+    },
+    {
+      "id": "s8",
+      "en": "Before explaining the connection to the Obamacare, it is worth making an important distinction.",
+      "zhReference": "在解释这与奥巴马医改的关系前，有必要先作一个重要区分。",
+      "vocabulary": [
+        {
+          "term": "making an important distinction",
+          "meaning": "作出重要区分",
+          "kind": "短语"
+        },
+        {
+          "term": "connection to",
+          "meaning": "与……的关系",
+          "kind": "短语"
+        }
+      ]
+    },
+    {
+      "id": "s9",
+      "en": "Many people who work part-time jobs actually want full-time jobs.",
+      "zhReference": "许多从事兼职工作的人其实想要一份全职工作。",
+      "vocabulary": [
+        {
+          "term": "part-time jobs",
+          "meaning": "兼职工作",
+          "kind": "短语"
+        },
+        {
+          "term": "full-time jobs",
+          "meaning": "全职工作",
+          "kind": "短语"
+        }
+      ]
+    },
+    {
+      "id": "s10",
+      "en": "They take part-time work because this is all they can get.",
+      "zhReference": "他们做兼职是因为只能找到这样的工作。",
+      "vocabulary": [
+        {
+          "term": "all they can get",
+          "meaning": "他们唯一能找到的工作",
+          "kind": "短语"
+        },
+        {
+          "term": "take part-time work",
+          "meaning": "接受兼职工作",
+          "kind": "短语"
+        }
+      ]
+    },
+    {
+      "id": "s11",
+      "en": "An increase in involuntary part-time work is evidence of weakness in the labor market and it means that many people will be having a very hard time making ends meet.",
+      "zhReference": "非自愿兼职人数增加是劳动力市场疲弱的迹象，也意味着很多人很难维持收支平衡。",
+      "vocabulary": [
+        {
+          "term": "involuntary part-time work",
+          "meaning": "非自愿兼职",
+          "kind": "短语"
+        },
+        {
+          "term": "labor market",
+          "meaning": "劳动力市场",
+          "kind": "短语"
+        },
+        {
+          "term": "making ends meet",
+          "meaning": "维持收支平衡",
+          "kind": "短语"
+        }
+      ]
+    },
+    {
+      "id": "s12",
+      "en": "There was an increase in involuntary part-time in June, but the general direction has been down.",
+      "zhReference": "六月非自愿兼职的人数有所增加，但总体趋势一直是下降的。",
+      "vocabulary": [
+        {
+          "term": "general direction",
+          "meaning": "整体趋势",
+          "kind": "短语"
+        },
+        {
+          "term": "involuntary part-time",
+          "meaning": "非自愿兼职",
+          "kind": "短语"
+        }
+      ]
+    },
+    {
+      "id": "s13",
+      "en": "Involuntary part-time employment is still far higher than before the recession, but it is down by 640,000 (7.9 percent) from its year ago level.",
+      "zhReference": "非自愿兼职就业人数仍远高于经济衰退前，但比一年前下降了六十四万人，即百分之七点九。",
+      "vocabulary": [
+        {
+          "term": "recession",
+          "meaning": "经济衰退",
+          "kind": "生词"
+        },
+        {
+          "term": "down by",
+          "meaning": "下降了……",
+          "kind": "短语"
+        }
+      ]
+    },
+    {
+      "id": "s14",
+      "en": "We know the difference between voluntary and involuntary part-time employment because people tell us.",
+      "zhReference": "我们之所以知道自愿和非自愿兼职的区别，是因为人们会在调查中告诉我们。",
+      "vocabulary": [
+        {
+          "term": "voluntary and involuntary",
+          "meaning": "自愿和非自愿",
+          "kind": "短语"
+        },
+        {
+          "term": "employment",
+          "meaning": "就业",
+          "kind": "生词"
+        }
+      ]
+    },
+    {
+      "id": "s15",
+      "en": "The survey used by the Labor Department asks people if they worked less than 35 hours in the reference week.",
+      "zhReference": "劳工部使用的调查会询问人们在统计参考周内是否工作少于三十五小时。",
+      "vocabulary": [
+        {
+          "term": "reference week",
+          "meaning": "统计所用参考周",
+          "kind": "短语"
+        },
+        {
+          "term": "survey",
+          "meaning": "调查",
+          "kind": "生词"
+        }
+      ]
+    },
+    {
+      "id": "s16",
+      "en": "If the answer is “yes,” they are classified as working part-time.",
+      "zhReference": "如果回答“是”，他们便被归为兼职工作者。",
+      "vocabulary": [
+        {
+          "term": "classified as",
+          "meaning": "被归类为",
+          "kind": "短语"
+        },
+        {
+          "term": "working part-time",
+          "meaning": "从事兼职",
+          "kind": "短语"
+        }
+      ]
+    },
+    {
+      "id": "s17",
+      "en": "The survey then asks whether they worked less than 35 hours in that week because they wanted to work less than full time or because they had no choice.",
+      "zhReference": "调查随后会问，他们那周工作不足三十五小时，是因为想减少工作时间，还是因为别无选择。",
+      "vocabulary": [
+        {
+          "term": "had no choice",
+          "meaning": "别无选择",
+          "kind": "短语"
+        },
+        {
+          "term": "less than full time",
+          "meaning": "不足全职时长",
+          "kind": "短语"
+        }
+      ]
+    },
+    {
+      "id": "s18",
+      "en": "They are only classified as voluntary part-time workers if they tell the survey taker they chose to work less than 35 hours a week.",
+      "zhReference": "只有当受访者告诉调查员自己选择每周工作少于三十五小时时，才会被归为自愿兼职工作者。",
+      "vocabulary": [
+        {
+          "term": "survey taker",
+          "meaning": "调查员",
+          "kind": "短语"
+        },
+        {
+          "term": "chose to work",
+          "meaning": "选择工作",
+          "kind": "短语"
+        }
+      ]
+    },
+    {
+      "id": "s19",
+      "en": "The issue of voluntary part-time relates to Obamacare because one of the main purposes was to allow people to get insurance outside of employment.",
+      "zhReference": "自愿兼职与奥巴马医改有关，因为这项政策的一个主要目标就是让人们不依赖雇主也能获得保险。",
+      "vocabulary": [
+        {
+          "term": "insurance outside of employment",
+          "meaning": "不依赖工作获得的保险",
+          "kind": "短语"
+        },
+        {
+          "term": "relates to",
+          "meaning": "与……有关",
+          "kind": "短语"
+        }
+      ]
+    },
+    {
+      "id": "s20",
+      "en": "For many people, especially those with serious health conditions or family members with serious health conditions, before Obamacare the only way to get insurance was through a job that provided health insurance.",
+      "zhReference": "在奥巴马医改之前，很多人，尤其是本人或家人患有严重疾病的人，只能通过提供医疗保险的工作获得保险。",
+      "vocabulary": [
+        {
+          "term": "serious health conditions",
+          "meaning": "严重健康问题",
+          "kind": "短语"
+        },
+        {
+          "term": "provided health insurance",
+          "meaning": "提供医疗保险",
+          "kind": "短语"
+        }
+      ]
+    },
+    {
+      "id": "s21",
+      "en": "However, Obamacare has allowed more than 12 million people to either get insurance through Medicaid or the exchanges.",
+      "zhReference": "然而，奥巴马医改已让超过一千二百万人通过医疗补助计划或医保交易平台获得保险。",
+      "vocabulary": [
+        {
+          "term": "Medicaid",
+          "meaning": "美国医疗补助计划",
+          "kind": "生词"
+        },
+        {
+          "term": "the exchanges",
+          "meaning": "医保交易平台",
+          "kind": "熟词僻义"
+        }
+      ]
+    },
+    {
+      "id": "s22",
+      "en": "These are people who may previously have felt the need to get a full-time job that provided insurance in order to cover themselves and their families.",
+      "zhReference": "这些人以前可能觉得必须找一份提供保险的全职工作，才能保障自己和家人。",
+      "vocabulary": [
+        {
+          "term": "in order to cover",
+          "meaning": "为了保障……",
+          "kind": "短语"
+        },
+        {
+          "term": "full-time job",
+          "meaning": "全职工作",
+          "kind": "短语"
+        }
+      ]
+    },
+    {
+      "id": "s23",
+      "en": "With Obamacare there is no longer a link between employment and insurance.",
+      "zhReference": "有了奥巴马医改，就业与医保不再必然挂钩。",
+      "vocabulary": [
+        {
+          "term": "no longer a link",
+          "meaning": "不再存在联系",
+          "kind": "短语"
+        },
+        {
+          "term": "employment and insurance",
+          "meaning": "就业与保险",
+          "kind": "短语"
+        }
+      ]
+    }
+  ]
+}

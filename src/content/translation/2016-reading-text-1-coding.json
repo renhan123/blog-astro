@@ -1,0 +1,339 @@
+{
+  "title": "2016 真题 Text 1 · 为什么孩子应尽早学习编程",
+  "description": "分析高中编程教育的价值：不只是就业，更在于培养解决问题的思维方式。",
+  "source": "2016年真题.pdf · Reading Comprehension",
+  "author": "2016 English Exam",
+  "level": "intermediate",
+  "tags": [
+    "2016真题",
+    "Reading Comprehension",
+    "Education",
+    "Coding"
+  ],
+  "estimatedMinutes": 24,
+  "heroNote": "关注从就业技能到思维训练的论点转变，并理解 bite-sized chunks 等表达。",
+  "publishedAt": "2016-01-01",
+  "sentences": [
+    {
+      "id": "s1",
+      "en": "It’s true that high-school coding classes aren’t essential for learning computer science in college.",
+      "zhReference": "诚然，高中的编程课并非在大学学习计算机科学的必要条件。",
+      "vocabulary": [
+        {
+          "term": "aren’t essential for",
+          "meaning": "并非……必需",
+          "kind": "短语"
+        },
+        {
+          "term": "coding classes",
+          "meaning": "编程课",
+          "kind": "短语"
+        }
+      ]
+    },
+    {
+      "id": "s2",
+      "en": "Students without experience can catch up after a few introductory courses, said Tom Cortina, the assistant dean at Carnegie Mellon’s School of Computer Science.",
+      "zhReference": "卡内基梅隆大学计算机科学学院副院长汤姆·科尔蒂纳说，没有经验的学生在上过几门入门课后也能赶上。",
+      "vocabulary": [
+        {
+          "term": "catch up",
+          "meaning": "赶上",
+          "kind": "短语"
+        },
+        {
+          "term": "introductory courses",
+          "meaning": "入门课程",
+          "kind": "短语"
+        }
+      ]
+    },
+    {
+      "id": "s3",
+      "en": "However, Cortina said, early exposure is beneficial.",
+      "zhReference": "不过，科尔蒂纳认为，尽早接触计算机科学是有益的。",
+      "vocabulary": [
+        {
+          "term": "early exposure",
+          "meaning": "尽早接触",
+          "kind": "短语"
+        },
+        {
+          "term": "beneficial",
+          "meaning": "有益的",
+          "kind": "生词"
+        }
+      ]
+    },
+    {
+      "id": "s4",
+      "en": "When younger kids learn computer science, they learn that it’s not just a confusing, endless string of letters and numbers—but a tool to build apps, or create artwork, or test hypotheses.",
+      "zhReference": "孩子小时候学习计算机科学，会明白它不只是一串令人困惑、仿佛没完没了的字母和数字，还是能用来开发应用程序、创作艺术作品或验证假设的工具。",
+      "vocabulary": [
+        {
+          "term": "a tool to build apps",
+          "meaning": "开发应用程序的工具",
+          "kind": "短语"
+        },
+        {
+          "term": "test hypotheses",
+          "meaning": "验证假设",
+          "kind": "短语"
+        },
+        {
+          "term": "string of letters and numbers",
+          "meaning": "一串字母和数字",
+          "kind": "短语"
+        }
+      ]
+    },
+    {
+      "id": "s5",
+      "en": "It’s not as hard for them to transform their thought processes as it is for older students.",
+      "zhReference": "对他们来说，转变思维方式不像对年长学生那样困难。",
+      "vocabulary": [
+        {
+          "term": "transform their thought processes",
+          "meaning": "转变思维过程",
+          "kind": "短语"
+        },
+        {
+          "term": "older students",
+          "meaning": "年长学生",
+          "kind": "短语"
+        }
+      ]
+    },
+    {
+      "id": "s6",
+      "en": "Breaking down problems into bite-sized chunks and using code to solve them becomes normal.",
+      "zhReference": "把问题分解为易于处理的小块，再用代码解决，就会成为自然的习惯。",
+      "vocabulary": [
+        {
+          "term": "Breaking down problems",
+          "meaning": "拆解问题",
+          "kind": "短语"
+        },
+        {
+          "term": "bite-sized chunks",
+          "meaning": "易处理的小块",
+          "kind": "短语"
+        }
+      ]
+    },
+    {
+      "id": "s7",
+      "en": "Giving more children this training could increase the number of people interested in the field and help fill the jobs gap, Cortina said.",
+      "zhReference": "科尔蒂纳说，让更多孩子接受这种训练，可能增加对这一领域感兴趣的人数，并有助于填补就业岗位缺口。",
+      "vocabulary": [
+        {
+          "term": "jobs gap",
+          "meaning": "就业岗位缺口",
+          "kind": "短语"
+        },
+        {
+          "term": "interested in the field",
+          "meaning": "对这个领域感兴趣",
+          "kind": "短语"
+        }
+      ]
+    },
+    {
+      "id": "s8",
+      "en": "Students also benefit from learning something about coding before they get to college, where introductory computer-science classes are packed to the brim, which can drive the less-experienced or -determined students away.",
+      "zhReference": "学生进入大学前学一些编程也有好处：大学的计算机科学入门课往往人满为患，经验或决心不足的学生可能因此望而却步。",
+      "vocabulary": [
+        {
+          "term": "packed to the brim",
+          "meaning": "挤得满满当当",
+          "kind": "短语"
+        },
+        {
+          "term": "drive",
+          "meaning": "使……离开；劝退",
+          "kind": "熟词僻义"
+        },
+        {
+          "term": "introductory computer-science classes",
+          "meaning": "计算机科学入门课程",
+          "kind": "短语"
+        }
+      ]
+    },
+    {
+      "id": "s9",
+      "en": "The Flatiron School, where people pay to learn programming, started as one of the many coding bootcamps that’s become popular for adults looking for a career change.",
+      "zhReference": "付费学习编程的熨斗学校最初是一家编程训练营；这类训练营如今受到想要转行的成年人的欢迎。",
+      "vocabulary": [
+        {
+          "term": "coding bootcamps",
+          "meaning": "编程训练营",
+          "kind": "短语"
+        },
+        {
+          "term": "career change",
+          "meaning": "转行",
+          "kind": "短语"
+        }
+      ]
+    },
+    {
+      "id": "s10",
+      "en": "The high-schoolers get the same curriculum, but “we try to gear lessons toward things they’re interested in,” said Victoria Friedman, an instructor.",
+      "zhReference": "高中生学习相同的课程，但教师维多利亚·弗里德曼说：“我们努力让课程与他们感兴趣的事物挂钩。”",
+      "vocabulary": [
+        {
+          "term": "gear lessons toward",
+          "meaning": "使课程适合……",
+          "kind": "短语"
+        },
+        {
+          "term": "curriculum",
+          "meaning": "课程体系",
+          "kind": "生词"
+        }
+      ]
+    },
+    {
+      "id": "s11",
+      "en": "For instance, one of the apps the students are developing suggests movies based on your mood.",
+      "zhReference": "例如，学生们正在开发的一款应用会根据你的心情推荐电影。",
+      "vocabulary": [
+        {
+          "term": "based on your mood",
+          "meaning": "依据你的心情",
+          "kind": "短语"
+        },
+        {
+          "term": "developing",
+          "meaning": "开发",
+          "kind": "熟词僻义"
+        }
+      ]
+    },
+    {
+      "id": "s12",
+      "en": "The students in the Flatiron class probably won’t drop out of high school and build the next Facebook.",
+      "zhReference": "熨斗学校班里的学生大概不会辍学去创办下一个 Facebook。",
+      "vocabulary": [
+        {
+          "term": "drop out of high school",
+          "meaning": "高中辍学",
+          "kind": "短语"
+        },
+        {
+          "term": "build the next Facebook",
+          "meaning": "创办下一个 Facebook",
+          "kind": "短语"
+        }
+      ]
+    },
+    {
+      "id": "s13",
+      "en": "Programming languages have a quick turnover, so the “Ruby on Rails” language they learned may not even be relevant by the time they enter the job market.",
+      "zhReference": "编程语言更新换代很快，因此他们学习的“Ruby on Rails”语言，到他们进入就业市场时甚至可能已经过时。",
+      "vocabulary": [
+        {
+          "term": "quick turnover",
+          "meaning": "更新换代快",
+          "kind": "短语"
+        },
+        {
+          "term": "relevant",
+          "meaning": "仍然适用的",
+          "kind": "生词"
+        },
+        {
+          "term": "job market",
+          "meaning": "就业市场",
+          "kind": "短语"
+        }
+      ]
+    },
+    {
+      "id": "s14",
+      "en": "But the skills they learn—how to think logically through a problem and organize the results—apply to any coding language, said Deborah Seehorn, an education consultant for the state of North Carolina.",
+      "zhReference": "但北卡罗来纳州教育顾问德博拉·西霍恩说，他们学会的技能——如何有逻辑地思考问题并整理结果——适用于任何编程语言。",
+      "vocabulary": [
+        {
+          "term": "think logically through a problem",
+          "meaning": "有逻辑地想透问题",
+          "kind": "短语"
+        },
+        {
+          "term": "apply to",
+          "meaning": "适用于",
+          "kind": "短语"
+        }
+      ]
+    },
+    {
+      "id": "s15",
+      "en": "Indeed, the Flatiron students might not go into IT at all.",
+      "zhReference": "实际上，熨斗学校的学生甚至可能根本不会进入信息技术行业。",
+      "vocabulary": [
+        {
+          "term": "go into IT",
+          "meaning": "进入信息技术行业",
+          "kind": "短语"
+        },
+        {
+          "term": "at all",
+          "meaning": "根本",
+          "kind": "短语"
+        }
+      ]
+    },
+    {
+      "id": "s16",
+      "en": "But creating a future army of coders is not the sole purpose of the classes.",
+      "zhReference": "但培养一支未来的程序员大军并非开设这些课程的唯一目的。",
+      "vocabulary": [
+        {
+          "term": "army of coders",
+          "meaning": "程序员大军",
+          "kind": "短语"
+        },
+        {
+          "term": "sole purpose",
+          "meaning": "唯一目的",
+          "kind": "短语"
+        }
+      ]
+    },
+    {
+      "id": "s17",
+      "en": "These kids are going to be surrounded by computers—in their pockets, in their offices, in their homes—for the rest of their lives.",
+      "zhReference": "在今后的人生中，这些孩子会始终被电脑包围——口袋里、办公室里、家中都是如此。",
+      "vocabulary": [
+        {
+          "term": "surrounded by computers",
+          "meaning": "被计算机包围",
+          "kind": "短语"
+        },
+        {
+          "term": "for the rest of their lives",
+          "meaning": "在余生中",
+          "kind": "短语"
+        }
+      ]
+    },
+    {
+      "id": "s18",
+      "en": "The younger they learn how computers think, how to coax the machine into producing what they want—the earlier they learn that they have the power to do that—the better.",
+      "zhReference": "他们越早学会理解计算机的思维方式，越早学会引导机器生成自己想要的东西——也越早知道自己有能力做到这一点——就越好。",
+      "vocabulary": [
+        {
+          "term": "coax the machine into",
+          "meaning": "引导机器去……",
+          "kind": "短语"
+        },
+        {
+          "term": "have the power to",
+          "meaning": "有能力去做",
+          "kind": "短语"
+        }
+      ]
+    }
+  ]
+}

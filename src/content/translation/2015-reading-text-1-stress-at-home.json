@@ -1,0 +1,456 @@
+{
+  "title": "2015 真题 Text 1 · 为什么家里比职场压力更大",
+  "description": "从皮质醇研究出发，分析工作场所与家庭中压力差异的原因。",
+  "source": "2015年真题.pdf · Reading Comprehension",
+  "author": "2015 English Exam",
+  "level": "intermediate",
+  "tags": [
+    "2015真题",
+    "Reading Comprehension",
+    "Work",
+    "Stress"
+  ],
+  "estimatedMinutes": 25,
+  "heroNote": "注意研究结论与 conventional wisdom 的对比，及 home front、draw an income 等表达。",
+  "publishedAt": "2015-01-01",
+  "sentences": [
+    {
+      "id": "s1",
+      "en": "A new study suggests that contrary to most surveys, people are actually more stressed at home than at work.",
+      "zhReference": "一项新研究表明，与多数调查结果相反，人们实际上在家中比在工作时更有压力。",
+      "vocabulary": [
+        {
+          "term": "contrary to",
+          "meaning": "与……相反",
+          "kind": "短语"
+        },
+        {
+          "term": "surveys",
+          "meaning": "调查",
+          "kind": "生词"
+        }
+      ]
+    },
+    {
+      "id": "s2",
+      "en": "Researchers measured people’s cortisol, which is a stress marker, while they were at work and while they were at home and found it higher at what is supposed to be a place of refuge.",
+      "zhReference": "研究人员分别在受试者工作和居家时测量其皮质醇——一种压力指标，发现这种指标在本应让人得到庇护的家里反而更高。",
+      "vocabulary": [
+        {
+          "term": "cortisol",
+          "meaning": "皮质醇",
+          "kind": "生词"
+        },
+        {
+          "term": "stress marker",
+          "meaning": "压力指标",
+          "kind": "短语"
+        },
+        {
+          "term": "place of refuge",
+          "meaning": "避风港",
+          "kind": "短语"
+        }
+      ]
+    },
+    {
+      "id": "s3",
+      "en": "“Further contradicting conventional wisdom, we found that women as well as men have lower levels of stress at work than at home,” writes one of the researchers, Sarah Damaske.",
+      "zhReference": "研究人员之一莎拉·达马斯克写道：“我们发现，女性和男性在工作时的压力水平都低于在家时，这进一步违背了常识。”",
+      "vocabulary": [
+        {
+          "term": "contradicting conventional wisdom",
+          "meaning": "违背普遍认知",
+          "kind": "短语"
+        },
+        {
+          "term": "levels of stress",
+          "meaning": "压力水平",
+          "kind": "短语"
+        }
+      ]
+    },
+    {
+      "id": "s4",
+      "en": "In fact women even say they feel better at work, she notes.",
+      "zhReference": "她指出，实际上女性甚至表示自己在工作时感觉更好。",
+      "vocabulary": [
+        {
+          "term": "feel better at work",
+          "meaning": "工作时感觉更好",
+          "kind": "短语"
+        },
+        {
+          "term": "In fact",
+          "meaning": "实际上",
+          "kind": "短语"
+        }
+      ]
+    },
+    {
+      "id": "s5",
+      "en": "“It is men, not women, who report being happier at home than at work.”",
+      "zhReference": "“报告自己在家中比在工作时更快乐的是男性，而不是女性。”",
+      "vocabulary": [
+        {
+          "term": "report being happier",
+          "meaning": "报告自己更快乐",
+          "kind": "短语"
+        },
+        {
+          "term": "not women",
+          "meaning": "而非女性",
+          "kind": "短语"
+        }
+      ]
+    },
+    {
+      "id": "s6",
+      "en": "Another surprise is that the findings hold true for both those with children and without, but more so for nonparents.",
+      "zhReference": "另一个令人意外的发现是：这一结论对有孩子和没有孩子的人都适用，只是对没有孩子的人更为明显。",
+      "vocabulary": [
+        {
+          "term": "hold true for",
+          "meaning": "对……也成立",
+          "kind": "短语"
+        },
+        {
+          "term": "nonparents",
+          "meaning": "没有孩子的人",
+          "kind": "生词"
+        }
+      ]
+    },
+    {
+      "id": "s7",
+      "en": "This is why people who work outside the home have better health.",
+      "zhReference": "这也解释了为什么在外工作的人健康状况更好。",
+      "vocabulary": [
+        {
+          "term": "outside the home",
+          "meaning": "在家外工作",
+          "kind": "短语"
+        },
+        {
+          "term": "better health",
+          "meaning": "更好的健康状况",
+          "kind": "短语"
+        }
+      ]
+    },
+    {
+      "id": "s8",
+      "en": "What the study doesn’t measure is whether people are still doing work when they’re at home, whether it is household work or work brought home from the office.",
+      "zhReference": "这项研究没有衡量的是，人们回家后是否还在工作——不管是做家务，还是做从办公室带回来的工作。",
+      "vocabulary": [
+        {
+          "term": "household work",
+          "meaning": "家务劳动",
+          "kind": "短语"
+        },
+        {
+          "term": "brought home from the office",
+          "meaning": "从办公室带回家",
+          "kind": "短语"
+        }
+      ]
+    },
+    {
+      "id": "s9",
+      "en": "For many men, the end of the workday is a time to kick back.",
+      "zhReference": "对于许多男性来说，下班就是放松的时间。",
+      "vocabulary": [
+        {
+          "term": "kick back",
+          "meaning": "放松休息",
+          "kind": "短语"
+        },
+        {
+          "term": "the end of the workday",
+          "meaning": "一天工作结束时",
+          "kind": "短语"
+        }
+      ]
+    },
+    {
+      "id": "s10",
+      "en": "For women who stay home, they never get to leave the office.",
+      "zhReference": "但对于留在家里的女性来说，她们从来没有机会“离开办公室”。",
+      "vocabulary": [
+        {
+          "term": "leave the office",
+          "meaning": "离开办公室；比喻结束工作",
+          "kind": "短语"
+        },
+        {
+          "term": "stay home",
+          "meaning": "留在家里",
+          "kind": "短语"
+        }
+      ]
+    },
+    {
+      "id": "s11",
+      "en": "And for women who work outside the home, they often are playing catch-up-with-household tasks.",
+      "zhReference": "而对于在外工作的女性来说，她们往往还要忙着补做家务。",
+      "vocabulary": [
+        {
+          "term": "playing catch-up",
+          "meaning": "忙着赶上进度",
+          "kind": "短语"
+        },
+        {
+          "term": "household tasks",
+          "meaning": "家务",
+          "kind": "短语"
+        }
+      ]
+    },
+    {
+      "id": "s12",
+      "en": "With the blurring of roles, and the fact that the home front lags well behind the workplace in making adjustments for working women, it’s not surprising that women are more stressed at home.",
+      "zhReference": "随着角色界限逐渐模糊，再考虑到家庭在适应职业女性需求方面远远落后于工作场所，女性在家压力更大也就不足为奇了。",
+      "vocabulary": [
+        {
+          "term": "blurring of roles",
+          "meaning": "角色界限的模糊",
+          "kind": "短语"
+        },
+        {
+          "term": "home front",
+          "meaning": "家庭这一方面",
+          "kind": "熟词僻义"
+        },
+        {
+          "term": "lags well behind",
+          "meaning": "远远落后于",
+          "kind": "短语"
+        }
+      ]
+    },
+    {
+      "id": "s13",
+      "en": "But it’s not just a gender thing.",
+      "zhReference": "但这并非仅仅是性别问题。",
+      "vocabulary": [
+        {
+          "term": "gender thing",
+          "meaning": "性别问题",
+          "kind": "短语"
+        },
+        {
+          "term": "just",
+          "meaning": "仅仅",
+          "kind": "熟词僻义"
+        }
+      ]
+    },
+    {
+      "id": "s14",
+      "en": "At work, people pretty much know what they’re supposed to be doing: working, making money, doing the tasks they have to do in order to draw an income.",
+      "zhReference": "在工作时，人们基本知道自己该做什么：工作、赚钱，完成那些能够带来收入的任务。",
+      "vocabulary": [
+        {
+          "term": "draw an income",
+          "meaning": "挣得收入",
+          "kind": "短语"
+        },
+        {
+          "term": "pretty much",
+          "meaning": "基本上",
+          "kind": "短语"
+        }
+      ]
+    },
+    {
+      "id": "s15",
+      "en": "The bargain is very pure: Employee puts in hours of physical or mental labor and employee draws out life-sustaining moola.",
+      "zhReference": "这种交换关系十分明确：雇员投入体力或脑力劳动的时间，换取维持生活的钱。",
+      "vocabulary": [
+        {
+          "term": "bargain",
+          "meaning": "交换关系",
+          "kind": "熟词僻义"
+        },
+        {
+          "term": "draws out",
+          "meaning": "获得；拿到",
+          "kind": "短语"
+        },
+        {
+          "term": "moola",
+          "meaning": "钱；钞票",
+          "kind": "生词"
+        }
+      ]
+    },
+    {
+      "id": "s16",
+      "en": "On the home front, however, people have no such clarity.",
+      "zhReference": "然而，在家里，人们就没有这种清晰的规则。",
+      "vocabulary": [
+        {
+          "term": "home front",
+          "meaning": "家庭方面",
+          "kind": "短语"
+        },
+        {
+          "term": "clarity",
+          "meaning": "明确性",
+          "kind": "生词"
+        }
+      ]
+    },
+    {
+      "id": "s17",
+      "en": "Rare is the household in which the division of labor is so clinically and methodically laid out.",
+      "zhReference": "极少有家庭会把家务分工安排得如此精准而有条理。",
+      "vocabulary": [
+        {
+          "term": "division of labor",
+          "meaning": "劳动分工",
+          "kind": "短语"
+        },
+        {
+          "term": "laid out",
+          "meaning": "安排清楚",
+          "kind": "短语"
+        },
+        {
+          "term": "clinically",
+          "meaning": "精确而不带感情色彩地",
+          "kind": "熟词僻义"
+        }
+      ]
+    },
+    {
+      "id": "s18",
+      "en": "There are a lot of tasks to be done, there are inadequate rewards for most of them.",
+      "zhReference": "要做的事情很多，但其中大多数工作得到的回报却不足。",
+      "vocabulary": [
+        {
+          "term": "inadequate rewards",
+          "meaning": "不足的回报",
+          "kind": "短语"
+        },
+        {
+          "term": "tasks",
+          "meaning": "任务",
+          "kind": "生词"
+        }
+      ]
+    },
+    {
+      "id": "s19",
+      "en": "Your home colleagues—your family—have no clear rewards for their labor; they need to be talked into it, or if they’re teenagers, threatened with complete removal of all electronic devices.",
+      "zhReference": "你在家中的“同事”——家人——的劳动没有明确的回报；你得劝他们去做，如果他们是青少年，甚至可能要威胁没收所有电子设备。",
+      "vocabulary": [
+        {
+          "term": "talked into it",
+          "meaning": "劝说去做",
+          "kind": "短语"
+        },
+        {
+          "term": "removal of all electronic devices",
+          "meaning": "没收所有电子设备",
+          "kind": "短语"
+        },
+        {
+          "term": "colleagues",
+          "meaning": "同事；此处比喻家人",
+          "kind": "熟词僻义"
+        }
+      ]
+    },
+    {
+      "id": "s20",
+      "en": "Plus, they’re your family.",
+      "zhReference": "而且，他们还是你的家人。",
+      "vocabulary": [
+        {
+          "term": "Plus",
+          "meaning": "而且",
+          "kind": "熟词僻义"
+        },
+        {
+          "term": "your family",
+          "meaning": "你的家人",
+          "kind": "短语"
+        }
+      ]
+    },
+    {
+      "id": "s21",
+      "en": "You cannot fire your family.",
+      "zhReference": "你不能解雇家人。",
+      "vocabulary": [
+        {
+          "term": "fire",
+          "meaning": "解雇",
+          "kind": "熟词僻义"
+        },
+        {
+          "term": "your family",
+          "meaning": "你的家人",
+          "kind": "短语"
+        }
+      ]
+    },
+    {
+      "id": "s22",
+      "en": "You never really get to go home from home.",
+      "zhReference": "在家里，你永远无法真正“下班回家”。",
+      "vocabulary": [
+        {
+          "term": "go home from home",
+          "meaning": "从家里的工作中下班",
+          "kind": "短语"
+        },
+        {
+          "term": "really",
+          "meaning": "真正地",
+          "kind": "短语"
+        }
+      ]
+    },
+    {
+      "id": "s23",
+      "en": "So it’s not surprising that people are more stressed at home.",
+      "zhReference": "所以人们在家中更有压力，并不令人意外。",
+      "vocabulary": [
+        {
+          "term": "stressed at home",
+          "meaning": "在家压力更大",
+          "kind": "短语"
+        },
+        {
+          "term": "not surprising",
+          "meaning": "不令人意外",
+          "kind": "短语"
+        }
+      ]
+    },
+    {
+      "id": "s24",
+      "en": "Not only are the tasks apparently infinite, the co-workers are much harder to motivate.",
+      "zhReference": "不仅任务似乎没完没了，“同事”也更难调动积极性。",
+      "vocabulary": [
+        {
+          "term": "apparently infinite",
+          "meaning": "看似无穷无尽",
+          "kind": "短语"
+        },
+        {
+          "term": "co-workers",
+          "meaning": "共同工作的人；比喻家人",
+          "kind": "熟词僻义"
+        },
+        {
+          "term": "motivate",
+          "meaning": "调动积极性",
+          "kind": "生词"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,279 @@
+{
+  "title": "2016 真题 Text 4 · 年轻人的成功路线图",
+  "description": "比较不同世代对成功人生的共同目标与不同实现路径。",
+  "source": "2016年真题.pdf · Reading Comprehension",
+  "author": "2016 English Exam",
+  "level": "intermediate",
+  "tags": [
+    "2016真题",
+    "Reading Comprehension",
+    "Generation",
+    "Society"
+  ],
+  "estimatedMinutes": 25,
+  "heroNote": "重点辨析两代人对人生终点的共识，以及对实现路径的分歧。",
+  "publishedAt": "2016-01-01",
+  "sentences": [
+    {
+      "id": "s1",
+      "en": "Against a backdrop of drastic changes in economy and population structure, younger Americans are drawing a new 21st-century road map to success, a latest poll has found.",
+      "zhReference": "最新的一项民调发现，在经济与人口结构发生剧变的背景下，美国年轻人正在勾画二十一世纪新的成功路线图。",
+      "vocabulary": [
+        {
+          "term": "Against a backdrop of",
+          "meaning": "在……背景下",
+          "kind": "短语"
+        },
+        {
+          "term": "road map to success",
+          "meaning": "成功的路线图",
+          "kind": "短语"
+        },
+        {
+          "term": "drastic changes",
+          "meaning": "剧变",
+          "kind": "短语"
+        }
+      ]
+    },
+    {
+      "id": "s2",
+      "en": "Across generational lines, Americans continue to prize many of the same traditional milestones of a successful life, including getting married, having children, owning a home, and retiring in their sixties.",
+      "zhReference": "跨越代际差异，美国人仍然珍视成功人生中许多相同的传统里程碑，包括结婚、生子、拥有住房，以及六十多岁时退休。",
+      "vocabulary": [
+        {
+          "term": "Across generational lines",
+          "meaning": "跨越代际界限",
+          "kind": "短语"
+        },
+        {
+          "term": "milestones",
+          "meaning": "里程碑",
+          "kind": "熟词僻义"
+        },
+        {
+          "term": "prize",
+          "meaning": "珍视",
+          "kind": "熟词僻义"
+        }
+      ]
+    },
+    {
+      "id": "s3",
+      "en": "But while young and old mostly agree on what constitutes the finish line of a fulfilling life, they offer strikingly different paths for reaching it.",
+      "zhReference": "但是，尽管年轻人和年长者基本认同充实人生的终点是什么，他们实现这一目标的途径却有显著差异。",
+      "vocabulary": [
+        {
+          "term": "constitutes",
+          "meaning": "构成",
+          "kind": "生词"
+        },
+        {
+          "term": "finish line",
+          "meaning": "终点；人生目标",
+          "kind": "熟词僻义"
+        },
+        {
+          "term": "strikingly different paths",
+          "meaning": "显著不同的路径",
+          "kind": "短语"
+        }
+      ]
+    },
+    {
+      "id": "s4",
+      "en": "Young people who are still getting started in life were more likely than older adults to prioritize personal fulfillment in their work, to believe they will advance their careers most by regularly changing jobs, to favor communities with more public services and a faster pace of life, to agree that couples should be financially secure before getting married or having children, and to maintain that children are best served by two parents working outside the home, the survey found.",
+      "zhReference": "调查发现，相比年长者，刚起步的年轻人更可能优先追求工作中的个人成就感，认为定期换工作最有助于职业发展，偏好公共服务更多、生活节奏更快的社区，赞同夫妻应在结婚生子前实现经济稳定，并主张父母双方都在外工作最有利于孩子成长。",
+      "vocabulary": [
+        {
+          "term": "prioritize personal fulfillment",
+          "meaning": "优先考虑个人成就感",
+          "kind": "短语"
+        },
+        {
+          "term": "financially secure",
+          "meaning": "经济上有保障的",
+          "kind": "短语"
+        },
+        {
+          "term": "public services",
+          "meaning": "公共服务",
+          "kind": "短语"
+        }
+      ]
+    },
+    {
+      "id": "s5",
+      "en": "From career to community and family, these contrasts suggest that in the aftermath of the searing Great Recession, those just starting out in life are defining priorities and expectations that will increasingly spread through virtually all aspects of American life, from consumer preferences to housing patterns to politics.",
+      "zhReference": "从事业到社区和家庭，这些差异表明，在严重的大衰退之后，刚开始独立生活的人正在形成新的优先事项与期望；它们将逐渐影响美国生活几乎所有方面，从消费偏好、居住模式一直到政治。",
+      "vocabulary": [
+        {
+          "term": "aftermath",
+          "meaning": "余波；后果",
+          "kind": "生词"
+        },
+        {
+          "term": "searing Great Recession",
+          "meaning": "严重的大衰退",
+          "kind": "短语"
+        },
+        {
+          "term": "virtually all aspects",
+          "meaning": "几乎所有方面",
+          "kind": "短语"
+        }
+      ]
+    },
+    {
+      "id": "s6",
+      "en": "Young and old converge on one key point: Overwhelming majorities of both groups said they believe it is harder for young people today to get started in life than it was for earlier generations.",
+      "zhReference": "年轻人与年长者在一个关键问题上看法一致：两组中绝大多数人都认为，如今的年轻人比以往几代人更难在人生中站稳脚跟。",
+      "vocabulary": [
+        {
+          "term": "converge on",
+          "meaning": "在……方面达成一致",
+          "kind": "短语"
+        },
+        {
+          "term": "Overwhelming majorities",
+          "meaning": "压倒性多数",
+          "kind": "短语"
+        },
+        {
+          "term": "get started in life",
+          "meaning": "在人生中站稳脚跟",
+          "kind": "短语"
+        }
+      ]
+    },
+    {
+      "id": "s7",
+      "en": "While younger people are somewhat more optimistic than their elders about the prospects for those starting out today, big majorities in both groups believe those “just getting started in life” face a tougher climb than earlier generations in reaching such signpost achievements as securing a good-paying job, starting a family, managing debt, and finding affordable housing.",
+      "zhReference": "尽管年轻人对当代起步者的前景比长辈稍微乐观，两组中大多数人仍认为，今天的年轻人在取得一份薪酬不错的工作、组建家庭、管理债务和找到可负担住房等标志性成就时，比前几代面临更艰难的攀登。",
+      "vocabulary": [
+        {
+          "term": "prospects",
+          "meaning": "前景",
+          "kind": "生词"
+        },
+        {
+          "term": "tougher climb",
+          "meaning": "更艰难的发展之路",
+          "kind": "短语"
+        },
+        {
+          "term": "signpost achievements",
+          "meaning": "标志性成就",
+          "kind": "短语"
+        }
+      ]
+    },
+    {
+      "id": "s8",
+      "en": "Pete Schneider considers the climb tougher today.",
+      "zhReference": "皮特·施奈德觉得如今向上发展的路更难走了。",
+      "vocabulary": [
+        {
+          "term": "the climb",
+          "meaning": "向上发展的过程",
+          "kind": "熟词僻义"
+        },
+        {
+          "term": "tougher today",
+          "meaning": "今天更难",
+          "kind": "短语"
+        }
+      ]
+    },
+    {
+      "id": "s9",
+      "en": "Schneider, a 27-year-old auto technician from the Chicago suburbs, says he struggled to find a job after graduating from college.",
+      "zhReference": "这位来自芝加哥郊区的二十七岁汽车技师说，他大学毕业后曾费尽周折才找到工作。",
+      "vocabulary": [
+        {
+          "term": "auto technician",
+          "meaning": "汽车技师",
+          "kind": "短语"
+        },
+        {
+          "term": "struggled to find a job",
+          "meaning": "找工作很艰难",
+          "kind": "短语"
+        }
+      ]
+    },
+    {
+      "id": "s10",
+      "en": "Even now that he is working steadily, he said, “I can’t afford to pay my monthly mortgage payments on my own, so I have to rent rooms out to people to make that happen.”",
+      "zhReference": "他说，即使现在工作稳定，“我仍负担不起独自偿还每月房贷，所以不得不把房间出租给别人，才能支付得起”。",
+      "vocabulary": [
+        {
+          "term": "monthly mortgage payments",
+          "meaning": "每月按揭款",
+          "kind": "短语"
+        },
+        {
+          "term": "rent rooms out",
+          "meaning": "把房间出租",
+          "kind": "短语"
+        },
+        {
+          "term": "on my own",
+          "meaning": "独自承担",
+          "kind": "短语"
+        }
+      ]
+    },
+    {
+      "id": "s11",
+      "en": "Looking back, he is struck that his parents could provide a comfortable life for their children even though neither had completed college when he was young.",
+      "zhReference": "回首往事，他吃惊地发现，尽管父母在他小时候都没有大学学历，却仍能为孩子提供舒适的生活。",
+      "vocabulary": [
+        {
+          "term": "Looking back",
+          "meaning": "回首往事",
+          "kind": "短语"
+        },
+        {
+          "term": "is struck",
+          "meaning": "感到惊讶",
+          "kind": "熟词僻义"
+        }
+      ]
+    },
+    {
+      "id": "s12",
+      "en": "“I still grew up in an upper middle-class home with parents who didn’t have college degrees,” Schneider said.",
+      "zhReference": "施奈德说：“我的父母都没有大学文凭，但我仍在一个中上阶层家庭长大。”",
+      "vocabulary": [
+        {
+          "term": "upper middle-class home",
+          "meaning": "中上阶层家庭",
+          "kind": "短语"
+        },
+        {
+          "term": "college degrees",
+          "meaning": "大学文凭",
+          "kind": "短语"
+        }
+      ]
+    },
+    {
+      "id": "s13",
+      "en": "“I don’t think people are capable of that anymore.”",
+      "zhReference": "“我认为现在的人已经做不到这一点了。”",
+      "vocabulary": [
+        {
+          "term": "capable of that",
+          "meaning": "有能力做到那样",
+          "kind": "短语"
+        },
+        {
+          "term": "anymore",
+          "meaning": "如今再也不",
+          "kind": "短语"
+        }
+      ]
+    }
+  ]
+}
